@@ -4,12 +4,19 @@ title: Posts
 {% for post in paginator.posts %}
 {%- assign author = site.data.authors[post.author] -%}
 <div class='media' style='word-break: break-word'>
-	<img class='d-flex mr-3 media-object' src='{{ author.avatar }}'>
 	<div class='media-body'>
-		<h3 class='mt-0'>{{ post.title }}</h3>
-		<div>
-			<strong>{{ author.name }}</strong> | <time datetime='{{ post.date | date: "%Y-%m-%d" }}' pubdate>{{ post.date | date: '%B %-d, %Y'}}</time>
-		</div>
+		<h3>{{ post.title }}</h3>
+		<ul class='list-inline'>
+			<li class='list-inline-item'>
+				<time datetime='{{ post.date | date: "%Y-%m-%d" }}' pubdate>{{ post.date | date: '%B %-d, %Y'}}</time>
+			</li>
+			<li class='list-inline-item ml-3'>
+				<a href='https://github.com/{{ author.github }}' title='{{ author.name }} on GitHub'>
+					<img class='avatar align-baseline' src='{{ author.avatar }}'>
+					<strong>{{ author.name }}</strong>
+				</a>
+			</li>
+		</ul>
 		<div class='text-justify'>
 			{{ post.excerpt }}
 			<a href='{{ site.baseurl }}{{ post.url }}'>Read more…</a>
