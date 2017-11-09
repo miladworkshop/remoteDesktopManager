@@ -1,12 +1,11 @@
-using System.Collections.Generic;
 using System;
 using System.Windows.Forms;
 using mRemoteNG.App;
 using mRemoteNG.Config.Settings;
-using mRemoteNG.Tools;
-using WeifenLuo.WinFormsUI.Docking;
-using mRemoteNG.UI.Forms;
 using mRemoteNG.Themes;
+using mRemoteNG.Tools;
+using mRemoteNG.UI.Forms;
+using WeifenLuo.WinFormsUI.Docking;
 
 namespace mRemoteNG.UI.Window
 {
@@ -25,8 +24,6 @@ namespace mRemoteNG.UI.Window
             _themeManager.ThemeChanged += ApplyTheme;
             _externalAppsSaver = new ExternalAppsSaver();
 		}
-
-        
 
         #region Private Methods
         #region Event Handlers
@@ -151,6 +148,7 @@ namespace mRemoteNG.UI.Window
 				_selectedTool.Arguments = ArgumentsCheckBox.Text;
 				_selectedTool.WaitForExit = WaitForExitCheckBox.Checked;
 				_selectedTool.TryIntegrate = TryToIntegrateCheckBox.Checked;
+				_selectedTool.RunElevated = RunElevatedCheckBox.Checked;
 						
 				UpdateToolsListObjView();
 			}
@@ -180,7 +178,26 @@ namespace mRemoteNG.UI.Window
 			}
 		}
 
-        private void TryToIntegrateCheckBox_CheckedChanged(object sender, EventArgs e)
+		private void BrowseWorkingDir_Click(object sender, EventArgs e)
+		{
+			try
+			{
+				using (var browseDialog = new FolderBrowserDialog())
+				{
+					if (browseDialog.ShowDialog() == DialogResult.OK)
+					{
+						WorkingDirTextBox.Text = browseDialog.SelectedPath;
+						PropertyControl_ChangedOrLostFocus(this, e);
+					}
+				}
+			}
+			catch (Exception ex)
+			{
+				Runtime.MessageCollector.AddExceptionMessage(message: "UI.Window.ExternalTools.BrowseButton_Click() failed.", ex: ex, logOnly: true);
+			}
+		}
+
+		private void TryToIntegrateCheckBox_CheckedChanged(object sender, EventArgs e)
 		{
 			if (TryToIntegrateCheckBox.Checked)
 			{
@@ -240,29 +257,13 @@ namespace mRemoteNG.UI.Window
 
         private void UpdateToolsListObjView(ExternalTool selectTool = null)
         {
-            var selectedTools = new List<ExternalTool>();
             try
 			{
-			    if (selectTool == null)
-				{
-					foreach (var listViewItem in ToolsListObjView.SelectedObjects)
-					{
-						var externalTool = listViewItem as ExternalTool;
-						if (externalTool != null)
-						{
-							selectedTools.Add(externalTool);
-						}
-					}
-				}
-				else
-				{
-					selectedTools.Add(selectTool);
-				}
-						
 				ToolsListObjView.BeginUpdate();
-				ToolsListObjView.Items.Clear(); 
-                ToolsListObjView.SetObjects(Runtime.ExternalToolsService.ExternalTools);
+                ToolsListObjView.SetObjects(Runtime.ExternalToolsService.ExternalTools, true);
                 ToolsListObjView.EndUpdate();
+				if (selectTool != null)
+					ToolsListObjView.SelectedObject = selectTool;
 			}
 			catch (Exception ex)
 			{
@@ -274,9 +275,8 @@ namespace mRemoteNG.UI.Window
 		{
             try
             {
-                foreach (Object listViewObject in ToolsListObjView.SelectedObjects)
+                foreach (var listViewObject in ToolsListObjView.SelectedObjects)
 				{
-					
                     ((ExternalTool)listViewObject).Start();
 				}
 			}

@@ -9,7 +9,7 @@ using mRemoteNG.Tools;
 
 namespace mRemoteNG.Config.Settings
 {
-    public class ExternalAppsSaver
+	public class ExternalAppsSaver
     {
         public void Save(IEnumerable<ExternalTool> externalTools)
         {
@@ -37,9 +37,11 @@ namespace mRemoteNG.Config.Settings
                     xmlTextWriter.WriteAttributeString("DisplayName", "", extA.DisplayName);
                     xmlTextWriter.WriteAttributeString("FileName", "", extA.FileName);
                     xmlTextWriter.WriteAttributeString("Arguments", "", extA.Arguments);
-                    xmlTextWriter.WriteAttributeString("WaitForExit", "", Convert.ToString(extA.WaitForExit));
+	                xmlTextWriter.WriteAttributeString("WorkingDir", "", extA.WorkingDir);
+					xmlTextWriter.WriteAttributeString("WaitForExit", "", Convert.ToString(extA.WaitForExit));
                     xmlTextWriter.WriteAttributeString("TryToIntegrate", "", Convert.ToString(extA.TryIntegrate));
-                    xmlTextWriter.WriteEndElement();
+	                xmlTextWriter.WriteAttributeString("RunElevated", "", Convert.ToString(extA.RunElevated));
+					xmlTextWriter.WriteEndElement();
                 }
 
                 xmlTextWriter.WriteEndElement();
