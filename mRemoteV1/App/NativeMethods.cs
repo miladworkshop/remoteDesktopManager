@@ -8,7 +8,7 @@ using System.Text;
 
 namespace mRemoteNG.App
 {
-    public static class NativeMethods
+	public static class NativeMethods
     {
         #region Functions
         [DllImport("user32.dll", SetLastError = true, CharSet = CharSet.Unicode)]
@@ -92,10 +92,17 @@ namespace mRemoteNG.App
         [DllImport("kernel32", SetLastError = true)]
         [ReliabilityContract(Consistency.WillNotCorruptState, Cer.MayFail)]
         internal static extern bool CloseHandle(IntPtr handle);
-        #endregion
 
-        #region Structures
-        [StructLayout(LayoutKind.Sequential)]
+	    [DllImport("user32.dll")]
+	    internal static extern bool RegisterHotKey(IntPtr hWnd, int id, uint fsModifiers, uint vk);
+
+		[DllImport("user32.dll")]
+		internal static extern bool UnregisterHotKey(IntPtr hWnd, int id);
+
+		#endregion
+
+		#region Structures
+		[StructLayout(LayoutKind.Sequential)]
         internal struct WINDOWPOS
         {
             public IntPtr hwnd;
@@ -465,10 +472,15 @@ namespace mRemoteNG.App
         /// Sent to the first window in the clipboard viewer chain when a window is being removed from the chain. 
         /// </summary>
         public const int WM_CHANGECBCHAIN = 0x30D;
-        #endregion
 
-        #region Window Styles
-        public const int WS_MAXIMIZE = 0x1000000;
+		/// <summary>
+		/// The WM_HOTKEY message is posted when the user presses a hot key registered by the RegisterHotKey function. The message is placed at the top of the message queue associated with the thread that registered the hot key.
+		/// </summary>
+		internal const int WM_HOTKEY = 0x312;
+		#endregion
+
+		#region Window Styles
+		public const int WS_MAXIMIZE = 0x1000000;
         public const int WS_VISIBLE = 0x10000000;
         public const int WS_CHILD = 0x40000000;
         public const int WS_EX_MDICHILD = 0x40;

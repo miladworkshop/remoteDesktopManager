@@ -633,6 +633,10 @@
     <Compile Include="UI\Forms\TextBox.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="UI\Hotkeys\HotkeyCommands\DebugCommand.cs" />
+    <Compile Include="UI\Hotkeys\HotkeyHandler.cs" />
+    <Compile Include="UI\Hotkeys\ICommand.cs" />
+    <Compile Include="UI\Hotkeys\NativeHotkeyHandler.cs" />
     <Compile Include="UI\Menu\HelpMenu.cs">
       <SubType>Component</SubType>
     </Compile>

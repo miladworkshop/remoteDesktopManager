@@ -60,7 +60,7 @@ namespace mRemoteNG.UI.Forms
 			this.pnlDock.DocumentStyle = WeifenLuo.WinFormsUI.Docking.DocumentStyle.DockingSdi;
 			this.pnlDock.Location = new System.Drawing.Point(0, 0);
 			this.pnlDock.Name = "pnlDock";
-			this.pnlDock.Size = new System.Drawing.Size(966, 473);
+			this.pnlDock.Size = new System.Drawing.Size(966, 424);
 			this.pnlDock.TabIndex = 13;
 			this.pnlDock.ActiveDocumentChanged += new System.EventHandler(this.pnlDock_ActiveDocumentChanged);
 			// 
@@ -73,10 +73,10 @@ namespace mRemoteNG.UI.Forms
             this.viewMenu1,
             this.toolsMenu1,
             this.helpMenu1});
-			this.msMain.Location = new System.Drawing.Point(367, 25);
+			this.msMain.Location = new System.Drawing.Point(3, 75);
 			this.msMain.Name = "msMain";
 			this.msMain.Padding = new System.Windows.Forms.Padding(2, 2, 0, 2);
-			this.msMain.Size = new System.Drawing.Size(268, 24);
+			this.msMain.Size = new System.Drawing.Size(176, 24);
 			this.msMain.Stretch = false;
 			this.msMain.TabIndex = 16;
 			this.msMain.Text = "Main Toolbar";
@@ -98,6 +98,7 @@ namespace mRemoteNG.UI.Forms
 			this.viewMenu1.Size = new System.Drawing.Size(44, 20);
 			this.viewMenu1.Text = "&View";
 			this.viewMenu1.TsExternalTools = null;
+			this.viewMenu1.TsMultiSsh = null;
 			this.viewMenu1.TsQuickConnect = null;
 			this.viewMenu1.DropDownOpening += new System.EventHandler(this.ViewMenu_Opening);
 			// 
@@ -147,7 +148,7 @@ namespace mRemoteNG.UI.Forms
 			// tsContainer.ContentPanel
 			// 
 			this.tsContainer.ContentPanel.Controls.Add(this.pnlDock);
-			this.tsContainer.ContentPanel.Size = new System.Drawing.Size(966, 473);
+			this.tsContainer.ContentPanel.Size = new System.Drawing.Size(966, 424);
 			this.tsContainer.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.tsContainer.Location = new System.Drawing.Point(0, 0);
 			this.tsContainer.Name = "tsContainer";
@@ -157,10 +158,10 @@ namespace mRemoteNG.UI.Forms
 			// 
 			// tsContainer.TopToolStripPanel
 			// 
-			this.tsContainer.TopToolStripPanel.Controls.Add(this.msMain);
+			this.tsContainer.TopToolStripPanel.Controls.Add(this._multiSshToolStrip);
 			this.tsContainer.TopToolStripPanel.Controls.Add(this._externalToolsToolStrip);
 			this.tsContainer.TopToolStripPanel.Controls.Add(this._quickConnectToolStrip);
-			this.tsContainer.TopToolStripPanel.Controls.Add(this._multiSshToolStrip);
+			this.tsContainer.TopToolStripPanel.Controls.Add(this.msMain);
 			// 
 			// _externalToolsToolStrip
 			// 
@@ -185,15 +186,15 @@ namespace mRemoteNG.UI.Forms
 			this._quickConnectToolStrip.Size = new System.Drawing.Size(364, 25);
 			this._quickConnectToolStrip.TabIndex = 18;
 			// 
-			// tsMultiSSH
+			// _multiSshToolStrip
 			// 
+			this._multiSshToolStrip.Dock = System.Windows.Forms.DockStyle.None;
 			this._multiSshToolStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
-			this._multiSshToolStrip.Location = new System.Drawing.Point(_quickConnectToolStrip.Location.X + _quickConnectToolStrip.Width + 1, 0);
+			this._multiSshToolStrip.Location = new System.Drawing.Point(3, 50);
 			this._multiSshToolStrip.MinimumSize = new System.Drawing.Size(300, 0);
 			this._multiSshToolStrip.Name = "_multiSshToolStrip";
-			this._multiSshToolStrip.Size = new System.Drawing.Size(430, 25);
+			this._multiSshToolStrip.Size = new System.Drawing.Size(376, 25);
 			this._multiSshToolStrip.TabIndex = 0;
-			this._multiSshToolStrip.Dock = System.Windows.Forms.DockStyle.Right;
 			// 
 			// tmrAutoSave
 			// 
@@ -211,6 +212,7 @@ namespace mRemoteNG.UI.Forms
 			this.ClientSize = new System.Drawing.Size(966, 523);
 			this.Controls.Add(this.tsContainer);
 			this.Icon = global::mRemoteNG.Resources.mRemote_Icon;
+			this.KeyPreview = true;
 			this.MainMenuStrip = this.msMain;
 			this.Name = "FrmMain";
 			this.Opacity = 0D;
@@ -229,6 +231,7 @@ namespace mRemoteNG.UI.Forms
 			this.tsContainer.ResumeLayout(false);
 			this.tsContainer.PerformLayout();
 			this.ResumeLayout(false);
+
 		}
 		internal WeifenLuo.WinFormsUI.Docking.DockPanel pnlDock;
 		internal System.Windows.Forms.MenuStrip msMain;

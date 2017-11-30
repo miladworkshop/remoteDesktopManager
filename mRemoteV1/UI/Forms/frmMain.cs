@@ -20,6 +20,8 @@ using mRemoteNG.Messages;
 using mRemoteNG.Messages.MessageWriters;
 using mRemoteNG.Themes;
 using mRemoteNG.Tools;
+using mRemoteNG.UI.Hotkeys;
+using mRemoteNG.UI.Hotkeys.HotkeyCommands;
 using mRemoteNG.UI.Menu;
 using mRemoteNG.UI.TaskDialog;
 using mRemoteNG.UI.Window;
@@ -44,8 +46,10 @@ namespace mRemoteNG.UI.Forms
         private ConnectionInfo _selectedConnection;
         private readonly IList<IMessageWriter> _messageWriters = new List<IMessageWriter>();
         private readonly ThemeManager _themeManager;
+	    private HotkeyHandler _hotkeyHandler;
+	    private NativeHotkeyHandler _nativeHotkeyHandler;
 
-        internal FullscreenHandler Fullscreen { get; set; }
+		internal FullscreenHandler Fullscreen { get; set; }
         
         //Added theming support
         private readonly ToolStripRenderer _toolStripProfessionalRenderer = new ToolStripProfessionalRenderer();
@@ -170,6 +174,14 @@ namespace mRemoteNG.UI.Forms
 
             _screenSystemMenu.BuildScreenList();
 			SystemEvents.DisplaySettingsChanged += _screenSystemMenu.OnDisplayChanged;
+
+			//hotkey tests
+	        _nativeHotkeyHandler = new NativeHotkeyHandler(this);
+	        _nativeHotkeyHandler.RegisterHotkey(Keys.Q | Keys.Control, new DebugCommand());
+			//var configuredHotkeys = new Dictionary<Keys, ICommand>();
+			//configuredHotkeys.Add(Keys.Control | Keys.Q, new DebugCommand());
+			//_hotkeyHandler = new HotkeyHandler(configuredHotkeys);
+	  //      KeyDown += _hotkeyHandler.HandleHotkeyPressed;
 
             Opacity = 1;
         }
@@ -405,6 +417,14 @@ namespace mRemoteNG.UI.Forms
 				        NativeMethods.SendMessage(_fpChainedWindowHandle, m.Msg, m.LParam, m.WParam);
 				        _fpChainedWindowHandle = m.LParam;
 				        break;
+					case NativeMethods.WM_HOTKEY:
+						// check if we got a hot key pressed.
+						// the LParam is in the form "kkkkmmmm", but we need it in the form "mmmmkkkk"
+						// so get each section and bit shift
+						var key = (Keys)(((int)m.LParam >> 16) & 0xFFFF);
+						var modifier = ((int)m.LParam & 0xFFFF) << 16;
+						_nativeHotkeyHandler?.HandleKeyPress(key + modifier);
+						break;
 				}
 			}
 			catch (Exception ex)
