@@ -37,9 +37,13 @@ If you find mRemoteNG useful and would like to contribute, it would be greatly a
 				</div>
 				<div class='form-group'>
 					<div class='input-group'>
-						<div class='input-group-addon'>$</div>
+						<div class='input-group-prepend'>
+							<span class='input-group-text'>$</span>
+						</div>
 						<input type='text' class='form-control' id='amount' name='amount' placeholder='Amount' autocomplete='off'>
-						<div class='input-group-addon'>USD</div>
+						<div class='input-group-append'>
+							<span class='input-group-text'>USD</span>
+						</div>
 					</div>
 				</div>
 				<button type='submit' class='btn btn-block btn-primary' id='submitBtn' disabled>Donate</button>
