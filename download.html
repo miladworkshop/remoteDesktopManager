@@ -37,6 +37,7 @@ permalink: /download
 				{%- assign assets = site.github.latest_release.assets | sort: 'content_type' -%}
 				{% for asset in assets %}
 				{% if asset.state == 'uploaded' %}
+				{% if asset.label == 'Normal Edition (msi)' or asset.label == 'Portable Edition (zip)' %}
 				<a href='{{ asset.browser_download_url }}' class='btn btn-success' data-toggle='tooltip' data-placement='bottom' title='{{ asset.size | divided_by: 1048576.0 | round: 2 }} MiB'>
 					{% if msi contains asset.content_type %}
 					MSI
@@ -44,6 +45,7 @@ permalink: /download
 					ZIP
 					{%- endif -%}
 				</a>
+				{%- endif -%}
 				{%- endif -%}
 				{%- endfor -%}
 			</div>
@@ -66,6 +68,7 @@ permalink: /download
 			<div>
 				{% for asset in assets %}
 				{% if asset.state == 'uploaded' %}
+				{% if asset.label == 'Normal Edition (msi)' or asset.label == 'Portable Edition (zip)' %}
 				<a href='{{ asset.browser_download_url }}' class='btn btn-warning' data-toggle='tooltip' data-placement='bottom' title='{{ asset.size | divided_by: 1048576.0 | round: 2 }} MiB'>
 					{% if msi contains asset.content_type %}
 					MSI
@@ -73,6 +76,7 @@ permalink: /download
 					ZIP
 					{%- endif -%}
 				</a>
+				{%- endif -%}
 				{%- endif -%}
 				{%- endfor -%}
 			</div>
