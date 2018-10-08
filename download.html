@@ -8,6 +8,15 @@ permalink: /download
 	}
 	.chevron {
 		transition: transform 0.35s ease;
+	.overlay {
+		background: rgba(0, 0, 0, 0.8);
+		height: 100%;
+		margin: -20px;
+		position: absolute;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 </style>
 <script>
@@ -56,6 +65,11 @@ permalink: /download
 	</div>
 	<div class='card border-warning'>
 		<div class='card-body'>
+			{% if site.github.latest_release.published_at > preRelease.published_at %}
+			<div class='overlay'>
+				<h3 class='text-light'>Stable is newer</h3>
+			</div>
+			{%- endif -%}
 			<h2 class='card-title'>Prerelease <small>
 			{% if preRelease.name == nil %}
 			{{ preRelease.tag_name }}
