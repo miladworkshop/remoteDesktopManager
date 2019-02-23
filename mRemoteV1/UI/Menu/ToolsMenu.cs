@@ -50,14 +50,14 @@ namespace mRemoteNG.UI.Menu
             });
             Name = "mMenTools";
             Size = new System.Drawing.Size(48, 20);
-            Text = Language.strMenuTools;
+            Text = Language.MenuTools;
             // 
             // mMenToolsSSHTransfer
             // 
             _mMenToolsSshTransfer.Image = Resources.SSHTransfer;
             _mMenToolsSshTransfer.Name = "mMenToolsSSHTransfer";
             _mMenToolsSshTransfer.Size = new System.Drawing.Size(184, 22);
-            _mMenToolsSshTransfer.Text = Language.strMenuSSHFileTransfer;
+            _mMenToolsSshTransfer.Text = Language.MenuSSHFileTransfer;
             _mMenToolsSshTransfer.Click += mMenToolsSSHTransfer_Click;
             // 
             // mMenToolsUVNCSC
@@ -65,7 +65,7 @@ namespace mRemoteNG.UI.Menu
             _mMenToolsUvncsc.Image = Resources.UVNC_SC;
             _mMenToolsUvncsc.Name = "mMenToolsUVNCSC";
             _mMenToolsUvncsc.Size = new System.Drawing.Size(184, 22);
-            _mMenToolsUvncsc.Text = Language.strUltraVNCSingleClick;
+            _mMenToolsUvncsc.Text = Language.UltraVNCSingleClick;
             _mMenToolsUvncsc.Visible = false;
             _mMenToolsUvncsc.Click += mMenToolsUVNCSC_Click;
             // 
@@ -74,7 +74,7 @@ namespace mRemoteNG.UI.Menu
             _mMenToolsExternalApps.Image = Resources.ExtApp;
             _mMenToolsExternalApps.Name = "mMenToolsExternalApps";
             _mMenToolsExternalApps.Size = new System.Drawing.Size(184, 22);
-            _mMenToolsExternalApps.Text = Language.strMenuExternalTools;
+            _mMenToolsExternalApps.Text = Language.MenuExternalTools;
             _mMenToolsExternalApps.Click += mMenToolsExternalApps_Click;
             // 
             // mMenToolsPortScan
@@ -82,7 +82,7 @@ namespace mRemoteNG.UI.Menu
             _mMenToolsPortScan.Image = Resources.PortScan;
             _mMenToolsPortScan.Name = "mMenToolsPortScan";
             _mMenToolsPortScan.Size = new System.Drawing.Size(184, 22);
-            _mMenToolsPortScan.Text = Language.strMenuPortScan;
+            _mMenToolsPortScan.Text = Language.MenuPortScan;
             _mMenToolsPortScan.Click += mMenToolsPortScan_Click;
             // 
             // mMenViewScreenshotManager
@@ -90,7 +90,7 @@ namespace mRemoteNG.UI.Menu
             _mMenViewScreenshotManager.Image = Resources.Screenshot;
             _mMenViewScreenshotManager.Name = "mMenViewScreenshotManager";
             _mMenViewScreenshotManager.Size = new System.Drawing.Size(228, 22);
-            _mMenViewScreenshotManager.Text = Language.strScreenshots;
+            _mMenViewScreenshotManager.Text = Language.Screenshots;
             _mMenViewScreenshotManager.Click += mMenViewScreenshotManager_Click;
             // 
             // mMenToolsSep1
@@ -103,7 +103,7 @@ namespace mRemoteNG.UI.Menu
             _mMenToolsComponentsCheck.Image = Resources.cog_error;
             _mMenToolsComponentsCheck.Name = "mMenToolsComponentsCheck";
             _mMenToolsComponentsCheck.Size = new System.Drawing.Size(184, 22);
-            _mMenToolsComponentsCheck.Text = Language.strComponentsCheck;
+            _mMenToolsComponentsCheck.Text = Language.ComponentsCheck;
             _mMenToolsComponentsCheck.Click += mMenToolsComponentsCheck_Click;
             // 
             // mMenToolsOptions
@@ -111,19 +111,19 @@ namespace mRemoteNG.UI.Menu
             _mMenToolsOptions.Image = Resources.Options;
             _mMenToolsOptions.Name = "mMenToolsOptions";
             _mMenToolsOptions.Size = new System.Drawing.Size(184, 22);
-            _mMenToolsOptions.Text = Language.strMenuOptions;
+            _mMenToolsOptions.Text = Language.MenuOptions;
             _mMenToolsOptions.Click += mMenToolsOptions_Click;
         }
 
         public void ApplyLanguage()
         {
-            Text = Language.strMenuTools;
-            _mMenToolsSshTransfer.Text = Language.strMenuSSHFileTransfer;
-            _mMenToolsExternalApps.Text = Language.strMenuExternalTools;
-            _mMenToolsPortScan.Text = Language.strMenuPortScan;
-            _mMenViewScreenshotManager.Text = Language.strScreenshots;
-            _mMenToolsComponentsCheck.Text = Language.strComponentsCheck;
-            _mMenToolsOptions.Text = Language.strMenuOptions;
+            Text = Language.MenuTools;
+            _mMenToolsSshTransfer.Text = Language.MenuSSHFileTransfer;
+            _mMenToolsExternalApps.Text = Language.MenuExternalTools;
+            _mMenToolsPortScan.Text = Language.MenuPortScan;
+            _mMenViewScreenshotManager.Text = Language.Screenshots;
+            _mMenToolsComponentsCheck.Text = Language.ComponentsCheck;
+            _mMenToolsOptions.Text = Language.MenuOptions;
         }
 
         #region Tools

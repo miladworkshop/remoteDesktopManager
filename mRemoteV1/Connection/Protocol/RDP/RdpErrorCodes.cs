@@ -12,15 +12,15 @@ namespace mRemoteNG.Connection.Protocol.RDP
         {
             _description = new Hashtable
             {
-                {0, "Language.strRdpErrorUnknown"},
-                {1, "Language.strRdpErrorCode1"},
-                {2, "Language.strRdpErrorOutOfMemory"},
-                {3, "Language.strRdpErrorWindowCreation"},
-                {4, "Language.strRdpErrorCode2"},
-                {5, "Language.strRdpErrorCode3"},
-                {6, "Language.strRdpErrorCode4"},
-                {7, "Language.strRdpErrorConnection"},
-                {100, "Language.strRdpErrorWinsock"}
+                {0, "Language.RdpErrorUnknown"},
+                {1, "Language.RdpErrorCode1"},
+                {2, "Language.RdpErrorOutOfMemory"},
+                {3, "Language.RdpErrorWindowCreation"},
+                {4, "Language.RdpErrorCode2"},
+                {5, "Language.RdpErrorCode3"},
+                {6, "Language.RdpErrorCode4"},
+                {7, "Language.RdpErrorConnection"},
+                {100, "Language.RdpErrorWinsock"}
             };
         }
 
@@ -35,8 +35,8 @@ namespace mRemoteNG.Connection.Protocol.RDP
             }
             catch (Exception ex)
             {
-                Runtime.MessageCollector.AddExceptionStackTrace(Language.strRdpErrorGetFailure, ex);
-                return string.Format(Language.strRdpErrorUnknown, id);
+                Runtime.MessageCollector.AddExceptionStackTrace(Language.RdpErrorGetFailure, ex);
+                return string.Format(Language.RdpErrorUnknown, id);
             }
         }
     }

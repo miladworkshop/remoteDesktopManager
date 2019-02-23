@@ -78,7 +78,7 @@ namespace mRemoteNG.UI.Window
             // 
             // clmMessage
             // 
-            this.clmMessage.Text = global::mRemoteNG.Language.strColumnMessage;
+            this.clmMessage.Text = global::mRemoteNG.Language.ColumnMessage;
             this.clmMessage.Width = 184;
             // 
             // cMenMC
@@ -98,7 +98,7 @@ namespace mRemoteNG.UI.Window
             this.cMenMCCopy.Name = "cMenMCCopy";
             this.cMenMCCopy.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
             this.cMenMCCopy.Size = new System.Drawing.Size(140, 22);
-            this.cMenMCCopy.Text = global::mRemoteNG.Language.strMenuCopy;
+            this.cMenMCCopy.Text = global::mRemoteNG.Language.MenuCopy;
             this.cMenMCCopy.Click += new System.EventHandler(this.cMenMCCopy_Click);
             // 
             // cMenMCDelete
@@ -107,7 +107,7 @@ namespace mRemoteNG.UI.Window
             this.cMenMCDelete.Name = "cMenMCDelete";
             this.cMenMCDelete.ShortcutKeys = System.Windows.Forms.Keys.Delete;
             this.cMenMCDelete.Size = new System.Drawing.Size(140, 22);
-            this.cMenMCDelete.Text = global::mRemoteNG.Language.strMenuNotificationsDelete;
+            this.cMenMCDelete.Text = global::mRemoteNG.Language.MenuNotificationsDelete;
             this.cMenMCDelete.Click += new System.EventHandler(this.cMenMCDelete_Click);
             // 
             // imgListMC
@@ -149,7 +149,7 @@ namespace mRemoteNG.UI.Window
             this.HideOnClose = true;
             this.Icon = global::mRemoteNG.Resources.Info_Icon;
             this.Name = "ErrorAndInfoWindow";
-            this.TabText = global::mRemoteNG.Language.strMenuNotifications;
+            this.TabText = global::mRemoteNG.Language.MenuNotifications;
             this.Text = "Notifications";
             this.Load += new System.EventHandler(this.ErrorsAndInfos_Load);
             this.Resize += new System.EventHandler(this.ErrorsAndInfos_Resize);

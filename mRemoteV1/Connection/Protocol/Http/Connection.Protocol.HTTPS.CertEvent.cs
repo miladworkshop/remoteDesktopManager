@@ -27,13 +27,13 @@ namespace mRemoteNG.Connection.Protocol.Http
 
             string[] commandButtons =
             {
-                Language.strHttpsInsecureAllowOnce, // 0
-                Language.strHttpsInsecureAllowAlways, // 1
-                Language.strHttpsInsecureDontAllow // 2
+                Language.HttpsInsecureAllowOnce, // 0
+                Language.HttpsInsecureAllowAlways, // 1
+                Language.HttpsInsecureDontAllow // 2
             };
 
-            CTaskDialog.ShowTaskDialogBox(null, GeneralAppInfo.ProductName, Language.strHttpsInsecurePromptTitle,
-                                          string.Format(Language.strHttpsInsecurePrompt, e.Uri.AbsoluteUri), "", "", "",
+            CTaskDialog.ShowTaskDialogBox(null, GeneralAppInfo.ProductName, Language.HttpsInsecurePromptTitle,
+                                          string.Format(Language.HttpsInsecurePrompt, e.Uri.AbsoluteUri), "", "", "",
                                           "",
                                           string.Join(" | ", commandButtons), ETaskDialogButtons.None,
                                           ESysIcons.Question, ESysIcons.Question);

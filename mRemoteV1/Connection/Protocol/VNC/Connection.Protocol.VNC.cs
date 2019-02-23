@@ -58,7 +58,7 @@ namespace mRemoteNG.Connection.Protocol.VNC
             catch (Exception ex)
             {
                 Runtime.MessageCollector.AddMessage(Messages.MessageClass.ErrorMsg,
-                                                    Language.strVncSetPropsFailed + Environment.NewLine + ex.Message,
+                                                    Language.VncSetPropsFailed + Environment.NewLine + ex.Message,
                                                     true);
                 return false;
             }
@@ -75,7 +75,7 @@ namespace mRemoteNG.Connection.Protocol.VNC
             catch (Exception ex)
             {
                 Runtime.MessageCollector.AddMessage(Messages.MessageClass.ErrorMsg,
-                                                    Language.strConnectionOpenFailed + Environment.NewLine +
+                                                    Language.ConnectionOpenFailed + Environment.NewLine +
                                                     ex.Message);
                 return false;
             }
@@ -92,7 +92,7 @@ namespace mRemoteNG.Connection.Protocol.VNC
             catch (Exception ex)
             {
                 Runtime.MessageCollector.AddMessage(Messages.MessageClass.ErrorMsg,
-                                                    Language.strVncConnectionDisconnectFailed + Environment.NewLine +
+                                                    Language.VncConnectionDisconnectFailed + Environment.NewLine +
                                                     ex.Message, true);
             }
         }
@@ -115,7 +115,7 @@ namespace mRemoteNG.Connection.Protocol.VNC
             catch (Exception ex)
             {
                 Runtime.MessageCollector.AddMessage(Messages.MessageClass.ErrorMsg,
-                                                    Language.strVncSendSpecialKeysFailed + Environment.NewLine +
+                                                    Language.VncSendSpecialKeysFailed + Environment.NewLine +
                                                     ex.Message, true);
             }
         }
@@ -130,7 +130,7 @@ namespace mRemoteNG.Connection.Protocol.VNC
             catch (Exception ex)
             {
                 Runtime.MessageCollector.AddMessage(Messages.MessageClass.ErrorMsg,
-                                                    Language.strVncToggleSmartSizeFailed + Environment.NewLine +
+                                                    Language.VncToggleSmartSizeFailed + Environment.NewLine +
                                                     ex.Message, true);
             }
         }
@@ -144,7 +144,7 @@ namespace mRemoteNG.Connection.Protocol.VNC
             catch (Exception ex)
             {
                 Runtime.MessageCollector.AddMessage(Messages.MessageClass.ErrorMsg,
-                                                    Language.strVncToggleViewOnlyFailed + Environment.NewLine +
+                                                    Language.VncToggleViewOnlyFailed + Environment.NewLine +
                                                     ex.Message, true);
             }
         }
@@ -169,7 +169,7 @@ namespace mRemoteNG.Connection.Protocol.VNC
             catch (Exception ex)
             {
                 Runtime.MessageCollector.AddMessage(Messages.MessageClass.ErrorMsg,
-                                                    Language.strVncRefreshFailed + Environment.NewLine + ex.Message,
+                                                    Language.VncRefreshFailed + Environment.NewLine + ex.Message,
                                                     true);
             }
         }
@@ -193,7 +193,7 @@ namespace mRemoteNG.Connection.Protocol.VNC
             catch (Exception ex)
             {
                 Runtime.MessageCollector.AddMessage(Messages.MessageClass.ErrorMsg,
-                                                    Language.strVncSetEventHandlersFailed + Environment.NewLine +
+                                                    Language.VncSetEventHandlersFailed + Environment.NewLine +
                                                     ex.Message, true);
             }
         }

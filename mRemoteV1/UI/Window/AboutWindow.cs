@@ -248,10 +248,10 @@ namespace mRemoteNG.UI.Window
 
         private void ApplyLanguage()
         {
-            lblLicense.Text = Language.strLabelReleasedUnderGPL;
-            lblChangeLog.Text = Language.strLabelChangeLog;
-            TabText = Language.strAbout;
-            Text = Language.strAbout;
+            lblLicense.Text = Language.LabelReleasedUnderGPL;
+            lblChangeLog.Text = Language.LabelChangeLog;
+            TabText = Language.About;
+            Text = Language.About;
         }
 
         private new void ApplyTheme()
@@ -270,7 +270,7 @@ namespace mRemoteNG.UI.Window
         private void ApplyEditions()
         {
 #if PORTABLE
-            lblTitle.Text += " " + Language.strLabelPortableEdition;
+            lblTitle.Text += " " + Language.LabelPortableEdition;
 #endif
         }
 
@@ -364,17 +364,17 @@ namespace mRemoteNG.UI.Window
 #if false
         private void llblFAMFAMFAM_LinkClicked(Object sender, LinkLabelLinkClickedEventArgs e)
 		{
-			Runtime.GoToURL(Language.strFAMFAMFAMAttributionURL);
+			Runtime.GoToURL(Language.FAMFAMFAMAttributionURL);
 		}
 
 		private void llblMagicLibrary_LinkClicked(Object sender, LinkLabelLinkClickedEventArgs e)
 		{
-			Runtime.GoToURL(Language.strMagicLibraryAttributionURL);
+			Runtime.GoToURL(Language.MagicLibraryAttributionURL);
 		}
 
 		private void llblWeifenLuo_LinkClicked(Object sender, LinkLabelLinkClickedEventArgs e)
 		{
-			Runtime.GoToURL(Language.strWeifenLuoAttributionURL);
+			Runtime.GoToURL(Language.WeifenLuoAttributionURL);
 		}
 #endif
 

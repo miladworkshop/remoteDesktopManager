@@ -57,7 +57,7 @@ namespace mRemoteNG.Connection.Protocol
                     newProtocol = new IntegratedProgram();
                     if (connectionInfo.ExtApp == "")
                     {
-                        throw (new Exception(Language.strNoExtAppDefined));
+                        throw (new Exception(Language.NoExtAppDefined));
                     }
 
                     break;

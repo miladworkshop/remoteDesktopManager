@@ -595,7 +595,7 @@ namespace mRemoteNG.UI.Window
             catch (Exception ex)
             {
                 Runtime.MessageCollector.AddMessage(MessageClass.ErrorMsg,
-                                                    Language.strConfigPropertyGridObjectFailed + Environment.NewLine +
+                                                    Language.ConfigPropertyGridObjectFailed + Environment.NewLine +
                                                     ex.Message, true);
             }
         }
@@ -606,15 +606,15 @@ namespace mRemoteNG.UI.Window
 
         private void ApplyLanguage()
         {
-            _btnShowInheritance.Text = Language.strButtonInheritance;
-            _btnShowDefaultInheritance.Text = Language.strButtonDefaultInheritance;
-            _btnShowProperties.Text = Language.strButtonProperties;
-            _btnShowDefaultProperties.Text = Language.strButtonDefaultProperties;
-            _btnIcon.Text = Language.strButtonIcon;
-            _btnHostStatus.Text = Language.strStatus;
-            Text = Language.strMenuConfig;
-            TabText = Language.strMenuConfig;
-            _propertyGridContextMenuShowHelpText.Text = Language.strMenuShowHelpText;
+            _btnShowInheritance.Text = Language.ButtonInheritance;
+            _btnShowDefaultInheritance.Text = Language.ButtonDefaultInheritance;
+            _btnShowProperties.Text = Language.ButtonProperties;
+            _btnShowDefaultProperties.Text = Language.ButtonDefaultProperties;
+            _btnIcon.Text = Language.ButtonIcon;
+            _btnHostStatus.Text = Language.Status;
+            Text = Language.MenuConfig;
+            TabText = Language.MenuConfig;
+            _propertyGridContextMenuShowHelpText.Text = Language.MenuShowHelpText;
         }
 
         private new void ApplyTheme()
@@ -663,7 +663,7 @@ namespace mRemoteNG.UI.Window
                 if (toolStrip == null)
                 {
                     Runtime.MessageCollector.AddMessage(MessageClass.ErrorMsg,
-                                                        Language.strCouldNotFindToolStripInFilteredPropertyGrid, true);
+                                                        Language.CouldNotFindToolStripInFilteredPropertyGrid, true);
                     return;
                 }
 
@@ -686,7 +686,7 @@ namespace mRemoteNG.UI.Window
             catch (Exception ex)
             {
                 Runtime.MessageCollector.AddMessage(MessageClass.ErrorMsg,
-                                                    Language.strConfigUiLoadFailed + Environment.NewLine + ex.Message,
+                                                    Language.ConfigUiLoadFailed + Environment.NewLine + ex.Message,
                                                     true);
             }
         }
@@ -717,7 +717,7 @@ namespace mRemoteNG.UI.Window
             catch (Exception ex)
             {
                 Runtime.MessageCollector.AddMessage(MessageClass.ErrorMsg,
-                                                    Language.strConfigPropertyGridValueFailed + Environment.NewLine +
+                                                    Language.ConfigPropertyGridValueFailed + Environment.NewLine +
                                                     ex.Message, true);
             }
         }
@@ -726,11 +726,11 @@ namespace mRemoteNG.UI.Window
         {
             Debug.WriteLine("update config");
             if (!(_pGrid.SelectedObject is ConnectionInfo selectedGridObject)) return;
-            if (e.ChangedItem.Label == Language.strLabelProtocol)
+            if (e.ChangedItem.Label == Language.LabelProtocol)
             {
                 selectedGridObject.SetDefaultPort();
             }
-            else if (e.ChangedItem.Label == Language.strPropertyNameName)
+            else if (e.ChangedItem.Label == Language.PropertyNameName)
             {
                 if (Settings.Default.SetHostnameLikeDisplayName)
                 {
@@ -739,13 +739,13 @@ namespace mRemoteNG.UI.Window
                         connectionInfo.Hostname = connectionInfo.Name;
                 }
             }
-            else if (e.ChangedItem.Label == Language.strButtonIcon)
+            else if (e.ChangedItem.Label == Language.ButtonIcon)
             {
                 var conIcon = ConnectionIcon.FromString(Convert.ToString(selectedGridObject.Icon));
                 if (conIcon != null)
                     _btnIcon.Image = conIcon.ToBitmap();
             }
-            else if (e.ChangedItem.Label == Language.strColumnHostnameIP)
+            else if (e.ChangedItem.Label == Language.ColumnHostnameIP)
             {
                 SetHostStatus(selectedGridObject);
             }
@@ -765,7 +765,7 @@ namespace mRemoteNG.UI.Window
             if (rootInfo.Password)
             {
                 var passwordName = Settings.Default.UseSQLServer
-                    ? Language.strSQLServer.TrimEnd(':')
+                    ? Language.SQLServer.TrimEnd(':')
                     : Path.GetFileName(Runtime.ConnectionsService.GetStartupConnectionFileName());
 
                 var password = MiscTools.PasswordDialog(passwordName);
@@ -1464,7 +1464,7 @@ namespace mRemoteNG.UI.Window
             catch (Exception ex)
             {
                 Runtime.MessageCollector.AddMessage(MessageClass.ErrorMsg,
-                                                    Language.strConfigPropertyGridHideItemsFailed +
+                                                    Language.ConfigPropertyGridHideItemsFailed +
                                                     Environment.NewLine + ex.Message, true);
             }
         }
@@ -1564,7 +1564,7 @@ namespace mRemoteNG.UI.Window
             catch (Exception ex)
             {
                 Runtime.MessageCollector.AddMessage(MessageClass.ErrorMsg,
-                                                    Language.strConfigPropertyGridButtonIconClickFailed +
+                                                    Language.ConfigPropertyGridButtonIconClickFailed +
                                                     Environment.NewLine + ex.Message, true);
             }
         }
@@ -1594,7 +1594,7 @@ namespace mRemoteNG.UI.Window
             catch (Exception ex)
             {
                 Runtime.MessageCollector.AddMessage(MessageClass.ErrorMsg,
-                                                    Language.strConfigPropertyGridMenuClickFailed +
+                                                    Language.ConfigPropertyGridMenuClickFailed +
                                                     Environment.NewLine + ex.Message, true);
             }
         }
@@ -1670,7 +1670,7 @@ namespace mRemoteNG.UI.Window
             catch (Exception ex)
             {
                 Runtime.MessageCollector.AddMessage(MessageClass.ErrorMsg,
-                                                    Language.strConfigPropertyGridSetHostStatusFailed +
+                                                    Language.ConfigPropertyGridSetHostStatusFailed +
                                                     Environment.NewLine + ex.Message, true);
             }
         }

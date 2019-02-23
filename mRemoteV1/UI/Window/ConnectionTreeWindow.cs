@@ -81,16 +81,16 @@ namespace mRemoteNG.UI.Window
 
         private void ApplyLanguage()
         {
-            Text = Language.strConnections;
-            TabText = Language.strConnections;
+            Text = Language.Connections;
+            TabText = Language.Connections;
 
-            mMenAddConnection.ToolTipText = Language.strAddConnection;
-            mMenAddFolder.ToolTipText = Language.strAddFolder;
-            mMenViewExpandAllFolders.Text = Language.strExpandAllFolders;
-            mMenViewCollapseAllFolders.Text = Language.strCollapseAllFolders;
-            mMenSortAscending.ToolTipText = Language.strSortAsc;
+            mMenAddConnection.ToolTipText = Language.AddConnection;
+            mMenAddFolder.ToolTipText = Language.AddFolder;
+            mMenViewExpandAllFolders.Text = Language.ExpandAllFolders;
+            mMenViewCollapseAllFolders.Text = Language.CollapseAllFolders;
+            mMenSortAscending.ToolTipText = Language.SortAsc;
 
-            txtSearch.Text = Language.strSearchPrompt;
+            txtSearch.Text = Language.SearchPrompt;
         }
 
         private new void ApplyTheme()
@@ -223,14 +223,14 @@ namespace mRemoteNG.UI.Window
 
         private void txtSearch_GotFocus(object sender, EventArgs e)
         {
-            if (txtSearch.Text == Language.strSearchPrompt)
+            if (txtSearch.Text == Language.SearchPrompt)
                 txtSearch.Text = "";
         }
 
         private void txtSearch_LostFocus(object sender, EventArgs e)
         {
             if (txtSearch.Text != "") return;
-            txtSearch.Text = Language.strSearchPrompt;
+            txtSearch.Text = Language.SearchPrompt;
         }
 
         private void txtSearch_KeyDown(object sender, KeyEventArgs e)
@@ -279,7 +279,7 @@ namespace mRemoteNG.UI.Window
         {
             if (Settings.Default.UseFilterSearch)
             {
-                if (txtSearch.Text == "" || txtSearch.Text == Language.strSearchPrompt)
+                if (txtSearch.Text == "" || txtSearch.Text == Language.SearchPrompt)
                 {
                     olvConnections.RemoveFilter();
                     return;

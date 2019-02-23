@@ -66,7 +66,7 @@ namespace mRemoteNG.UI.Controls
             // 
             _lblQuickConnect.Name = "lblQuickConnect";
             _lblQuickConnect.Size = new Size(55, 22);
-            _lblQuickConnect.Text = Language.strLabelConnect;
+            _lblQuickConnect.Text = Language.LabelConnect;
             _lblQuickConnect.Click += lblQuickConnect_Click;
             // 
             // cmbQuickConnect
@@ -102,7 +102,7 @@ namespace mRemoteNG.UI.Controls
             _btnQuickConnect.Margin = new Padding(0, 1, 3, 2);
             _btnQuickConnect.Name = "btnQuickConnect";
             _btnQuickConnect.Size = new Size(84, 22);
-            _btnQuickConnect.Text = Language.strConnect;
+            _btnQuickConnect.Text = Language.Connect;
             _btnQuickConnect.ButtonClick += btnQuickConnect_ButtonClick;
             _btnQuickConnect.DropDownItemClicked += btnQuickConnect_DropDownItemClicked;
             // 
@@ -123,7 +123,7 @@ namespace mRemoteNG.UI.Controls
             _btnConnections.ImageTransparentColor = Color.Magenta;
             _btnConnections.Name = "btnConnections";
             _btnConnections.Size = new Size(29, 22);
-            _btnConnections.Text = Language.strConnections;
+            _btnConnections.Text = Language.Connections;
             _btnConnections.DropDownOpening += btnConnections_DropDownOpening;
             // 
             // mnuConnections

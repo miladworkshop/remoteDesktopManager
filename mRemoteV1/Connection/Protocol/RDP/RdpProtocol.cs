@@ -79,7 +79,7 @@ namespace mRemoteNG.Connection.Protocol.RDP
                 }
                 catch (Exception ex)
                 {
-                    Runtime.MessageCollector.AddExceptionStackTrace(Language.strRdpSetRedirectKeysFailed, ex);
+                    Runtime.MessageCollector.AddExceptionStackTrace(Language.RdpSetRedirectKeysFailed, ex);
                 }
             }
         }
@@ -120,7 +120,7 @@ namespace mRemoteNG.Connection.Protocol.RDP
                 }
                 catch (System.Runtime.InteropServices.COMException ex)
                 {
-                    Runtime.MessageCollector.AddExceptionMessage(Language.strRdpControlCreationFailed, ex);
+                    Runtime.MessageCollector.AddExceptionMessage(Language.RdpControlCreationFailed, ex);
                     Control.Dispose();
                     return false;
                 }
@@ -165,7 +165,7 @@ namespace mRemoteNG.Connection.Protocol.RDP
 
                 SetPerformanceFlags();
 
-                _rdpClient.ConnectingText = Language.strConnecting;
+                _rdpClient.ConnectingText = Language.Connecting;
 
                 Control.Anchor = AnchorStyles.None;
 
@@ -173,7 +173,7 @@ namespace mRemoteNG.Connection.Protocol.RDP
             }
             catch (Exception ex)
             {
-                Runtime.MessageCollector.AddExceptionStackTrace(Language.strRdpSetPropsFailed, ex);
+                Runtime.MessageCollector.AddExceptionStackTrace(Language.RdpSetPropsFailed, ex);
                 return false;
             }
         }
@@ -191,7 +191,7 @@ namespace mRemoteNG.Connection.Protocol.RDP
             }
             catch (Exception ex)
             {
-                Runtime.MessageCollector.AddExceptionStackTrace(Language.strConnectionOpenFailed, ex);
+                Runtime.MessageCollector.AddExceptionStackTrace(Language.ConnectionOpenFailed, ex);
             }
 
             return false;
@@ -205,7 +205,7 @@ namespace mRemoteNG.Connection.Protocol.RDP
             }
             catch (Exception ex)
             {
-                Runtime.MessageCollector.AddExceptionStackTrace(Language.strRdpDisconnectFailed, ex);
+                Runtime.MessageCollector.AddExceptionStackTrace(Language.RdpDisconnectFailed, ex);
                 Close();
             }
         }
@@ -218,7 +218,7 @@ namespace mRemoteNG.Connection.Protocol.RDP
             }
             catch (Exception ex)
             {
-                Runtime.MessageCollector.AddExceptionStackTrace(Language.strRdpToggleFullscreenFailed, ex);
+                Runtime.MessageCollector.AddExceptionStackTrace(Language.RdpToggleFullscreenFailed, ex);
             }
         }
 
@@ -230,7 +230,7 @@ namespace mRemoteNG.Connection.Protocol.RDP
             }
             catch (Exception ex)
             {
-                Runtime.MessageCollector.AddExceptionStackTrace(Language.strRdpToggleSmartSizeFailed, ex);
+                Runtime.MessageCollector.AddExceptionStackTrace(Language.RdpToggleSmartSizeFailed, ex);
             }
         }
 
@@ -245,7 +245,7 @@ namespace mRemoteNG.Connection.Protocol.RDP
             }
             catch (Exception ex)
             {
-                Runtime.MessageCollector.AddExceptionStackTrace(Language.strRdpFocusFailed, ex);
+                Runtime.MessageCollector.AddExceptionStackTrace(Language.RdpFocusFailed, ex);
             }
         }
 
@@ -348,12 +348,12 @@ namespace mRemoteNG.Connection.Protocol.RDP
             {
                 if (_rdpClient.TransportSettings.GatewayIsSupported == 0)
                 {
-                    Runtime.MessageCollector.AddMessage(MessageClass.InformationMsg, Language.strRdpGatewayNotSupported,
+                    Runtime.MessageCollector.AddMessage(MessageClass.InformationMsg, Language.RdpGatewayNotSupported,
                                                         true);
                     return;
                 }
 
-                Runtime.MessageCollector.AddMessage(MessageClass.InformationMsg, Language.strRdpGatewayIsSupported,
+                Runtime.MessageCollector.AddMessage(MessageClass.InformationMsg, Language.RdpGatewayIsSupported,
                                                     true);
 
                 if (_connectionInfo.RDGatewayUsageMethod != RDGatewayUsageMethod.Never)
@@ -392,7 +392,7 @@ namespace mRemoteNG.Connection.Protocol.RDP
             }
             catch (Exception ex)
             {
-                Runtime.MessageCollector.AddExceptionStackTrace(Language.strRdpSetGatewayFailed, ex);
+                Runtime.MessageCollector.AddExceptionStackTrace(Language.RdpSetGatewayFailed, ex);
             }
         }
 
@@ -418,14 +418,14 @@ namespace mRemoteNG.Connection.Protocol.RDP
                 if (_rdpVersion >= Versions.RDC61)
                 {
                     Runtime.MessageCollector.AddMessage(MessageClass.InformationMsg,
-                                                        string.Format(Language.strRdpSetConsoleSwitch, _rdpVersion),
+                                                        string.Format(Language.RdpSetConsoleSwitch, _rdpVersion),
                                                         true);
                     _rdpClient.AdvancedSettings7.ConnectToAdministerServer = value;
                 }
                 else
                 {
                     Runtime.MessageCollector.AddMessage(MessageClass.InformationMsg,
-                                                        string.Format(Language.strRdpSetConsoleSwitch, _rdpVersion) +
+                                                        string.Format(Language.RdpSetConsoleSwitch, _rdpVersion) +
                                                         Environment.NewLine +
                                                         "No longer supported in this RDP version. Reference: https://msdn.microsoft.com/en-us/library/aa380863(v=vs.85).aspx",
                                                         true);
@@ -436,7 +436,7 @@ namespace mRemoteNG.Connection.Protocol.RDP
             }
             catch (Exception ex)
             {
-                Runtime.MessageCollector.AddExceptionStackTrace(Language.strRdpSetConsoleSessionFailed, ex);
+                Runtime.MessageCollector.AddExceptionStackTrace(Language.RdpSetConsoleSessionFailed, ex);
             }
         }
 
@@ -533,7 +533,7 @@ namespace mRemoteNG.Connection.Protocol.RDP
             }
             catch (Exception ex)
             {
-                Runtime.MessageCollector.AddExceptionStackTrace(Language.strRdpSetCredentialsFailed, ex);
+                Runtime.MessageCollector.AddExceptionStackTrace(Language.RdpSetCredentialsFailed, ex);
             }
         }
 
@@ -580,7 +580,7 @@ namespace mRemoteNG.Connection.Protocol.RDP
             }
             catch (Exception ex)
             {
-                Runtime.MessageCollector.AddExceptionStackTrace(Language.strRdpSetResolutionFailed, ex);
+                Runtime.MessageCollector.AddExceptionStackTrace(Language.RdpSetResolutionFailed, ex);
             }
         }
 
@@ -595,7 +595,7 @@ namespace mRemoteNG.Connection.Protocol.RDP
             }
             catch (Exception ex)
             {
-                Runtime.MessageCollector.AddExceptionStackTrace(Language.strRdpSetPortFailed, ex);
+                Runtime.MessageCollector.AddExceptionStackTrace(Language.RdpSetPortFailed, ex);
             }
         }
 
@@ -612,7 +612,7 @@ namespace mRemoteNG.Connection.Protocol.RDP
             }
             catch (Exception ex)
             {
-                Runtime.MessageCollector.AddExceptionStackTrace(Language.strRdpSetRedirectionFailed, ex);
+                Runtime.MessageCollector.AddExceptionStackTrace(Language.RdpSetRedirectionFailed, ex);
             }
         }
 
@@ -645,7 +645,7 @@ namespace mRemoteNG.Connection.Protocol.RDP
             }
             catch (Exception ex)
             {
-                Runtime.MessageCollector.AddExceptionStackTrace(Language.strRdpSetPerformanceFlagsFailed, ex);
+                Runtime.MessageCollector.AddExceptionStackTrace(Language.RdpSetPerformanceFlagsFailed, ex);
             }
         }
 
@@ -657,7 +657,7 @@ namespace mRemoteNG.Connection.Protocol.RDP
             }
             catch (Exception ex)
             {
-                Runtime.MessageCollector.AddExceptionStackTrace(Language.strRdpSetAuthenticationLevelFailed, ex);
+                Runtime.MessageCollector.AddExceptionStackTrace(Language.RdpSetAuthenticationLevelFailed, ex);
             }
         }
 
@@ -694,7 +694,7 @@ namespace mRemoteNG.Connection.Protocol.RDP
             }
             catch (Exception ex)
             {
-                Runtime.MessageCollector.AddExceptionStackTrace(Language.strRdpSetEventHandlersFailed, ex);
+                Runtime.MessageCollector.AddExceptionStackTrace(Language.RdpSetEventHandlersFailed, ex);
             }
         }
 

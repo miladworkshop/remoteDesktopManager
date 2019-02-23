@@ -38,10 +38,10 @@ namespace mRemoteNG.UI.Forms
 
             labelExceptionMessageHeader.Text = Language.ExceptionMessage;
             labelStackTraceHeader.Text = Language.StackTrace;
-            buttonCopyAll.Text = Language.strMenuNotificationsCopyAll;
+            buttonCopyAll.Text = Language.MenuNotificationsCopyAll;
             buttonClose.Text = _isFatal
-                ? Language.strMenuExit
-                : Language.strButtonClose;
+                ? Language.MenuExit
+                : Language.ButtonClose;
         }
 
         private void buttonCopyAll_Click(object sender, EventArgs e)

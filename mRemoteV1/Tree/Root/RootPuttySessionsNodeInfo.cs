@@ -10,10 +10,10 @@ namespace mRemoteNG.Tree.Root
 
         public RootPuttySessionsNodeInfo() : base(RootNodeType.PuttySessions)
         {
-            _name = Language.strPuttySavedSessionsRootName;
+            _name = Language.PuttySavedSessionsRootName;
             _panel =
                 string.IsNullOrEmpty(Settings.Default.PuttySavedSessionsPanel)
-                    ? Language.strGeneral
+                    ? Language.General
                     : Settings.Default.PuttySavedSessionsPanel;
         }
 

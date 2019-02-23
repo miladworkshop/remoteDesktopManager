@@ -34,7 +34,7 @@ namespace mRemoteNG.Connection
             }
             catch (Exception ex)
             {
-                Runtime.MessageCollector.AddExceptionStackTrace(Language.strConnectionOpenFailed, ex);
+                Runtime.MessageCollector.AddExceptionStackTrace(Language.ConnectionOpenFailed, ex);
             }
         }
 
@@ -46,7 +46,7 @@ namespace mRemoteNG.Connection
             }
             catch (Exception ex)
             {
-                Runtime.MessageCollector.AddExceptionStackTrace(Language.strConnectionOpenFailed, ex);
+                Runtime.MessageCollector.AddExceptionStackTrace(Language.ConnectionOpenFailed, ex);
             }
         }
 
@@ -83,7 +83,7 @@ namespace mRemoteNG.Connection
                 if (connectionInfo.Hostname == "" && connectionInfo.Protocol != ProtocolType.IntApp)
                 {
                     Runtime.MessageCollector.AddMessage(MessageClass.WarningMsg,
-                                                        Language.strConnectionOpenFailedNoHostname);
+                                                        Language.ConnectionOpenFailedNoHostname);
                     return;
                 }
 
@@ -126,7 +126,7 @@ namespace mRemoteNG.Connection
             }
             catch (Exception ex)
             {
-                Runtime.MessageCollector.AddExceptionStackTrace(Language.strConnectionOpenFailed, ex);
+                Runtime.MessageCollector.AddExceptionStackTrace(Language.ConnectionOpenFailed, ex);
             }
         }
 
@@ -262,14 +262,14 @@ namespace mRemoteNG.Connection
 
                 Runtime.MessageCollector.AddMessage(msgClass,
                                                     string.Format(
-                                                                  Language.strProtocolEventDisconnected,
+                                                                  Language.ProtocolEventDisconnected,
                                                                   disconnectedMessage,
                                                                   prot.InterfaceControl.Info.Hostname,
                                                                   prot.InterfaceControl.Info.Protocol.ToString()));
             }
             catch (Exception ex)
             {
-                Runtime.MessageCollector.AddExceptionStackTrace(Language.strProtocolEventDisconnectFailed, ex);
+                Runtime.MessageCollector.AddExceptionStackTrace(Language.ProtocolEventDisconnectFailed, ex);
             }
         }
 
@@ -278,7 +278,7 @@ namespace mRemoteNG.Connection
             try
             {
                 var prot = (ProtocolBase)sender;
-                Runtime.MessageCollector.AddMessage(MessageClass.InformationMsg, Language.strConnenctionCloseEvent,
+                Runtime.MessageCollector.AddMessage(MessageClass.InformationMsg, Language.ConnenctionCloseEvent,
                                                     true);
                 string connDetail;
                 if (prot.InterfaceControl.Info.Hostname == "" &&
@@ -290,7 +290,7 @@ namespace mRemoteNG.Connection
                     connDetail = "UNKNOWN";
 
                 Runtime.MessageCollector.AddMessage(MessageClass.InformationMsg,
-                                                    string.Format(Language.strConnenctionClosedByUser, connDetail,
+                                                    string.Format(Language.ConnenctionClosedByUser, connDetail,
                                                                   prot.InterfaceControl.Info.Protocol,
                                                                   Environment.UserName));
                 prot.InterfaceControl.Info.OpenConnections.Remove(prot);
@@ -303,17 +303,17 @@ namespace mRemoteNG.Connection
             }
             catch (Exception ex)
             {
-                Runtime.MessageCollector.AddExceptionStackTrace(Language.strConnenctionCloseEventFailed, ex);
+                Runtime.MessageCollector.AddExceptionStackTrace(Language.ConnenctionCloseEventFailed, ex);
             }
         }
 
         private static void Prot_Event_Connected(object sender)
         {
             var prot = (ProtocolBase)sender;
-            Runtime.MessageCollector.AddMessage(MessageClass.InformationMsg, Language.strConnectionEventConnected,
+            Runtime.MessageCollector.AddMessage(MessageClass.InformationMsg, Language.ConnectionEventConnected,
                                                 true);
             Runtime.MessageCollector.AddMessage(MessageClass.InformationMsg,
-                                                string.Format(Language.strConnectionEventConnectedDetail,
+                                                string.Format(Language.ConnectionEventConnectedDetail,
                                                               prot.InterfaceControl.Info.Hostname,
                                                               prot.InterfaceControl.Info.Protocol, Environment.UserName,
                                                               prot.InterfaceControl.Info.Description,
@@ -327,7 +327,7 @@ namespace mRemoteNG.Connection
                 var prot = (ProtocolBase)sender;
 
                 var msg = string.Format(
-                                        Language.strConnectionEventErrorOccured,
+                                        Language.ConnectionEventErrorOccured,
                                         errorMessage,
                                         prot.InterfaceControl.Info.Hostname,
                                         errorCode?.ToString() ?? "-");
@@ -335,7 +335,7 @@ namespace mRemoteNG.Connection
             }
             catch (Exception ex)
             {
-                Runtime.MessageCollector.AddExceptionStackTrace(Language.strConnectionEventConnectionFailed, ex);
+                Runtime.MessageCollector.AddExceptionStackTrace(Language.ConnectionEventConnectionFailed, ex);
             }
         }
 

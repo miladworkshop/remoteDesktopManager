@@ -16,7 +16,7 @@ namespace mRemoteNG.Tree.Root
         public RootNodeInfo(RootNodeType rootType, string uniqueId)
             : base(uniqueId)
         {
-            _name = Language.strConnections;
+            _name = Language.Connections;
             Type = rootType;
         }
 

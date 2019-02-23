@@ -73,9 +73,9 @@ namespace mRemoteNG.UI.Controls
 
         private void ApplyLanguage()
         {
-            olvColumnTitle.Text = Language.strTitle;
-            olvColumnUsername.Text = Language.strCheckboxUsername;
-            olvColumnDomain.Text = Language.strCheckboxDomain;
+            olvColumnTitle.Text = Language.Title;
+            olvColumnUsername.Text = Language.CheckboxUsername;
+            olvColumnDomain.Text = Language.CheckboxDomain;
         }
 
         private object CredentialIdAspectGetter(object rowObject)
