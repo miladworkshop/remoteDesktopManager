@@ -1,4 +1,4 @@
-using mRemoteNG.App;
+﻿using mRemoteNG.App;
 using mRemoteNG.Connection.Protocol;
 using mRemoteNG.Connection.Protocol.Http;
 using mRemoteNG.Connection.Protocol.ICA;
@@ -269,7 +269,7 @@ namespace mRemoteNG.Connection
 
         private void SetTreeDisplayDefaults()
         {
-            Name = Language.strNewConnection;
+            Name = Language.strAddConnection;
             Description = Settings.Default.ConDefaultDescription;
             Icon = Settings.Default.ConDefaultIcon;
             Panel = Language.strGeneral;

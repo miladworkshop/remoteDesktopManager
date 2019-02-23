@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Security;
 using System.Windows.Forms;
 using mRemoteNG.Security;
@@ -97,7 +97,7 @@ namespace mRemoteNG.UI.Forms
                 ? Language.strTitlePassword
                 : string.Format(Language.strTitlePasswordWithName, _passwordName);
 
-            lblPassword.Text = Language.strLabelPassword;
+            lblPassword.Text = $@"{Language.strTitlePassword}:";
             lblVerify.Text = Language.strLabelVerify;
             btnCancel.Text = Language.strButtonCancel;
             btnOK.Text = Language.strButtonOK;

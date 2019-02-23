@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -267,7 +267,7 @@ namespace mRemoteNG.UI.Window
             cmenTabFullscreen.Text = Language.strMenuFullScreenRDP;
             cmenTabSmartSize.Text = Language.strMenuSmartSize;
             cmenTabViewOnly.Text = Language.strMenuViewOnly;
-            cmenTabScreenshot.Text = Language.strMenuScreenshot;
+            cmenTabScreenshot.Text = Language.strScreenshot;
             cmenTabStartChat.Text = Language.strMenuStartChat;
             cmenTabTransferFile.Text = Language.strMenuTransferFile;
             cmenTabRefreshScreen.Text = Language.strMenuRefreshScreen;
@@ -278,7 +278,7 @@ namespace mRemoteNG.UI.Window
             cmenTabRenameTab.Text = Language.strMenuRenameTab;
             cmenTabDuplicateTab.Text = Language.strMenuDuplicateTab;
             cmenTabReconnect.Text = Language.strMenuReconnect;
-            cmenTabDisconnect.Text = Language.strMenuDisconnect;
+            cmenTabDisconnect.Text = Language.strButtonDisconnect;
             cmenTabDisconnectOthers.Text = Language.strMenuDisconnectOthers;
             cmenTabDisconnectOthersRight.Text = Language.strMenuDisconnectOthersRight;
             cmenTabPuttySettings.Text = Language.strPuttySettings;

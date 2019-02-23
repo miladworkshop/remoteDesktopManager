@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Windows.Forms;
 using mRemoteNG.App;
 using mRemoteNG.Tools;
@@ -16,7 +16,7 @@ namespace mRemoteNG.UI.Forms.OptionsPages
 
         public override string PageName
         {
-            get => Language.strTabAppearance;
+            get => Language.strCategoryAppearance;
             set { }
         }
 

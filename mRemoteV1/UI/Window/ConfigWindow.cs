@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
@@ -726,7 +726,7 @@ namespace mRemoteNG.UI.Window
         {
             Debug.WriteLine("update config");
             if (!(_pGrid.SelectedObject is ConnectionInfo selectedGridObject)) return;
-            if (e.ChangedItem.Label == Language.strPropertyNameProtocol)
+            if (e.ChangedItem.Label == Language.strLabelProtocol)
             {
                 selectedGridObject.SetDefaultPort();
             }
@@ -739,13 +739,13 @@ namespace mRemoteNG.UI.Window
                         connectionInfo.Hostname = connectionInfo.Name;
                 }
             }
-            else if (e.ChangedItem.Label == Language.strPropertyNameIcon)
+            else if (e.ChangedItem.Label == Language.strButtonIcon)
             {
                 var conIcon = ConnectionIcon.FromString(Convert.ToString(selectedGridObject.Icon));
                 if (conIcon != null)
                     _btnIcon.Image = conIcon.ToBitmap();
             }
-            else if (e.ChangedItem.Label == Language.strPropertyNameAddress)
+            else if (e.ChangedItem.Label == Language.strColumnHostnameIP)
             {
                 SetHostStatus(selectedGridObject);
             }

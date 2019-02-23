@@ -1,4 +1,4 @@
-using mRemoteNG.App;
+﻿using mRemoteNG.App;
 using mRemoteNG.Messages;
 using mRemoteNG.Security.SymmetricEncryption;
 using mRemoteNG.Tools;
@@ -170,14 +170,9 @@ namespace mRemoteNG.Connection.Protocol
                 }
 
                 Runtime.MessageCollector.AddMessage(MessageClass.InformationMsg, Language.strPuttyStuff, true);
-                Runtime.MessageCollector.AddMessage(MessageClass.InformationMsg,
-                                                    string.Format(Language.strPuttyHandle, PuttyHandle), true);
-                Runtime.MessageCollector.AddMessage(MessageClass.InformationMsg,
-                                                    string.Format(Language.strPuttyTitle, PuttyProcess.MainWindowTitle),
-                                                    true);
-                Runtime.MessageCollector.AddMessage(MessageClass.InformationMsg,
-                                                    string.Format(Language.strPuttyParentHandle,
-                                                                  InterfaceControl.Parent.Handle), true);
+                Runtime.MessageCollector.AddMessage(MessageClass.InformationMsg, string.Format(Language.strPuttyHandle, PuttyHandle), true);
+                Runtime.MessageCollector.AddMessage(MessageClass.InformationMsg, string.Format(Language.strPuttyTitle, PuttyProcess.MainWindowTitle), true);
+                Runtime.MessageCollector.AddMessage(MessageClass.InformationMsg, string.Format(Language.strIntAppParentHandle, InterfaceControl.Parent.Handle), true);
 
                 Resize(this, new EventArgs());
                 base.Connect();
@@ -185,9 +180,7 @@ namespace mRemoteNG.Connection.Protocol
             }
             catch (Exception ex)
             {
-                Runtime.MessageCollector.AddMessage(MessageClass.ErrorMsg,
-                                                    Language.strPuttyConnectionFailed + Environment.NewLine +
-                                                    ex.Message);
+                Runtime.MessageCollector.AddMessage(MessageClass.ErrorMsg, $@"{Language.strConnectionEventConnectionFailed}!" + Environment.NewLine + ex.Message);
                 return false;
             }
         }

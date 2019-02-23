@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.ComponentModel;
 using System.Windows.Forms;
 using mRemoteNG.App;
@@ -47,11 +47,11 @@ namespace mRemoteNG.UI.Forms.OptionsPages
 
             chkUseProxyForAutomaticUpdates.Text = Language.strCheckboxUpdateUseProxy;
             lblProxyAddress.Text = Language.strLabelAddress;
-            lblProxyPort.Text = Language.strLabelPort;
+            lblProxyPort.Text = $@"{Language.strPropertyNamePort}:";
 
             chkUseProxyAuthentication.Text = Language.strCheckboxProxyAuthentication;
-            lblProxyUsername.Text = Language.strLabelUsername;
-            lblProxyPassword.Text = Language.strLabelPassword;
+            lblProxyUsername.Text = $@"{Language.strCheckboxUsername}:";
+            lblProxyPassword.Text = $@"{Language.strTitlePassword}:";
 
             btnTestProxy.Text = Language.strButtonTestProxy;
         }

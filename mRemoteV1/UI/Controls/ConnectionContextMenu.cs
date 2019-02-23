@@ -395,17 +395,17 @@ namespace mRemoteNG.UI.Controls
             _cMenTreeConnectWithOptionsConnectInFullscreen.Text = Language.strConnectInFullscreen;
             _cMenTreeConnectWithOptionsNoCredentials.Text = Language.strConnectNoCredentials;
             _cMenTreeConnectWithOptionsChoosePanelBeforeConnecting.Text = Language.strChoosePanelBeforeConnecting;
-            _cMenTreeDisconnect.Text = Language.strMenuDisconnect;
+            _cMenTreeDisconnect.Text = Language.strButtonDisconnect;
 
             _cMenTreeToolsExternalApps.Text = Language.strMenuExternalTools;
             _cMenTreeToolsTransferFile.Text = Language.strMenuTransferFile;
 
             _cMenTreeDuplicate.Text = Language.strDuplicate;
             _cMenTreeRename.Text = Language.strRename;
-            _cMenTreeDelete.Text = Language.strMenuDelete;
+            _cMenTreeDelete.Text = Language.strMenuNotificationsDelete;
             _cMenTreeCopyHostname.Text = Language.strMenuCopyHostname;
 
-            _cMenTreeImport.Text = Language.strImportMenuItem;
+            _cMenTreeImport.Text = Language.strButtonImport;
             _cMenTreeImportFile.Text = Language.strImportFromFileMenuItem;
             _cMenTreeImportActiveDirectory.Text = Language.strImportAD;
             _cMenTreeImportPortScan.Text = Language.strImportPortScan;

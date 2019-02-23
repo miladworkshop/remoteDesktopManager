@@ -1,4 +1,4 @@
-
+﻿
 namespace mRemoteNG.UI.Window
 {
 	public partial class ErrorAndInfoWindow
@@ -107,7 +107,7 @@ namespace mRemoteNG.UI.Window
             this.cMenMCDelete.Name = "cMenMCDelete";
             this.cMenMCDelete.ShortcutKeys = System.Windows.Forms.Keys.Delete;
             this.cMenMCDelete.Size = new System.Drawing.Size(140, 22);
-            this.cMenMCDelete.Text = global::mRemoteNG.Language.strMenuDelete;
+            this.cMenMCDelete.Text = global::mRemoteNG.Language.strMenuNotificationsDelete;
             this.cMenMCDelete.Click += new System.EventHandler(this.cMenMCDelete_Click);
             // 
             // imgListMC

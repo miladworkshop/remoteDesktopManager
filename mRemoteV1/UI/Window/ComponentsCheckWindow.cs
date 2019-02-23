@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Diagnostics;
 using System.Drawing;
 using System.IO;
@@ -487,7 +487,7 @@ namespace mRemoteNG.UI.Window
             TabText = Language.strComponentsCheck;
             Text = Language.strComponentsCheck;
             chkAlwaysShow.Text = Language.strCcAlwaysShowScreen;
-            btnCheckAgain.Text = Language.strCcCheckAgain;
+            btnCheckAgain.Text = $@"{Language.strUpdateCheckFailedLabel}!";
         }
 
         private new void ApplyTheme()
@@ -580,11 +580,10 @@ namespace mRemoteNG.UI.Window
             {
                 pbCheck1.Image = _failureImage;
                 lblCheck1.ForeColor = Color.Firebrick;
-                lblCheck1.Text = "RDP (Remote Desktop) " + Language.strCcCheckFailed;
+                lblCheck1.Text = "RDP (Remote Desktop) " + $@"{Language.strUpdateCheckFailedLabel}!";
                 txtCheck1.Text = string.Format(Language.strCcRDPFailed, GeneralAppInfo.UrlForum);
 
-                Runtime.MessageCollector.AddMessage(MessageClass.WarningMsg,
-                                                    "RDP " + Language.strCcNotInstalledProperly, true);
+                Runtime.MessageCollector.AddMessage(MessageClass.WarningMsg, "RDP " + Language.strCcNotInstalledProperly, true);
                 Runtime.MessageCollector.AddMessage(MessageClass.ErrorMsg, ex.Message, true);
             }
         }
@@ -616,11 +615,10 @@ namespace mRemoteNG.UI.Window
             {
                 pbCheck2.Image = _failureImage;
                 lblCheck2.ForeColor = Color.Firebrick;
-                lblCheck2.Text = "VNC (Virtual Network Computing) " + Language.strCcCheckFailed;
+                lblCheck2.Text = "VNC (Virtual Network Computing) " + $@"{Language.strUpdateCheckFailedLabel}!";
                 txtCheck2.Text = string.Format(Language.strCcVNCFailed, GeneralAppInfo.UrlForum);
 
-                Runtime.MessageCollector.AddMessage(MessageClass.WarningMsg,
-                                                    "VNC " + Language.strCcNotInstalledProperly, true);
+                Runtime.MessageCollector.AddMessage(MessageClass.WarningMsg, "VNC " + Language.strCcNotInstalledProperly, true);
             }
         }
 
@@ -652,13 +650,11 @@ namespace mRemoteNG.UI.Window
             {
                 pbCheck3.Image = _failureImage;
                 lblCheck3.ForeColor = Color.Firebrick;
-                lblCheck3.Text = "PuTTY (SSH/Telnet/Rlogin/RAW) " + Language.strCcCheckFailed;
+                lblCheck3.Text = "PuTTY (SSH/Telnet/Rlogin/RAW) " + $@"{Language.strUpdateCheckFailedLabel}!";
                 txtCheck3.Text = Language.strCcPuttyFailed;
 
-                Runtime.MessageCollector.AddMessage(MessageClass.WarningMsg,
-                                                    "PuTTY " + Language.strCcNotInstalledProperly, true);
-                Runtime.MessageCollector.AddMessage(MessageClass.ErrorMsg, "File " + pPath + " does not exist.",
-                                                    true);
+                Runtime.MessageCollector.AddMessage(MessageClass.WarningMsg, "PuTTY " + Language.strCcNotInstalledProperly, true);
+                Runtime.MessageCollector.AddMessage(MessageClass.ErrorMsg, "File " + pPath + " does not exist.", true);
             }
         }
 
@@ -683,7 +679,7 @@ namespace mRemoteNG.UI.Window
             {
                 pbCheck4.Image = _failureImage;
                 lblCheck4.ForeColor = Color.Firebrick;
-                lblCheck4.Text = @"ICA (Citrix ICA) " + Language.strCcCheckFailed;
+                lblCheck4.Text = @"ICA (Citrix ICA) " + $@"{Language.strUpdateCheckFailedLabel}!";
                 txtCheck4.Text = string.Format(Language.strCcICAFailed, GeneralAppInfo.UrlForum);
 
                 Runtime.MessageCollector.AddMessage(MessageClass.WarningMsg,
@@ -727,13 +723,11 @@ namespace mRemoteNG.UI.Window
             {
                 pbCheck5.Image = _failureImage;
                 lblCheck5.ForeColor = Color.Firebrick;
-                lblCheck5.Text = @"Gecko (Firefox) Rendering Engine (HTTP/S) " + Language.strCcCheckFailed;
+                lblCheck5.Text = @"Gecko (Firefox) Rendering Engine (HTTP/S) " + $@"{Language.strUpdateCheckFailedLabel}!";
                 txtCheck5.Text = string.Format(Language.strCcGeckoFailed, GeneralAppInfo.UrlForum);
 
-                Runtime.MessageCollector.AddMessage(MessageClass.WarningMsg,
-                                                    "Gecko " + Language.strCcNotInstalledProperly, true);
-                Runtime.MessageCollector.AddMessage(MessageClass.ErrorMsg,
-                                                    "GeckoFx was not found in " + geckoFxPath, true);
+                Runtime.MessageCollector.AddMessage(MessageClass.WarningMsg, "Gecko " + Language.strCcNotInstalledProperly, true);
+                Runtime.MessageCollector.AddMessage(MessageClass.ErrorMsg, "GeckoFx was not found in " + geckoFxPath, true);
             }
         }
     }

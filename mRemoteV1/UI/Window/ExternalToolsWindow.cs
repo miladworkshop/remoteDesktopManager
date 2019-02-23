@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Linq;
 using System.Windows.Forms;
 using BrightIdeasSoftware;
@@ -48,15 +48,15 @@ namespace mRemoteNG.UI.Window
             TabText = Language.strMenuExternalTools;
 
             NewToolToolstripButton.Text = Language.strButtonNew;
-            DeleteToolToolstripButton.Text = Language.strOptionsThemeButtonDelete;
+            DeleteToolToolstripButton.Text = Language.strOptionsKeyboardButtonDelete;
             LaunchToolToolstripButton.Text = Language.strButtonLaunch;
 
             DisplayNameColumnHeader.Text = Language.strColumnDisplayName;
             FilenameColumnHeader.Text = Language.strColumnFilename;
             ArgumentsColumnHeader.Text = Language.strColumnArguments;
             WorkingDirColumnHeader.Text = Language.strWorkingDirColumnHeader;
-            WaitForExitColumnHeader.Text = Language.strColumnWaitForExit;
-            TryToIntegrateColumnHeader.Text = Language.strTryToIntegrateColumnHeader;
+            WaitForExitColumnHeader.Text = Language.strCheckboxWaitForExit;
+            TryToIntegrateColumnHeader.Text = Language.strTryIntegrate;
             RunElevateHeader.Text = Language.strRunElevateHeader;
             ShowOnToolbarColumnHeader.Text = Language.strShowOnToolbarColumnHeader;
 
@@ -66,16 +66,16 @@ namespace mRemoteNG.UI.Window
 
             PropertiesGroupBox.Text = Language.strGroupboxExternalToolProperties;
 
-            DisplayNameLabel.Text = Language.strLabelDisplayName;
-            FilenameLabel.Text = Language.strLabelFilename;
-            ArgumentsLabel.Text = Language.strLabelArguments;
-            WorkingDirLabel.Text = Language.srtWorkingDirectory;
-            OptionsLabel.Text = Language.strLabelOptions;
+            DisplayNameLabel.Text = Language.strColumnDisplayName;
+            FilenameLabel.Text = $@"{Language.strColumnFilename}:";
+            ArgumentsLabel.Text = $@"{Language.strColumnArguments}:";
+            WorkingDirLabel.Text = $@"{Language.strWorkingDirColumnHeader}:";
+            OptionsLabel.Text = $@"{Language.strMenuOptions}:";
 
             WaitForExitCheckBox.Text = Language.strCheckboxWaitForExit;
             BrowseButton.Text = Language.strButtonBrowse;
             BrowseWorkingDir.Text = Language.strButtonBrowse;
-            NewToolMenuItem.Text = Language.strMenuNewExternalTool;
+            NewToolMenuItem.Text = Language.strExternalToolDefaultName;
             DeleteToolMenuItem.Text = Language.strMenuDeleteExternalTool;
             LaunchToolMenuItem.Text = Language.strMenuLaunchExternalTool;
         }

@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Windows.Forms;
@@ -231,7 +231,7 @@ namespace mRemoteNG.UI.Forms
             Text = Language.strExport;
 
             grpFile.Text = Language.strExportFile;
-            lblFileName.Text = Language.strLabelFilename;
+            lblFileName.Text = $@"{Language.strColumnFilename}:";
             btnBrowse.Text = Language.strButtonBrowse;
             lblFileFormat.Text = Language.strFileFormatLabel;
 
@@ -242,10 +242,10 @@ namespace mRemoteNG.UI.Forms
 
             grpProperties.Text = Language.strExportProperties;
             chkUsername.Text = Language.strCheckboxUsername;
-            chkPassword.Text = Language.strCheckboxPassword;
+            chkPassword.Text = Language.strTitlePassword;
             chkDomain.Text = Language.strCheckboxDomain;
             chkAssignedCredential.Text = Language.strAssignedCredential;
-            chkInheritance.Text = Language.strCheckboxInheritance;
+            chkInheritance.Text = Language.strButtonInheritance;
             lblUncheckProperties.Text = Language.strUncheckProperties;
 
             btnOK.Text = Language.strButtonOK;

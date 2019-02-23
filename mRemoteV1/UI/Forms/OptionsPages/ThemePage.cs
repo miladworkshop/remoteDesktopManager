@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Windows.Forms;
 using mRemoteNG.Themes;
 using System.Linq;
@@ -40,8 +40,8 @@ namespace mRemoteNG.UI.Forms.OptionsPages
         {
             base.ApplyLanguage();
 
-            btnThemeDelete.Text = Language.strOptionsThemeButtonDelete;
-            btnThemeNew.Text = Language.strOptionsThemeButtonNew;
+            btnThemeDelete.Text = Language.strOptionsKeyboardButtonDelete;
+            btnThemeNew.Text = Language.strButtonNew;
             labelRestart.Text = Language.strOptionsThemeChangeWarning;
         }
 

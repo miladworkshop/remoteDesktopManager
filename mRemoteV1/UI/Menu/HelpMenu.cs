@@ -127,7 +127,7 @@ namespace mRemoteNG.UI.Menu
             _mMenInfoAbout.Image = Resources.mRemoteNG;
             _mMenInfoAbout.Name = "mMenInfoAbout";
             _mMenInfoAbout.Size = new System.Drawing.Size(190, 22);
-            _mMenInfoAbout.Text = Language.strMenuAbout;
+            _mMenInfoAbout.Text = Language.strAbout;
             _mMenInfoAbout.Click += mMenInfoAbout_Click;
         }
 
@@ -140,7 +140,7 @@ namespace mRemoteNG.UI.Menu
             _mMenInfoForum.Text = Language.strMenuSupportForum;
             _mMenInfoBugReport.Text = Language.strMenuReportBug;
             _mMenToolsUpdate.Text = Language.strMenuCheckForUpdates;
-            _mMenInfoAbout.Text = Language.strMenuAbout;
+            _mMenInfoAbout.Text = Language.strAbout;
         }
 
         #region Info

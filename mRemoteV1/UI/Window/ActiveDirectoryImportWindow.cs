@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Linq;
 using System.Windows.Forms;
 using WeifenLuo.WinFormsUI.Docking;
@@ -90,7 +90,7 @@ namespace mRemoteNG.UI.Window
         private void ApplyLanguage()
         {
             btnImport.Text = Language.strButtonImport;
-            lblDomain.Text = Language.strLabelDomain;
+            lblDomain.Text = $@"{Language.strCheckboxDomain}:";
             chkSubOU.Text = Language.strImportSubOUs;
             btnChangeDomain.Text = Language.strButtonChange;
             btnClose.Text = Language.strButtonClose;

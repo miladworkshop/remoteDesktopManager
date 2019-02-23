@@ -102,7 +102,7 @@ namespace mRemoteNG.UI.Controls
             _btnQuickConnect.Margin = new Padding(0, 1, 3, 2);
             _btnQuickConnect.Name = "btnQuickConnect";
             _btnQuickConnect.Size = new Size(84, 22);
-            _btnQuickConnect.Text = Language.strMenuConnect;
+            _btnQuickConnect.Text = Language.strConnect;
             _btnQuickConnect.ButtonClick += btnQuickConnect_ButtonClick;
             _btnQuickConnect.DropDownItemClicked += btnQuickConnect_DropDownItemClicked;
             // 
@@ -123,7 +123,7 @@ namespace mRemoteNG.UI.Controls
             _btnConnections.ImageTransparentColor = Color.Magenta;
             _btnConnections.Name = "btnConnections";
             _btnConnections.Size = new Size(29, 22);
-            _btnConnections.Text = Language.strMenuConnections;
+            _btnConnections.Text = Language.strConnections;
             _btnConnections.DropDownOpening += btnConnections_DropDownOpening;
             // 
             // mnuConnections
@@ -138,10 +138,8 @@ namespace mRemoteNG.UI.Controls
         private void ApplyTheme()
         {
             if (!_themeManager.ThemingActive) return;
-            vsToolStripExtender.SetStyle(_mnuQuickConnectProtocol, _themeManager.ActiveTheme.Version,
-                                         _themeManager.ActiveTheme.Theme);
-            vsToolStripExtender.SetStyle(_mnuConnections, _themeManager.ActiveTheme.Version,
-                                         _themeManager.ActiveTheme.Theme);
+            vsToolStripExtender.SetStyle(_mnuQuickConnectProtocol, _themeManager.ActiveTheme.Version, _themeManager.ActiveTheme.Theme);
+            vsToolStripExtender.SetStyle(_mnuConnections, _themeManager.ActiveTheme.Version, _themeManager.ActiveTheme.Theme);
 
             if (!_themeManager.ActiveAndExtended) return;
             _cmbQuickConnect.BackColor = _themeManager.ActiveTheme.ExtendedPalette.getColor("TextBox_Background");

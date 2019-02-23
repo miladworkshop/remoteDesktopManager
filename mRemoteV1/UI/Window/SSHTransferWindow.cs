@@ -1,4 +1,4 @@
-using mRemoteNG.App;
+﻿using mRemoteNG.App;
 using System;
 using System.IO;
 using System.Threading;
@@ -355,15 +355,15 @@ namespace mRemoteNG.UI.Window
         private void ApplyLanguage()
         {
             grpFiles.Text = Language.strGroupboxFiles;
-            lblLocalFile.Text = Language.strLocalFile + ":";
-            lblRemoteFile.Text = Language.strRemoteFile + ":";
+            lblLocalFile.Text = $@"{Language.strLocalFile}:";
+            lblRemoteFile.Text = $@"{Language.strRemoteFile}:";
             btnBrowse.Text = Language.strButtonBrowse;
-            grpConnection.Text = Language.strGroupboxConnection;
+            grpConnection.Text = Language.strCategoryConnection;
             lblProtocol.Text = Language.strLabelProtocol;
-            lblPassword.Text = Language.strLabelPassword;
-            lblUser.Text = Language.strUser + ":";
-            lblPort.Text = Language.strLabelPort;
-            lblHost.Text = Language.strHost + ":";
+            lblPassword.Text = $@"{Language.strTitlePassword}:";
+            lblUser.Text = $@"{Language.strUser}:";
+            lblPort.Text = $@"{Language.strPropertyNamePort}:";
+            lblHost.Text = $@"{Language.strHost}:";
             btnTransfer.Text = Language.strTransfer;
             TabText = Language.strMenuSSHFileTransfer;
             Text = Language.strMenuSSHFileTransfer;

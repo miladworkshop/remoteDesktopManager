@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using mRemoteNG.App;
 using mRemoteNG.Config.Connections;
 using mRemoteNG.Config.Connections.Multiuser;
@@ -34,9 +34,9 @@ namespace mRemoteNG.UI.Forms.OptionsPages
 
             chkUseSQLServer.Text = Language.strUseSQLServer;
             lblSQLServer.Text = Language.strLabelHostname;
-            lblSQLDatabaseName.Text = Language.strLabelSQLServerDatabaseName;
-            lblSQLUsername.Text = Language.strLabelUsername;
-            lblSQLPassword.Text = Language.strLabelPassword;
+            lblSQLDatabaseName.Text = $@"{Language.strLabelSQLDatabaseName}!";
+            lblSQLUsername.Text = $@"{Language.strCheckboxUsername}:";
+            lblSQLPassword.Text = $@"{Language.strTitlePassword}:";
             lblSQLReadOnly.Text = Language.strLabelReadOnly;
             btnTestConnection.Text = Language.TestConnection;
         }
