@@ -610,7 +610,7 @@ namespace mRemoteNG.UI.Window
             _btnShowDefaultInheritance.Text = Language.ButtonDefaultInheritance;
             _btnShowProperties.Text = Language.ButtonProperties;
             _btnShowDefaultProperties.Text = Language.ButtonDefaultProperties;
-            _btnIcon.Text = Language.ButtonIcon;
+            _btnIcon.Text = Language.PropertyNameIcon;
             _btnHostStatus.Text = Language.Status;
             Text = Language.MenuConfig;
             TabText = Language.MenuConfig;
@@ -726,7 +726,7 @@ namespace mRemoteNG.UI.Window
         {
             Debug.WriteLine("update config");
             if (!(_pGrid.SelectedObject is ConnectionInfo selectedGridObject)) return;
-            if (e.ChangedItem.Label == Language.LabelProtocol)
+            if (e.ChangedItem.Label == Language.PropertyNameProtocol)
             {
                 selectedGridObject.SetDefaultPort();
             }
@@ -739,13 +739,13 @@ namespace mRemoteNG.UI.Window
                         connectionInfo.Hostname = connectionInfo.Name;
                 }
             }
-            else if (e.ChangedItem.Label == Language.ButtonIcon)
+            else if (e.ChangedItem.Label == Language.PropertyNameIcon)
             {
                 var conIcon = ConnectionIcon.FromString(Convert.ToString(selectedGridObject.Icon));
                 if (conIcon != null)
                     _btnIcon.Image = conIcon.ToBitmap();
             }
-            else if (e.ChangedItem.Label == Language.ColumnHostnameIP)
+            else if (e.ChangedItem.Label == Language.PropertyNameAddress)
             {
                 SetHostStatus(selectedGridObject);
             }

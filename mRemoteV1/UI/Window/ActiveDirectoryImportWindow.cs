@@ -90,7 +90,7 @@ namespace mRemoteNG.UI.Window
         private void ApplyLanguage()
         {
             btnImport.Text = Language.ButtonImport;
-            lblDomain.Text = $@"{Language.CheckboxDomain}:";
+            lblDomain.Text = $@"{Language.PropertyNameDomain}:";
             chkSubOU.Text = Language.ImportSubOUs;
             btnChangeDomain.Text = Language.ButtonChange;
             btnClose.Text = Language.ButtonClose;

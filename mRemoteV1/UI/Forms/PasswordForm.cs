@@ -94,10 +94,10 @@ namespace mRemoteNG.UI.Forms
         private void ApplyLanguage()
         {
             Text = string.IsNullOrEmpty(_passwordName)
-                ? Language.TitlePassword
+                ? Language.PropertyNamePassword
                 : string.Format(Language.TitlePasswordWithName, _passwordName);
 
-            lblPassword.Text = $@"{Language.TitlePassword}:";
+            lblPassword.Text = $@"{Language.PropertyNamePassword}:";
             lblVerify.Text = Language.LabelVerify;
             btnCancel.Text = Language.ButtonCancel;
             btnOK.Text = Language.ButtonOK;

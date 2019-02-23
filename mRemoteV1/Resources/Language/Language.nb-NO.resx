@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<!-- 
+  <!-- 
     Microsoft ResX Schema 
     
     Version 2.0
@@ -59,1963 +59,1963 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-	<xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
-		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
-		<xsd:element name="root" msdata:IsDataSet="true">
-			<xsd:complexType>
-				<xsd:choice maxOccurs="unbounded">
-					<xsd:element name="metadata">
-						<xsd:complexType>
-							<xsd:sequence>
-								<xsd:element name="value" type="xsd:string" minOccurs="0" />
-							</xsd:sequence>
-							<xsd:attribute name="name" use="required" type="xsd:string" />
-							<xsd:attribute name="type" type="xsd:string" />
-							<xsd:attribute name="mimetype" type="xsd:string" />
-							<xsd:attribute ref="xml:space" />
-						</xsd:complexType>
-					</xsd:element>
-					<xsd:element name="assembly">
-						<xsd:complexType>
-							<xsd:attribute name="alias" type="xsd:string" />
-							<xsd:attribute name="name" type="xsd:string" />
-						</xsd:complexType>
-					</xsd:element>
-					<xsd:element name="data">
-						<xsd:complexType>
-							<xsd:sequence>
-								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
-							</xsd:sequence>
-							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-							<xsd:attribute ref="xml:space" />
-						</xsd:complexType>
-					</xsd:element>
-					<xsd:element name="resheader">
-						<xsd:complexType>
-							<xsd:sequence>
-								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-							</xsd:sequence>
-							<xsd:attribute name="name" type="xsd:string" use="required" />
-						</xsd:complexType>
-					</xsd:element>
-				</xsd:choice>
-			</xsd:complexType>
-		</xsd:element>
-	</xsd:schema>
-	<resheader name="reader">
-		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-	</resheader>
-	<resheader name="resmimetype">
-		<value>text/microsoft-resx</value>
-	</resheader>
-	<resheader name="version">
-		<value>2.0</value>
-	</resheader>
-	<resheader name="writer">
-		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-	</resheader>
-	<data name="About" xml:space="preserve">
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
     <value>Om</value>
   </data>
-	<data name="Active" xml:space="preserve">
+  <data name="Active" xml:space="preserve">
     <value>Aktiv</value>
   </data>
-	<data name="Activity" xml:space="preserve">
+  <data name="Activity" xml:space="preserve">
     <value>Aktivitet</value>
   </data>
-	<data name="AddConnection" xml:space="preserve">
+  <data name="AddConnection" xml:space="preserve">
     <value>Ny tilkobling</value>
   </data>
-	<data name="AddFolder" xml:space="preserve">
+  <data name="AddFolder" xml:space="preserve">
     <value>Ny mappe</value>
   </data>
-	<data name="AddNodeFromXmlFailed" xml:space="preserve">
+  <data name="AddNodeFromXmlFailed" xml:space="preserve">
     <value>AddNodeFromXML mislyktes!</value>
   </data>
-	<data name="AddNodesFromSqlFailed" xml:space="preserve">
+  <data name="AddNodesFromSqlFailed" xml:space="preserve">
     <value>AddNodesFromSQL mislyktes!</value>
   </data>
-	<data name="AllowOnlySingleInstance" xml:space="preserve">
+  <data name="AllowOnlySingleInstance" xml:space="preserve">
     <value>Tillat bare én instans av programmet (omstart av mRemoteNG påkrevd)</value>
   </data>
-	<data name="Always" xml:space="preserve">
+  <data name="Always" xml:space="preserve">
     <value>Alltid</value>
   </data>
-	<data name="AlwaysConnectEvenIfAuthFails" xml:space="preserve">
+  <data name="AlwaysConnectEvenIfAuthFails" xml:space="preserve">
     <value>Alltid koble til, selv om autentisering feiler</value>
   </data>
-	<data name="AlwaysShowPanelSelection" xml:space="preserve">
+  <data name="AlwaysShowPanelSelection" xml:space="preserve">
     <value>Alltid vis panelvalgdialog når tilkoblinger åpnes</value>
   </data>
-	<data name="AlwaysShowPanelTabs" xml:space="preserve">
+  <data name="AlwaysShowPanelTabs" xml:space="preserve">
     <value>Alltid vis panelfaner</value>
   </data>
-	<data name="AlwaysShowSysTrayIcon" xml:space="preserve">
+  <data name="AlwaysShowSysTrayIcon" xml:space="preserve">
     <value>Alltid vis ikon i notisfeltet</value>
   </data>
-	<data name="AskUpdatesCommandAskLater" xml:space="preserve">
+  <data name="AskUpdatesCommandAskLater" xml:space="preserve">
     <value>Spør meg igjen senere</value>
   </data>
-	<data name="AskUpdatesCommandCustom" xml:space="preserve">
+  <data name="AskUpdatesCommandCustom" xml:space="preserve">
     <value>Tilpass innstillingene nå</value>
   </data>
-	<data name="AskUpdatesCommandRecommended" xml:space="preserve">
+  <data name="AskUpdatesCommandRecommended" xml:space="preserve">
     <value>Bruk de anbefalte innstillingene</value>
   </data>
-	<data name="AskUpdatesContent" xml:space="preserve">
+  <data name="AskUpdatesContent" xml:space="preserve">
     <value>{0} kan automatisk se etter oppdateringer som kan tilby ny funksjonalitet og feilrettinger. Det er anbefalt at du lar {0} se etter oppdateringer ukentlig.</value>
   </data>
-	<data name="AskUpdatesMainInstruction" xml:space="preserve">
+  <data name="AskUpdatesMainInstruction" xml:space="preserve">
     <value>Innstillinger for automatiske oppdateringer</value>
   </data>
-	<data name="Aspect" xml:space="preserve">
+  <data name="Aspect" xml:space="preserve">
     <value>Aspekt</value>
   </data>
-	<data name="AutomaticallyGetSessionInfo" xml:space="preserve">
+  <data name="AutomaticallyGetSessionInfo" xml:space="preserve">
     <value>Hent sesjonsinformasjon automatisk</value>
   </data>
-	<data name="AutoSaveEvery" xml:space="preserve">
+  <data name="AutoSaveEvery" xml:space="preserve">
     <value>Lagre automatisk hvert:</value>
   </data>
-	<data name="AutoSaveMins" xml:space="preserve">
+  <data name="AutoSaveMins" xml:space="preserve">
     <value>minutt (0 betyr deaktivert)</value>
   </data>
-	<data name="AvailableVersion" xml:space="preserve">
+  <data name="AvailableVersion" xml:space="preserve">
     <value>Gjeldende versjon</value>
   </data>
-	<data name="ButtonBrowse" xml:space="preserve">
+  <data name="ButtonBrowse" xml:space="preserve">
     <value>&amp;Bla gjennom...</value>
   </data>
-	<data name="ButtonCancel" xml:space="preserve">
+  <data name="ButtonCancel" xml:space="preserve">
     <value>&amp;Avbryt</value>
   </data>
-	<data name="ButtonChange" xml:space="preserve">
+  <data name="ButtonChange" xml:space="preserve">
     <value>Endre</value>
   </data>
-	<data name="ButtonClose" xml:space="preserve">
+  <data name="ButtonClose" xml:space="preserve">
     <value>&amp;Lukk</value>
   </data>
-	<data name="ButtonDefaultInheritance" xml:space="preserve">
+  <data name="ButtonDefaultInheritance" xml:space="preserve">
     <value>Standard arv</value>
   </data>
-	<data name="ButtonDefaultProperties" xml:space="preserve">
+  <data name="ButtonDefaultProperties" xml:space="preserve">
     <value>Standardegenskaper</value>
   </data>
-	<data name="ButtonDisconnect" xml:space="preserve">
+  <data name="ButtonDisconnect" xml:space="preserve">
     <value>Koble fra</value>
   </data>
-	<data name="ButtonIcon" xml:space="preserve">
+  <data name="PropertyNameIcon" xml:space="preserve">
     <value>Ikon</value>
   </data>
-	<data name="ButtonImport" xml:space="preserve">
+  <data name="ButtonImport" xml:space="preserve">
     <value>&amp;Importer</value>
   </data>
-	<data name="ButtonInheritance" xml:space="preserve">
+  <data name="ButtonInheritance" xml:space="preserve">
     <value>Arv</value>
   </data>
-	<data name="ButtonLaunchPutty" xml:space="preserve">
+  <data name="ButtonLaunchPutty" xml:space="preserve">
     <value>Start PuTTY</value>
   </data>
-	<data name="ButtonNew" xml:space="preserve">
+  <data name="ButtonNew" xml:space="preserve">
     <value>&amp;Ny</value>
   </data>
-	<data name="ButtonOK" xml:space="preserve">
+  <data name="ButtonOK" xml:space="preserve">
     <value>&amp;OK</value>
   </data>
-	<data name="ButtonProperties" xml:space="preserve">
+  <data name="ButtonProperties" xml:space="preserve">
     <value>Egenskaper</value>
   </data>
-	<data name="ButtonScan" xml:space="preserve">
+  <data name="ButtonScan" xml:space="preserve">
     <value>&amp;Søk</value>
   </data>
-	<data name="ButtonStop" xml:space="preserve">
+  <data name="ButtonStop" xml:space="preserve">
     <value>&amp;Stopp</value>
   </data>
-	<data name="ButtonTestProxy" xml:space="preserve">
+  <data name="ButtonTestProxy" xml:space="preserve">
     <value>Test proxy</value>
   </data>
-	<data name="CannotImportNormalSessionFile" xml:space="preserve">
+  <data name="CannotImportNormalSessionFile" xml:space="preserve">
     <value>Du kan ikke importere en vanlig tilkoblingsfil.
 Vennligst bruk Fil - Last inn tilkoblinger for vanlige tilkoblingsfiler!</value>
   </data>
-	<data name="CannotStartPortScan" xml:space="preserve">
+  <data name="CannotStartPortScan" xml:space="preserve">
     <value>Kan ikke starte portskanning, feil IP-format!</value>
   </data>
-	<data name="CategoryAppearance" xml:space="preserve">
+  <data name="CategoryAppearance" xml:space="preserve">
     <value>Utseende</value>
   </data>
-	<data name="CategoryConnection" xml:space="preserve">
+  <data name="CategoryConnection" xml:space="preserve">
     <value>Tilkobling</value>
   </data>
-	<data name="CategoryDisplay" xml:space="preserve">
+  <data name="CategoryDisplay" xml:space="preserve">
     <value>Skjerm</value>
   </data>
-	<data name="CategoryGateway" xml:space="preserve">
+  <data name="CategoryGateway" xml:space="preserve">
     <value>Gateway</value>
   </data>
-	<data name="CategoryMiscellaneous" xml:space="preserve">
+  <data name="CategoryMiscellaneous" xml:space="preserve">
     <value>Diverse</value>
   </data>
-	<data name="CategoryRedirect" xml:space="preserve">
+  <data name="CategoryRedirect" xml:space="preserve">
     <value>Omdiriger</value>
   </data>
-	<data name="CcAlwaysShowScreen" xml:space="preserve">
+  <data name="CcAlwaysShowScreen" xml:space="preserve">
     <value>Alltid vis denne skjermen ved oppstart</value>
   </data>
-	<data name="CcCheckSucceeded" xml:space="preserve">
+  <data name="CcCheckSucceeded" xml:space="preserve">
     <value>Sjekk lyktes!</value>
   </data>
-	<data name="CcEOLFailed" xml:space="preserve">
+  <data name="CcEOLFailed" xml:space="preserve">
     <value>(RDP) økter-funksjonen krever at du har en registrert kopi av eolwtscom.dll på systemet.
 mRemoteNG leveres med denne komponenten, men vil ikke automatisk registrere det med mindre du kjører installasjonsprogrammet.
 For å registrere det manuelt gjør dette: Åpne Kjør-dialogboksen (Start - Kjør) og skriv inn følgende: regsvr32 "c:\Program Files\mRemoteNG\eolwtscom.dll" (der c:\Program Files\mRemoteNG\ er banen til din mRemoteNG-installasjon).
 Hvis du fortsatt ikke passerer denne kontrollen eller bruke (RDP) økter-funksjonene i mRemoteNG kan du konsultere mRemoteNG-forumet på http://forum.mremoteng.org/</value>
   </data>
-	<data name="CcEOLOK" xml:space="preserve">
+  <data name="CcEOLOK" xml:space="preserve">
     <value>EOLWTSCOM ble funnet, og synes å være korrekt registrert.</value>
   </data>
-	<data name="CcGeckoFailed" xml:space="preserve">
+  <data name="CcGeckoFailed" xml:space="preserve">
     <value>For å bruke Gecko-renderingsmotoren må du ha XULrunner 1.8.1.x installert og stien til installasjonen angitt i Alternativer.
 Du kan laste ned XULrunner 1.8.1.3 herfra: ftp://ftp.mozilla.org/pub/xulrunner/releases/1.8.1.3/contrib/win32/
 Når nedlastingen er ferdig, pakk den ut til et passende sted. I mRemoteNG, gå til Verktøy - Alternativer - Avansert og skriv inn korrekt sti i XULrunner-stifeltet.
 Hvis du fremdeles ikke passerer denne kontrollen eller brukre Gecko-renderingsmotoren i mRemoteNG, vennligst konsulter mRemoteNG-forumet på http://forum.mremoteng.org/</value>
   </data>
-	<data name="CcGeckoOK" xml:space="preserve">
+  <data name="CcGeckoOK" xml:space="preserve">
     <value>GeckoFx ble funnet å ser ut til å være korrekt installert.</value>
   </data>
-	<data name="CcICAFailed" xml:space="preserve">
+  <data name="CcICAFailed" xml:space="preserve">
     <value>ICA krever at XenDesktop Online Plugin er installert og at wfica.ocx-biblioteket er registrert. Du kan laste ned klienten herfra: http://www.citrix.com/download/
 Hvis du har XenDesktop Online Pluginen installert og kontrollen fremdeles feiler, kan du forsøke å registrere wfica.ocx manuelt.
 For å gjøre dette, åpne Kjør-dialogboksen (Start - Kjør) og skriv inn følgende: regsvr32 "c:\Program Files\Citrix\ICA Client\wfica.ocx" (der c:\Program Files\Citrix\ICA Client\ er stien til XenDesktop Online Plugin-installasjonen).
 Hvis du fremdeles ikke passerer kontrollen eller bruke ICA i mRemoteNG, vennligst konsulter mRemoteNG-forumet på http://forum.mremoteng.org/</value>
   </data>
-	<data name="CcICAOK" xml:space="preserve">
+  <data name="CcICAOK" xml:space="preserve">
     <value>Alle ICA-komponenter ble funnet, og ser ut til å være korrekt registrert.
 Citrix ICA Client Control Version {0}</value>
   </data>
-	<data name="CcNotInstalledProperly" xml:space="preserve">
+  <data name="CcNotInstalledProperly" xml:space="preserve">
     <value>ikke korrekt installert</value>
   </data>
-	<data name="CcPuttyFailed" xml:space="preserve">
+  <data name="CcPuttyFailed" xml:space="preserve">
     <value>SSH-, Telnet-, Rlogin- og RAW-protokollene trenger PuTTY for å fungere. PuTTY kommer med hver mRemoteNG-pakke, og ligger i installasjonsstien.
 Vennligst kontroller at du enten har putty.exe i mRemoteNG-mappen (standard: C:\Program Files\mRemoteNG\) eller at du har angitt en gyldig sti til putty.exe i Alternativer (Verktøy - Alternativer - Avansert - Egendefinert bane til PuTTY)</value>
   </data>
-	<data name="CcPuttyOK" xml:space="preserve">
+  <data name="CcPuttyOK" xml:space="preserve">
     <value>PuTTY ble funnet og er klar til bruk.</value>
   </data>
-	<data name="CcRDPFailed" xml:space="preserve">
+  <data name="CcRDPFailed" xml:space="preserve">
     <value>For at RDP skal fungere korrekt må du som et minimum ha Remote Desktop Connection (Terminal Services Client) 8.0 installert. Denne kan lastes ned herfra: https://support.microsoft.com/kb/2592687
 Hvis du har RDP 8.0 installert og kontrollen fremdeles feiler, kan du prøve å registrere mstscax.dll manuelt. For å gjøre dette, åpne Kjør-dialogboksen (Start - Kjør) og skriv inn følgende: regsvr32 "c:\windows\system32\mstscax.dll" (der c:\ er systemdisken).
 Hvis du fremdeles har problemer med å få RDP til å fungere, vennligst konsulter mRemoteNG-forumet på http://forum.mremoteng.org/</value>
   </data>
-	<data name="CcRDPOK" xml:space="preserve">
+  <data name="CcRDPOK" xml:space="preserve">
     <value>Alle RDP-komponenter ble funnet og ser ut til å være korrekt registrert.
 Remote Desktop Connection Control Version {0}</value>
   </data>
-	<data name="CcVNCFailed" xml:space="preserve">
+  <data name="CcVNCFailed" xml:space="preserve">
     <value>VNC krever at VncSharp.dll finnes i mappen mRemoteNG er installert i.
 Vennligst kontroller at du har VncSharp.dll i installasjonsmappen til mRemoteNG (vanligvis C:\Program Files\mRemoteNG\).
 Hvis du ikke passerer kontrollen eller ikke får brukt VNC i mRemoteNG, vennligst konsulter mRemoteNG-forumet på http://forum.mremoteng.org/</value>
   </data>
-	<data name="CcVNCOK" xml:space="preserve">
+  <data name="CcVNCOK" xml:space="preserve">
     <value>Alle VNC-komponenter ble funnet og ser ut til å være korrekt registrert.
 VncSharp Control Version {0}</value>
   </data>
-	<data name="CheckboxAutomaticReconnect" xml:space="preserve">
+  <data name="CheckboxAutomaticReconnect" xml:space="preserve">
     <value>Forsøk å automatisk koble til på nytt ved frakobling fra server (kun RDP &amp;&amp; ICA)</value>
   </data>
-	<data name="CheckboxDomain" xml:space="preserve">
+  <data name="PropertyNameDomain" xml:space="preserve">
     <value>Domene</value>
   </data>
-	<data name="CheckboxDoNotShowThisMessageAgain" xml:space="preserve">
+  <data name="CheckboxDoNotShowThisMessageAgain" xml:space="preserve">
     <value>Ikke vis denne meldingen igjen.</value>
   </data>
-	<data name="CheckboxProxyAuthentication" xml:space="preserve">
+  <data name="CheckboxProxyAuthentication" xml:space="preserve">
     <value>Denne proxyserveren krever autentisering</value>
   </data>
-	<data name="CheckboxPuttyPath" xml:space="preserve">
+  <data name="CheckboxPuttyPath" xml:space="preserve">
     <value>Bruk egendefinert sti til PuTTY:</value>
   </data>
-	<data name="CheckboxReconnectWhenReady" xml:space="preserve">
+  <data name="CheckboxReconnectWhenReady" xml:space="preserve">
     <value>Koble til på nytt når klar</value>
   </data>
-	<data name="CheckboxUpdateUseProxy" xml:space="preserve">
+  <data name="CheckboxUpdateUseProxy" xml:space="preserve">
     <value>Bruk proxyserver for tilkobling</value>
   </data>
-	<data name="CheckboxUsername" xml:space="preserve">
+  <data name="PropertyNameUsername" xml:space="preserve">
     <value>Brukernavn</value>
   </data>
-	<data name="CheckboxWaitForExit" xml:space="preserve">
+  <data name="CheckboxWaitForExit" xml:space="preserve">
     <value>Vent på avslutning</value>
   </data>
-	<data name="CheckForUpdate" xml:space="preserve">
+  <data name="CheckForUpdate" xml:space="preserve">
     <value>Sjekk igjen</value>
   </data>
-	<data name="CheckForUpdatesOnStartup" xml:space="preserve">
+  <data name="CheckForUpdatesOnStartup" xml:space="preserve">
     <value>Se etter oppdateringer og kunngjøringer ved oppstart</value>
   </data>
-	<data name="CheckNow" xml:space="preserve">
+  <data name="CheckNow" xml:space="preserve">
     <value>Sjekk nå</value>
   </data>
-	<data name="CheckProperInstallationOfComponentsAtStartup" xml:space="preserve">
+  <data name="CheckProperInstallationOfComponentsAtStartup" xml:space="preserve">
     <value>Sjekk for korrekt installasjon av komponenter ved oppstart</value>
   </data>
-	<data name="ChoosePanelBeforeConnecting" xml:space="preserve">
+  <data name="ChoosePanelBeforeConnecting" xml:space="preserve">
     <value>Velg panel før tilkobling</value>
   </data>
-	<data name="ClosedPorts" xml:space="preserve">
+  <data name="ClosedPorts" xml:space="preserve">
     <value>Lukkede porter</value>
   </data>
-	<data name="CollapseAllFolders" xml:space="preserve">
+  <data name="CollapseAllFolders" xml:space="preserve">
     <value>Slå sammen alle mapper</value>
   </data>
-	<data name="ColumnArguments" xml:space="preserve">
+  <data name="ColumnArguments" xml:space="preserve">
     <value>Argumenter</value>
   </data>
-	<data name="ColumnDisplayName" xml:space="preserve">
+  <data name="ColumnDisplayName" xml:space="preserve">
     <value>Visningsnavn</value>
   </data>
-	<data name="ColumnFilename" xml:space="preserve">
+  <data name="ColumnFilename" xml:space="preserve">
     <value>Filnavn</value>
   </data>
-	<data name="ColumnHostnameIP" xml:space="preserve">
+  <data name="PropertyNameAddress" xml:space="preserve">
     <value>Vertsnavn/IP-adresse</value>
   </data>
-	<data name="ColumnMessage" xml:space="preserve">
+  <data name="ColumnMessage" xml:space="preserve">
     <value>Melding</value>
   </data>
-	<data name="CommandLineArgsCouldNotBeParsed" xml:space="preserve">
+  <data name="CommandLineArgsCouldNotBeParsed" xml:space="preserve">
     <value>Kunne ikke tolke kommandolinjeargumenter!</value>
   </data>
-	<data name="CompatibilityLenovoAutoScrollUtilityDetected" xml:space="preserve">
+  <data name="CompatibilityLenovoAutoScrollUtilityDetected" xml:space="preserve">
     <value>{0} har oppdaget at Lenovo Auto Scroll-verktøyet kjører på dette systemet. Dette verktøyet er kjent for å forårsake problemer med {0}. Det anbefales at du deaktiverer eller avinstallerer dette programmet.</value>
   </data>
-	<data name="CompatibilityProblemDetected" xml:space="preserve">
+  <data name="CompatibilityProblemDetected" xml:space="preserve">
     <value>Kompatibilitetsproblem oppdaget</value>
   </data>
-	<data name="ComponentsCheck" xml:space="preserve">
+  <data name="ComponentsCheck" xml:space="preserve">
     <value>Komponentkontroll</value>
   </data>
-	<data name="ConfigPropertyGridButtonIconClickFailed" xml:space="preserve">
+  <data name="ConfigPropertyGridButtonIconClickFailed" xml:space="preserve">
     <value>btnIcon_Click mislyktes!</value>
   </data>
-	<data name="ConfigPropertyGridHideItemsFailed" xml:space="preserve">
+  <data name="ConfigPropertyGridHideItemsFailed" xml:space="preserve">
     <value>ShowHideGridItems mislyktes!</value>
   </data>
-	<data name="ConfigPropertyGridMenuClickFailed" xml:space="preserve">
+  <data name="ConfigPropertyGridMenuClickFailed" xml:space="preserve">
     <value>IconMenu_Click mislyktes!</value>
   </data>
-	<data name="ConfigPropertyGridObjectFailed" xml:space="preserve">
+  <data name="ConfigPropertyGridObjectFailed" xml:space="preserve">
     <value>Property Grid-objekt mislyktes!</value>
   </data>
-	<data name="ConfigPropertyGridSetHostStatusFailed" xml:space="preserve">
+  <data name="ConfigPropertyGridSetHostStatusFailed" xml:space="preserve">
     <value>SetHostStatus mislyktes!</value>
   </data>
-	<data name="ConfigPropertyGridValueFailed" xml:space="preserve">
+  <data name="ConfigPropertyGridValueFailed" xml:space="preserve">
     <value>pGrid_PopertyValueChanged mislyktes!</value>
   </data>
-	<data name="ConfigUiLoadFailed" xml:space="preserve">
+  <data name="ConfigUiLoadFailed" xml:space="preserve">
     <value>Innlasting av Konfigurasjonsgrensesnitt mislyktes!</value>
   </data>
-	<data name="ConfirmCloseConnectionMainInstruction" xml:space="preserve">
+  <data name="ConfirmCloseConnectionMainInstruction" xml:space="preserve">
     <value>Ønsker du å avslutte tilkoblingen:
 "{0}"?</value>
   </data>
-	<data name="ConfirmCloseConnectionPanelMainInstruction" xml:space="preserve">
+  <data name="ConfirmCloseConnectionPanelMainInstruction" xml:space="preserve">
     <value>Er du sikker på at du ønsker å lukke panelet "{0}"? Alle tilkoblinger den inneholder vil også bli lukket.</value>
   </data>
-	<data name="ConfirmDeleteExternalTool" xml:space="preserve">
+  <data name="ConfirmDeleteExternalTool" xml:space="preserve">
     <value>Er du sikker på at du ønsker å slette det eksterne verktøyet "{0}"?</value>
   </data>
-	<data name="ConfirmDeleteExternalToolMultiple" xml:space="preserve">
+  <data name="ConfirmDeleteExternalToolMultiple" xml:space="preserve">
     <value>Er du sikker på at du ønsker å slette de {0} valgte eksterne verktøyene?</value>
   </data>
-	<data name="ConfirmDeleteNodeConnection" xml:space="preserve">
+  <data name="ConfirmDeleteNodeConnection" xml:space="preserve">
     <value>Er du sikker på at du ønsker å slette tilkoblingen "{0}"?</value>
   </data>
-	<data name="ConfirmDeleteNodeFolder" xml:space="preserve">
+  <data name="ConfirmDeleteNodeFolder" xml:space="preserve">
     <value>Er du sikker på at du ønsker å slette den tomme mappen "{0}"?</value>
   </data>
-	<data name="ConfirmDeleteNodeFolderNotEmpty" xml:space="preserve">
+  <data name="ConfirmDeleteNodeFolderNotEmpty" xml:space="preserve">
     <value>Er du sikker på at du ønsker å slette mappen "{0}"? Alle undermapper eller tilkoblinger den inneholder vil også bli slettet.</value>
   </data>
-	<data name="ConfirmExitMainInstruction" xml:space="preserve">
+  <data name="ConfirmExitMainInstruction" xml:space="preserve">
     <value>Ønsker du å avslutte alle åpne tilkoblinger?</value>
   </data>
-	<data name="ConfirmResetLayout" xml:space="preserve">
+  <data name="ConfirmResetLayout" xml:space="preserve">
     <value>Er du sikker på at du ønsker å tilbakestille alle paneler til standardoppsett?</value>
   </data>
-	<data name="Connect" xml:space="preserve">
+  <data name="Connect" xml:space="preserve">
     <value>Koble til</value>
   </data>
-	<data name="ConnectInFullscreen" xml:space="preserve">
+  <data name="ConnectInFullscreen" xml:space="preserve">
     <value>Koble til i fullskjermmodus</value>
   </data>
-	<data name="Connecting" xml:space="preserve">
+  <data name="Connecting" xml:space="preserve">
     <value>Kobler til...</value>
   </data>
-	<data name="ConnectionEventConnected" xml:space="preserve">
+  <data name="ConnectionEventConnected" xml:space="preserve">
     <value>Protokollhendelse tilkoblet</value>
   </data>
-	<data name="ConnectionEventConnectedDetail" xml:space="preserve">
+  <data name="ConnectionEventConnectedDetail" xml:space="preserve">
     <value>Tilkobling til "{0}" via "{1}" etablert av bruker "{2}" (Beskrivelse: "{3}"; Brukerfelt "{4}")</value>
   </data>
-	<data name="ConnectionEventConnectionFailed" xml:space="preserve">
+  <data name="ConnectionEventConnectionFailed" xml:space="preserve">
     <value>Tilkobling mislyktes!</value>
   </data>
-	<data name="ConnectionEventErrorOccured" xml:space="preserve">
+  <data name="ConnectionEventErrorOccured" xml:space="preserve">
     <value>Protokollhendelse ErrorOccured</value>
   </data>
-	<data name="ConnectionOpenFailed" xml:space="preserve">
+  <data name="ConnectionOpenFailed" xml:space="preserve">
     <value>Åpning av tilkobling mislyktes!</value>
   </data>
-	<data name="ConnectionOpenFailedNoHostname" xml:space="preserve">
+  <data name="ConnectionOpenFailedNoHostname" xml:space="preserve">
     <value>Kan ikke åpne forbindelse: Vertsnavn ikke angitt!</value>
   </data>
-	<data name="ConnectionRdpErrorDetail" xml:space="preserve">
+  <data name="ConnectionRdpErrorDetail" xml:space="preserve">
     <value>RDP-feil!
 Feilkode: {0}
 Feilbeskrivelse: {1}</value>
   </data>
-	<data name="Connections" xml:space="preserve">
+  <data name="Connections" xml:space="preserve">
     <value>Tilkoblinger</value>
   </data>
-	<data name="ConnectionSetDefaultPortFailed" xml:space="preserve">
+  <data name="ConnectionSetDefaultPortFailed" xml:space="preserve">
     <value>Kunne ikke angi standardport!</value>
   </data>
-	<data name="ConnectionsFileBackupFailed" xml:space="preserve">
+  <data name="ConnectionsFileBackupFailed" xml:space="preserve">
     <value>Kunne ikke opprette sikkerhetskopi av tilkoblingsfilen!</value>
   </data>
-	<data name="ConnectionsFileCouldNotBeImported" xml:space="preserve">
+  <data name="ConnectionsFileCouldNotBeImported" xml:space="preserve">
     <value>Kunne ikke importere tilkoblingsfilen!</value>
   </data>
-	<data name="ConnectionsFileCouldNotBeLoaded" xml:space="preserve">
+  <data name="ConnectionsFileCouldNotBeLoaded" xml:space="preserve">
     <value>Tilkoblingsfilen "{0}" kunne ikke lastes inn!</value>
   </data>
-	<data name="ConnectionsFileCouldNotBeLoadedNew" xml:space="preserve">
+  <data name="ConnectionsFileCouldNotBeLoadedNew" xml:space="preserve">
     <value>Tilkoblingsfilen "{0}" kunne ikke lastes inn!
 Starter med ny tilkoblingsfil.</value>
   </data>
-	<data name="ConnectionsFileCouldNotBeSaved" xml:space="preserve">
+  <data name="ConnectionsFileCouldNotBeSaved" xml:space="preserve">
     <value>Kunne ikke lagre tilkoblingsfilen!</value>
   </data>
-	<data name="ConnectionsFileCouldNotSaveAs" xml:space="preserve">
+  <data name="ConnectionsFileCouldNotSaveAs" xml:space="preserve">
     <value>Kunne ikke lagre tilkoblingsfilen som "{0}"!</value>
   </data>
-	<data name="ConnectToConsoleSession" xml:space="preserve">
+  <data name="ConnectToConsoleSession" xml:space="preserve">
     <value>Koble til konsolløkt</value>
   </data>
-	<data name="ConnectWithOptions" xml:space="preserve">
+  <data name="ConnectWithOptions" xml:space="preserve">
     <value>Koble til (med alternativer)</value>
   </data>
-	<data name="ConnenctionClosedByUser" xml:space="preserve">
+  <data name="ConnenctionClosedByUser" xml:space="preserve">
     <value>Tilkobling til {0} via {1} ble avsluttet av bruker {2}.</value>
   </data>
-	<data name="ConnenctionClosedByUserDetail" xml:space="preserve">
+  <data name="ConnenctionClosedByUserDetail" xml:space="preserve">
     <value>Tilkobling til {0} via {1} avsluttet av bruker {2}. (Beskrivelse: "{3}"; Brukerfelt: "{4}")</value>
   </data>
-	<data name="ConnenctionCloseEvent" xml:space="preserve">
+  <data name="ConnenctionCloseEvent" xml:space="preserve">
     <value>Tilkoblingshendelse avsluttet</value>
   </data>
-	<data name="ConnenctionCloseEventFailed" xml:space="preserve">
+  <data name="ConnenctionCloseEventFailed" xml:space="preserve">
     <value>Tilkoblingshendelse avsluttet feilet!</value>
   </data>
-	<data name="CouldNotCreateNewConnectionsFile" xml:space="preserve">
+  <data name="CouldNotCreateNewConnectionsFile" xml:space="preserve">
     <value>Kunne ikke opprette ny tilkoblingsfil!</value>
   </data>
-	<data name="CouldNotFindToolStripInFilteredPropertyGrid" xml:space="preserve">
+  <data name="CouldNotFindToolStripInFilteredPropertyGrid" xml:space="preserve">
     <value>Fant ikke ToolStrip-kontroll i FilteredPropertyGrid.</value>
   </data>
-	<data name="CurrentVersion" xml:space="preserve">
+  <data name="CurrentVersion" xml:space="preserve">
     <value>Installert versjon</value>
   </data>
-	<data name="DefaultTheme" xml:space="preserve">
+  <data name="DefaultTheme" xml:space="preserve">
     <value>Standardtema</value>
   </data>
-	<data name="Detect" xml:space="preserve">
+  <data name="Detect" xml:space="preserve">
     <value>Oppdag</value>
   </data>
-	<data name="DontConnectWhenAuthFails" xml:space="preserve">
+  <data name="DontConnectWhenAuthFails" xml:space="preserve">
     <value>Ikke koble til dersom godkjenning mislykkes</value>
   </data>
-	<data name="DoubleClickTabClosesIt" xml:space="preserve">
+  <data name="DoubleClickTabClosesIt" xml:space="preserve">
     <value>Dobbeltklikk på fanen lukker den</value>
   </data>
-	<data name="DownloadAndInstall" xml:space="preserve">
+  <data name="DownloadAndInstall" xml:space="preserve">
     <value>Last ned og installer</value>
   </data>
-	<data name="Duplicate" xml:space="preserve">
+  <data name="Duplicate" xml:space="preserve">
     <value>Duplikat</value>
   </data>
-	<data name="EmptyPasswordContinue" xml:space="preserve">
+  <data name="EmptyPasswordContinue" xml:space="preserve">
     <value>Ønsker du å fortsette uten passord?</value>
   </data>
-	<data name="EmptyUsernamePasswordDomainFields" xml:space="preserve">
+  <data name="EmptyUsernamePasswordDomainFields" xml:space="preserve">
     <value>For tomt brukernavn, passord eller domenefelt, bruk:</value>
   </data>
-	<data name="Enc128Bit" xml:space="preserve">
+  <data name="Enc128Bit" xml:space="preserve">
     <value>128-biters</value>
   </data>
-	<data name="Enc128BitLogonOnly" xml:space="preserve">
+  <data name="Enc128BitLogonOnly" xml:space="preserve">
     <value>128-biters (kun pålogging)</value>
   </data>
-	<data name="EncBasic" xml:space="preserve">
+  <data name="EncBasic" xml:space="preserve">
     <value>Grunnleggende</value>
   </data>
-	<data name="EncryptCompleteConnectionFile" xml:space="preserve">
+  <data name="EncryptCompleteConnectionFile" xml:space="preserve">
     <value>Krypter tilkoblingsfil fullstendig</value>
   </data>
-	<data name="EndIP" xml:space="preserve">
+  <data name="EndIP" xml:space="preserve">
     <value>Siste IP</value>
   </data>
-	<data name="EndPort" xml:space="preserve">
+  <data name="EndPort" xml:space="preserve">
     <value>Siste port</value>
   </data>
-	<data name="ErrorAddExternalToolsToToolBarFailed" xml:space="preserve">
+  <data name="ErrorAddExternalToolsToToolBarFailed" xml:space="preserve">
     <value>AddExternalToolsToToolBar (frmMain) mislyktes. {0}</value>
   </data>
-	<data name="ErrorAddFolderFailed" xml:space="preserve">
+  <data name="ErrorAddFolderFailed" xml:space="preserve">
     <value>AddFolder (UI.Window.Tree) mislyktes. {0}</value>
   </data>
-	<data name="ErrorBadDatabaseVersion" xml:space="preserve">
+  <data name="ErrorBadDatabaseVersion" xml:space="preserve">
     <value>Databaseversjonen {0} er ikke kompatibel med denne versjonen av {1}.</value>
   </data>
-	<data name="ErrorCloneNodeFailed" xml:space="preserve">
+  <data name="ErrorCloneNodeFailed" xml:space="preserve">
     <value>CloneNode (Tree.Node) mislyktes. {0}</value>
   </data>
-	<data name="ErrorCode" xml:space="preserve">
+  <data name="ErrorCode" xml:space="preserve">
     <value>Feilkode {0}.</value>
   </data>
-	<data name="ErrorConnectionListSaveFailed" xml:space="preserve">
+  <data name="ErrorConnectionListSaveFailed" xml:space="preserve">
     <value>Tilkoblingslisten kan ikke lagres.</value>
   </data>
-	<data name="ErrorDecryptionFailed" xml:space="preserve">
+  <data name="ErrorDecryptionFailed" xml:space="preserve">
     <value>Dekryptering mislyktes. {0}</value>
   </data>
-	<data name="ErrorEncryptionFailed" xml:space="preserve">
+  <data name="ErrorEncryptionFailed" xml:space="preserve">
     <value>Kryptering mislyktes. {0}</value>
   </data>
-	<data name="Errors" xml:space="preserve">
+  <data name="Errors" xml:space="preserve">
     <value>Feil</value>
   </data>
-	<data name="ErrorStartupConnectionFileLoad" xml:space="preserve">
+  <data name="ErrorStartupConnectionFileLoad" xml:space="preserve">
     <value>Kan ikke laste inn oppstartstilkoblingsfilen.{0}{0}{2}{0}{3}{0}{0}For å hindre tap av data, avsluttes {1} nå.</value>
   </data>
-	<data name="ErrorVerifyDatabaseVersionFailed" xml:space="preserve">
+  <data name="ErrorVerifyDatabaseVersionFailed" xml:space="preserve">
     <value>VerifyDatabaseVersion (Config.Connections.Save) mislyktes. {0}</value>
   </data>
-	<data name="ExpandAllFolders" xml:space="preserve">
+  <data name="ExpandAllFolders" xml:space="preserve">
     <value>Utvid alle mapper</value>
   </data>
-	<data name="Experimental" xml:space="preserve">
+  <data name="Experimental" xml:space="preserve">
     <value>Eksperimentell</value>
   </data>
-	<data name="Export" xml:space="preserve">
+  <data name="Export" xml:space="preserve">
     <value>Eksporter</value>
   </data>
-	<data name="ExportmRemoteXML" xml:space="preserve">
+  <data name="ExportmRemoteXML" xml:space="preserve">
     <value>Eksporter mRemote/mRemoteNG XML</value>
   </data>
-	<data name="ExtApp" xml:space="preserve">
+  <data name="ExtApp" xml:space="preserve">
     <value>Ekstern applikasjon</value>
   </data>
-	<data name="FAMFAMFAMAttribution" xml:space="preserve">
+  <data name="FAMFAMFAMAttribution" xml:space="preserve">
     <value>Inkluderer ikoner av [FAMFAMFAM]</value>
   </data>
-	<data name="FilterAll" xml:space="preserve">
+  <data name="FilterAll" xml:space="preserve">
     <value>Alle filer (*.*)</value>
   </data>
-	<data name="FilterApplication" xml:space="preserve">
+  <data name="FilterApplication" xml:space="preserve">
     <value>Programfiler (*.exe)</value>
   </data>
-	<data name="FiltermRemoteCSV" xml:space="preserve">
+  <data name="FiltermRemoteCSV" xml:space="preserve">
     <value>mRemote CSV-filer (*.csv)</value>
   </data>
-	<data name="FiltermRemoteXML" xml:space="preserve">
+  <data name="FiltermRemoteXML" xml:space="preserve">
     <value>mRemote XML-filer (*.xml)</value>
   </data>
-	<data name="FilterRDP" xml:space="preserve">
+  <data name="FilterRDP" xml:space="preserve">
     <value>RDP-filer (*.rdp)</value>
   </data>
-	<data name="FiltervRD2008CSV" xml:space="preserve">
+  <data name="FiltervRD2008CSV" xml:space="preserve">
     <value>visionapp Remote Desktop 2008 CSV-filer (*.csv)</value>
   </data>
-	<data name="FormatInherit" xml:space="preserve">
+  <data name="FormatInherit" xml:space="preserve">
     <value>Arve {0}</value>
   </data>
-	<data name="FormatInheritDescription" xml:space="preserve">
+  <data name="FormatInheritDescription" xml:space="preserve">
     <value>Beskrivelse av arvet egenskap: {0}</value>
   </data>
-	<data name="Free" xml:space="preserve">
+  <data name="Free" xml:space="preserve">
     <value>Fri</value>
   </data>
-	<data name="Fullscreen" xml:space="preserve">
+  <data name="Fullscreen" xml:space="preserve">
     <value>Fullskjerm</value>
   </data>
-	<data name="General" xml:space="preserve">
+  <data name="General" xml:space="preserve">
     <value>Generelt</value>
   </data>
-	<data name="GetConnectionInfoFromSqlFailed" xml:space="preserve">
+  <data name="GetConnectionInfoFromSqlFailed" xml:space="preserve">
     <value>Henting av tilkoblingsinformasjon fra SQL mislyktes</value>
   </data>
-	<data name="GetConnectionInfoFromXmlFailed" xml:space="preserve">
+  <data name="GetConnectionInfoFromXmlFailed" xml:space="preserve">
     <value>Det oppstod en feil under innlasting av tilkoblingsoppføring for "{0}" fra "{1}". {2}</value>
   </data>
-	<data name="GroupboxAutomaticReconnect" xml:space="preserve">
+  <data name="GroupboxAutomaticReconnect" xml:space="preserve">
     <value>Koble til på nytt automatisk</value>
   </data>
-	<data name="GroupboxExternalToolProperties" xml:space="preserve">
+  <data name="GroupboxExternalToolProperties" xml:space="preserve">
     <value>Egenskaper for eksterne verktøy</value>
   </data>
-	<data name="GroupboxFiles" xml:space="preserve">
+  <data name="GroupboxFiles" xml:space="preserve">
     <value>Filer</value>
   </data>
-	<data name="Host" xml:space="preserve">
+  <data name="Host" xml:space="preserve">
     <value>Vert</value>
   </data>
-	<data name="HttpConnectFailed" xml:space="preserve">
+  <data name="HttpConnectFailed" xml:space="preserve">
     <value>HTTP-tilkobling mislyktes!</value>
   </data>
-	<data name="HttpConnectionFailed" xml:space="preserve">
+  <data name="HttpConnectionFailed" xml:space="preserve">
     <value>Kunne ikke opprette ny HTTP-tilkobling!</value>
   </data>
-	<data name="HttpDocumentTileChangeFailed" xml:space="preserve">
+  <data name="HttpDocumentTileChangeFailed" xml:space="preserve">
     <value>Endring av HTTP-dokumentflate mislyktes!</value>
   </data>
-	<data name="HttpSetPropsFailed" xml:space="preserve">
+  <data name="HttpSetPropsFailed" xml:space="preserve">
     <value>Angi HTTP-egenskaper mislyktes!</value>
   </data>
-	<data name="IcaConnectionFailed" xml:space="preserve">
+  <data name="IcaConnectionFailed" xml:space="preserve">
     <value>Kunne ikke opprette ny ICA-tilkobling!</value>
   </data>
-	<data name="IcaControlFailed" xml:space="preserve">
+  <data name="IcaControlFailed" xml:space="preserve">
     <value>Innlasting av ICA Plugin mislyktes!</value>
   </data>
-	<data name="IcaSetCredentialsFailed" xml:space="preserve">
+  <data name="IcaSetCredentialsFailed" xml:space="preserve">
     <value>ICA SetCredentials mislyktes!</value>
   </data>
-	<data name="IcaSetEventHandlersFailed" xml:space="preserve">
+  <data name="IcaSetEventHandlersFailed" xml:space="preserve">
     <value>ICA Set Event Handlers mislyktes!</value>
   </data>
-	<data name="IcaSetPropsFailed" xml:space="preserve">
+  <data name="IcaSetPropsFailed" xml:space="preserve">
     <value>ICA Set Props mislyktes!</value>
   </data>
-	<data name="IcaSetResolutionFailed" xml:space="preserve">
+  <data name="IcaSetResolutionFailed" xml:space="preserve">
     <value>ICA Set Resolution mislyktes!</value>
   </data>
-	<data name="IdentifyQuickConnectTabs" xml:space="preserve">
+  <data name="IdentifyQuickConnectTabs" xml:space="preserve">
     <value>Identifisere hurtigkoblingsfaner ved prefikset "Hurtig:"</value>
   </data>
-	<data name="ImportAD" xml:space="preserve">
+  <data name="ImportAD" xml:space="preserve">
     <value>Importer fra Active Directory</value>
   </data>
-	<data name="ImportExport" xml:space="preserve">
+  <data name="ImportExport" xml:space="preserve">
     <value>Import/eksport</value>
   </data>
-	<data name="ImportmRemoteXML" xml:space="preserve">
+  <data name="ImportmRemoteXML" xml:space="preserve">
     <value>Importere mRemote/mRemoteNG XML</value>
   </data>
-	<data name="ImportPortScan" xml:space="preserve">
+  <data name="ImportPortScan" xml:space="preserve">
     <value>Import fra Port Scan</value>
   </data>
-	<data name="ImportRDPFiles" xml:space="preserve">
+  <data name="ImportRDPFiles" xml:space="preserve">
     <value>Importer fra .RDP-fil(er)</value>
   </data>
-	<data name="Inactive" xml:space="preserve">
+  <data name="Inactive" xml:space="preserve">
     <value>Inaktiv</value>
   </data>
-	<data name="Informations" xml:space="preserve">
+  <data name="Informations" xml:space="preserve">
     <value>Informasjon</value>
   </data>
-	<data name="InheritNewConnection" xml:space="preserve">
+  <data name="InheritNewConnection" xml:space="preserve">
     <value>mRemoteNG er oppdatert</value>
   </data>
-	<data name="IntAppDisposeFailed" xml:space="preserve">
+  <data name="IntAppDisposeFailed" xml:space="preserve">
     <value>Forkasting av Int App-prosess mislyktes!</value>
   </data>
-	<data name="IntAppFocusFailed" xml:space="preserve">
+  <data name="IntAppFocusFailed" xml:space="preserve">
     <value>Int App-fokus mislyktes!</value>
   </data>
-	<data name="IntAppHandle" xml:space="preserve">
+  <data name="IntAppHandle" xml:space="preserve">
     <value>Int App Handle: {0}</value>
   </data>
-	<data name="IntAppKillFailed" xml:space="preserve">
+  <data name="IntAppKillFailed" xml:space="preserve">
     <value>Tvungen avslutning av Int App-prosess mislyktes!</value>
   </data>
-	<data name="IntAppParentHandle" xml:space="preserve">
+  <data name="IntAppParentHandle" xml:space="preserve">
     <value>Panel Handle: {0}</value>
   </data>
-	<data name="IntAppResizeFailed" xml:space="preserve">
+  <data name="IntAppResizeFailed" xml:space="preserve">
     <value>Int App Resize mislyktes!</value>
   </data>
-	<data name="IntAppStuff" xml:space="preserve">
+  <data name="IntAppStuff" xml:space="preserve">
     <value>--- IntApp-ting ---</value>
   </data>
-	<data name="IntAppTitle" xml:space="preserve">
+  <data name="IntAppTitle" xml:space="preserve">
     <value>Int App-tittel: {0}</value>
   </data>
-	<data name="KeysCtrlAltDel" xml:space="preserve">
+  <data name="KeysCtrlAltDel" xml:space="preserve">
     <value>CTRL-ALT-DEL</value>
   </data>
-	<data name="KeysCtrlEsc" xml:space="preserve">
+  <data name="KeysCtrlEsc" xml:space="preserve">
     <value>CTRL-ESC</value>
   </data>
-	<data name="LabelAddress" xml:space="preserve">
+  <data name="LabelAddress" xml:space="preserve">
     <value>Adresse:</value>
   </data>
-	<data name="LabelChangeLog" xml:space="preserve">
+  <data name="LabelChangeLog" xml:space="preserve">
     <value>Endringslogg:</value>
   </data>
-	<data name="LabelClosingConnections" xml:space="preserve">
+  <data name="LabelClosingConnections" xml:space="preserve">
     <value>Ved lukking av tilkoblinger:</value>
   </data>
-	<data name="LabelConnect" xml:space="preserve">
+  <data name="LabelConnect" xml:space="preserve">
     <value>&amp;Koble til:</value>
   </data>
-	<data name="LabelHostname" xml:space="preserve">
+  <data name="LabelHostname" xml:space="preserve">
     <value>Vertsnavn:</value>
   </data>
-	<data name="LabelPortableEdition" xml:space="preserve">
+  <data name="LabelPortableEdition" xml:space="preserve">
     <value>Portable Edition</value>
   </data>
-	<data name="LabelProtocol" xml:space="preserve">
+  <data name="PropertyNameProtocol" xml:space="preserve">
     <value>Protokoll:</value>
   </data>
-	<data name="LabelPuttySessionsConfig" xml:space="preserve">
+  <data name="LabelPuttySessionsConfig" xml:space="preserve">
     <value>Klikk denne knappen for å konfigurere PuTTY-sesjoner:</value>
   </data>
-	<data name="LabelPuttyTimeout" xml:space="preserve">
+  <data name="LabelPuttyTimeout" xml:space="preserve">
     <value>Maksimal ventetid for PuTTY og integrerte verktøy:</value>
   </data>
-	<data name="LabelReleasedUnderGPL" xml:space="preserve">
+  <data name="LabelReleasedUnderGPL" xml:space="preserve">
     <value>Utgitt under GNU General Public License (GPL)</value>
   </data>
-	<data name="LabelSeconds" xml:space="preserve">
+  <data name="LabelSeconds" xml:space="preserve">
     <value>sekunder</value>
   </data>
-	<data name="LabelSelectPanel" xml:space="preserve">
+  <data name="LabelSelectPanel" xml:space="preserve">
     <value>Velg et panel fra listen under eller klikk Ny for å legge til en ny. Klikk OK for å fortsette.</value>
   </data>
-	<data name="LabelServerStatus" xml:space="preserve">
+  <data name="LabelServerStatus" xml:space="preserve">
     <value>Serverstatus:</value>
   </data>
-	<data name="LabelSQLDatabaseName" xml:space="preserve">
+  <data name="LabelSQLDatabaseName" xml:space="preserve">
     <value>Database:</value>
   </data>
-	<data name="LabelVerify" xml:space="preserve">
+  <data name="LabelVerify" xml:space="preserve">
     <value>Bekreft:</value>
   </data>
-	<data name="Language" xml:space="preserve">
+  <data name="strLanguage" xml:space="preserve">
     <value>Språk</value>
   </data>
-	<data name="LanguageDefault" xml:space="preserve">
+  <data name="LanguageDefault" xml:space="preserve">
     <value>(Oppdag automatisk)</value>
   </data>
-	<data name="LanguageRestartRequired" xml:space="preserve">
+  <data name="LanguageRestartRequired" xml:space="preserve">
     <value>{0} må startes på nytt for at endringer i språkinnstillinger skal tre i kraft.</value>
   </data>
-	<data name="LoadFromSqlFailed" xml:space="preserve">
+  <data name="LoadFromSqlFailed" xml:space="preserve">
     <value>Innlasting fra SQL mislyktes!</value>
   </data>
-	<data name="LoadFromXmlFailed" xml:space="preserve">
+  <data name="LoadFromXmlFailed" xml:space="preserve">
     <value>Innlasting fra XML mislyktes!</value>
   </data>
-	<data name="LocalFile" xml:space="preserve">
+  <data name="LocalFile" xml:space="preserve">
     <value>Lokal fil</value>
   </data>
-	<data name="LocalFileDoesNotExist" xml:space="preserve">
+  <data name="LocalFileDoesNotExist" xml:space="preserve">
     <value>Lokal fil eksisterer ikke!</value>
   </data>
-	<data name="LogOff" xml:space="preserve">
+  <data name="LogOff" xml:space="preserve">
     <value>Logg av</value>
   </data>
-	<data name="LogWriteToFileFailed" xml:space="preserve">
+  <data name="LogWriteToFileFailed" xml:space="preserve">
     <value>Skriving til rapportfil mislyktes!</value>
   </data>
-	<data name="LogWriteToFileFinalLocationFailed" xml:space="preserve">
+  <data name="LogWriteToFileFinalLocationFailed" xml:space="preserve">
     <value>Kunne ikke lagre rapport til endelig plassering.</value>
   </data>
-	<data name="MagicLibraryAttribution" xml:space="preserve">
+  <data name="MagicLibraryAttribution" xml:space="preserve">
     <value>Bruker Magic-biblioteket av [Crownwood Software]</value>
   </data>
-	<data name="MenuAddConnectionPanel" xml:space="preserve">
+  <data name="MenuAddConnectionPanel" xml:space="preserve">
     <value>Legg til tilkoblingspanel</value>
   </data>
-	<data name="MenuCheckForUpdates" xml:space="preserve">
+  <data name="MenuCheckForUpdates" xml:space="preserve">
     <value>Se etter oppdateringer</value>
   </data>
-	<data name="MenuConfig" xml:space="preserve">
+  <data name="MenuConfig" xml:space="preserve">
     <value>Oppsett</value>
   </data>
-	<data name="MenuConnectionPanels" xml:space="preserve">
+  <data name="MenuConnectionPanels" xml:space="preserve">
     <value>Tilkoblingspaneler</value>
   </data>
-	<data name="MenuConnectionsAndConfig" xml:space="preserve">
+  <data name="MenuConnectionsAndConfig" xml:space="preserve">
     <value>Tilkoblinger og oppsett</value>
   </data>
-	<data name="MenuCopy" xml:space="preserve">
+  <data name="MenuCopy" xml:space="preserve">
     <value>Kopier</value>
   </data>
-	<data name="MenuCtrlAltDel" xml:space="preserve">
+  <data name="MenuCtrlAltDel" xml:space="preserve">
     <value>Ctrl-Alt-Del</value>
   </data>
-	<data name="MenuCtrlEsc" xml:space="preserve">
+  <data name="MenuCtrlEsc" xml:space="preserve">
     <value>Ctrl-Esc</value>
   </data>
-	<data name="MenuDeleteConnection" xml:space="preserve">
+  <data name="MenuDeleteConnection" xml:space="preserve">
     <value>Slett tilkobling...</value>
   </data>
-	<data name="MenuDeleteExternalTool" xml:space="preserve">
+  <data name="MenuDeleteExternalTool" xml:space="preserve">
     <value>Slett eksternt verktøy...</value>
   </data>
-	<data name="MenuDeleteFolder" xml:space="preserve">
+  <data name="MenuDeleteFolder" xml:space="preserve">
     <value>Slett mappe...</value>
   </data>
-	<data name="MenuDonate" xml:space="preserve">
+  <data name="MenuDonate" xml:space="preserve">
     <value>Donér</value>
   </data>
-	<data name="MenuDuplicateConnection" xml:space="preserve">
+  <data name="MenuDuplicateConnection" xml:space="preserve">
     <value>Duplisér tilkobling</value>
   </data>
-	<data name="MenuDuplicateFolder" xml:space="preserve">
+  <data name="MenuDuplicateFolder" xml:space="preserve">
     <value>Kopier mappe</value>
   </data>
-	<data name="MenuDuplicateTab" xml:space="preserve">
+  <data name="MenuDuplicateTab" xml:space="preserve">
     <value>Kopier fane</value>
   </data>
-	<data name="MenuExit" xml:space="preserve">
+  <data name="MenuExit" xml:space="preserve">
     <value>Avslutt</value>
   </data>
-	<data name="MenuExternalTools" xml:space="preserve">
+  <data name="MenuExternalTools" xml:space="preserve">
     <value>Eksterne verktøy</value>
   </data>
-	<data name="MenuExternalToolsToolbar" xml:space="preserve">
+  <data name="MenuExternalToolsToolbar" xml:space="preserve">
     <value>Eksterne verktøy-verktøylinje</value>
   </data>
-	<data name="MenuFile" xml:space="preserve">
+  <data name="MenuFile" xml:space="preserve">
     <value>&amp;Fil</value>
   </data>
-	<data name="MenuFullScreen" xml:space="preserve">
+  <data name="MenuFullScreen" xml:space="preserve">
     <value>Fullskjerm</value>
   </data>
-	<data name="MenuFullScreenRDP" xml:space="preserve">
+  <data name="MenuFullScreenRDP" xml:space="preserve">
     <value>Fullskjerm (RDP)</value>
   </data>
-	<data name="MenuHelp" xml:space="preserve">
+  <data name="MenuHelp" xml:space="preserve">
     <value>&amp;Hjelp</value>
   </data>
-	<data name="MenuHelpContents" xml:space="preserve">
+  <data name="MenuHelpContents" xml:space="preserve">
     <value>mRemoteNG-hjelp</value>
   </data>
-	<data name="MenuJumpTo" xml:space="preserve">
+  <data name="MenuJumpTo" xml:space="preserve">
     <value>Hopp til</value>
   </data>
-	<data name="MenuLaunchExternalTool" xml:space="preserve">
+  <data name="MenuLaunchExternalTool" xml:space="preserve">
     <value>Kjør eksternt verktøy</value>
   </data>
-	<data name="MenuNewConnectionFile" xml:space="preserve">
+  <data name="MenuNewConnectionFile" xml:space="preserve">
     <value>Ny tilkoblingsfil</value>
   </data>
-	<data name="MenuNotifications" xml:space="preserve">
+  <data name="MenuNotifications" xml:space="preserve">
     <value>Varslinger</value>
   </data>
-	<data name="MenuNotificationsCopyAll" xml:space="preserve">
+  <data name="MenuNotificationsCopyAll" xml:space="preserve">
     <value>Kopier alle</value>
   </data>
-	<data name="MenuNotificationsDelete" xml:space="preserve">
+  <data name="MenuNotificationsDelete" xml:space="preserve">
     <value>Slett</value>
   </data>
-	<data name="MenuNotificationsDeleteAll" xml:space="preserve">
+  <data name="MenuNotificationsDeleteAll" xml:space="preserve">
     <value>Slett alle</value>
   </data>
-	<data name="MenuOpenConnectionFile" xml:space="preserve">
+  <data name="MenuOpenConnectionFile" xml:space="preserve">
     <value>Åpne tilkoblingsfil...</value>
   </data>
-	<data name="MenuOptions" xml:space="preserve">
+  <data name="MenuOptions" xml:space="preserve">
     <value>Alternativer</value>
   </data>
-	<data name="MenuPaste" xml:space="preserve">
+  <data name="MenuPaste" xml:space="preserve">
     <value>Lim inn</value>
   </data>
-	<data name="MenuPortScan" xml:space="preserve">
+  <data name="MenuPortScan" xml:space="preserve">
     <value>Portskanning</value>
   </data>
-	<data name="MenuQuickConnectToolbar" xml:space="preserve">
+  <data name="MenuQuickConnectToolbar" xml:space="preserve">
     <value>Hurtigtilkoblingsverktøylinje</value>
   </data>
-	<data name="MenuReconnect" xml:space="preserve">
+  <data name="MenuReconnect" xml:space="preserve">
     <value>Koble til på nytt</value>
   </data>
-	<data name="MenuRefreshScreen" xml:space="preserve">
+  <data name="MenuRefreshScreen" xml:space="preserve">
     <value>Oppdater skjerm (VNC)</value>
   </data>
-	<data name="MenuRenameConnection" xml:space="preserve">
+  <data name="MenuRenameConnection" xml:space="preserve">
     <value>Gi nytt navn til tilkobling</value>
   </data>
-	<data name="MenuRenameFolder" xml:space="preserve">
+  <data name="MenuRenameFolder" xml:space="preserve">
     <value>Gi nytt navn til mappe</value>
   </data>
-	<data name="MenuRenameTab" xml:space="preserve">
+  <data name="MenuRenameTab" xml:space="preserve">
     <value>Gi nytt navn til fane</value>
   </data>
-	<data name="MenuReportBug" xml:space="preserve">
+  <data name="MenuReportBug" xml:space="preserve">
     <value>Rapporter en feil</value>
   </data>
-	<data name="MenuResetLayout" xml:space="preserve">
+  <data name="MenuResetLayout" xml:space="preserve">
     <value>Tilbakestill oppsett</value>
   </data>
-	<data name="MenuSaveConnectionFile" xml:space="preserve">
+  <data name="MenuSaveConnectionFile" xml:space="preserve">
     <value>Lagre tilkoblingsfil</value>
   </data>
-	<data name="MenuSaveConnectionFileAs" xml:space="preserve">
+  <data name="MenuSaveConnectionFileAs" xml:space="preserve">
     <value>Lagre tilkoblingsfilen som...</value>
   </data>
-	<data name="MenuScreenshotManager" xml:space="preserve">
+  <data name="MenuScreenshotManager" xml:space="preserve">
     <value>Skjermbildeadminstrator</value>
   </data>
-	<data name="MenuSendSpecialKeys" xml:space="preserve">
+  <data name="MenuSendSpecialKeys" xml:space="preserve">
     <value>Send spesialtastekombinasjoner (VNC)</value>
   </data>
-	<data name="MenuSessions" xml:space="preserve">
+  <data name="MenuSessions" xml:space="preserve">
     <value>Sesjoner</value>
   </data>
-	<data name="MenuSessionsAndScreenshots" xml:space="preserve">
+  <data name="MenuSessionsAndScreenshots" xml:space="preserve">
     <value>Sesjoner og skjermbilder</value>
   </data>
-	<data name="MenuShowHelpText" xml:space="preserve">
+  <data name="MenuShowHelpText" xml:space="preserve">
     <value>&amp;Vis hjelpetekst</value>
   </data>
-	<data name="MenuShowText" xml:space="preserve">
+  <data name="MenuShowText" xml:space="preserve">
     <value>Vis tekst</value>
   </data>
-	<data name="MenuSmartSize" xml:space="preserve">
+  <data name="MenuSmartSize" xml:space="preserve">
     <value>SmartSize (RDP/VNC)</value>
   </data>
-	<data name="MenuSSHFileTransfer" xml:space="preserve">
+  <data name="MenuSSHFileTransfer" xml:space="preserve">
     <value>SSH-filoverføring</value>
   </data>
-	<data name="MenuStartChat" xml:space="preserve">
+  <data name="MenuStartChat" xml:space="preserve">
     <value>Start chat (VNC)</value>
   </data>
-	<data name="MenuSupportForum" xml:space="preserve">
+  <data name="MenuSupportForum" xml:space="preserve">
     <value>Forum for brukerstøtte</value>
   </data>
-	<data name="MenuTools" xml:space="preserve">
+  <data name="MenuTools" xml:space="preserve">
     <value>&amp;Verktøy</value>
   </data>
-	<data name="MenuTransferFile" xml:space="preserve">
+  <data name="MenuTransferFile" xml:space="preserve">
     <value>Overfør fil (SSH)</value>
   </data>
-	<data name="MenuView" xml:space="preserve">
+  <data name="MenuView" xml:space="preserve">
     <value>&amp;Vis</value>
   </data>
-	<data name="MenuViewOnly" xml:space="preserve">
+  <data name="MenuViewOnly" xml:space="preserve">
     <value>Kun visning (VNC)</value>
   </data>
-	<data name="MenuWebsite" xml:space="preserve">
+  <data name="MenuWebsite" xml:space="preserve">
     <value>Nettsted</value>
   </data>
-	<data name="MinimizeToSysTray" xml:space="preserve">
+  <data name="MinimizeToSysTray" xml:space="preserve">
     <value>Minimer til notisområde</value>
   </data>
-	<data name="MoveDown" xml:space="preserve">
+  <data name="MoveDown" xml:space="preserve">
     <value>Flytt ned</value>
   </data>
-	<data name="MoveUp" xml:space="preserve">
+  <data name="MoveUp" xml:space="preserve">
     <value>Flytt opp</value>
   </data>
-	<data name="MyCurrentWindowsCreds" xml:space="preserve">
+  <data name="MyCurrentWindowsCreds" xml:space="preserve">
     <value>Min gjeldende legitimasjon (Windows-påloggingsinformasjon)</value>
   </data>
-	<data name="Never" xml:space="preserve">
+  <data name="Never" xml:space="preserve">
     <value>Aldri</value>
   </data>
-	<data name="NewPanel" xml:space="preserve">
+  <data name="NewPanel" xml:space="preserve">
     <value>Nytt panel</value>
   </data>
-	<data name="NewRoot" xml:space="preserve">
+  <data name="NewRoot" xml:space="preserve">
     <value>Nytt rotnivå</value>
   </data>
-	<data name="NewTitle" xml:space="preserve">
+  <data name="NewTitle" xml:space="preserve">
     <value>Ny tittel</value>
   </data>
-	<data name="No" xml:space="preserve">
+  <data name="No" xml:space="preserve">
     <value>Nei</value>
   </data>
-	<data name="NoCompression" xml:space="preserve">
+  <data name="NoCompression" xml:space="preserve">
     <value>Ingen komprimering</value>
   </data>
-	<data name="NoExtAppDefined" xml:space="preserve">
+  <data name="NoExtAppDefined" xml:space="preserve">
     <value>Ingen ekstern applikasjon spesifisert.</value>
   </data>
-	<data name="NoInformation" xml:space="preserve">
+  <data name="NoInformation" xml:space="preserve">
     <value>Ingen</value>
   </data>
-	<data name="None" xml:space="preserve">
+  <data name="None" xml:space="preserve">
     <value>Ingen</value>
   </data>
-	<data name="Normal" xml:space="preserve">
+  <data name="Normal" xml:space="preserve">
     <value>Normal</value>
   </data>
-	<data name="NoSmartSize" xml:space="preserve">
+  <data name="NoSmartSize" xml:space="preserve">
     <value>Ingen SmartSize</value>
   </data>
-	<data name="NoUpdateAvailable" xml:space="preserve">
+  <data name="NoUpdateAvailable" xml:space="preserve">
     <value>Ingen oppdateringer tilgjengelig</value>
   </data>
-	<data name="OldConffile" xml:space="preserve">
+  <data name="OldConffile" xml:space="preserve">
     <value>Du prøver å laste inn en tilkoblingsfil opprettet i en veldig tidlig versjon av mRemote. Dette kan føre til kjørefeil. Hvis du støter på en slik feil, vennligst opprett en ny tilkoblingsfil!</value>
   </data>
-	<data name="OpenNewTabRight" xml:space="preserve">
+  <data name="OpenNewTabRight" xml:space="preserve">
     <value>Åpne ny fane til høyre for aktiv fane</value>
   </data>
-	<data name="OpenPorts" xml:space="preserve">
+  <data name="OpenPorts" xml:space="preserve">
     <value>Åpne porter</value>
   </data>
-	<data name="OptionsTabTheme" xml:space="preserve">
+  <data name="OptionsTabTheme" xml:space="preserve">
     <value>Tema</value>
   </data>
-	<data name="PanelName" xml:space="preserve">
+  <data name="PanelName" xml:space="preserve">
     <value>Panelnavn</value>
   </data>
-	<data name="PasswordProtect" xml:space="preserve">
+  <data name="PasswordProtect" xml:space="preserve">
     <value>Passordbeskyttelse</value>
   </data>
-	<data name="PleaseFillAllFields" xml:space="preserve">
+  <data name="PleaseFillAllFields" xml:space="preserve">
     <value>Vennligst fyll inn alle felt</value>
   </data>
-	<data name="PortScanCouldNotLoadPanel" xml:space="preserve">
+  <data name="PortScanCouldNotLoadPanel" xml:space="preserve">
     <value>Kunne ikke laste inn PortScan-panelet!</value>
   </data>
-	<data name="PropertiesWillOnlyBeSavedMRemoteXML" xml:space="preserve">
+  <data name="PropertiesWillOnlyBeSavedMRemoteXML" xml:space="preserve">
     <value>(Disse egenskapene vil bare lagres dersom du velger mRemote/mRemoteNG XML som format for målfilen!)</value>
   </data>
-	<data name="PropertyDescriptionAddress" xml:space="preserve">
+  <data name="PropertyDescriptionAddress" xml:space="preserve">
     <value>Angi vertsnavnet eller IP-adressen du ønsker å koble til.</value>
   </data>
-	<data name="PropertyDescriptionAll" xml:space="preserve">
+  <data name="PropertyDescriptionAll" xml:space="preserve">
     <value>Veksle alle alternativer for arv.</value>
   </data>
-	<data name="PropertyDescriptionAuthenticationLevel" xml:space="preserve">
+  <data name="PropertyDescriptionAuthenticationLevel" xml:space="preserve">
     <value>Velg hvilket autentiseringsnivå denne tilkoblingen skal bruke.</value>
   </data>
-	<data name="PropertyDescriptionAuthenticationMode" xml:space="preserve">
+  <data name="PropertyDescriptionAuthenticationMode" xml:space="preserve">
     <value>Velg hvordan du ønsker å autentisere deg mot VNC-serveren.</value>
   </data>
-	<data name="PropertyDescriptionCacheBitmaps" xml:space="preserve">
+  <data name="PropertyDescriptionCacheBitmaps" xml:space="preserve">
     <value>Velg om du vil bruke hurtigbufring av punktgrafikk eller ikke.</value>
   </data>
-	<data name="PropertyDescriptionColors" xml:space="preserve">
+  <data name="PropertyDescriptionColors" xml:space="preserve">
     <value>Velg hvilken fargekvalitet som skal brukes.</value>
   </data>
-	<data name="PropertyDescriptionCompression" xml:space="preserve">
+  <data name="PropertyDescriptionCompression" xml:space="preserve">
     <value>Velg kompresjonsverdien som skal brukes.</value>
   </data>
-	<data name="PropertyDescriptionDescription" xml:space="preserve">
+  <data name="PropertyDescriptionDescription" xml:space="preserve">
     <value>Skriv inn notater eller en beskrivelse for verten her.</value>
   </data>
-	<data name="PropertyDescriptionDisplayThemes" xml:space="preserve">
+  <data name="PropertyDescriptionDisplayThemes" xml:space="preserve">
     <value>Velg ja hvis den eksterne vertens tema skal vises.</value>
   </data>
-	<data name="PropertyDescriptionDisplayWallpaper" xml:space="preserve">
+  <data name="PropertyDescriptionDisplayWallpaper" xml:space="preserve">
     <value>Velg ja hvis den eksterne vertens bakgrunnsbilde skal vises.</value>
   </data>
-	<data name="PropertyDescriptionDomain" xml:space="preserve">
+  <data name="PropertyDescriptionDomain" xml:space="preserve">
     <value>Skriv inn domenenavn.</value>
   </data>
-	<data name="PropertyDescriptionEnableDesktopComposition" xml:space="preserve">
+  <data name="PropertyDescriptionEnableDesktopComposition" xml:space="preserve">
     <value>Velg om du vil bruke skrivebordskomposisjon eller ikke.</value>
   </data>
-	<data name="PropertyDescriptionEnableFontSmoothing" xml:space="preserve">
+  <data name="PropertyDescriptionEnableFontSmoothing" xml:space="preserve">
     <value>Velg om du vil bruke skriftutjevning eller ikke.</value>
   </data>
-	<data name="PropertyDescriptionEncoding" xml:space="preserve">
+  <data name="PropertyDescriptionEncoding" xml:space="preserve">
     <value>Velg hvilken tekstkodingsmodus som skal brukes.</value>
   </data>
-	<data name="PropertyDescriptionEncryptionStrength" xml:space="preserve">
+  <data name="PropertyDescriptionEncryptionStrength" xml:space="preserve">
     <value>Velg krypteringsstyrke for den eksterne verten.</value>
   </data>
-	<data name="PropertyDescriptionExternalTool" xml:space="preserve">
+  <data name="PropertyDescriptionExternalTool" xml:space="preserve">
     <value>Velg det eksterne verktøyet som skal startes.</value>
   </data>
-	<data name="PropertyDescriptionExternalToolAfter" xml:space="preserve">
+  <data name="PropertyDescriptionExternalToolAfter" xml:space="preserve">
     <value>Velg et eksternt verktøy som skal startes etter frakobling fra den eksterne verten.</value>
   </data>
-	<data name="PropertyDescriptionExternalToolBefore" xml:space="preserve">
+  <data name="PropertyDescriptionExternalToolBefore" xml:space="preserve">
     <value>Velg et eksternt verktøy som skal startes før tilkoblingen til den eksterne verten er opprettet.</value>
   </data>
-	<data name="PropertyDescriptionIcon" xml:space="preserve">
+  <data name="PropertyDescriptionIcon" xml:space="preserve">
     <value>Velg et ikon som skal vises når man er tilkoblet verten.</value>
   </data>
-	<data name="PropertyDescriptionMACAddress" xml:space="preserve">
+  <data name="PropertyDescriptionMACAddress" xml:space="preserve">
     <value>Angi MAC-adressen til den eksterne verten dersom du ønsker å bruke denne i et eksternt verktøy.</value>
   </data>
-	<data name="PropertyDescriptionName" xml:space="preserve">
+  <data name="PropertyDescriptionName" xml:space="preserve">
     <value>Dette er navnet som vises i tilkoblingstreet.</value>
   </data>
-	<data name="PropertyDescriptionPanel" xml:space="preserve">
+  <data name="PropertyDescriptionPanel" xml:space="preserve">
     <value>Angir panelet tilkoblingen vil åpnes i.</value>
   </data>
-	<data name="PropertyDescriptionPassword" xml:space="preserve">
+  <data name="PropertyDescriptionPassword" xml:space="preserve">
     <value>Skriv inn ditt passord.</value>
   </data>
-	<data name="PropertyDescriptionPort" xml:space="preserve">
+  <data name="PropertyDescriptionPort" xml:space="preserve">
     <value>Angi porten den valgte protokollen lytter på.</value>
   </data>
-	<data name="PropertyDescriptionProtocol" xml:space="preserve">
+  <data name="PropertyDescriptionProtocol" xml:space="preserve">
     <value>Velg protokollen mRemoteNG skal bruke for å koble til verten.</value>
   </data>
-	<data name="PropertyDescriptionPuttySession" xml:space="preserve">
+  <data name="PropertyDescriptionPuttySession" xml:space="preserve">
     <value>Velg en PuTTY-sesjon som skal brukes ved tilkobling.</value>
   </data>
-	<data name="PropertyDescriptionRDGatewayDomain" xml:space="preserve">
+  <data name="PropertyDescriptionRDGatewayDomain" xml:space="preserve">
     <value>Angir navnet på domenet som brukeren oppgir for å koble til RD Gateway-serveren.</value>
   </data>
-	<data name="PropertyDescriptionRDGatewayHostname" xml:space="preserve">
+  <data name="PropertyDescriptionRDGatewayHostname" xml:space="preserve">
     <value>Angir vertsnavnet til Remote Desktop Gateway-serveren.</value>
   </data>
-	<data name="PropertyDescriptionRDGatewayUsageMethod" xml:space="preserve">
+  <data name="PropertyDescriptionRDGatewayUsageMethod" xml:space="preserve">
     <value>Angir når en server for eksternt skrivebord (ES-Gateway) skal brukes.</value>
   </data>
-	<data name="PropertyDescriptionRDGatewayUseConnectionCredentials" xml:space="preserve">
+  <data name="PropertyDescriptionRDGatewayUseConnectionCredentials" xml:space="preserve">
     <value>Angir om pålogging til gatewayen skal skje med det samme brukernavnet og passordet som tilkoblingen eller ikke.</value>
   </data>
-	<data name="PropertyDescriptionRDGatewayUsername" xml:space="preserve">
+  <data name="PropertyDescriptionRDGatewayUsername" xml:space="preserve">
     <value>Angir brukernavnet som brukeren oppgir for å koble til RD Gateway-serveren.</value>
   </data>
-	<data name="PropertyDescriptionRedirectDrives" xml:space="preserve">
+  <data name="PropertyDescriptionRedirectDrives" xml:space="preserve">
     <value>Velg om lokale diskstasjoner skal vises på den eksterne verten.</value>
   </data>
-	<data name="PropertyDescriptionRedirectKeys" xml:space="preserve">
+  <data name="PropertyDescriptionRedirectKeys" xml:space="preserve">
     <value>Velg om tastekombinasjoner (f.eks. Alt-Tab) skal omadresseres til den eksterne verten.</value>
   </data>
-	<data name="PropertyDescriptionRedirectPorts" xml:space="preserve">
+  <data name="PropertyDescriptionRedirectPorts" xml:space="preserve">
     <value>Velg om lokale porter (dvs. com, parallell) skal vises på den eksterne verten.</value>
   </data>
-	<data name="PropertyDescriptionRedirectPrinters" xml:space="preserve">
+  <data name="PropertyDescriptionRedirectPrinters" xml:space="preserve">
     <value>Velg om lokale skrivere skal vises på den eksterne verten.</value>
   </data>
-	<data name="PropertyDescriptionRedirectSmartCards" xml:space="preserve">
+  <data name="PropertyDescriptionRedirectSmartCards" xml:space="preserve">
     <value>Velg om lokale smart-kort skal være tilgjengelig på den eksterne verten.</value>
   </data>
-	<data name="PropertyDescriptionRedirectSounds" xml:space="preserve">
+  <data name="PropertyDescriptionRedirectSounds" xml:space="preserve">
     <value>Velg hvordan ekstern lyd skal omadresseres.</value>
   </data>
-	<data name="PropertyDescriptionRenderingEngine" xml:space="preserve">
+  <data name="PropertyDescriptionRenderingEngine" xml:space="preserve">
     <value>Velg en av de tilgjengelige renderingsmotorene som skal brukes til å vise HTML.</value>
   </data>
-	<data name="PropertyDescriptionResolution" xml:space="preserve">
+  <data name="PropertyDescriptionResolution" xml:space="preserve">
     <value>Velg oppløsning eller modus denne tilkoblingen skal åpnes i.</value>
   </data>
-	<data name="PropertyDescriptionSmartSizeMode" xml:space="preserve">
+  <data name="PropertyDescriptionSmartSizeMode" xml:space="preserve">
     <value>Velg SmartSize-modus som skal brukes.</value>
   </data>
-	<data name="PropertyDescriptionUseConsoleSession" xml:space="preserve">
+  <data name="PropertyDescriptionUseConsoleSession" xml:space="preserve">
     <value>Koble til konsolløkten på den eksterne verten.</value>
   </data>
-	<data name="PropertyDescriptionUseCredSsp" xml:space="preserve">
+  <data name="PropertyDescriptionUseCredSsp" xml:space="preserve">
     <value>Bruk Credential Security Support Provider (CredSSP) for godkjenning hvis den er tilgjengelig.</value>
   </data>
-	<data name="PropertyDescriptionUser1" xml:space="preserve">
+  <data name="PropertyDescriptionUser1" xml:space="preserve">
     <value>Skriv inn informasjon du trenger her.</value>
   </data>
-	<data name="PropertyDescriptionUsername" xml:space="preserve">
+  <data name="PropertyDescriptionUsername" xml:space="preserve">
     <value>Skriv inn ditt brukernavn.</value>
   </data>
-	<data name="PropertyDescriptionViewOnly" xml:space="preserve">
+  <data name="PropertyDescriptionViewOnly" xml:space="preserve">
     <value>Velg Ja hvis du vil opprette en kun-visning-tilkobling til verten.</value>
   </data>
-	<data name="PropertyDescriptionVNCProxyAddress" xml:space="preserve">
+  <data name="PropertyDescriptionVNCProxyAddress" xml:space="preserve">
     <value>Angi proxy-adressen som skal brukes.</value>
   </data>
-	<data name="PropertyDescriptionVNCProxyPassword" xml:space="preserve">
+  <data name="PropertyDescriptionVNCProxyPassword" xml:space="preserve">
     <value>Skriv inn passordet for autentisering mot proxy.</value>
   </data>
-	<data name="PropertyDescriptionVNCProxyPort" xml:space="preserve">
+  <data name="PropertyDescriptionVNCProxyPort" xml:space="preserve">
     <value>Angi porten proxy-serveren lytter på.</value>
   </data>
-	<data name="PropertyDescriptionVNCProxyType" xml:space="preserve">
+  <data name="PropertyDescriptionVNCProxyType" xml:space="preserve">
     <value>Hvis du bruker en proxy til å tunnelere VNC-tilkoblinger, velg hvilken type proxy det er.</value>
   </data>
-	<data name="PropertyDescriptionVNCProxyUsername" xml:space="preserve">
+  <data name="PropertyDescriptionVNCProxyUsername" xml:space="preserve">
     <value>Skriv inn ditt brukernavn for godkjenning mot proxy.</value>
   </data>
-	<data name="PropertyNameAll" xml:space="preserve">
+  <data name="PropertyNameAll" xml:space="preserve">
     <value>Alle</value>
   </data>
-	<data name="PropertyNameAuthenticationLevel" xml:space="preserve">
+  <data name="PropertyNameAuthenticationLevel" xml:space="preserve">
     <value>Server-godkjenning</value>
   </data>
-	<data name="PropertyNameAuthenticationMode" xml:space="preserve">
+  <data name="PropertyNameAuthenticationMode" xml:space="preserve">
     <value>Godkjenningsmodus</value>
   </data>
-	<data name="PropertyNameCacheBitmaps" xml:space="preserve">
+  <data name="PropertyNameCacheBitmaps" xml:space="preserve">
     <value>Hurtigbufring av punktgrafikk</value>
   </data>
-	<data name="PropertyNameColors" xml:space="preserve">
+  <data name="PropertyNameColors" xml:space="preserve">
     <value>Farger</value>
   </data>
-	<data name="PropertyNameCompression" xml:space="preserve">
+  <data name="PropertyNameCompression" xml:space="preserve">
     <value>Komprimering</value>
   </data>
-	<data name="PropertyNameDescription" xml:space="preserve">
+  <data name="PropertyNameDescription" xml:space="preserve">
     <value>Beskrivelse</value>
   </data>
-	<data name="PropertyNameDisplayThemes" xml:space="preserve">
+  <data name="PropertyNameDisplayThemes" xml:space="preserve">
     <value>Visningstemaer</value>
   </data>
-	<data name="PropertyNameDisplayWallpaper" xml:space="preserve">
+  <data name="PropertyNameDisplayWallpaper" xml:space="preserve">
     <value>Vis bakgrunnbilde</value>
   </data>
-	<data name="PropertyNameEnableDesktopComposition" xml:space="preserve">
+  <data name="PropertyNameEnableDesktopComposition" xml:space="preserve">
     <value>Skrivebordskomposisjon</value>
   </data>
-	<data name="PropertyNameEnableFontSmoothing" xml:space="preserve">
+  <data name="PropertyNameEnableFontSmoothing" xml:space="preserve">
     <value>Skriftutjevning</value>
   </data>
-	<data name="PropertyNameEncoding" xml:space="preserve">
+  <data name="PropertyNameEncoding" xml:space="preserve">
     <value>Tekstkoding</value>
   </data>
-	<data name="PropertyNameEncryptionStrength" xml:space="preserve">
+  <data name="PropertyNameEncryptionStrength" xml:space="preserve">
     <value>Krypteringsnivå</value>
   </data>
-	<data name="PropertyNameExternalTool" xml:space="preserve">
+  <data name="PropertyNameExternalTool" xml:space="preserve">
     <value>Eksternt verktøy</value>
   </data>
-	<data name="PropertyNameExternalToolAfter" xml:space="preserve">
+  <data name="PropertyNameExternalToolAfter" xml:space="preserve">
     <value>Eksternt verktøy etter</value>
   </data>
-	<data name="PropertyNameExternalToolBefore" xml:space="preserve">
+  <data name="PropertyNameExternalToolBefore" xml:space="preserve">
     <value>Eksternt verktøy før</value>
   </data>
-	<data name="PropertyNameMACAddress" xml:space="preserve">
+  <data name="PropertyNameMACAddress" xml:space="preserve">
     <value>MAC-adresse</value>
   </data>
-	<data name="PropertyNameName" xml:space="preserve">
+  <data name="PropertyNameName" xml:space="preserve">
     <value>Navn</value>
   </data>
-	<data name="PropertyNamePanel" xml:space="preserve">
+  <data name="PropertyNamePanel" xml:space="preserve">
     <value>Panel</value>
   </data>
-	<data name="PropertyNamePort" xml:space="preserve">
+  <data name="PropertyNamePort" xml:space="preserve">
     <value>Port</value>
   </data>
-	<data name="PropertyNamePuttySession" xml:space="preserve">
+  <data name="PropertyNamePuttySession" xml:space="preserve">
     <value>PuTTY-sesjon</value>
   </data>
-	<data name="PropertyNameRDGatewayDomain" xml:space="preserve">
+  <data name="PropertyNameRDGatewayDomain" xml:space="preserve">
     <value>Gateway-domene</value>
   </data>
-	<data name="PropertyNameRDGatewayHostname" xml:space="preserve">
+  <data name="PropertyNameRDGatewayHostname" xml:space="preserve">
     <value>Gateway-vertsnavn</value>
   </data>
-	<data name="PropertyNameRDGatewayPassword" xml:space="preserve">
+  <data name="PropertyNameRDGatewayPassword" xml:space="preserve">
     <value>Gateway for eksternt skrivebord-passord</value>
   </data>
-	<data name="PropertyNameRDGatewayUsageMethod" xml:space="preserve">
+  <data name="PropertyNameRDGatewayUsageMethod" xml:space="preserve">
     <value>Bruk gateway</value>
   </data>
-	<data name="PropertyNameRDGatewayUseConnectionCredentials" xml:space="preserve">
+  <data name="PropertyNameRDGatewayUseConnectionCredentials" xml:space="preserve">
     <value>Legitimasjon for gateway</value>
   </data>
-	<data name="PropertyNameRDGatewayUsername" xml:space="preserve">
+  <data name="PropertyNameRDGatewayUsername" xml:space="preserve">
     <value>Gateway-brukernavn</value>
   </data>
-	<data name="PropertyNameRedirectDrives" xml:space="preserve">
+  <data name="PropertyNameRedirectDrives" xml:space="preserve">
     <value>Diskstasjoner</value>
   </data>
-	<data name="PropertyNameRedirectKeys" xml:space="preserve">
+  <data name="PropertyNameRedirectKeys" xml:space="preserve">
     <value>Tastekombinasjoner</value>
   </data>
-	<data name="PropertyNameRedirectPorts" xml:space="preserve">
+  <data name="PropertyNameRedirectPorts" xml:space="preserve">
     <value>Porter</value>
   </data>
-	<data name="PropertyNameRedirectPrinters" xml:space="preserve">
+  <data name="PropertyNameRedirectPrinters" xml:space="preserve">
     <value>Skrivere</value>
   </data>
-	<data name="PropertyNameRedirectSmartCards" xml:space="preserve">
+  <data name="PropertyNameRedirectSmartCards" xml:space="preserve">
     <value>Smartkort</value>
   </data>
-	<data name="PropertyNameRedirectSounds" xml:space="preserve">
+  <data name="PropertyNameRedirectSounds" xml:space="preserve">
     <value>Lyder</value>
   </data>
-	<data name="PropertyNameRenderingEngine" xml:space="preserve">
+  <data name="PropertyNameRenderingEngine" xml:space="preserve">
     <value>Renderingsmotor</value>
   </data>
-	<data name="PropertyNameResolution" xml:space="preserve">
+  <data name="PropertyNameResolution" xml:space="preserve">
     <value>Oppløsning</value>
   </data>
-	<data name="PropertyNameSmartSizeMode" xml:space="preserve">
+  <data name="PropertyNameSmartSizeMode" xml:space="preserve">
     <value>SmartSize-modus</value>
   </data>
-	<data name="PropertyNameUseConsoleSession" xml:space="preserve">
+  <data name="PropertyNameUseConsoleSession" xml:space="preserve">
     <value>Bruk konsolløkt</value>
   </data>
-	<data name="PropertyNameUseCredSsp" xml:space="preserve">
+  <data name="PropertyNameUseCredSsp" xml:space="preserve">
     <value>Bruk CredSSP</value>
   </data>
-	<data name="PropertyNameUser1" xml:space="preserve">
+  <data name="PropertyNameUser1" xml:space="preserve">
     <value>Brukerfelt</value>
   </data>
-	<data name="PropertyNameViewOnly" xml:space="preserve">
+  <data name="PropertyNameViewOnly" xml:space="preserve">
     <value>Kun visning</value>
   </data>
-	<data name="PropertyNameVNCProxyAddress" xml:space="preserve">
+  <data name="PropertyNameVNCProxyAddress" xml:space="preserve">
     <value>Proxy-adresse</value>
   </data>
-	<data name="PropertyNameVNCProxyPassword" xml:space="preserve">
+  <data name="PropertyNameVNCProxyPassword" xml:space="preserve">
     <value>Proxy-passord</value>
   </data>
-	<data name="PropertyNameVNCProxyPort" xml:space="preserve">
+  <data name="PropertyNameVNCProxyPort" xml:space="preserve">
     <value>Proxy-port</value>
   </data>
-	<data name="PropertyNameVNCProxyType" xml:space="preserve">
+  <data name="PropertyNameVNCProxyType" xml:space="preserve">
     <value>Proxy-type</value>
   </data>
-	<data name="PropertyNameVNCProxyUsername" xml:space="preserve">
+  <data name="PropertyNameVNCProxyUsername" xml:space="preserve">
     <value>Proxy-brukernavn</value>
   </data>
-	<data name="ProtocolEventDisconnected" xml:space="preserve">
+  <data name="ProtocolEventDisconnected" xml:space="preserve">
     <value>Protokollhendelse frakoblet.
 Melding:
 {0}</value>
   </data>
-	<data name="ProtocolEventDisconnectFailed" xml:space="preserve">
+  <data name="ProtocolEventDisconnectFailed" xml:space="preserve">
     <value>Protokollhendelse Frakoblet mislyktes.
 {0}</value>
   </data>
-	<data name="ProtocolToImport" xml:space="preserve">
+  <data name="ProtocolToImport" xml:space="preserve">
     <value>Protokoll å importere</value>
   </data>
-	<data name="ProxyTestFailed" xml:space="preserve">
+  <data name="ProxyTestFailed" xml:space="preserve">
     <value>Proxy-test mislyktes!</value>
   </data>
-	<data name="ProxyTestSucceeded" xml:space="preserve">
+  <data name="ProxyTestSucceeded" xml:space="preserve">
     <value>Proxy-test var vellykket!</value>
   </data>
-	<data name="PuttyDisposeFailed" xml:space="preserve">
+  <data name="PuttyDisposeFailed" xml:space="preserve">
     <value>Avslutning av PuTTY-prosessen mislyktes!</value>
   </data>
-	<data name="PuttyFocusFailed" xml:space="preserve">
+  <data name="PuttyFocusFailed" xml:space="preserve">
     <value>Kunne ikke sette fokus!</value>
   </data>
-	<data name="PuttyGetSessionsFailed" xml:space="preserve">
+  <data name="PuttyGetSessionsFailed" xml:space="preserve">
     <value>Henting av PuTTY-sesjoner mislyktes!</value>
   </data>
-	<data name="PuttyHandle" xml:space="preserve">
+  <data name="PuttyHandle" xml:space="preserve">
     <value>Putty Handle: {0}</value>
   </data>
-	<data name="PuttyKillFailed" xml:space="preserve">
+  <data name="PuttyKillFailed" xml:space="preserve">
     <value>Avslutning av PuTTY-prosess mislyktes!</value>
   </data>
-	<data name="PuttyResizeFailed" xml:space="preserve">
+  <data name="PuttyResizeFailed" xml:space="preserve">
     <value>Endring av størrelse på PuTTY-vindu mislyktes!</value>
   </data>
-	<data name="PuttySavedSessionsRootName" xml:space="preserve">
+  <data name="PuttySavedSessionsRootName" xml:space="preserve">
     <value>PuTTY lagrede sesjoner</value>
   </data>
-	<data name="PuttySettings" xml:space="preserve">
+  <data name="PuttySettings" xml:space="preserve">
     <value>PuTTY-innstillinger</value>
   </data>
-	<data name="PuttyShowSettingsDialogFailed" xml:space="preserve">
+  <data name="PuttyShowSettingsDialogFailed" xml:space="preserve">
     <value>Vis dialog for PuTTY-innstillinger mislyktes!</value>
   </data>
-	<data name="PuttyStartFailed" xml:space="preserve">
+  <data name="PuttyStartFailed" xml:space="preserve">
     <value>Start av PuTTY mislyktes!</value>
   </data>
-	<data name="PuttyStuff" xml:space="preserve">
+  <data name="PuttyStuff" xml:space="preserve">
     <value>--- PuTTY-ting ---</value>
   </data>
-	<data name="PuttyTitle" xml:space="preserve">
+  <data name="PuttyTitle" xml:space="preserve">
     <value>PuTTY-tittel: {0}</value>
   </data>
-	<data name="Quick" xml:space="preserve">
+  <data name="Quick" xml:space="preserve">
     <value>Hurtig: {0}</value>
   </data>
-	<data name="QuickConnect" xml:space="preserve">
+  <data name="QuickConnect" xml:space="preserve">
     <value>Hurtigtilkobling</value>
   </data>
-	<data name="QuickConnectAddFailed" xml:space="preserve">
+  <data name="QuickConnectAddFailed" xml:space="preserve">
     <value>Kunne ikke legge til hurtigtilkobling!</value>
   </data>
-	<data name="QuickConnectFailed" xml:space="preserve">
+  <data name="QuickConnectFailed" xml:space="preserve">
     <value>Oppretting av hurtigtilkobling mislyktes</value>
   </data>
-	<data name="RadioCloseWarnAll" xml:space="preserve">
+  <data name="RadioCloseWarnAll" xml:space="preserve">
     <value>&amp;Advar meg når tilkoblinger lukkes</value>
   </data>
-	<data name="RadioCloseWarnExit" xml:space="preserve">
+  <data name="RadioCloseWarnExit" xml:space="preserve">
     <value>Advar meg bare ved a&amp;vslutning av mRemoteNG</value>
   </data>
-	<data name="RadioCloseWarnMultiple" xml:space="preserve">
+  <data name="RadioCloseWarnMultiple" xml:space="preserve">
     <value>Advar meg bare ved lukking av &amp;mange tilkoblinger samtidig</value>
   </data>
-	<data name="RadioCloseWarnNever" xml:space="preserve">
+  <data name="RadioCloseWarnNever" xml:space="preserve">
     <value>&amp;Ikke advar meg når tilkoblinger lukkes</value>
   </data>
-	<data name="RAW" xml:space="preserve">
+  <data name="RAW" xml:space="preserve">
     <value>RAW</value>
   </data>
-	<data name="Rdp" xml:space="preserve">
+  <data name="Rdp" xml:space="preserve">
     <value>RDP</value>
   </data>
-	<data name="Rdp16777216Colors" xml:space="preserve">
+  <data name="Rdp16777216Colors" xml:space="preserve">
     <value>16777216 farger (24-biters)</value>
   </data>
-	<data name="Rdp256Colors" xml:space="preserve">
+  <data name="Rdp256Colors" xml:space="preserve">
     <value>256 farger (8-biters)</value>
   </data>
-	<data name="Rdp32768Colors" xml:space="preserve">
+  <data name="Rdp32768Colors" xml:space="preserve">
     <value>32768 farger (15-biters)</value>
   </data>
-	<data name="Rdp4294967296Colors" xml:space="preserve">
+  <data name="Rdp4294967296Colors" xml:space="preserve">
     <value>16777216 farger (32-biters)</value>
   </data>
-	<data name="Rdp65536Colors" xml:space="preserve">
+  <data name="Rdp65536Colors" xml:space="preserve">
     <value>65536 farger (16-biters)</value>
   </data>
-	<data name="RdpAddResolutionFailed" xml:space="preserve">
+  <data name="RdpAddResolutionFailed" xml:space="preserve">
     <value>RDP Legg til oppløsning mislyktes!</value>
   </data>
-	<data name="RdpAddResolutionsFailed" xml:space="preserve">
+  <data name="RdpAddResolutionsFailed" xml:space="preserve">
     <value>RDP Legg til oppløsninger mislyktes!</value>
   </data>
-	<data name="RdpAddSessionFailed" xml:space="preserve">
+  <data name="RdpAddSessionFailed" xml:space="preserve">
     <value>Legg til sesjon mislyktes</value>
   </data>
-	<data name="RdpCloseConnectionFailed" xml:space="preserve">
+  <data name="RdpCloseConnectionFailed" xml:space="preserve">
     <value>Lukk RDP-tilkobling mislyktes!</value>
   </data>
-	<data name="RdpControlCreationFailed" xml:space="preserve">
+  <data name="RdpControlCreationFailed" xml:space="preserve">
     <value>Kunne ikke opprette RDP-kontroll, vennligst kontroller mRemoteNGs systemkrav.</value>
   </data>
-	<data name="RdpDisableCursorblinking" xml:space="preserve">
+  <data name="RdpDisableCursorblinking" xml:space="preserve">
     <value>Deaktiver blinkende markør</value>
   </data>
-	<data name="RdpDisableCursorShadow" xml:space="preserve">
+  <data name="RdpDisableCursorShadow" xml:space="preserve">
     <value>Deaktiver markørskygge</value>
   </data>
-	<data name="RdpDisableFullWindowdrag" xml:space="preserve">
+  <data name="RdpDisableFullWindowdrag" xml:space="preserve">
     <value>Deaktiver fullvindudragning</value>
   </data>
-	<data name="RdpDisableMenuAnimations" xml:space="preserve">
+  <data name="RdpDisableMenuAnimations" xml:space="preserve">
     <value>Deaktiver menyanimasjoner</value>
   </data>
-	<data name="RdpDisableThemes" xml:space="preserve">
+  <data name="RdpDisableThemes" xml:space="preserve">
     <value>Deaktiver temaer</value>
   </data>
-	<data name="RdpDisableWallpaper" xml:space="preserve">
+  <data name="RdpDisableWallpaper" xml:space="preserve">
     <value>Deaktiver bakgrunnsbilde</value>
   </data>
-	<data name="RdpDisconnected" xml:space="preserve">
+  <data name="RdpDisconnected" xml:space="preserve">
     <value>RDP frakoblet!</value>
   </data>
-	<data name="RdpDisconnectFailed" xml:space="preserve">
+  <data name="RdpDisconnectFailed" xml:space="preserve">
     <value>RDP-frakobling mislyktes, forsøker å lukke!</value>
   </data>
-	<data name="RdpErrorCode1" xml:space="preserve">
+  <data name="RdpErrorCode1" xml:space="preserve">
     <value>Intern feilkode 1.</value>
   </data>
-	<data name="RdpErrorCode2" xml:space="preserve">
+  <data name="RdpErrorCode2" xml:space="preserve">
     <value>Intern feilkode 2.</value>
   </data>
-	<data name="RdpErrorCode3" xml:space="preserve">
+  <data name="RdpErrorCode3" xml:space="preserve">
     <value>Intern feilkode 3. Dette er ikke en gyldig tilstand.</value>
   </data>
-	<data name="RdpErrorCode4" xml:space="preserve">
+  <data name="RdpErrorCode4" xml:space="preserve">
     <value>Intern feilkode 4.</value>
   </data>
-	<data name="RdpErrorConnection" xml:space="preserve">
+  <data name="RdpErrorConnection" xml:space="preserve">
     <value>Det oppstod en uopprettelig feil under klienttilkoblingen.</value>
   </data>
-	<data name="RdpErrorGetFailure" xml:space="preserve">
+  <data name="RdpErrorGetFailure" xml:space="preserve">
     <value>GetError mislyktes (FatalErrors)</value>
   </data>
-	<data name="RdpErrorGetUnknown" xml:space="preserve">
+  <data name="RdpErrorGetUnknown" xml:space="preserve">
     <value>Det oppstod en ukjent, uopprettelig RDP-feil.  Feilkode {0}.</value>
   </data>
-	<data name="RdpErrorOutOfMemory" xml:space="preserve">
+  <data name="RdpErrorOutOfMemory" xml:space="preserve">
     <value>Det oppstod en ut-av-minne-feil.</value>
   </data>
-	<data name="RdpErrorUnknown" xml:space="preserve">
+  <data name="RdpErrorUnknown" xml:space="preserve">
     <value>En ukjent feil har oppstått.</value>
   </data>
-	<data name="RdpErrorWindowCreation" xml:space="preserve">
+  <data name="RdpErrorWindowCreation" xml:space="preserve">
     <value>En vindusopprettingsfeil har oppstått.</value>
   </data>
-	<data name="RdpErrorWinsock" xml:space="preserve">
+  <data name="RdpErrorWinsock" xml:space="preserve">
     <value>Feil ved initialisering av Winsock.</value>
   </data>
-	<data name="RdpFileCouldNotBeImported" xml:space="preserve">
+  <data name="RdpFileCouldNotBeImported" xml:space="preserve">
     <value>Kunne ikke importere RDP-fil!</value>
   </data>
-	<data name="RdpFitToPanel" xml:space="preserve">
+  <data name="RdpFitToPanel" xml:space="preserve">
     <value>Tilpass til panel</value>
   </data>
-	<data name="RdpFocusFailed" xml:space="preserve">
+  <data name="RdpFocusFailed" xml:space="preserve">
     <value>RDP-fokus mislyktes!</value>
   </data>
-	<data name="RdpGatewayIsSupported" xml:space="preserve">
+  <data name="RdpGatewayIsSupported" xml:space="preserve">
     <value>RD Gateway støttes.</value>
   </data>
-	<data name="RdpGatewayNotSupported" xml:space="preserve">
+  <data name="RdpGatewayNotSupported" xml:space="preserve">
     <value>RD Gateway støttes ikke!</value>
   </data>
-	<data name="RdpGetSessionsFailed" xml:space="preserve">
+  <data name="RdpGetSessionsFailed" xml:space="preserve">
     <value>GetSessions mislyktes!</value>
   </data>
-	<data name="RdpReconnectCount" xml:space="preserve">
+  <data name="RdpReconnectCount" xml:space="preserve">
     <value>Antall RDP gjentilkoblingsforsøk:</value>
   </data>
-	<data name="RdpSetAuthenticationLevelFailed" xml:space="preserve">
+  <data name="RdpSetAuthenticationLevelFailed" xml:space="preserve">
     <value>RDP SetAuthenticationLevel mislyktes!</value>
   </data>
-	<data name="RdpSetConsoleSessionFailed" xml:space="preserve">
+  <data name="RdpSetConsoleSessionFailed" xml:space="preserve">
     <value>RDP SetUseConsoleSession mislyktes!</value>
   </data>
-	<data name="RdpSetConsoleSwitch" xml:space="preserve">
+  <data name="RdpSetConsoleSwitch" xml:space="preserve">
     <value>Angir konsollvalg for RDC {0}.</value>
   </data>
-	<data name="RdpSetCredentialsFailed" xml:space="preserve">
+  <data name="RdpSetCredentialsFailed" xml:space="preserve">
     <value>RDP SetCredentials mislyktes!</value>
   </data>
-	<data name="RdpSetEventHandlersFailed" xml:space="preserve">
+  <data name="RdpSetEventHandlersFailed" xml:space="preserve">
     <value>RDP SetEventHandlers mislyktes!</value>
   </data>
-	<data name="RdpSetGatewayFailed" xml:space="preserve">
+  <data name="RdpSetGatewayFailed" xml:space="preserve">
     <value>RDP SetRDGateway mislyktes!</value>
   </data>
-	<data name="RdpSetPerformanceFlagsFailed" xml:space="preserve">
+  <data name="RdpSetPerformanceFlagsFailed" xml:space="preserve">
     <value>RDP SetPerformanceFlags mislyktes!</value>
   </data>
-	<data name="RdpSetPortFailed" xml:space="preserve">
+  <data name="RdpSetPortFailed" xml:space="preserve">
     <value>RDP SetPort mislyktes!</value>
   </data>
-	<data name="RdpSetPropsFailed" xml:space="preserve">
+  <data name="RdpSetPropsFailed" xml:space="preserve">
     <value>RDP SetProps mislyktes!</value>
   </data>
-	<data name="RdpSetRedirectionFailed" xml:space="preserve">
+  <data name="RdpSetRedirectionFailed" xml:space="preserve">
     <value>RDP Set Redirection mislyktes!</value>
   </data>
-	<data name="RdpSetRedirectKeysFailed" xml:space="preserve">
+  <data name="RdpSetRedirectKeysFailed" xml:space="preserve">
     <value>RDP Set Redirect Keys mislyktes!</value>
   </data>
-	<data name="RdpSetResolutionFailed" xml:space="preserve">
+  <data name="RdpSetResolutionFailed" xml:space="preserve">
     <value>RDP SetResolution mislyktes!</value>
   </data>
-	<data name="RdpSmartSize" xml:space="preserve">
+  <data name="RdpSmartSize" xml:space="preserve">
     <value>SmartSize</value>
   </data>
-	<data name="RdpSoundBringToThisComputer" xml:space="preserve">
+  <data name="RdpSoundBringToThisComputer" xml:space="preserve">
     <value>Hent til denne datamaskinen</value>
   </data>
-	<data name="RdpSoundDoNotPlay" xml:space="preserve">
+  <data name="RdpSoundDoNotPlay" xml:space="preserve">
     <value>Ikke spill av</value>
   </data>
-	<data name="RdpSoundLeaveAtRemoteComputer" xml:space="preserve">
+  <data name="RdpSoundLeaveAtRemoteComputer" xml:space="preserve">
     <value>La være på ekstern datamaskin</value>
   </data>
-	<data name="RdpToggleFullscreenFailed" xml:space="preserve">
+  <data name="RdpToggleFullscreenFailed" xml:space="preserve">
     <value>RDP ToggleFullscreen mislyktes!</value>
   </data>
-	<data name="RdpToggleSmartSizeFailed" xml:space="preserve">
+  <data name="RdpToggleSmartSizeFailed" xml:space="preserve">
     <value>RDP ToggleSmartSize mislyktes!</value>
   </data>
-	<data name="ReconnectAtStartup" xml:space="preserve">
+  <data name="ReconnectAtStartup" xml:space="preserve">
     <value>Koble til tidligere åpnede økter ved oppstart</value>
   </data>
-	<data name="Refresh" xml:space="preserve">
+  <data name="Refresh" xml:space="preserve">
     <value>Oppdater</value>
   </data>
-	<data name="RemoteFile" xml:space="preserve">
+  <data name="RemoteFile" xml:space="preserve">
     <value>Ekstern fil</value>
   </data>
-	<data name="RemoveAll" xml:space="preserve">
+  <data name="RemoveAll" xml:space="preserve">
     <value>Fjern alle</value>
   </data>
-	<data name="Rename" xml:space="preserve">
+  <data name="Rename" xml:space="preserve">
     <value>Omdøp</value>
   </data>
-	<data name="Rlogin" xml:space="preserve">
+  <data name="Rlogin" xml:space="preserve">
     <value>Rlogin</value>
   </data>
-	<data name="Save" xml:space="preserve">
+  <data name="Save" xml:space="preserve">
     <value>Lagre</value>
   </data>
-	<data name="SaveAll" xml:space="preserve">
+  <data name="SaveAll" xml:space="preserve">
     <value>Lagre alle</value>
   </data>
-	<data name="SaveConnectionsFileBeforeOpeningAnother" xml:space="preserve">
+  <data name="SaveConnectionsFileBeforeOpeningAnother" xml:space="preserve">
     <value>Vil du lagre den gjeldende tilkoblingsfilen før du laster inn en annen?</value>
   </data>
-	<data name="SaveConsOnExit" xml:space="preserve">
+  <data name="SaveConsOnExit" xml:space="preserve">
     <value>Lagre tilkoblinger ved avslutning</value>
   </data>
-	<data name="SaveImageFilter" xml:space="preserve">
+  <data name="SaveImageFilter" xml:space="preserve">
     <value>Graphics Interchange Format File (.gif)|*.gif|Joint Photographic Experts Group File (.jpeg)|*.jpeg|Joint Photographic Experts Group File (.jpg)|*.jpg|Portable Network Graphics File (.png)|*.png</value>
   </data>
-	<data name="Screen" xml:space="preserve">
+  <data name="Screen" xml:space="preserve">
     <value>Skjerm</value>
   </data>
-	<data name="Screenshot" xml:space="preserve">
+  <data name="Screenshot" xml:space="preserve">
     <value>Skjermbilde</value>
   </data>
-	<data name="Screenshots" xml:space="preserve">
+  <data name="Screenshots" xml:space="preserve">
     <value>Skjermbilder</value>
   </data>
-	<data name="SearchPrompt" xml:space="preserve">
+  <data name="SearchPrompt" xml:space="preserve">
     <value>Søk</value>
   </data>
-	<data name="SendTo" xml:space="preserve">
+  <data name="SendTo" xml:space="preserve">
     <value>Send til...</value>
   </data>
-	<data name="SessionGetFailed" xml:space="preserve">
+  <data name="SessionGetFailed" xml:space="preserve">
     <value>Get Sessions Background mislyktes</value>
   </data>
-	<data name="SessionKillFailed" xml:space="preserve">
+  <data name="SessionKillFailed" xml:space="preserve">
     <value>Avslutning av Session Background mislyktes</value>
   </data>
-	<data name="SetHostnameLikeDisplayName" xml:space="preserve">
+  <data name="SetHostnameLikeDisplayName" xml:space="preserve">
     <value>Angi vertsnavnet som visningsnavn når du oppretter eller gir nytt navn til tilkoblinger</value>
   </data>
-	<data name="SettingMainFormTextFailed" xml:space="preserve">
+  <data name="SettingMainFormTextFailed" xml:space="preserve">
     <value>Angivelse av hovedskjematekst mislyktes</value>
   </data>
-	<data name="SettingsCouldNotBeSavedOrTrayDispose" xml:space="preserve">
+  <data name="SettingsCouldNotBeSavedOrTrayDispose" xml:space="preserve">
     <value>Kunne ikke lagre innstillinger eller fjerne SysTray-ikon!</value>
   </data>
-	<data name="ShowDescriptionTooltips" xml:space="preserve">
+  <data name="ShowDescriptionTooltips" xml:space="preserve">
     <value>Vis verktøystips i tilkoblingstreet</value>
   </data>
-	<data name="ShowFullConsFilePath" xml:space="preserve">
+  <data name="ShowFullConsFilePath" xml:space="preserve">
     <value>Vis full sti til tilkoblingsfilen i vindustittel</value>
   </data>
-	<data name="ShowLogonInfoOnTabs" xml:space="preserve">
+  <data name="ShowLogonInfoOnTabs" xml:space="preserve">
     <value>Vis påloggingsinformasjon i fanenavn</value>
   </data>
-	<data name="ShowProtocolOnTabs" xml:space="preserve">
+  <data name="ShowProtocolOnTabs" xml:space="preserve">
     <value>Vis protokoller i fanenavn</value>
   </data>
-	<data name="SingleClickOnConnectionOpensIt" xml:space="preserve">
+  <data name="SingleClickOnConnectionOpensIt" xml:space="preserve">
     <value>Enkeltklikk på tilkoblinger åpner den</value>
   </data>
-	<data name="SingleClickOnOpenConnectionSwitchesToIt" xml:space="preserve">
+  <data name="SingleClickOnOpenConnectionSwitchesToIt" xml:space="preserve">
     <value>Enkeltklikk på en åpnet tilkobling bytter til valgt tilkobling</value>
   </data>
-	<data name="Socks5" xml:space="preserve">
+  <data name="Socks5" xml:space="preserve">
     <value>Socks 5</value>
   </data>
-	<data name="Sort" xml:space="preserve">
+  <data name="Sort" xml:space="preserve">
     <value>Sorter</value>
   </data>
-	<data name="SortAsc" xml:space="preserve">
+  <data name="SortAsc" xml:space="preserve">
     <value>Stigende (A-Z)</value>
   </data>
-	<data name="SortDesc" xml:space="preserve">
+  <data name="SortDesc" xml:space="preserve">
     <value>Synkende (Z-A)</value>
   </data>
-	<data name="SpecialKeys" xml:space="preserve">
+  <data name="SpecialKeys" xml:space="preserve">
     <value>Spesialtastekombinasjoner</value>
   </data>
-	<data name="SQLInfo" xml:space="preserve">
+  <data name="SQLInfo" xml:space="preserve">
     <value>Vennligst se Hjelp - Komme i gang - SQL-konfigurasjon for mer informasjon!</value>
   </data>
-	<data name="SQLServer" xml:space="preserve">
+  <data name="SQLServer" xml:space="preserve">
     <value>SQL Server</value>
   </data>
-	<data name="SqlUpdateCheckUpdateAvailable" xml:space="preserve">
+  <data name="SqlUpdateCheckUpdateAvailable" xml:space="preserve">
     <value>SQL Update-sjekken er ferdig, og det er en oppdatering tilgjengelig! Oppdaterer tilkoblinger...</value>
   </data>
-	<data name="Ssh1" xml:space="preserve">
+  <data name="Ssh1" xml:space="preserve">
     <value>SSH versjon 1</value>
   </data>
-	<data name="Ssh2" xml:space="preserve">
+  <data name="Ssh2" xml:space="preserve">
     <value>SSH versjon 2</value>
   </data>
-	<data name="SSHStartTransferBG" xml:space="preserve">
+  <data name="SSHStartTransferBG" xml:space="preserve">
     <value>SSH-bakgrunnsoverføring mislyktes!</value>
   </data>
-	<data name="SSHTranferSuccessful" xml:space="preserve">
+  <data name="SSHTranferSuccessful" xml:space="preserve">
     <value>Overføring er vellykket!</value>
   </data>
-	<data name="SSHTransferEndFailed" xml:space="preserve">
+  <data name="SSHTransferEndFailed" xml:space="preserve">
     <value>SSH Transfer End (UI.Window.SSHTransfer) mislyktes!</value>
   </data>
-	<data name="SSHTransferFailed" xml:space="preserve">
+  <data name="SSHTransferFailed" xml:space="preserve">
     <value>SSH-overføringen mislyktes.</value>
   </data>
-	<data name="StartIP" xml:space="preserve">
+  <data name="StartIP" xml:space="preserve">
     <value>Start IP-adresse</value>
   </data>
-	<data name="StartPort" xml:space="preserve">
+  <data name="StartPort" xml:space="preserve">
     <value>Start-port</value>
   </data>
-	<data name="StartupExit" xml:space="preserve">
+  <data name="StartupExit" xml:space="preserve">
     <value>Oppstart/Avslutning</value>
   </data>
-	<data name="Status" xml:space="preserve">
+  <data name="Status" xml:space="preserve">
     <value>Status</value>
   </data>
-	<data name="SwitchToErrorsAndInfos" xml:space="preserve">
+  <data name="SwitchToErrorsAndInfos" xml:space="preserve">
     <value>Bytte til varslingspanelet på:</value>
   </data>
-	<data name="TabAdvanced" xml:space="preserve">
+  <data name="TabAdvanced" xml:space="preserve">
     <value>Avansert</value>
   </data>
-	<data name="TabsAndPanels" xml:space="preserve">
+  <data name="TabsAndPanels" xml:space="preserve">
     <value>Faner &amp;&amp; paneler</value>
   </data>
-	<data name="TabUpdates" xml:space="preserve">
+  <data name="TabUpdates" xml:space="preserve">
     <value>Oppdateringer</value>
   </data>
-	<data name="Telnet" xml:space="preserve">
+  <data name="Telnet" xml:space="preserve">
     <value>Telnet</value>
   </data>
-	<data name="TheFollowing" xml:space="preserve">
+  <data name="TheFollowing" xml:space="preserve">
     <value>Følgende:</value>
   </data>
-	<data name="ThemeCategoryConfigPanel" xml:space="preserve">
+  <data name="ThemeCategoryConfigPanel" xml:space="preserve">
     <value>Oppsettspanel</value>
   </data>
-	<data name="ThemeCategoryConnectionsPanel" xml:space="preserve">
+  <data name="ThemeCategoryConnectionsPanel" xml:space="preserve">
     <value>Tilkoblingspanel</value>
   </data>
-	<data name="ThemeDescriptionConfigPanelBackgroundColor" xml:space="preserve">
+  <data name="ThemeDescriptionConfigPanelBackgroundColor" xml:space="preserve">
     <value>Bakgrunnsfargen på oppsettspanelet.</value>
   </data>
-	<data name="ThemeDescriptionConfigPanelCategoryTextColor" xml:space="preserve">
+  <data name="ThemeDescriptionConfigPanelCategoryTextColor" xml:space="preserve">
     <value>Fargen på kategoritekst i oppsettspanelet.</value>
   </data>
-	<data name="ThemeDescriptionConfigPanelGridLineColor" xml:space="preserve">
+  <data name="ThemeDescriptionConfigPanelGridLineColor" xml:space="preserve">
     <value>Fargen på linjene i rutenettet i oppsettspanelet</value>
   </data>
-	<data name="ThemeDescriptionConfigPanelHelpBackgroundColor" xml:space="preserve">
+  <data name="ThemeDescriptionConfigPanelHelpBackgroundColor" xml:space="preserve">
     <value>Bakgrunnsfargen på hjelp-området i oppsettspanelet.</value>
   </data>
-	<data name="ThemeDescriptionConfigPanelHelpTextColor" xml:space="preserve">
+  <data name="ThemeDescriptionConfigPanelHelpTextColor" xml:space="preserve">
     <value>Fargen på teksten i hjelp-området i oppsettspanelet.</value>
   </data>
-	<data name="ThemeDescriptionConfigPanelTextColor" xml:space="preserve">
+  <data name="ThemeDescriptionConfigPanelTextColor" xml:space="preserve">
     <value>Fargen på teksten i oppsettspanelet.</value>
   </data>
-	<data name="ThemeDescriptionConnectionsPanelBackgroundColor" xml:space="preserve">
+  <data name="ThemeDescriptionConnectionsPanelBackgroundColor" xml:space="preserve">
     <value>Bakgrunnsfargen på tilkoblingspanelet.</value>
   </data>
-	<data name="ThemeDescriptionConnectionsPanelTextColor" xml:space="preserve">
+  <data name="ThemeDescriptionConnectionsPanelTextColor" xml:space="preserve">
     <value>Fargen på teksten i tilkoblingspanelet.</value>
   </data>
-	<data name="ThemeDescriptionConnectionsPanelTreeLineColor" xml:space="preserve">
+  <data name="ThemeDescriptionConnectionsPanelTreeLineColor" xml:space="preserve">
     <value>Fargen på trelinjene i tilkoblingspanelet.</value>
   </data>
-	<data name="ThemeDescriptionMenuBackgroundColor" xml:space="preserve">
+  <data name="ThemeDescriptionMenuBackgroundColor" xml:space="preserve">
     <value>Bakgrunnsfargen på menyene.</value>
   </data>
-	<data name="ThemeDescriptionMenuTextColor" xml:space="preserve">
+  <data name="ThemeDescriptionMenuTextColor" xml:space="preserve">
     <value>Fargen på teksten i menyene.</value>
   </data>
-	<data name="ThemeDescriptionSearchBoxBackgroundColor" xml:space="preserve">
+  <data name="ThemeDescriptionSearchBoxBackgroundColor" xml:space="preserve">
     <value>Bakgrunnsfargen på søkeboksen.</value>
   </data>
-	<data name="ThemeDescriptionSearchBoxTextColor" xml:space="preserve">
+  <data name="ThemeDescriptionSearchBoxTextColor" xml:space="preserve">
     <value>Fargen på teksten i søkeboksen.</value>
   </data>
-	<data name="ThemeDescriptionSearchBoxTextPromptColor" xml:space="preserve">
+  <data name="ThemeDescriptionSearchBoxTextPromptColor" xml:space="preserve">
     <value>Fargen på ledeteksten i søkeboksen.</value>
   </data>
-	<data name="ThemeDescriptionToolbarBackgroundColor" xml:space="preserve">
+  <data name="ThemeDescriptionToolbarBackgroundColor" xml:space="preserve">
     <value>Bakgrunnsfargen på verktøylinjene.</value>
   </data>
-	<data name="ThemeDescriptionToolbarTextColor" xml:space="preserve">
+  <data name="ThemeDescriptionToolbarTextColor" xml:space="preserve">
     <value>Fargen på teksten i verktøylinjene.</value>
   </data>
-	<data name="ThemeDescriptionWindowBackgroundColor" xml:space="preserve">
+  <data name="ThemeDescriptionWindowBackgroundColor" xml:space="preserve">
     <value>Bakgrunnsfarge i hovedvinduet.</value>
   </data>
-	<data name="ThemeNameConfigPanelBackgroundColor" xml:space="preserve">
+  <data name="ThemeNameConfigPanelBackgroundColor" xml:space="preserve">
     <value>Bakgrunnsfarge for oppsettspanelet</value>
   </data>
-	<data name="ThemeNameConfigPanelCategoryTextColor" xml:space="preserve">
+  <data name="ThemeNameConfigPanelCategoryTextColor" xml:space="preserve">
     <value>Tekstfarge for oppsettspanel-kategori</value>
   </data>
-	<data name="ThemeNameConfigPanelGridLineColor" xml:space="preserve">
+  <data name="ThemeNameConfigPanelGridLineColor" xml:space="preserve">
     <value>Rutenettfarge for oppsettspanelet</value>
   </data>
-	<data name="ThemeNameConfigPanelHelpBackgroundColor" xml:space="preserve">
+  <data name="ThemeNameConfigPanelHelpBackgroundColor" xml:space="preserve">
     <value>Bakgrunnsfarge for oppsettspanel-hjelp</value>
   </data>
-	<data name="ThemeNameConfigPanelHelpTextColor" xml:space="preserve">
+  <data name="ThemeNameConfigPanelHelpTextColor" xml:space="preserve">
     <value>Tekstfarge for oppsettspanel-hjelp</value>
   </data>
-	<data name="ThemeNameConfigPanelTextColor" xml:space="preserve">
+  <data name="ThemeNameConfigPanelTextColor" xml:space="preserve">
     <value>Tekstfarge for oppsettspanelet</value>
   </data>
-	<data name="ThemeNameConnectionsPanelBackgroundColor" xml:space="preserve">
+  <data name="ThemeNameConnectionsPanelBackgroundColor" xml:space="preserve">
     <value>Bakgrunnsfarge for tilkoblingspanelet</value>
   </data>
-	<data name="ThemeNameConnectionsPanelTextColor" xml:space="preserve">
+  <data name="ThemeNameConnectionsPanelTextColor" xml:space="preserve">
     <value>Tekstfarge for tilkoblingspanelet</value>
   </data>
-	<data name="ThemeNameConnectionsPanelTreeLineColor" xml:space="preserve">
+  <data name="ThemeNameConnectionsPanelTreeLineColor" xml:space="preserve">
     <value>Farge på trelinjene i tilkoblingspanelet</value>
   </data>
-	<data name="ThemeNameMenuBackgroundColor" xml:space="preserve">
+  <data name="ThemeNameMenuBackgroundColor" xml:space="preserve">
     <value>Bakgrunnsfarge på menyene</value>
   </data>
-	<data name="ThemeNameMenuTextColor" xml:space="preserve">
+  <data name="ThemeNameMenuTextColor" xml:space="preserve">
     <value>Tekstfarge for menytekst</value>
   </data>
-	<data name="ThemeNameSearchBoxBackgroundColor" xml:space="preserve">
+  <data name="ThemeNameSearchBoxBackgroundColor" xml:space="preserve">
     <value>Bakgrunnsfarge for søkeboksen</value>
   </data>
-	<data name="ThemeNameSearchBoxTextColor" xml:space="preserve">
+  <data name="ThemeNameSearchBoxTextColor" xml:space="preserve">
     <value>Tekstfarge for søkeboksen</value>
   </data>
-	<data name="ThemeNameSearchBoxTextPromptColor" xml:space="preserve">
+  <data name="ThemeNameSearchBoxTextPromptColor" xml:space="preserve">
     <value>Tekstfarge for spørsmål fra søkeboksen</value>
   </data>
-	<data name="ThemeNameToolbarBackgroundColor" xml:space="preserve">
+  <data name="ThemeNameToolbarBackgroundColor" xml:space="preserve">
     <value>Bakgrunnsfarge for verktøylinjen</value>
   </data>
-	<data name="ThemeNameToolbarTextColor" xml:space="preserve">
+  <data name="ThemeNameToolbarTextColor" xml:space="preserve">
     <value>Tekstfarge for verktøylinjen</value>
   </data>
-	<data name="ThemeNameWindowBackgroundColor" xml:space="preserve">
+  <data name="ThemeNameWindowBackgroundColor" xml:space="preserve">
     <value>Bakgrunnsfarge for vinduet</value>
   </data>
-	<data name="TitleError" xml:space="preserve">
+  <data name="TitleError" xml:space="preserve">
     <value>Feil ({0})</value>
   </data>
-	<data name="TitleInformation" xml:space="preserve">
+  <data name="TitleInformation" xml:space="preserve">
     <value>Informasjon ({0})</value>
   </data>
-	<data name="TitlePassword" xml:space="preserve">
+  <data name="PropertyNamePassword" xml:space="preserve">
     <value>Passord</value>
   </data>
-	<data name="TitleSelectPanel" xml:space="preserve">
+  <data name="TitleSelectPanel" xml:space="preserve">
     <value>Velg panel</value>
   </data>
-	<data name="TitleWarning" xml:space="preserve">
+  <data name="TitleWarning" xml:space="preserve">
     <value>Advarsel ({0})</value>
   </data>
-	<data name="Transfer" xml:space="preserve">
+  <data name="Transfer" xml:space="preserve">
     <value>Overfør</value>
   </data>
-	<data name="TransferFailed" xml:space="preserve">
+  <data name="TransferFailed" xml:space="preserve">
     <value>Overføringen mislyktes!</value>
   </data>
-	<data name="TryIntegrate" xml:space="preserve">
+  <data name="TryIntegrate" xml:space="preserve">
     <value>Prøv å integrere</value>
   </data>
-	<data name="Type" xml:space="preserve">
+  <data name="Type" xml:space="preserve">
     <value>Type</value>
   </data>
-	<data name="UltraVncRepeater" xml:space="preserve">
+  <data name="UltraVncRepeater" xml:space="preserve">
     <value>Ultra VNC Repeater</value>
   </data>
-	<data name="UltraVNCSCListeningPort" xml:space="preserve">
+  <data name="UltraVNCSCListeningPort" xml:space="preserve">
     <value>UltraVNC SingleClick port:</value>
   </data>
-	<data name="UncheckProperties" xml:space="preserve">
+  <data name="UncheckProperties" xml:space="preserve">
     <value>Fjern avkryssingen for egenskapene du ikke ønsker å lagre!</value>
   </data>
-	<data name="UnnamedTheme" xml:space="preserve">
+  <data name="UnnamedTheme" xml:space="preserve">
     <value>Tema uten navn</value>
   </data>
-	<data name="UpdateAvailable" xml:space="preserve">
+  <data name="UpdateAvailable" xml:space="preserve">
     <value>mRemoteNG krever en oppdatering</value>
   </data>
-	<data name="UpdateCheck" xml:space="preserve">
+  <data name="UpdateCheck" xml:space="preserve">
     <value>mRemoteNG kan med jevne mellomrom koble til mRemoteNG-webområdet for å se etter oppdateringer og produktkunngjøringer.</value>
   </data>
-	<data name="UpdateCheckCompleteFailed" xml:space="preserve">
+  <data name="UpdateCheckCompleteFailed" xml:space="preserve">
     <value>Fullføring av sjekk for oppdatering mislyktes!</value>
   </data>
-	<data name="UpdateCheckPortableEdition" xml:space="preserve">
+  <data name="UpdateCheckPortableEdition" xml:space="preserve">
     <value>mRemoteNG Portable Edition støtter for øyeblikket ikke automatiske oppdateringer.</value>
   </data>
-	<data name="UpdateDownloadComplete" xml:space="preserve">
+  <data name="UpdateDownloadComplete" xml:space="preserve">
     <value>Nedlastingen er fullført!
 mRemoteNG vil nå avslutte og starte installasjonen.</value>
   </data>
-	<data name="UpdateDownloadCompleteFailed" xml:space="preserve">
+  <data name="UpdateDownloadCompleteFailed" xml:space="preserve">
     <value>Nedlasting fullført mislyktes!</value>
   </data>
-	<data name="UpdateDownloadFailed" xml:space="preserve">
+  <data name="UpdateDownloadFailed" xml:space="preserve">
     <value>Last ned oppdatering mislyktes!</value>
   </data>
-	<data name="UpdateFrequencyCustom" xml:space="preserve">
+  <data name="UpdateFrequencyCustom" xml:space="preserve">
     <value>Hver {0} dag</value>
   </data>
-	<data name="UpdateFrequencyDaily" xml:space="preserve">
+  <data name="UpdateFrequencyDaily" xml:space="preserve">
     <value>Daglig</value>
   </data>
-	<data name="UpdateFrequencyMonthly" xml:space="preserve">
+  <data name="UpdateFrequencyMonthly" xml:space="preserve">
     <value>Månedlig</value>
   </data>
-	<data name="UpdateFrequencyWeekly" xml:space="preserve">
+  <data name="UpdateFrequencyWeekly" xml:space="preserve">
     <value>Ukentlig</value>
   </data>
-	<data name="UseDifferentUsernameAndPassword" xml:space="preserve">
+  <data name="UseDifferentUsernameAndPassword" xml:space="preserve">
     <value>Bruk et annet brukernavn og/eller passord</value>
   </data>
-	<data name="User" xml:space="preserve">
+  <data name="User" xml:space="preserve">
     <value>Bruker</value>
   </data>
-	<data name="UseSameUsernameAndPassword" xml:space="preserve">
+  <data name="UseSameUsernameAndPassword" xml:space="preserve">
     <value>Bruk samme brukernavn og passord</value>
   </data>
-	<data name="UseSmartCard" xml:space="preserve">
+  <data name="UseSmartCard" xml:space="preserve">
     <value>Bruk et smartkort</value>
   </data>
-	<data name="UseSQLServer" xml:space="preserve">
+  <data name="UseSQLServer" xml:space="preserve">
     <value>Bruk SQL Server for å laste inn &amp;&amp; lagre tilkoblinger</value>
   </data>
-	<data name="Version" xml:space="preserve">
+  <data name="Version" xml:space="preserve">
     <value>Versjon</value>
   </data>
-	<data name="Vnc" xml:space="preserve">
+  <data name="Vnc" xml:space="preserve">
     <value>VNC</value>
   </data>
-	<data name="VncConnectionDisconnectFailed" xml:space="preserve">
+  <data name="VncConnectionDisconnectFailed" xml:space="preserve">
     <value>VNC-frakobling mislyktes!</value>
   </data>
-	<data name="VncRefreshFailed" xml:space="preserve">
+  <data name="VncRefreshFailed" xml:space="preserve">
     <value>Oppfrisking av skjermen i VNC mislyktes!</value>
   </data>
-	<data name="VncSendSpecialKeysFailed" xml:space="preserve">
+  <data name="VncSendSpecialKeysFailed" xml:space="preserve">
     <value>VNC SendSpecialKeys mislyktes!</value>
   </data>
-	<data name="VncSetEventHandlersFailed" xml:space="preserve">
+  <data name="VncSetEventHandlersFailed" xml:space="preserve">
     <value>VNC Set Event behandlingsrutiner mislyktes!</value>
   </data>
-	<data name="VncSetPropsFailed" xml:space="preserve">
+  <data name="VncSetPropsFailed" xml:space="preserve">
     <value>VNC Set Props-handling mislyktes!</value>
   </data>
-	<data name="VncStartChatFailed" xml:space="preserve">
+  <data name="VncStartChatFailed" xml:space="preserve">
     <value>VNC Start Chat mislyktes!</value>
   </data>
-	<data name="VncToggleSmartSizeFailed" xml:space="preserve">
+  <data name="VncToggleSmartSizeFailed" xml:space="preserve">
     <value>VNC Vis/Skjul SmartSize mislyktes!</value>
   </data>
-	<data name="VncToggleViewOnlyFailed" xml:space="preserve">
+  <data name="VncToggleViewOnlyFailed" xml:space="preserve">
     <value>VNC Vis/Skjul ViewOnly mislyktes!</value>
   </data>
-	<data name="WarnIfAuthFails" xml:space="preserve">
+  <data name="WarnIfAuthFails" xml:space="preserve">
     <value>Advar meg hvis autentisering mislykkes</value>
   </data>
-	<data name="Warnings" xml:space="preserve">
+  <data name="Warnings" xml:space="preserve">
     <value>Advarsler</value>
   </data>
-	<data name="WeifenLuoAttribution" xml:space="preserve">
+  <data name="WeifenLuoAttribution" xml:space="preserve">
     <value>Bruker DockPanel Suite av [Weifen Luo]</value>
   </data>
-	<data name="XULrunnerPath" xml:space="preserve">
+  <data name="XULrunnerPath" xml:space="preserve">
     <value>XULrunner filsti:</value>
   </data>
-	<data name="Yes" xml:space="preserve">
+  <data name="Yes" xml:space="preserve">
     <value>Ja</value>
   </data>
 </root>

@@ -50,8 +50,8 @@ namespace mRemoteNG.UI.Forms.OptionsPages
             lblProxyPort.Text = $@"{Language.PropertyNamePort}:";
 
             chkUseProxyAuthentication.Text = Language.CheckboxProxyAuthentication;
-            lblProxyUsername.Text = $@"{Language.CheckboxUsername}:";
-            lblProxyPassword.Text = $@"{Language.TitlePassword}:";
+            lblProxyUsername.Text = $@"{Language.PropertyNameUsername}:";
+            lblProxyPassword.Text = $@"{Language.PropertyNamePassword}:";
 
             btnTestProxy.Text = Language.ButtonTestProxy;
         }

@@ -241,9 +241,9 @@ namespace mRemoteNG.UI.Forms
             rdoExportSelectedConnection.Text = Language.ExportSelectedConnection;
 
             grpProperties.Text = Language.ExportProperties;
-            chkUsername.Text = Language.CheckboxUsername;
-            chkPassword.Text = Language.TitlePassword;
-            chkDomain.Text = Language.CheckboxDomain;
+            chkUsername.Text = Language.PropertyNameUsername;
+            chkPassword.Text = Language.PropertyNamePassword;
+            chkDomain.Text = Language.PropertyNameDomain;
             chkAssignedCredential.Text = Language.AssignedCredential;
             chkInheritance.Text = Language.ButtonInheritance;
             lblUncheckProperties.Text = Language.UncheckProperties;

@@ -1,4 +1,4 @@
-using mRemoteNG.Config;
+﻿using mRemoteNG.Config;
 using System;
 
 namespace mRemoteNG.UI.Forms.OptionsPages
@@ -33,8 +33,8 @@ namespace mRemoteNG.UI.Forms.OptionsPages
             chkPlaceSearchBarAboveConnectionTree.Text = Language.PlaceSearchBarAboveConnectionTree;
 
             lblRdpReconnectionCount.Text = Language.RdpReconnectCount;
-            lblRDPConTimeout.Text = Language.RDPOverallConnectionTimeout;
-            lblAutoSave1.Text = Language.AutoSaveEvery;
+            lblRDPConTimeout.Text = Language.RdpOverallConnectionTimeout;
+            lblAutoSave.Text = Language.AutoSaveEvery;
 
             lblClosingConnections.Text = Language.LabelClosingConnections;
             radCloseWarnAll.Text = Language.RadioCloseWarnAll;

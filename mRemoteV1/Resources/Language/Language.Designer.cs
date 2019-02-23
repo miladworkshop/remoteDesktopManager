@@ -412,15 +412,6 @@ namespace mRemoteNG {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Icon.
-        /// </summary>
-        internal static string ButtonIcon {
-            get {
-                return ResourceManager.GetString("ButtonIcon", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to &amp;Import.
         /// </summary>
         internal static string ButtonImport {
@@ -761,15 +752,6 @@ namespace mRemoteNG {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Domain.
-        /// </summary>
-        internal static string CheckboxDomain {
-            get {
-                return ResourceManager.GetString("CheckboxDomain", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Do not show this message again..
         /// </summary>
         internal static string CheckboxDoNotShowThisMessageAgain {
@@ -811,15 +793,6 @@ namespace mRemoteNG {
         internal static string CheckboxUpdateUseProxy {
             get {
                 return ResourceManager.GetString("CheckboxUpdateUseProxy", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Username.
-        /// </summary>
-        internal static string CheckboxUsername {
-            get {
-                return ResourceManager.GetString("CheckboxUsername", resourceCulture);
             }
         }
         
@@ -937,15 +910,6 @@ namespace mRemoteNG {
         internal static string ColumnFilename {
             get {
                 return ResourceManager.GetString("ColumnFilename", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Hostname/IP.
-        /// </summary>
-        internal static string ColumnHostnameIP {
-            get {
-                return ResourceManager.GetString("ColumnHostnameIP", resourceCulture);
             }
         }
         
@@ -2760,15 +2724,6 @@ namespace mRemoteNG {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Protocol.
-        /// </summary>
-        internal static string LabelProtocol {
-            get {
-                return ResourceManager.GetString("LabelProtocol", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to To configure PuTTY sessions click this button:.
         /// </summary>
         internal static string LabelPuttySessionsConfig {
@@ -2846,15 +2801,6 @@ namespace mRemoteNG {
         internal static string LabelVerify {
             get {
                 return ResourceManager.GetString("LabelVerify", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Language.
-        /// </summary>
-        internal static string Language {
-            get {
-                return ResourceManager.GetString("Language", resourceCulture);
             }
         }
         
@@ -4732,6 +4678,15 @@ namespace mRemoteNG {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Hostname/IP.
+        /// </summary>
+        internal static string PropertyNameAddress {
+            get {
+                return ResourceManager.GetString("PropertyNameAddress", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to All.
         /// </summary>
         internal static string PropertyNameAll {
@@ -4822,6 +4777,15 @@ namespace mRemoteNG {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Domain.
+        /// </summary>
+        internal static string PropertyNameDomain {
+            get {
+                return ResourceManager.GetString("PropertyNameDomain", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Desktop Composition.
         /// </summary>
         internal static string PropertyNameEnableDesktopComposition {
@@ -4885,6 +4849,15 @@ namespace mRemoteNG {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Icon.
+        /// </summary>
+        internal static string PropertyNameIcon {
+            get {
+                return ResourceManager.GetString("PropertyNameIcon", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Load Balance Info.
         /// </summary>
         internal static string PropertyNameLoadBalanceInfo {
@@ -4921,11 +4894,29 @@ namespace mRemoteNG {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Password.
+        /// </summary>
+        internal static string PropertyNamePassword {
+            get {
+                return ResourceManager.GetString("PropertyNamePassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Port.
         /// </summary>
         internal static string PropertyNamePort {
             get {
                 return ResourceManager.GetString("PropertyNamePort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Protocol.
+        /// </summary>
+        internal static string PropertyNameProtocol {
+            get {
+                return ResourceManager.GetString("PropertyNameProtocol", resourceCulture);
             }
         }
         
@@ -5133,6 +5124,15 @@ namespace mRemoteNG {
         internal static string PropertyNameUser1 {
             get {
                 return ResourceManager.GetString("PropertyNameUser1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Username.
+        /// </summary>
+        internal static string PropertyNameUsername {
+            get {
+                return ResourceManager.GetString("PropertyNameUsername", resourceCulture);
             }
         }
         
@@ -6499,6 +6499,15 @@ namespace mRemoteNG {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Language.
+        /// </summary>
+        internal static string strLanguage {
+            get {
+                return ResourceManager.GetString("strLanguage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Switch to Notifications panel on:.
         /// </summary>
         internal static string SwitchToErrorsAndInfos {
@@ -6936,15 +6945,6 @@ namespace mRemoteNG {
         internal static string TitleInformation {
             get {
                 return ResourceManager.GetString("TitleInformation", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Password.
-        /// </summary>
-        internal static string TitlePassword {
-            get {
-                return ResourceManager.GetString("TitlePassword", resourceCulture);
             }
         }
         

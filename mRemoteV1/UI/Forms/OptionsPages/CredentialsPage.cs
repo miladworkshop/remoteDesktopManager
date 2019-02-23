@@ -26,9 +26,9 @@ namespace mRemoteNG.UI.Forms.OptionsPages
             radCredentialsNoInfo.Text = Language.None;
             radCredentialsWindows.Text = Language.MyCurrentWindowsCreds;
             radCredentialsCustom.Text = Language.TheFollowing;
-            lblCredentialsUsername.Text = $@"{Language.CheckboxUsername}:";
-            lblCredentialsPassword.Text = $@"{Language.TitlePassword}:";
-            lblCredentialsDomain.Text = $@"{Language.CheckboxDomain}:";
+            lblCredentialsUsername.Text = $@"{Language.PropertyNameUsername}:";
+            lblCredentialsPassword.Text = $@"{Language.PropertyNamePassword}:";
+            lblCredentialsDomain.Text = $@"{Language.PropertyNameDomain}:";
         }
 
         public override void LoadSettings()

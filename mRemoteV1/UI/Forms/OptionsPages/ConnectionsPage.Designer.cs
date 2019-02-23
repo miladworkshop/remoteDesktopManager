@@ -37,7 +37,7 @@ namespace mRemoteNG.UI.Forms.OptionsPages
             this.chkSingleClickOnConnectionOpensIt = new mRemoteNG.UI.Controls.Base.NGCheckBox();
             this.chkHostnameLikeDisplayName = new mRemoteNG.UI.Controls.Base.NGCheckBox();
             this.chkSingleClickOnOpenedConnectionSwitchesToIt = new mRemoteNG.UI.Controls.Base.NGCheckBox();
-            this.lblAutoSave1 = new mRemoteNG.UI.Controls.Base.NGLabel();
+            this.lblAutoSave = new mRemoteNG.UI.Controls.Base.NGLabel();
             this.numAutoSave = new mRemoteNG.UI.Controls.Base.NGNumericUpDown();
             this.pnlConfirmCloseConnection = new System.Windows.Forms.Panel();
             this.lblClosingConnections = new mRemoteNG.UI.Controls.Base.NGLabel();
@@ -156,13 +156,13 @@ namespace mRemoteNG.UI.Forms.OptionsPages
             // 
             // lblAutoSave1
             // 
-            this.lblAutoSave1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lblAutoSave1.Location = new System.Drawing.Point(3, 52);
-            this.lblAutoSave1.Name = "lblAutoSave1";
-            this.lblAutoSave1.Size = new System.Drawing.Size(265, 26);
-            this.lblAutoSave1.TabIndex = 0;
-            this.lblAutoSave1.Text = "Auto Save  in Minutes (0 means disabled)";
-            this.lblAutoSave1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblAutoSave.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lblAutoSave.Location = new System.Drawing.Point(3, 52);
+            this.lblAutoSave.Name = "lblAutoSave1";
+            this.lblAutoSave.Size = new System.Drawing.Size(265, 26);
+            this.lblAutoSave.TabIndex = 0;
+            this.lblAutoSave.Text = "Auto Save  in Minutes (0 means disabled)";
+            this.lblAutoSave.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // numAutoSave
             // 
@@ -278,7 +278,7 @@ namespace mRemoteNG.UI.Forms.OptionsPages
             this.tableLayoutPanel2.Controls.Add(this.numRdpReconnectionCount, 1, 0);
             this.tableLayoutPanel2.Controls.Add(this.numAutoSave, 1, 2);
             this.tableLayoutPanel2.Controls.Add(this.lblRdpReconnectionCount, 0, 0);
-            this.tableLayoutPanel2.Controls.Add(this.lblAutoSave1, 0, 2);
+            this.tableLayoutPanel2.Controls.Add(this.lblAutoSave, 0, 2);
             this.tableLayoutPanel2.Controls.Add(this.lblRDPConTimeout, 0, 1);
             this.tableLayoutPanel2.Controls.Add(this.numRDPConTimeout, 1, 1);
             this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 164);
@@ -343,7 +343,7 @@ namespace mRemoteNG.UI.Forms.OptionsPages
 		internal Controls.Base.NGCheckBox chkSingleClickOnConnectionOpensIt;
 		internal Controls.Base.NGCheckBox chkHostnameLikeDisplayName;
 		internal Controls.Base.NGCheckBox chkSingleClickOnOpenedConnectionSwitchesToIt;
-		internal Controls.Base.NGLabel lblAutoSave1;
+		internal Controls.Base.NGLabel lblAutoSave;
 		internal Controls.Base.NGNumericUpDown numAutoSave;
 		internal System.Windows.Forms.Panel pnlConfirmCloseConnection;
 		internal Controls.Base.NGLabel lblClosingConnections;

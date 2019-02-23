@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -165,7 +165,7 @@ namespace mRemoteNG.UI.Window
             btnScan.Text = Language.ButtonScan;
             btnImport.Text = Language.ButtonImport;
             lblOnlyImport.Text = Language.ProtocolToImport;
-            clmHost.Text = Language.ColumnHostnameIP;
+            clmHost.Text = Language.PropertyNameAddress;
             clmOpenPorts.Text = Language.OpenPorts;
             clmClosedPorts.Text = Language.ClosedPorts;
             ngCheckFirstPort.Text = Language.StartPort;
