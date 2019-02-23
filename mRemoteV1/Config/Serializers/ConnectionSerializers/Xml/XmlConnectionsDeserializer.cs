@@ -387,7 +387,7 @@ namespace mRemoteNG.Config.Serializers.Xml
                     if (xmlnode.GetAttributeAsBool("Inherit"))
                         connectionInfo.Inheritance.TurnOnInheritanceCompletely();
                     connectionInfo.Icon = xmlnode.GetAttributeAsString("Icon").Replace(".ico", "");
-                    connectionInfo.Panel = Language.General;
+                    connectionInfo.Panel = Language.CategoryGeneral;
                 }
 
                 if (_confVersion >= 1.5)

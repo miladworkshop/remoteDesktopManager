@@ -643,7 +643,7 @@ Creazione di un nuovo file delle connessioni.</value>
   <data name="Fullscreen" xml:space="preserve">
     <value>Schermo intero</value>
   </data>
-  <data name="General" xml:space="preserve">
+  <data name="CategoryGeneral" xml:space="preserve">
     <value>Generale</value>
   </data>
   <data name="GetConnectionInfoFromSqlFailed" xml:space="preserve">
@@ -742,10 +742,10 @@ Creazione di un nuovo file delle connessioni.</value>
   <data name="IntAppTitle" xml:space="preserve">
     <value>Int App Title: {0}</value>
   </data>
-  <data name="KeysCtrlAltDel" xml:space="preserve">
+  <data name="CtrlAltDel" xml:space="preserve">
     <value>CTRL-ALT-CANC</value>
   </data>
-  <data name="KeysCtrlEsc" xml:space="preserve">
+  <data name="CtrlEsc" xml:space="preserve">
     <value>CTRL-ESC</value>
   </data>
   <data name="LabelAddress" xml:space="preserve">
@@ -766,7 +766,7 @@ Creazione di un nuovo file delle connessioni.</value>
   <data name="PortableEdition" xml:space="preserve">
     <value>Edizione Portable</value>
   </data>
-  <data name="PropertyNameProtocol" xml:space="preserve">
+  <data name="Protocol" xml:space="preserve">
     <value>Protocollo:</value>
   </data>
   <data name="LabelPuttySessionsConfig" xml:space="preserve">
@@ -843,12 +843,6 @@ Creazione di un nuovo file delle connessioni.</value>
   </data>
   <data name="Copy" xml:space="preserve">
     <value>Copia</value>
-  </data>
-  <data name="MenuCtrlAltDel" xml:space="preserve">
-    <value>Ctrl-Alt-Canc</value>
-  </data>
-  <data name="MenuCtrlEsc" xml:space="preserve">
-    <value>Ctrl-Esc</value>
   </data>
   <data name="MenuDeleteConnection" xml:space="preserve">
     <value>Elimina connessione...</value>

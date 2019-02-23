@@ -75,73 +75,73 @@ namespace mRemoteNG.Connection
 
         #region Protocol
 
-        [LocalizedAttributes.LocalizedCategory("CategoryProtocol", 4),
-         LocalizedAttributes.LocalizedDisplayNameInherit("PropertyNameProtocol"),
+        [LocalizedAttributes.LocalizedCategory("Protocol", 4),
+         LocalizedAttributes.LocalizedDisplayNameInherit("Protocol"),
          LocalizedAttributes.LocalizedDescriptionInherit("PropertyDescriptionProtocol"),
          TypeConverter(typeof(MiscTools.YesNoTypeConverter))]
         public bool Protocol { get; set; }
 
-        [LocalizedAttributes.LocalizedCategory("CategoryProtocol", 4),
+        [LocalizedAttributes.LocalizedCategory("Protocol", 4),
          LocalizedAttributes.LocalizedDisplayNameInherit("PropertyNameExternalTool"),
          LocalizedAttributes.LocalizedDescriptionInherit("PropertyDescriptionExternalTool"),
          TypeConverter(typeof(MiscTools.YesNoTypeConverter))]
         public bool ExtApp { get; set; }
 
-        [LocalizedAttributes.LocalizedCategory("CategoryProtocol", 4),
+        [LocalizedAttributes.LocalizedCategory("Protocol", 4),
          LocalizedAttributes.LocalizedDisplayNameInherit("PropertyNamePort"),
          LocalizedAttributes.LocalizedDescriptionInherit("PropertyDescriptionPort"),
          TypeConverter(typeof(MiscTools.YesNoTypeConverter))]
         public bool Port { get; set; }
 
-        [LocalizedAttributes.LocalizedCategory("CategoryProtocol", 4),
+        [LocalizedAttributes.LocalizedCategory("Protocol", 4),
          LocalizedAttributes.LocalizedDisplayNameInherit("PropertyNamePuttySession"),
          LocalizedAttributes.LocalizedDescriptionInherit("PropertyDescriptionPuttySession"),
          TypeConverter(typeof(MiscTools.YesNoTypeConverter))]
         public bool PuttySession { get; set; }
 
-        [LocalizedAttributes.LocalizedCategory("CategoryProtocol", 4),
+        [LocalizedAttributes.LocalizedCategory("Protocol", 4),
          LocalizedAttributes.LocalizedDisplayNameInherit("PropertyNameEncryptionStrength"),
          LocalizedAttributes.LocalizedDescriptionInherit("PropertyDescriptionEncryptionStrength"),
          TypeConverter(typeof(MiscTools.YesNoTypeConverter))]
         public bool ICAEncryptionStrength { get; set; }
 
-        [LocalizedAttributes.LocalizedCategory("CategoryProtocol", 4),
+        [LocalizedAttributes.LocalizedCategory("Protocol", 4),
          LocalizedAttributes.LocalizedDisplayNameInherit("PropertyNameAuthenticationLevel"),
          LocalizedAttributes.LocalizedDescriptionInherit("PropertyDescriptionAuthenticationLevel"),
          TypeConverter(typeof(MiscTools.YesNoTypeConverter))]
         public bool RDPAuthenticationLevel { get; set; }
 
-        [LocalizedAttributes.LocalizedCategory("CategoryProtocol", 4),
+        [LocalizedAttributes.LocalizedCategory("Protocol", 4),
          LocalizedAttributes.LocalizedDisplayNameInherit("PropertyNameRDPMinutesToIdleTimeout"),
          LocalizedAttributes.LocalizedDescriptionInherit("PropertyDescriptionRDPMinutesToIdleTimeout"),
          TypeConverter(typeof(MiscTools.YesNoTypeConverter))]
         public bool RDPMinutesToIdleTimeout { get; set; }
 
-        [LocalizedAttributes.LocalizedCategory("CategoryProtocol", 4),
+        [LocalizedAttributes.LocalizedCategory("Protocol", 4),
          LocalizedAttributes.LocalizedDisplayNameInherit("PropertyNameRDPAlertIdleTimeout"),
          LocalizedAttributes.LocalizedDescriptionInherit("PropertyDescriptionRDPAlertIdleTimeout"),
          TypeConverter(typeof(MiscTools.YesNoTypeConverter))]
         public bool RDPAlertIdleTimeout { get; set; }
 
-        [LocalizedAttributes.LocalizedCategory("CategoryProtocol", 4),
+        [LocalizedAttributes.LocalizedCategory("Protocol", 4),
          LocalizedAttributes.LocalizedDisplayNameInherit("PropertyNameLoadBalanceInfo"),
          LocalizedAttributes.LocalizedDescriptionInherit("PropertyDescriptionLoadBalanceInfo"),
          TypeConverter(typeof(MiscTools.YesNoTypeConverter))]
         public bool LoadBalanceInfo { get; set; }
 
-        [LocalizedAttributes.LocalizedCategory("CategoryProtocol", 4),
+        [LocalizedAttributes.LocalizedCategory("Protocol", 4),
          LocalizedAttributes.LocalizedDisplayNameInherit("PropertyNameRenderingEngine"),
          LocalizedAttributes.LocalizedDescriptionInherit("PropertyDescriptionRenderingEngine"),
          TypeConverter(typeof(MiscTools.YesNoTypeConverter))]
         public bool RenderingEngine { get; set; }
 
-        [LocalizedAttributes.LocalizedCategory("CategoryProtocol", 4),
+        [LocalizedAttributes.LocalizedCategory("Protocol", 4),
          LocalizedAttributes.LocalizedDisplayNameInherit("PropertyNameUseConsoleSession"),
          LocalizedAttributes.LocalizedDescriptionInherit("PropertyDescriptionUseConsoleSession"),
          TypeConverter(typeof(MiscTools.YesNoTypeConverter))]
         public bool UseConsoleSession { get; set; }
 
-        [LocalizedAttributes.LocalizedCategory("CategoryProtocol", 4),
+        [LocalizedAttributes.LocalizedCategory("Protocol", 4),
          LocalizedAttributes.LocalizedDisplayNameInherit("PropertyNameUseCredSsp"),
          LocalizedAttributes.LocalizedDescriptionInherit("PropertyDescriptionUseCredSsp"),
          TypeConverter(typeof(MiscTools.YesNoTypeConverter))]

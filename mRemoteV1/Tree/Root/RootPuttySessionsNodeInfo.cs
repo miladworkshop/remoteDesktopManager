@@ -1,4 +1,4 @@
-using mRemoteNG.Tools;
+﻿using mRemoteNG.Tools;
 
 namespace mRemoteNG.Tree.Root
 {
@@ -13,7 +13,7 @@ namespace mRemoteNG.Tree.Root
             _name = Language.PuttySavedSessionsRootName;
             _panel =
                 string.IsNullOrEmpty(Settings.Default.PuttySavedSessionsPanel)
-                    ? Language.General
+                    ? Language.CategoryGeneral
                     : Settings.Default.PuttySavedSessionsPanel;
         }
 

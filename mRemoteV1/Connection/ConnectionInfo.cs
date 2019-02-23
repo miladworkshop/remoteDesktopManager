@@ -272,7 +272,7 @@ namespace mRemoteNG.Connection
             Name = Language.AddConnection;
             Description = Settings.Default.ConDefaultDescription;
             Icon = Settings.Default.ConDefaultIcon;
-            Panel = Language.General;
+            Panel = Language.CategoryGeneral;
         }
 
         private void SetConnectionDefaults()

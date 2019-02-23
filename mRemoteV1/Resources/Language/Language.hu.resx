@@ -258,7 +258,7 @@
   <data name="Fullscreen" xml:space="preserve">
     <value>Teljes képernyő</value>
   </data>
-  <data name="General" xml:space="preserve">
+  <data name="CategoryGeneral" xml:space="preserve">
     <value>Általános</value>
   </data>
   <data name="Files" xml:space="preserve">
@@ -270,10 +270,10 @@
   <data name="ImportExport" xml:space="preserve">
     <value>Importálás/Exportálás</value>
   </data>
-  <data name="KeysCtrlAltDel" xml:space="preserve">
+  <data name="CtrlAltDel" xml:space="preserve">
     <value>CTRL-ALT-DEL</value>
   </data>
-  <data name="KeysCtrlEsc" xml:space="preserve">
+  <data name="CtrlEsc" xml:space="preserve">
     <value>CONTROL-ESC</value>
   </data>
   <data name="LabelAddress" xml:space="preserve">
@@ -285,7 +285,7 @@
   <data name="PortableEdition" xml:space="preserve">
     <value>Hordozható kiadás</value>
   </data>
-  <data name="PropertyNameProtocol" xml:space="preserve">
+  <data name="Protocol" xml:space="preserve">
     <value>Protokoll:</value>
   </data>
   <data name="LabelServerStatus" xml:space="preserve">

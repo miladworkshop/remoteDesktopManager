@@ -655,7 +655,7 @@ Starter med ny tilkoblingsfil.</value>
   <data name="Fullscreen" xml:space="preserve">
     <value>Fullskjerm</value>
   </data>
-  <data name="General" xml:space="preserve">
+  <data name="CategoryGeneral" xml:space="preserve">
     <value>Generelt</value>
   </data>
   <data name="GetConnectionInfoFromSqlFailed" xml:space="preserve">
@@ -757,10 +757,10 @@ Starter med ny tilkoblingsfil.</value>
   <data name="IntAppTitle" xml:space="preserve">
     <value>Int App-tittel: {0}</value>
   </data>
-  <data name="KeysCtrlAltDel" xml:space="preserve">
+  <data name="CtrlAltDel" xml:space="preserve">
     <value>CTRL-ALT-DEL</value>
   </data>
-  <data name="KeysCtrlEsc" xml:space="preserve">
+  <data name="CtrlEsc" xml:space="preserve">
     <value>CTRL-ESC</value>
   </data>
   <data name="LabelAddress" xml:space="preserve">
@@ -781,7 +781,7 @@ Starter med ny tilkoblingsfil.</value>
   <data name="PortableEdition" xml:space="preserve">
     <value>Portable Edition</value>
   </data>
-  <data name="PropertyNameProtocol" xml:space="preserve">
+  <data name="Protocol" xml:space="preserve">
     <value>Protokoll:</value>
   </data>
   <data name="LabelPuttySessionsConfig" xml:space="preserve">
@@ -858,12 +858,6 @@ Starter med ny tilkoblingsfil.</value>
   </data>
   <data name="Copy" xml:space="preserve">
     <value>Kopier</value>
-  </data>
-  <data name="MenuCtrlAltDel" xml:space="preserve">
-    <value>Ctrl-Alt-Del</value>
-  </data>
-  <data name="MenuCtrlEsc" xml:space="preserve">
-    <value>Ctrl-Esc</value>
   </data>
   <data name="MenuDeleteConnection" xml:space="preserve">
     <value>Slett tilkobling...</value>

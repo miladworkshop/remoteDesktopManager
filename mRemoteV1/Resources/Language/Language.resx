@@ -730,7 +730,7 @@ See the Microsoft Support article at http://support.microsoft.com/kb/811833 for 
   <data name="Fullscreen" xml:space="preserve">
     <value>Fullscreen</value>
   </data>
-  <data name="General" xml:space="preserve">
+  <data name="CategoryGeneral" xml:space="preserve">
     <value>General</value>
   </data>
   <data name="GetConnectionInfoFromSqlFailed" xml:space="preserve">
@@ -865,11 +865,11 @@ See the Microsoft Support article at http://support.microsoft.com/kb/811833 for 
   <data name="IntAppTitle" xml:space="preserve">
     <value>Int App Title: {0}</value>
   </data>
-  <data name="KeysCtrlAltDel" xml:space="preserve">
-    <value>CTRL-ALT-DEL</value>
+  <data name="CtrlAltDel" xml:space="preserve">
+    <value>Ctrl-Alt-Del</value>
   </data>
-  <data name="KeysCtrlEsc" xml:space="preserve">
-    <value>CTRL-ESC</value>
+  <data name="CtrlEsc" xml:space="preserve">
+    <value>Ctrl-Esc</value>
   </data>
   <data name="LabelAddress" xml:space="preserve">
     <value>Address</value>
@@ -889,7 +889,7 @@ See the Microsoft Support article at http://support.microsoft.com/kb/811833 for 
   <data name="PortableEdition" xml:space="preserve">
     <value>Portable Edition</value>
   </data>
-  <data name="PropertyNameProtocol" xml:space="preserve">
+  <data name="Protocol" xml:space="preserve">
     <value>Protocol</value>
   </data>
   <data name="LabelPuttySessionsConfig" xml:space="preserve">
@@ -972,12 +972,6 @@ See the Microsoft Support article at http://support.microsoft.com/kb/811833 for 
   </data>
   <data name="Copy" xml:space="preserve">
     <value>Copy</value>
-  </data>
-  <data name="MenuCtrlAltDel" xml:space="preserve">
-    <value>Ctrl-Alt-Del</value>
-  </data>
-  <data name="MenuCtrlEsc" xml:space="preserve">
-    <value>Ctrl-Esc</value>
   </data>
   <data name="MenuDeleteConnection" xml:space="preserve">
     <value>Delete Connection</value>

@@ -661,7 +661,7 @@ Starte mit neuer Datei.</value>
   <data name="Fullscreen" xml:space="preserve">
     <value>Vollbild</value>
   </data>
-  <data name="General" xml:space="preserve">
+  <data name="CategoryGeneral" xml:space="preserve">
     <value>Allgemein</value>
   </data>
   <data name="GetConnectionInfoFromSqlFailed" xml:space="preserve">
@@ -763,11 +763,11 @@ Starte mit neuer Datei.</value>
   <data name="IntAppTitle" xml:space="preserve">
     <value>Internes Programm Titel: {0}</value>
   </data>
-  <data name="KeysCtrlAltDel" xml:space="preserve">
-    <value>STRG-ALT-ENTF</value>
+  <data name="CtrlAltDel" xml:space="preserve">
+    <value>Strg-Alt-Entf</value>
   </data>
-  <data name="KeysCtrlEsc" xml:space="preserve">
-    <value>STRG-ESC</value>
+  <data name="CtrlEsc" xml:space="preserve">
+    <value>Strg-Esc</value>
   </data>
   <data name="LabelAddress" xml:space="preserve">
     <value>Addresse:</value>
@@ -787,7 +787,7 @@ Starte mit neuer Datei.</value>
   <data name="PortableEdition" xml:space="preserve">
     <value>Portable Edition</value>
   </data>
-  <data name="PropertyNameProtocol" xml:space="preserve">
+  <data name="Protocol" xml:space="preserve">
     <value>Protokoll:</value>
   </data>
   <data name="LabelPuttySessionsConfig" xml:space="preserve">
@@ -864,12 +864,6 @@ Starte mit neuer Datei.</value>
   </data>
   <data name="Copy" xml:space="preserve">
     <value>Kopieren</value>
-  </data>
-  <data name="MenuCtrlAltDel" xml:space="preserve">
-    <value>STRG-ALT-ENTF</value>
-  </data>
-  <data name="MenuCtrlEsc" xml:space="preserve">
-    <value>STRG-ESC</value>
   </data>
   <data name="MenuDeleteConnection" xml:space="preserve">
     <value>Verbindung löschen</value>

@@ -359,7 +359,7 @@ namespace mRemoteNG.UI.Window
             lblRemoteFile.Text = $@"{Language.RemoteFile}:";
             btnBrowse.Text = Language.ButtonBrowse;
             grpConnection.Text = Language.CategoryConnection;
-            lblProtocol.Text = Language.PropertyNameProtocol;
+            lblProtocol.Text = Language.Protocol;
             lblPassword.Text = $@"{Language.PropertyNamePassword}:";
             lblUser.Text = $@"{Language.User}:";
             lblPort.Text = $@"{Language.PropertyNamePort}:";

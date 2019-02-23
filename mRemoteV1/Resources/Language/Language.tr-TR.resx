@@ -741,7 +741,7 @@ Normal bağlantı dosyaları için lütfen Dosya - Bağlantıları Yükle'yi kul
   <data name="Fullscreen" xml:space="preserve">
 		<value>Tam Ekran</value>
 	</data>
-  <data name="General" xml:space="preserve">
+  <data name="CategoryGeneral" xml:space="preserve">
 		<value>Genel</value>
 	</data>
   <data name="GetConnectionInfoFromSqlFailed" xml:space="preserve">
@@ -1310,7 +1310,7 @@ MRemoteNG şimdi kapanacak ve kurulum başlayacak.</value>
   <data name="PortableEdition" xml:space="preserve">
 		<value>Taşınabilir Sürüm</value>
 	</data>
-  <data name="PropertyNameProtocol" xml:space="preserve">
+  <data name="Protocol" xml:space="preserve">
 		<value>Protokol:</value>
 	</data>
   <data name="LabelPuttySessionsConfig" xml:space="preserve">

@@ -169,8 +169,8 @@ namespace mRemoteNG.Connection
 
         #region Protocol
 
-        [LocalizedAttributes.LocalizedCategory("CategoryProtocol", 3),
-         LocalizedAttributes.LocalizedDisplayName("PropertyNameProtocol"),
+        [LocalizedAttributes.LocalizedCategory("Protocol", 3),
+         LocalizedAttributes.LocalizedDisplayName("Protocol"),
          LocalizedAttributes.LocalizedDescription("PropertyDescriptionProtocol"),
          TypeConverter(typeof(MiscTools.EnumTypeConverter))]
         public virtual ProtocolType Protocol
@@ -179,7 +179,7 @@ namespace mRemoteNG.Connection
             set => SetField(ref _protocol, value, "Protocol");
         }
 
-        [LocalizedAttributes.LocalizedCategory("CategoryProtocol", 3),
+        [LocalizedAttributes.LocalizedCategory("Protocol", 3),
          LocalizedAttributes.LocalizedDisplayName("PropertyNameExternalTool"),
          LocalizedAttributes.LocalizedDescription("PropertyDescriptionExternalTool"),
          TypeConverter(typeof(ExternalToolsTypeConverter))]
@@ -189,7 +189,7 @@ namespace mRemoteNG.Connection
             set => SetField(ref _extApp, value, "ExtApp");
         }
 
-        [LocalizedAttributes.LocalizedCategory("CategoryProtocol", 3),
+        [LocalizedAttributes.LocalizedCategory("Protocol", 3),
          LocalizedAttributes.LocalizedDisplayName("PropertyNamePort"),
          LocalizedAttributes.LocalizedDescription("PropertyDescriptionPort")]
         public virtual int Port
@@ -198,7 +198,7 @@ namespace mRemoteNG.Connection
             set => SetField(ref _port, value, "Port");
         }
 
-        [LocalizedAttributes.LocalizedCategory("CategoryProtocol", 3),
+        [LocalizedAttributes.LocalizedCategory("Protocol", 3),
          LocalizedAttributes.LocalizedDisplayName("PropertyNamePuttySession"),
          LocalizedAttributes.LocalizedDescription("PropertyDescriptionPuttySession"),
          TypeConverter(typeof(Config.Putty.PuttySessionsManager.SessionList))]
@@ -208,7 +208,7 @@ namespace mRemoteNG.Connection
             set => SetField(ref _puttySession, value, "PuttySession");
         }
 
-        [LocalizedAttributes.LocalizedCategory("CategoryProtocol", 3),
+        [LocalizedAttributes.LocalizedCategory("Protocol", 3),
          LocalizedAttributes.LocalizedDisplayName("PropertyNameEncryptionStrength"),
          LocalizedAttributes.LocalizedDescription("PropertyDescriptionEncryptionStrength"),
          TypeConverter(typeof(MiscTools.EnumTypeConverter))]
@@ -218,7 +218,7 @@ namespace mRemoteNG.Connection
             set => SetField(ref _icaEncryption, value, "ICAEncryptionStrength");
         }
 
-        [LocalizedAttributes.LocalizedCategory("CategoryProtocol", 3),
+        [LocalizedAttributes.LocalizedCategory("Protocol", 3),
          LocalizedAttributes.LocalizedDisplayName("PropertyNameUseConsoleSession"),
          LocalizedAttributes.LocalizedDescription("PropertyDescriptionUseConsoleSession"),
          TypeConverter(typeof(MiscTools.YesNoTypeConverter))]
@@ -228,7 +228,7 @@ namespace mRemoteNG.Connection
             set => SetField(ref _useConsoleSession, value, "UseConsoleSession");
         }
 
-        [LocalizedAttributes.LocalizedCategory("CategoryProtocol", 3),
+        [LocalizedAttributes.LocalizedCategory("Protocol", 3),
          LocalizedAttributes.LocalizedDisplayName("PropertyNameAuthenticationLevel"),
          LocalizedAttributes.LocalizedDescription("PropertyDescriptionAuthenticationLevel"),
          TypeConverter(typeof(MiscTools.EnumTypeConverter))]
@@ -238,7 +238,7 @@ namespace mRemoteNG.Connection
             set => SetField(ref _rdpAuthenticationLevel, value, "RDPAuthenticationLevel");
         }
 
-        [LocalizedAttributes.LocalizedCategory("CategoryProtocol", 3),
+        [LocalizedAttributes.LocalizedCategory("Protocol", 3),
          LocalizedAttributes.LocalizedDisplayName("PropertyNameRDPMinutesToIdleTimeout"),
          LocalizedAttributes.LocalizedDescription("PropertyDescriptionRDPMinutesToIdleTimeout")]
         public virtual int RDPMinutesToIdleTimeout
@@ -254,7 +254,7 @@ namespace mRemoteNG.Connection
             }
         }
 
-        [LocalizedAttributes.LocalizedCategory("CategoryProtocol", 3),
+        [LocalizedAttributes.LocalizedCategory("Protocol", 3),
          LocalizedAttributes.LocalizedDisplayName("PropertyNameRDPAlertIdleTimeout"),
          LocalizedAttributes.LocalizedDescription("PropertyDescriptionRDPAlertIdleTimeout")]
         public bool RDPAlertIdleTimeout
@@ -263,7 +263,7 @@ namespace mRemoteNG.Connection
             set => SetField(ref _rdpAlertIdleTimeout, value, "RDPAlertIdleTimeout");
         }
 
-        [LocalizedAttributes.LocalizedCategory("CategoryProtocol", 3),
+        [LocalizedAttributes.LocalizedCategory("Protocol", 3),
          LocalizedAttributes.LocalizedDisplayName("PropertyNameLoadBalanceInfo"),
          LocalizedAttributes.LocalizedDescription("PropertyDescriptionLoadBalanceInfo")]
         public string LoadBalanceInfo
@@ -272,7 +272,7 @@ namespace mRemoteNG.Connection
             set => SetField(ref _loadBalanceInfo, value?.Trim(), "LoadBalanceInfo");
         }
 
-        [LocalizedAttributes.LocalizedCategory("CategoryProtocol", 3),
+        [LocalizedAttributes.LocalizedCategory("Protocol", 3),
          LocalizedAttributes.LocalizedDisplayName("PropertyNameRenderingEngine"),
          LocalizedAttributes.LocalizedDescription("PropertyDescriptionRenderingEngine"),
          TypeConverter(typeof(MiscTools.EnumTypeConverter))]
@@ -282,7 +282,7 @@ namespace mRemoteNG.Connection
             set => SetField(ref _renderingEngine, value, "RenderingEngine");
         }
 
-        [LocalizedAttributes.LocalizedCategory("CategoryProtocol", 3),
+        [LocalizedAttributes.LocalizedCategory("Protocol", 3),
          LocalizedAttributes.LocalizedDisplayName("PropertyNameUseCredSsp"),
          LocalizedAttributes.LocalizedDescription("PropertyDescriptionUseCredSsp"),
          TypeConverter(typeof(MiscTools.YesNoTypeConverter))]

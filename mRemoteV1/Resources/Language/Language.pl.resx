@@ -621,7 +621,7 @@ Załadowano nowy plik połączeń.</value>
   <data name="Fullscreen" xml:space="preserve">
     <value>Pełen ekran</value>
   </data>
-  <data name="General" xml:space="preserve">
+  <data name="CategoryGeneral" xml:space="preserve">
     <value>Ogólne</value>
   </data>
   <data name="GetConnectionInfoFromSqlFailed" xml:space="preserve">
@@ -687,10 +687,10 @@ Załadowano nowy plik połączeń.</value>
   <data name="InheritNewConnection" xml:space="preserve">
     <value>mRemoteNG jest w najnowszej wersji</value>
   </data>
-  <data name="KeysCtrlAltDel" xml:space="preserve">
+  <data name="CtrlAltDel" xml:space="preserve">
     <value>CTRL-ALT-DEL</value>
   </data>
-  <data name="KeysCtrlEsc" xml:space="preserve">
+  <data name="CtrlEsc" xml:space="preserve">
     <value>CTRL-ESC</value>
   </data>
   <data name="LabelAddress" xml:space="preserve">
@@ -711,7 +711,7 @@ Załadowano nowy plik połączeń.</value>
   <data name="PortableEdition" xml:space="preserve">
     <value>Wersja przenośna.</value>
   </data>
-  <data name="PropertyNameProtocol" xml:space="preserve">
+  <data name="Protocol" xml:space="preserve">
     <value>Protokół</value>
   </data>
   <data name="LabelPuttySessionsConfig" xml:space="preserve">
@@ -785,12 +785,6 @@ Załadowano nowy plik połączeń.</value>
   </data>
   <data name="Copy" xml:space="preserve">
     <value>Kopiuj</value>
-  </data>
-  <data name="MenuCtrlAltDel" xml:space="preserve">
-    <value>Ctrl-Alt-Del</value>
-  </data>
-  <data name="MenuCtrlEsc" xml:space="preserve">
-    <value>Ctrl-Esc</value>
   </data>
   <data name="MenuDeleteConnection" xml:space="preserve">
     <value>Usuń połączenie...</value>

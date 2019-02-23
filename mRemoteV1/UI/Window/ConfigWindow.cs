@@ -726,7 +726,7 @@ namespace mRemoteNG.UI.Window
         {
             Debug.WriteLine("update config");
             if (!(_pGrid.SelectedObject is ConnectionInfo selectedGridObject)) return;
-            if (e.ChangedItem.Label == Language.PropertyNameProtocol)
+            if (e.ChangedItem.Label == Language.Protocol)
             {
                 selectedGridObject.SetDefaultPort();
             }

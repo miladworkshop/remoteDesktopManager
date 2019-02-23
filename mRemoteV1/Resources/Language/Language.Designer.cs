@@ -494,6 +494,15 @@ namespace mRemoteNG {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to General.
+        /// </summary>
+        internal static string CategoryGeneral {
+            get {
+                return ResourceManager.GetString("CategoryGeneral", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Miscellaneous.
         /// </summary>
         internal static string CategoryMiscellaneous {
@@ -1451,6 +1460,24 @@ namespace mRemoteNG {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Ctrl-Alt-Del.
+        /// </summary>
+        internal static string CtrlAltDel {
+            get {
+                return ResourceManager.GetString("CtrlAltDel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ctrl-Esc.
+        /// </summary>
+        internal static string CtrlEsc {
+            get {
+                return ResourceManager.GetString("CtrlEsc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Installed version.
         /// </summary>
         internal static string CurrentVersion {
@@ -2193,15 +2220,6 @@ namespace mRemoteNG {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to General.
-        /// </summary>
-        internal static string General {
-            get {
-                return ResourceManager.GetString("General", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Get Connection Info From SQL failed.
         /// </summary>
         internal static string GetConnectionInfoFromSqlFailed {
@@ -2688,24 +2706,6 @@ namespace mRemoteNG {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to CTRL-ALT-DEL.
-        /// </summary>
-        internal static string KeysCtrlAltDel {
-            get {
-                return ResourceManager.GetString("KeysCtrlAltDel", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to CTRL-ESC.
-        /// </summary>
-        internal static string KeysCtrlEsc {
-            get {
-                return ResourceManager.GetString("KeysCtrlEsc", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Address.
         /// </summary>
         internal static string LabelAddress {
@@ -3044,24 +3044,6 @@ namespace mRemoteNG {
         internal static string MenuCopyHostname {
             get {
                 return ResourceManager.GetString("MenuCopyHostname", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Ctrl-Alt-Del.
-        /// </summary>
-        internal static string MenuCtrlAltDel {
-            get {
-                return ResourceManager.GetString("MenuCtrlAltDel", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Ctrl-Esc.
-        /// </summary>
-        internal static string MenuCtrlEsc {
-            get {
-                return ResourceManager.GetString("MenuCtrlEsc", resourceCulture);
             }
         }
         
@@ -4903,15 +4885,6 @@ namespace mRemoteNG {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Protocol.
-        /// </summary>
-        internal static string PropertyNameProtocol {
-            get {
-                return ResourceManager.GetString("PropertyNameProtocol", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to PuTTY Session.
         /// </summary>
         internal static string PropertyNamePuttySession {
@@ -5178,6 +5151,15 @@ namespace mRemoteNG {
         internal static string PropertyNameVNCProxyUsername {
             get {
                 return ResourceManager.GetString("PropertyNameVNCProxyUsername", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Protocol.
+        /// </summary>
+        internal static string Protocol {
+            get {
+                return ResourceManager.GetString("Protocol", resourceCulture);
             }
         }
         
