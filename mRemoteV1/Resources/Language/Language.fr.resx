@@ -250,35 +250,20 @@ Veuillez utiliser le menu Fichier - Ouvrir un fichier de connexion pour les fich
 	<data name="strCategoryConnection" xml:space="preserve">
     <value>Connexion</value>
   </data>
-	<data name="strCategoryCredentials" xml:space="preserve">
-    <value>Identifiants</value>
-  </data>
 	<data name="strCategoryDisplay" xml:space="preserve">
     <value>Affichage</value>
   </data>
 	<data name="strCategoryGateway" xml:space="preserve">
     <value>Passerelle</value>
   </data>
-	<data name="strCategoryGeneral" xml:space="preserve">
-    <value>Général</value>
-  </data>
 	<data name="strCategoryMiscellaneous" xml:space="preserve">
     <value>Autre</value>
-  </data>
-	<data name="strCategoryProtocol" xml:space="preserve">
-    <value>Protocole</value>
   </data>
 	<data name="strCategoryRedirect" xml:space="preserve">
     <value>Rediriger</value>
   </data>
 	<data name="strCcAlwaysShowScreen" xml:space="preserve">
     <value>Toujours afficher cet écran au démarrage</value>
-  </data>
-	<data name="strCcCheckAgain" xml:space="preserve">
-    <value>Actualiser</value>
-  </data>
-	<data name="strCcCheckFailed" xml:space="preserve">
-    <value>Vérification échouée !</value>
   </data>
 	<data name="strCcCheckSucceeded" xml:space="preserve">
     <value>Verification réussie !</value>
@@ -334,12 +319,6 @@ Si la vérification des composants ou l'utilisation d'ICA échoue malgré tout, 
 	<data name="strCheckboxDoNotShowThisMessageAgain" xml:space="preserve">
     <value>Ne plus afficher ce message.</value>
   </data>
-	<data name="strCheckboxInheritance" xml:space="preserve">
-    <value>Héritage</value>
-  </data>
-	<data name="strCheckboxPassword" xml:space="preserve">
-    <value>Mot de passe</value>
-  </data>
 	<data name="strCheckboxProxyAuthentication" xml:space="preserve">
     <value>Ce serveur proxy requiert une authentification</value>
   </data>
@@ -393,12 +372,6 @@ Si la vérification des composants ou l'utilisation d'ICA échoue malgré tout, 
   </data>
 	<data name="strColumnMessage" xml:space="preserve">
     <value>Message</value>
-  </data>
-	<data name="strColumnUsername" xml:space="preserve">
-    <value>Nom d'utilisateur</value>
-  </data>
-	<data name="strColumnWaitForExit" xml:space="preserve">
-    <value>Attendre avant de quitter</value>
   </data>
 	<data name="strCommandLineArgsCouldNotBeParsed" xml:space="preserve">
     <value>Impossible de convertir les arguments de la ligne de commande !</value>
@@ -677,9 +650,6 @@ Si la vérification des composants ou l'utilisation d'ICA échoue malgré tout, 
 	<data name="strGroupboxAutomaticReconnect" xml:space="preserve">
     <value>Reconnexion automatique</value>
   </data>
-	<data name="strGroupboxConnection" xml:space="preserve">
-    <value>Connexion</value>
-  </data>
 	<data name="strGroupboxExternalToolProperties" xml:space="preserve">
     <value>Propriétés de l'outil externe</value>
   </data>
@@ -746,9 +716,6 @@ Si la vérification des composants ou l'utilisation d'ICA échoue malgré tout, 
 	<data name="strInheritNewConnection" xml:space="preserve">
     <value>mRemoteNG est à jour</value>
   </data>
-	<data name="strIntAppConnectionFailed" xml:space="preserve">
-    <value>La connexion a échouée !</value>
-  </data>
 	<data name="strIntAppDisposeFailed" xml:space="preserve">
     <value>Échec de l'arrêt du processus Int App !</value>
   </data>
@@ -782,9 +749,6 @@ Si la vérification des composants ou l'utilisation d'ICA échoue malgré tout, 
 	<data name="strLabelAddress" xml:space="preserve">
     <value>Adresse :</value>
   </data>
-	<data name="strLabelArguments" xml:space="preserve">
-    <value>Arguments :</value>
-  </data>
 	<data name="strLabelChangeLog" xml:space="preserve">
     <value>Historique des changements :</value>
   </data>
@@ -794,26 +758,8 @@ Si la vérification des composants ou l'utilisation d'ICA échoue malgré tout, 
 	<data name="strLabelConnect" xml:space="preserve">
     <value>&amp;Connecter:</value>
   </data>
-	<data name="strLabelDisplayName" xml:space="preserve">
-    <value>Nom Affiché</value>
-  </data>
-	<data name="strLabelDomain" xml:space="preserve">
-    <value>Domaine :</value>
-  </data>
-	<data name="strLabelFilename" xml:space="preserve">
-    <value>Nom du fichier :</value>
-  </data>
 	<data name="strLabelHostname" xml:space="preserve">
     <value>Nom d'hôte :</value>
-  </data>
-	<data name="strLabelOptions" xml:space="preserve">
-    <value>Options :</value>
-  </data>
-	<data name="strLabelPassword" xml:space="preserve">
-    <value>Mot de passe :</value>
-  </data>
-	<data name="strLabelPort" xml:space="preserve">
-    <value>Port :</value>
   </data>
 	<data name="strLabelPortableEdition" xml:space="preserve">
     <value>Édition Portable</value>
@@ -841,12 +787,6 @@ Si la vérification des composants ou l'utilisation d'ICA échoue malgré tout, 
   </data>
 	<data name="strLabelSQLDatabaseName" xml:space="preserve">
     <value>Base de données :</value>
-  </data>
-	<data name="strLabelSQLServerDatabaseName" xml:space="preserve">
-    <value>Base de données :</value>
-  </data>
-	<data name="strLabelUsername" xml:space="preserve">
-    <value>Nom d'utilisateur :</value>
   </data>
 	<data name="strLabelVerify" xml:space="preserve">
     <value>Vérifier :</value>
@@ -884,9 +824,6 @@ Si la vérification des composants ou l'utilisation d'ICA échoue malgré tout, 
 	<data name="strMagicLibraryAttribution" xml:space="preserve">
     <value>Utilise la bibliothèque Magic [Crownwood Software]</value>
   </data>
-	<data name="strMenuAbout" xml:space="preserve">
-    <value>À propos</value>
-  </data>
 	<data name="strMenuAddConnectionPanel" xml:space="preserve">
     <value>Ajouter un panneau de connexion</value>
   </data>
@@ -896,14 +833,8 @@ Si la vérification des composants ou l'utilisation d'ICA échoue malgré tout, 
 	<data name="strMenuConfig" xml:space="preserve">
     <value>Configuration</value>
   </data>
-	<data name="strMenuConnect" xml:space="preserve">
-    <value>Connecter</value>
-  </data>
 	<data name="strMenuConnectionPanels" xml:space="preserve">
     <value>Panneaux de connexion</value>
-  </data>
-	<data name="strMenuConnections" xml:space="preserve">
-    <value>Connexions</value>
   </data>
 	<data name="strMenuConnectionsAndConfig" xml:space="preserve">
     <value>Connexions et configuration</value>
@@ -917,9 +848,6 @@ Si la vérification des composants ou l'utilisation d'ICA échoue malgré tout, 
 	<data name="strMenuCtrlEsc" xml:space="preserve">
     <value>Ctrl-Échap</value>
   </data>
-	<data name="strMenuDelete" xml:space="preserve">
-    <value>Supprimer...</value>
-  </data>
 	<data name="strMenuDeleteConnection" xml:space="preserve">
     <value>Supprimer la connexion...</value>
   </data>
@@ -929,14 +857,8 @@ Si la vérification des composants ou l'utilisation d'ICA échoue malgré tout, 
 	<data name="strMenuDeleteFolder" xml:space="preserve">
     <value>Supprimer le dossier...</value>
   </data>
-	<data name="strMenuDisconnect" xml:space="preserve">
-    <value>Déconnecter</value>
-  </data>
 	<data name="strMenuDonate" xml:space="preserve">
     <value>Faire un don</value>
-  </data>
-	<data name="strMenuDuplicate" xml:space="preserve">
-    <value>Dupliquer</value>
   </data>
 	<data name="strMenuDuplicateConnection" xml:space="preserve">
     <value>Dupliquer la connexion</value>
@@ -980,9 +902,6 @@ Si la vérification des composants ou l'utilisation d'ICA échoue malgré tout, 
 	<data name="strMenuNewConnectionFile" xml:space="preserve">
     <value>Nouveau fichier de connexion</value>
   </data>
-	<data name="strMenuNewExternalTool" xml:space="preserve">
-    <value>Nouvel outil externe</value>
-  </data>
 	<data name="strMenuNotifications" xml:space="preserve">
     <value>Notifications</value>
   </data>
@@ -1016,9 +935,6 @@ Si la vérification des composants ou l'utilisation d'ICA échoue malgré tout, 
 	<data name="strMenuRefreshScreen" xml:space="preserve">
     <value>Rafraîchir l'écran (VNC)</value>
   </data>
-	<data name="strMenuRename" xml:space="preserve">
-    <value>Renommer</value>
-  </data>
 	<data name="strMenuRenameConnection" xml:space="preserve">
     <value>Renommer la connexion</value>
   </data>
@@ -1039,9 +955,6 @@ Si la vérification des composants ou l'utilisation d'ICA échoue malgré tout, 
   </data>
 	<data name="strMenuSaveConnectionFileAs" xml:space="preserve">
     <value>Enregistrer le fichier de connexions sous...</value>
-  </data>
-	<data name="strMenuScreenshot" xml:space="preserve">
-    <value>Captures d'écran</value>
   </data>
 	<data name="strMenuScreenshotManager" xml:space="preserve">
     <value>Gestionnaire de Capture d'écran</value>
@@ -1103,12 +1016,6 @@ Si la vérification des composants ou l'utilisation d'ICA échoue malgré tout, 
 	<data name="strNever" xml:space="preserve">
     <value>Jamais</value>
   </data>
-	<data name="strNewConnection" xml:space="preserve">
-    <value>Nouvelle connexion</value>
-  </data>
-	<data name="strNewFolder" xml:space="preserve">
-    <value>Nouveau dossier</value>
-  </data>
 	<data name="strNewPanel" xml:space="preserve">
     <value>Nouveau Panneau</value>
   </data>
@@ -1154,12 +1061,6 @@ Si vous rencontrez une erreur, créez un nouveau fichier de connexion s'il vous 
   </data>
 	<data name="strOptionsTabTheme" xml:space="preserve">
     <value>Thème</value>
-  </data>
-	<data name="strOptionsThemeButtonDelete" xml:space="preserve">
-    <value>&amp;Supprimer</value>
-  </data>
-	<data name="strOptionsThemeButtonNew" xml:space="preserve">
-    <value>&amp;Nouveau</value>
   </data>
 	<data name="strPanelName" xml:space="preserve">
     <value>Nom du panneau</value>
@@ -1326,9 +1227,6 @@ Si vous rencontrez une erreur, créez un nouveau fichier de connexion s'il vous 
 	<data name="strPropertyDescriptionVNCProxyUsername" xml:space="preserve">
     <value>Entrez votre nom d'utilisateur pour vous authentifier sur le proxy.</value>
   </data>
-	<data name="strPropertyNameAddress" xml:space="preserve">
-    <value>Nom d'hôte / IP</value>
-  </data>
 	<data name="strPropertyNameAll" xml:space="preserve">
     <value>Tous</value>
   </data>
@@ -1356,9 +1254,6 @@ Si vous rencontrez une erreur, créez un nouveau fichier de connexion s'il vous 
 	<data name="strPropertyNameDisplayWallpaper" xml:space="preserve">
     <value>Afficher le Fond d'écran</value>
   </data>
-	<data name="strPropertyNameDomain" xml:space="preserve">
-    <value>Domaine</value>
-  </data>
 	<data name="strPropertyNameEnableDesktopComposition" xml:space="preserve">
     <value>Composition du bureau</value>
   </data>
@@ -1380,9 +1275,6 @@ Si vous rencontrez une erreur, créez un nouveau fichier de connexion s'il vous 
 	<data name="strPropertyNameExternalToolBefore" xml:space="preserve">
     <value>Outil externe avant</value>
   </data>
-	<data name="strPropertyNameIcon" xml:space="preserve">
-    <value>Icône</value>
-  </data>
 	<data name="strPropertyNameMACAddress" xml:space="preserve">
     <value>Adresse MAC</value>
   </data>
@@ -1392,14 +1284,8 @@ Si vous rencontrez une erreur, créez un nouveau fichier de connexion s'il vous 
 	<data name="strPropertyNamePanel" xml:space="preserve">
     <value>Panneau</value>
   </data>
-	<data name="strPropertyNamePassword" xml:space="preserve">
-    <value>Mot de passe</value>
-  </data>
 	<data name="strPropertyNamePort" xml:space="preserve">
     <value>Port</value>
-  </data>
-	<data name="strPropertyNameProtocol" xml:space="preserve">
-    <value>Protocole</value>
   </data>
 	<data name="strPropertyNamePuttySession" xml:space="preserve">
     <value>Session PuTTY</value>
@@ -1458,9 +1344,6 @@ Si vous rencontrez une erreur, créez un nouveau fichier de connexion s'il vous 
 	<data name="strPropertyNameUser1" xml:space="preserve">
     <value>Champ utilisateur</value>
   </data>
-	<data name="strPropertyNameUsername" xml:space="preserve">
-    <value>Nom d'utilisateur</value>
-  </data>
 	<data name="strPropertyNameViewOnly" xml:space="preserve">
     <value>Voir seulement</value>
   </data>
@@ -1496,9 +1379,6 @@ Message:
 	<data name="strProxyTestSucceeded" xml:space="preserve">
     <value>Test du Proxy réussi !</value>
   </data>
-	<data name="strPuttyConnectionFailed" xml:space="preserve">
-    <value>La connexion a échoué!</value>
-  </data>
 	<data name="strPuttyDisposeFailed" xml:space="preserve">
     <value>Échec de l'arrêt du processus Putty !</value>
   </data>
@@ -1513,9 +1393,6 @@ Message:
   </data>
 	<data name="strPuttyKillFailed" xml:space="preserve">
     <value>Échec de la fermeture du processus Putty !</value>
-  </data>
-	<data name="strPuttyParentHandle" xml:space="preserve">
-    <value>Handle Panneau : {0}</value>
   </data>
 	<data name="strPuttyResizeFailed" xml:space="preserve">
     <value>Échec du redimensionnement de Putty !</value>
@@ -1811,15 +1688,6 @@ Message:
 	<data name="strSingleClickOnOpenConnectionSwitchesToIt" xml:space="preserve">
     <value>Un simple clic sur une connexion ouverte nous renvoie dessus</value>
   </data>
-	<data name="strSmartSizeModeAspect" xml:space="preserve">
-    <value>Apparence</value>
-  </data>
-	<data name="strSmartSizeModeFree" xml:space="preserve">
-    <value>Gratuit</value>
-  </data>
-	<data name="strSmartSizeModeNone" xml:space="preserve">
-    <value>Pas de taille intelligente</value>
-  </data>
 	<data name="strSocks5" xml:space="preserve">
     <value>Socks 5</value>
   </data>
@@ -1880,9 +1748,6 @@ Message:
 	<data name="strTabAdvanced" xml:space="preserve">
     <value>Avancée</value>
   </data>
-	<data name="strTabAppearance" xml:space="preserve">
-    <value>Apparence</value>
-  </data>
 	<data name="strTabsAndPanels" xml:space="preserve">
     <value>Onglets &amp;&amp; Panneaux</value>
   </data>
@@ -1900,9 +1765,6 @@ Message:
   </data>
 	<data name="strThemeCategoryConnectionsPanel" xml:space="preserve">
     <value>Panneau de connexions</value>
-  </data>
-	<data name="strThemeCategoryGeneral" xml:space="preserve">
-    <value>Générale</value>
   </data>
 	<data name="strThemeDescriptionConfigPanelBackgroundColor" xml:space="preserve">
     <value>La couleur de fond du panneau de configuration.</value>
@@ -2054,14 +1916,8 @@ Message:
 	<data name="strUpdateCheckCompleteFailed" xml:space="preserve">
     <value>La vérification de la fin de mise à jour a échouée !</value>
   </data>
-	<data name="strUpdateCheckFailed" xml:space="preserve">
-    <value>La vérification des mises à jour a échouée !</value>
-  </data>
 	<data name="strUpdateCheckPortableEdition" xml:space="preserve">
     <value>Actuellement mRemoteNG édition Portable ne supporte pas la mise à jour automatique.</value>
-  </data>
-	<data name="strUpdateDeleteFailed" xml:space="preserve">
-    <value>Erreur de suppression de fichiers mis à jour !</value>
   </data>
 	<data name="strUpdateDownloadComplete" xml:space="preserve">
     <value>Téléchargement terminé ! mRemoteNG va se fermer et l'installation va commencer.</value>
@@ -2084,14 +1940,8 @@ Message:
 	<data name="strUpdateFrequencyWeekly" xml:space="preserve">
     <value>Hebdomadaire</value>
   </data>
-	<data name="strUpdateStartFailed" xml:space="preserve">
-    <value>Erreur lors du démarrage de la mise à jour !</value>
-  </data>
 	<data name="strUseDifferentUsernameAndPassword" xml:space="preserve">
     <value>Utilisez d'autres nom d'utilisateur et mot de passe</value>
-  </data>
-	<data name="strUseOnlyErrorsAndInfosPanel" xml:space="preserve">
-    <value>Utilisez uniquement panneau Notifications (pas de message popups)</value>
   </data>
 	<data name="strUser" xml:space="preserve">
     <value>Utilisateur</value>
@@ -2143,9 +1993,6 @@ Message:
   </data>
 	<data name="strWeifenLuoAttribution" xml:space="preserve">
     <value>Utilise DockPanel Suite par [Weifen Luo]</value>
-  </data>
-	<data name="strWriteLogFile" xml:space="preserve">
-    <value>Ecrire dans un fichier journal (mRemoteNG.log)</value>
   </data>
 	<data name="strXULrunnerPath" xml:space="preserve">
     <value>Chemin de XULRunner :</value>

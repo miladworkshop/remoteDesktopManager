@@ -250,35 +250,20 @@ Vennligst bruk Fil - Last inn tilkoblinger for vanlige tilkoblingsfiler!</value>
 	<data name="strCategoryConnection" xml:space="preserve">
     <value>Tilkobling</value>
   </data>
-	<data name="strCategoryCredentials" xml:space="preserve">
-    <value>Legitimasjon</value>
-  </data>
 	<data name="strCategoryDisplay" xml:space="preserve">
     <value>Skjerm</value>
   </data>
 	<data name="strCategoryGateway" xml:space="preserve">
     <value>Gateway</value>
   </data>
-	<data name="strCategoryGeneral" xml:space="preserve">
-    <value>Generelt</value>
-  </data>
 	<data name="strCategoryMiscellaneous" xml:space="preserve">
     <value>Diverse</value>
-  </data>
-	<data name="strCategoryProtocol" xml:space="preserve">
-    <value>Protokoll</value>
   </data>
 	<data name="strCategoryRedirect" xml:space="preserve">
     <value>Omdiriger</value>
   </data>
 	<data name="strCcAlwaysShowScreen" xml:space="preserve">
     <value>Alltid vis denne skjermen ved oppstart</value>
-  </data>
-	<data name="strCcCheckAgain" xml:space="preserve">
-    <value>Oppdater</value>
-  </data>
-	<data name="strCcCheckFailed" xml:space="preserve">
-    <value>Sjekk mislyktes!</value>
   </data>
 	<data name="strCcCheckSucceeded" xml:space="preserve">
     <value>Sjekk lyktes!</value>
@@ -348,12 +333,6 @@ VncSharp Control Version {0}</value>
 	<data name="strCheckboxDoNotShowThisMessageAgain" xml:space="preserve">
     <value>Ikke vis denne meldingen igjen.</value>
   </data>
-	<data name="strCheckboxInheritance" xml:space="preserve">
-    <value>Arv</value>
-  </data>
-	<data name="strCheckboxPassword" xml:space="preserve">
-    <value>Passord</value>
-  </data>
 	<data name="strCheckboxProxyAuthentication" xml:space="preserve">
     <value>Denne proxyserveren krever autentisering</value>
   </data>
@@ -407,12 +386,6 @@ VncSharp Control Version {0}</value>
   </data>
 	<data name="strColumnMessage" xml:space="preserve">
     <value>Melding</value>
-  </data>
-	<data name="strColumnUsername" xml:space="preserve">
-    <value>Brukernavn</value>
-  </data>
-	<data name="strColumnWaitForExit" xml:space="preserve">
-    <value>Vent på avslutning</value>
   </data>
 	<data name="strCommandLineArgsCouldNotBeParsed" xml:space="preserve">
     <value>Kunne ikke tolke kommandolinjeargumenter!</value>
@@ -694,9 +667,6 @@ Starter med ny tilkoblingsfil.</value>
 	<data name="strGroupboxAutomaticReconnect" xml:space="preserve">
     <value>Koble til på nytt automatisk</value>
   </data>
-	<data name="strGroupboxConnection" xml:space="preserve">
-    <value>Tilkobling</value>
-  </data>
 	<data name="strGroupboxExternalToolProperties" xml:space="preserve">
     <value>Egenskaper for eksterne verktøy</value>
   </data>
@@ -763,9 +733,6 @@ Starter med ny tilkoblingsfil.</value>
 	<data name="strInheritNewConnection" xml:space="preserve">
     <value>mRemoteNG er oppdatert</value>
   </data>
-	<data name="strIntAppConnectionFailed" xml:space="preserve">
-    <value>Tilkobling mislyktes!</value>
-  </data>
 	<data name="strIntAppDisposeFailed" xml:space="preserve">
     <value>Forkasting av Int App-prosess mislyktes!</value>
   </data>
@@ -799,9 +766,6 @@ Starter med ny tilkoblingsfil.</value>
 	<data name="strLabelAddress" xml:space="preserve">
     <value>Adresse:</value>
   </data>
-	<data name="strLabelArguments" xml:space="preserve">
-    <value>Argumenter:</value>
-  </data>
 	<data name="strLabelChangeLog" xml:space="preserve">
     <value>Endringslogg:</value>
   </data>
@@ -811,26 +775,8 @@ Starter med ny tilkoblingsfil.</value>
 	<data name="strLabelConnect" xml:space="preserve">
     <value>&amp;Koble til:</value>
   </data>
-	<data name="strLabelDisplayName" xml:space="preserve">
-    <value>Visningsnavn</value>
-  </data>
-	<data name="strLabelDomain" xml:space="preserve">
-    <value>Domene:</value>
-  </data>
-	<data name="strLabelFilename" xml:space="preserve">
-    <value>Filnavn:</value>
-  </data>
 	<data name="strLabelHostname" xml:space="preserve">
     <value>Vertsnavn:</value>
-  </data>
-	<data name="strLabelOptions" xml:space="preserve">
-    <value>Alternativer:</value>
-  </data>
-	<data name="strLabelPassword" xml:space="preserve">
-    <value>Passord:</value>
-  </data>
-	<data name="strLabelPort" xml:space="preserve">
-    <value>Port:</value>
   </data>
 	<data name="strLabelPortableEdition" xml:space="preserve">
     <value>Portable Edition</value>
@@ -858,12 +804,6 @@ Starter med ny tilkoblingsfil.</value>
   </data>
 	<data name="strLabelSQLDatabaseName" xml:space="preserve">
     <value>Database:</value>
-  </data>
-	<data name="strLabelSQLServerDatabaseName" xml:space="preserve">
-    <value>Database:</value>
-  </data>
-	<data name="strLabelUsername" xml:space="preserve">
-    <value>Brukernavn:</value>
   </data>
 	<data name="strLabelVerify" xml:space="preserve">
     <value>Bekreft:</value>
@@ -901,9 +841,6 @@ Starter med ny tilkoblingsfil.</value>
 	<data name="strMagicLibraryAttribution" xml:space="preserve">
     <value>Bruker Magic-biblioteket av [Crownwood Software]</value>
   </data>
-	<data name="strMenuAbout" xml:space="preserve">
-    <value>Om</value>
-  </data>
 	<data name="strMenuAddConnectionPanel" xml:space="preserve">
     <value>Legg til tilkoblingspanel</value>
   </data>
@@ -913,14 +850,8 @@ Starter med ny tilkoblingsfil.</value>
 	<data name="strMenuConfig" xml:space="preserve">
     <value>Oppsett</value>
   </data>
-	<data name="strMenuConnect" xml:space="preserve">
-    <value>Koble til</value>
-  </data>
 	<data name="strMenuConnectionPanels" xml:space="preserve">
     <value>Tilkoblingspaneler</value>
-  </data>
-	<data name="strMenuConnections" xml:space="preserve">
-    <value>Tilkoblinger</value>
   </data>
 	<data name="strMenuConnectionsAndConfig" xml:space="preserve">
     <value>Tilkoblinger og oppsett</value>
@@ -934,9 +865,6 @@ Starter med ny tilkoblingsfil.</value>
 	<data name="strMenuCtrlEsc" xml:space="preserve">
     <value>Ctrl-Esc</value>
   </data>
-	<data name="strMenuDelete" xml:space="preserve">
-    <value>Slett...</value>
-  </data>
 	<data name="strMenuDeleteConnection" xml:space="preserve">
     <value>Slett tilkobling...</value>
   </data>
@@ -946,14 +874,8 @@ Starter med ny tilkoblingsfil.</value>
 	<data name="strMenuDeleteFolder" xml:space="preserve">
     <value>Slett mappe...</value>
   </data>
-	<data name="strMenuDisconnect" xml:space="preserve">
-    <value>Koble fra</value>
-  </data>
 	<data name="strMenuDonate" xml:space="preserve">
     <value>Donér</value>
-  </data>
-	<data name="strMenuDuplicate" xml:space="preserve">
-    <value>Duplikat</value>
   </data>
 	<data name="strMenuDuplicateConnection" xml:space="preserve">
     <value>Duplisér tilkobling</value>
@@ -997,9 +919,6 @@ Starter med ny tilkoblingsfil.</value>
 	<data name="strMenuNewConnectionFile" xml:space="preserve">
     <value>Ny tilkoblingsfil</value>
   </data>
-	<data name="strMenuNewExternalTool" xml:space="preserve">
-    <value>Nytt eksternt verktøy</value>
-  </data>
 	<data name="strMenuNotifications" xml:space="preserve">
     <value>Varslinger</value>
   </data>
@@ -1033,9 +952,6 @@ Starter med ny tilkoblingsfil.</value>
 	<data name="strMenuRefreshScreen" xml:space="preserve">
     <value>Oppdater skjerm (VNC)</value>
   </data>
-	<data name="strMenuRename" xml:space="preserve">
-    <value>Gi nytt navn</value>
-  </data>
 	<data name="strMenuRenameConnection" xml:space="preserve">
     <value>Gi nytt navn til tilkobling</value>
   </data>
@@ -1056,9 +972,6 @@ Starter med ny tilkoblingsfil.</value>
   </data>
 	<data name="strMenuSaveConnectionFileAs" xml:space="preserve">
     <value>Lagre tilkoblingsfilen som...</value>
-  </data>
-	<data name="strMenuScreenshot" xml:space="preserve">
-    <value>Skjermbilde</value>
   </data>
 	<data name="strMenuScreenshotManager" xml:space="preserve">
     <value>Skjermbildeadminstrator</value>
@@ -1120,12 +1033,6 @@ Starter med ny tilkoblingsfil.</value>
 	<data name="strNever" xml:space="preserve">
     <value>Aldri</value>
   </data>
-	<data name="strNewConnection" xml:space="preserve">
-    <value>Ny tilkobling</value>
-  </data>
-	<data name="strNewFolder" xml:space="preserve">
-    <value>Ny mappe</value>
-  </data>
 	<data name="strNewPanel" xml:space="preserve">
     <value>Nytt panel</value>
   </data>
@@ -1170,12 +1077,6 @@ Starter med ny tilkoblingsfil.</value>
   </data>
 	<data name="strOptionsTabTheme" xml:space="preserve">
     <value>Tema</value>
-  </data>
-	<data name="strOptionsThemeButtonDelete" xml:space="preserve">
-    <value>&amp;Slett</value>
-  </data>
-	<data name="strOptionsThemeButtonNew" xml:space="preserve">
-    <value>&amp;Ny</value>
   </data>
 	<data name="strPanelName" xml:space="preserve">
     <value>Panelnavn</value>
@@ -1342,9 +1243,6 @@ Starter med ny tilkoblingsfil.</value>
 	<data name="strPropertyDescriptionVNCProxyUsername" xml:space="preserve">
     <value>Skriv inn ditt brukernavn for godkjenning mot proxy.</value>
   </data>
-	<data name="strPropertyNameAddress" xml:space="preserve">
-    <value>Vertsnavn/IP-adresse</value>
-  </data>
 	<data name="strPropertyNameAll" xml:space="preserve">
     <value>Alle</value>
   </data>
@@ -1372,9 +1270,6 @@ Starter med ny tilkoblingsfil.</value>
 	<data name="strPropertyNameDisplayWallpaper" xml:space="preserve">
     <value>Vis bakgrunnbilde</value>
   </data>
-	<data name="strPropertyNameDomain" xml:space="preserve">
-    <value>Domene</value>
-  </data>
 	<data name="strPropertyNameEnableDesktopComposition" xml:space="preserve">
     <value>Skrivebordskomposisjon</value>
   </data>
@@ -1396,9 +1291,6 @@ Starter med ny tilkoblingsfil.</value>
 	<data name="strPropertyNameExternalToolBefore" xml:space="preserve">
     <value>Eksternt verktøy før</value>
   </data>
-	<data name="strPropertyNameIcon" xml:space="preserve">
-    <value>Ikon</value>
-  </data>
 	<data name="strPropertyNameMACAddress" xml:space="preserve">
     <value>MAC-adresse</value>
   </data>
@@ -1408,14 +1300,8 @@ Starter med ny tilkoblingsfil.</value>
 	<data name="strPropertyNamePanel" xml:space="preserve">
     <value>Panel</value>
   </data>
-	<data name="strPropertyNamePassword" xml:space="preserve">
-    <value>Passord</value>
-  </data>
 	<data name="strPropertyNamePort" xml:space="preserve">
     <value>Port</value>
-  </data>
-	<data name="strPropertyNameProtocol" xml:space="preserve">
-    <value>Protokoll</value>
   </data>
 	<data name="strPropertyNamePuttySession" xml:space="preserve">
     <value>PuTTY-sesjon</value>
@@ -1474,9 +1360,6 @@ Starter med ny tilkoblingsfil.</value>
 	<data name="strPropertyNameUser1" xml:space="preserve">
     <value>Brukerfelt</value>
   </data>
-	<data name="strPropertyNameUsername" xml:space="preserve">
-    <value>Brukernavn</value>
-  </data>
 	<data name="strPropertyNameViewOnly" xml:space="preserve">
     <value>Kun visning</value>
   </data>
@@ -1513,9 +1396,6 @@ Melding:
 	<data name="strProxyTestSucceeded" xml:space="preserve">
     <value>Proxy-test var vellykket!</value>
   </data>
-	<data name="strPuttyConnectionFailed" xml:space="preserve">
-    <value>Tilkobling mislyktes!</value>
-  </data>
 	<data name="strPuttyDisposeFailed" xml:space="preserve">
     <value>Avslutning av PuTTY-prosessen mislyktes!</value>
   </data>
@@ -1530,9 +1410,6 @@ Melding:
   </data>
 	<data name="strPuttyKillFailed" xml:space="preserve">
     <value>Avslutning av PuTTY-prosess mislyktes!</value>
-  </data>
-	<data name="strPuttyParentHandle" xml:space="preserve">
-    <value>Panel Handle: {0}</value>
   </data>
 	<data name="strPuttyResizeFailed" xml:space="preserve">
     <value>Endring av størrelse på PuTTY-vindu mislyktes!</value>
@@ -1828,15 +1705,6 @@ Melding:
 	<data name="strSingleClickOnOpenConnectionSwitchesToIt" xml:space="preserve">
     <value>Enkeltklikk på en åpnet tilkobling bytter til valgt tilkobling</value>
   </data>
-	<data name="strSmartSizeModeAspect" xml:space="preserve">
-    <value>Aspekt</value>
-  </data>
-	<data name="strSmartSizeModeFree" xml:space="preserve">
-    <value>Fri</value>
-  </data>
-	<data name="strSmartSizeModeNone" xml:space="preserve">
-    <value>Ingen SmartSize</value>
-  </data>
 	<data name="strSocks5" xml:space="preserve">
     <value>Socks 5</value>
   </data>
@@ -1897,9 +1765,6 @@ Melding:
 	<data name="strTabAdvanced" xml:space="preserve">
     <value>Avansert</value>
   </data>
-	<data name="strTabAppearance" xml:space="preserve">
-    <value>Utseende</value>
-  </data>
 	<data name="strTabsAndPanels" xml:space="preserve">
     <value>Faner &amp;&amp; paneler</value>
   </data>
@@ -1917,9 +1782,6 @@ Melding:
   </data>
 	<data name="strThemeCategoryConnectionsPanel" xml:space="preserve">
     <value>Tilkoblingspanel</value>
-  </data>
-	<data name="strThemeCategoryGeneral" xml:space="preserve">
-    <value>Generelt</value>
   </data>
 	<data name="strThemeDescriptionConfigPanelBackgroundColor" xml:space="preserve">
     <value>Bakgrunnsfargen på oppsettspanelet.</value>
@@ -2071,14 +1933,8 @@ Melding:
 	<data name="strUpdateCheckCompleteFailed" xml:space="preserve">
     <value>Fullføring av sjekk for oppdatering mislyktes!</value>
   </data>
-	<data name="strUpdateCheckFailed" xml:space="preserve">
-    <value>Sjekk for oppdatering mislyktes!</value>
-  </data>
 	<data name="strUpdateCheckPortableEdition" xml:space="preserve">
     <value>mRemoteNG Portable Edition støtter for øyeblikket ikke automatiske oppdateringer.</value>
-  </data>
-	<data name="strUpdateDeleteFailed" xml:space="preserve">
-    <value>Feil ved sletting av oppdateringsfilen!</value>
   </data>
 	<data name="strUpdateDownloadComplete" xml:space="preserve">
     <value>Nedlastingen er fullført!
@@ -2102,14 +1958,8 @@ mRemoteNG vil nå avslutte og starte installasjonen.</value>
 	<data name="strUpdateFrequencyWeekly" xml:space="preserve">
     <value>Ukentlig</value>
   </data>
-	<data name="strUpdateStartFailed" xml:space="preserve">
-    <value>Feil ved start av oppdatering!</value>
-  </data>
 	<data name="strUseDifferentUsernameAndPassword" xml:space="preserve">
     <value>Bruk et annet brukernavn og/eller passord</value>
-  </data>
-	<data name="strUseOnlyErrorsAndInfosPanel" xml:space="preserve">
-    <value>Bruk bare varslingspanelet (ingen popup-meldingsbokser)</value>
   </data>
 	<data name="strUser" xml:space="preserve">
     <value>Bruker</value>
@@ -2161,9 +2011,6 @@ mRemoteNG vil nå avslutte og starte installasjonen.</value>
   </data>
 	<data name="strWeifenLuoAttribution" xml:space="preserve">
     <value>Bruker DockPanel Suite av [Weifen Luo]</value>
-  </data>
-	<data name="strWriteLogFile" xml:space="preserve">
-    <value>Skriv loggfil (mRemoteNG.log)</value>
   </data>
 	<data name="strXULrunnerPath" xml:space="preserve">
     <value>XULrunner filsti:</value>

@@ -247,35 +247,20 @@
 	<data name="strCategoryConnection" xml:space="preserve">
     <value>Σύνδεση</value>
   </data>
-	<data name="strCategoryCredentials" xml:space="preserve">
-    <value>Πιστοποιήσεις</value>
-  </data>
 	<data name="strCategoryDisplay" xml:space="preserve">
     <value>Οθόνη</value>
   </data>
 	<data name="strCategoryGateway" xml:space="preserve">
     <value>Πύλη</value>
   </data>
-	<data name="strCategoryGeneral" xml:space="preserve">
-    <value>Γενική</value>
-  </data>
 	<data name="strCategoryMiscellaneous" xml:space="preserve">
     <value>Διάφορα</value>
-  </data>
-	<data name="strCategoryProtocol" xml:space="preserve">
-    <value>Πρωτόκολλο</value>
   </data>
 	<data name="strCategoryRedirect" xml:space="preserve">
     <value>Ανακατεύθυνση</value>
   </data>
 	<data name="strCcAlwaysShowScreen" xml:space="preserve">
     <value>Πάντα εμφάνιση αυτής της οθόνης κατά την εκκίνηση</value>
-  </data>
-	<data name="strCcCheckAgain" xml:space="preserve">
-    <value>Ανανέωση</value>
-  </data>
-	<data name="strCcCheckFailed" xml:space="preserve">
-    <value>Ο ελέγχος απέτυχε!</value>
   </data>
 	<data name="strCcCheckSucceeded" xml:space="preserve">
     <value>Ο ελεγχος πέτυχε!</value>

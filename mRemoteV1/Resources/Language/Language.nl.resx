@@ -250,35 +250,20 @@ Gebruik dan Bestand - Laad Connecties voor normale connectie bestanden!</value>
 	<data name="strCategoryConnection" xml:space="preserve">
     <value>Connectie</value>
   </data>
-	<data name="strCategoryCredentials" xml:space="preserve">
-    <value>Kenmerken</value>
-  </data>
 	<data name="strCategoryDisplay" xml:space="preserve">
     <value>Scherm</value>
   </data>
 	<data name="strCategoryGateway" xml:space="preserve">
     <value>Gateway</value>
   </data>
-	<data name="strCategoryGeneral" xml:space="preserve">
-    <value>Algemeen</value>
-  </data>
 	<data name="strCategoryMiscellaneous" xml:space="preserve">
     <value>Diversen</value>
-  </data>
-	<data name="strCategoryProtocol" xml:space="preserve">
-    <value>Protocol</value>
   </data>
 	<data name="strCategoryRedirect" xml:space="preserve">
     <value>Verwijzing</value>
   </data>
 	<data name="strCcAlwaysShowScreen" xml:space="preserve">
     <value>Altijd dit scherm laten zien bij opstarten</value>
-  </data>
-	<data name="strCcCheckAgain" xml:space="preserve">
-    <value>Vernieuwen</value>
-  </data>
-	<data name="strCcCheckFailed" xml:space="preserve">
-    <value>Controle mislukt!</value>
   </data>
 	<data name="strCcCheckSucceeded" xml:space="preserve">
     <value>Controle geslaagd!</value>
@@ -348,12 +333,6 @@ VncSharp Versie {0}</value>
 	<data name="strCheckboxDoNotShowThisMessageAgain" xml:space="preserve">
     <value>Toon dit bericht niet opnieuw.</value>
   </data>
-	<data name="strCheckboxInheritance" xml:space="preserve">
-    <value>Successierecht</value>
-  </data>
-	<data name="strCheckboxPassword" xml:space="preserve">
-    <value>Wachtwoord</value>
-  </data>
 	<data name="strCheckboxProxyAuthentication" xml:space="preserve">
     <value>Deze proxy server vereist authenticatie</value>
   </data>
@@ -407,12 +386,6 @@ VncSharp Versie {0}</value>
   </data>
 	<data name="strColumnMessage" xml:space="preserve">
     <value>Bericht</value>
-  </data>
-	<data name="strColumnUsername" xml:space="preserve">
-    <value>Gebruikersnaam</value>
-  </data>
-	<data name="strColumnWaitForExit" xml:space="preserve">
-    <value>Wachten Voor Afsluiten</value>
   </data>
 	<data name="strCommandLineArgsCouldNotBeParsed" xml:space="preserve">
     <value>Kan opdrachtprompt argumenten niet parsen!</value>
@@ -694,9 +667,6 @@ Beginnen met nieuwe Connectie bestand.</value>
 	<data name="strGroupboxAutomaticReconnect" xml:space="preserve">
     <value>Automatisch opnieuw verbinden</value>
   </data>
-	<data name="strGroupboxConnection" xml:space="preserve">
-    <value>Verbinding</value>
-  </data>
 	<data name="strGroupboxExternalToolProperties" xml:space="preserve">
     <value>Externe Applicatie Eigenschappen</value>
   </data>
@@ -763,9 +733,6 @@ Beginnen met nieuwe Connectie bestand.</value>
 	<data name="strInheritNewConnection" xml:space="preserve">
     <value>mRemoteNG is voorzien van de meest actuele versie</value>
   </data>
-	<data name="strIntAppConnectionFailed" xml:space="preserve">
-    <value>Verbinding mislukt!</value>
-  </data>
 	<data name="strIntAppDisposeFailed" xml:space="preserve">
     <value>Sluiten Interne Applicatie mislukt!</value>
   </data>
@@ -799,9 +766,6 @@ Beginnen met nieuwe Connectie bestand.</value>
 	<data name="strLabelAddress" xml:space="preserve">
     <value>Adres:</value>
   </data>
-	<data name="strLabelArguments" xml:space="preserve">
-    <value>Argumenten:</value>
-  </data>
 	<data name="strLabelChangeLog" xml:space="preserve">
     <value>Veranderingen:</value>
   </data>
@@ -811,26 +775,8 @@ Beginnen met nieuwe Connectie bestand.</value>
 	<data name="strLabelConnect" xml:space="preserve">
     <value>&amp;Verbind:</value>
   </data>
-	<data name="strLabelDisplayName" xml:space="preserve">
-    <value>Weergavenaam</value>
-  </data>
-	<data name="strLabelDomain" xml:space="preserve">
-    <value>Domein:</value>
-  </data>
-	<data name="strLabelFilename" xml:space="preserve">
-    <value>Bestandsnaam:</value>
-  </data>
 	<data name="strLabelHostname" xml:space="preserve">
     <value>Hostnaam:</value>
-  </data>
-	<data name="strLabelOptions" xml:space="preserve">
-    <value>Opties:</value>
-  </data>
-	<data name="strLabelPassword" xml:space="preserve">
-    <value>Wachtwoord:</value>
-  </data>
-	<data name="strLabelPort" xml:space="preserve">
-    <value>Poort:</value>
   </data>
 	<data name="strLabelPortableEdition" xml:space="preserve">
     <value>Mobiele Editie</value>
@@ -858,12 +804,6 @@ Beginnen met nieuwe Connectie bestand.</value>
   </data>
 	<data name="strLabelSQLDatabaseName" xml:space="preserve">
     <value>Database:</value>
-  </data>
-	<data name="strLabelSQLServerDatabaseName" xml:space="preserve">
-    <value>Database:</value>
-  </data>
-	<data name="strLabelUsername" xml:space="preserve">
-    <value>Gebruikersnaam:</value>
   </data>
 	<data name="strLabelVerify" xml:space="preserve">
     <value>Verifiëren:</value>
@@ -901,9 +841,6 @@ Beginnen met nieuwe Connectie bestand.</value>
 	<data name="strMagicLibraryAttribution" xml:space="preserve">
     <value>Maakt gebruik van de Magic bibliotheek door [Crownwood Software]</value>
   </data>
-	<data name="strMenuAbout" xml:space="preserve">
-    <value>Over</value>
-  </data>
 	<data name="strMenuAddConnectionPanel" xml:space="preserve">
     <value>Voeg Connectie Paneel toe</value>
   </data>
@@ -913,14 +850,8 @@ Beginnen met nieuwe Connectie bestand.</value>
 	<data name="strMenuConfig" xml:space="preserve">
     <value>Configuratie</value>
   </data>
-	<data name="strMenuConnect" xml:space="preserve">
-    <value>Verbinden</value>
-  </data>
 	<data name="strMenuConnectionPanels" xml:space="preserve">
     <value>Connectie Panelen</value>
-  </data>
-	<data name="strMenuConnections" xml:space="preserve">
-    <value>Verbindingen</value>
   </data>
 	<data name="strMenuConnectionsAndConfig" xml:space="preserve">
     <value>Verbindingen en Configuratie</value>
@@ -934,9 +865,6 @@ Beginnen met nieuwe Connectie bestand.</value>
 	<data name="strMenuCtrlEsc" xml:space="preserve">
     <value>CTRL-Esc</value>
   </data>
-	<data name="strMenuDelete" xml:space="preserve">
-    <value>Verwijder...</value>
-  </data>
 	<data name="strMenuDeleteConnection" xml:space="preserve">
     <value>Verwijder Connectie...</value>
   </data>
@@ -946,14 +874,8 @@ Beginnen met nieuwe Connectie bestand.</value>
 	<data name="strMenuDeleteFolder" xml:space="preserve">
     <value>Verwijder Map...</value>
   </data>
-	<data name="strMenuDisconnect" xml:space="preserve">
-    <value>Verbreek verbinding</value>
-  </data>
 	<data name="strMenuDonate" xml:space="preserve">
     <value>Doneer</value>
-  </data>
-	<data name="strMenuDuplicate" xml:space="preserve">
-    <value>Dupliceer</value>
   </data>
 	<data name="strMenuDuplicateConnection" xml:space="preserve">
     <value>Dupliceer Connectie</value>
@@ -997,9 +919,6 @@ Beginnen met nieuwe Connectie bestand.</value>
 	<data name="strMenuNewConnectionFile" xml:space="preserve">
     <value>Nieuwe Connectie Bestand</value>
   </data>
-	<data name="strMenuNewExternalTool" xml:space="preserve">
-    <value>Nieuwe Externe Applicatie</value>
-  </data>
 	<data name="strMenuNotifications" xml:space="preserve">
     <value>Notificaties</value>
   </data>
@@ -1033,9 +952,6 @@ Beginnen met nieuwe Connectie bestand.</value>
 	<data name="strMenuRefreshScreen" xml:space="preserve">
     <value>Vernieuw Scherm (VNC)</value>
   </data>
-	<data name="strMenuRename" xml:space="preserve">
-    <value>Hernoem</value>
-  </data>
 	<data name="strMenuRenameConnection" xml:space="preserve">
     <value>Hernoem Connectie</value>
   </data>
@@ -1056,9 +972,6 @@ Beginnen met nieuwe Connectie bestand.</value>
   </data>
 	<data name="strMenuSaveConnectionFileAs" xml:space="preserve">
     <value>Opslaan Connectie bestand Als...</value>
-  </data>
-	<data name="strMenuScreenshot" xml:space="preserve">
-    <value>Schermafbeelding</value>
   </data>
 	<data name="strMenuScreenshotManager" xml:space="preserve">
     <value>Screenshot beheerder</value>
@@ -1120,12 +1033,6 @@ Beginnen met nieuwe Connectie bestand.</value>
 	<data name="strNever" xml:space="preserve">
     <value>Nooit</value>
   </data>
-	<data name="strNewConnection" xml:space="preserve">
-    <value>Nieuwe Connectie</value>
-  </data>
-	<data name="strNewFolder" xml:space="preserve">
-    <value>Nieuwe Map</value>
-  </data>
 	<data name="strNewPanel" xml:space="preserve">
     <value>Nieuw Paneel</value>
   </data>
@@ -1171,12 +1078,6 @@ Als dergelijke problemen voorkomen maak dan een nieuwe verbindings bestand aan!<
   </data>
 	<data name="strOptionsTabTheme" xml:space="preserve">
     <value>Thema</value>
-  </data>
-	<data name="strOptionsThemeButtonDelete" xml:space="preserve">
-    <value>&amp;Verwijder</value>
-  </data>
-	<data name="strOptionsThemeButtonNew" xml:space="preserve">
-    <value>&amp;Nieuw</value>
   </data>
 	<data name="strPanelName" xml:space="preserve">
     <value>Paneel Naam</value>
@@ -1343,9 +1244,6 @@ Als dergelijke problemen voorkomen maak dan een nieuwe verbindings bestand aan!<
 	<data name="strPropertyDescriptionVNCProxyUsername" xml:space="preserve">
     <value>Voer uw gebruikersnaam in voor authenticatie van de proxy server.</value>
   </data>
-	<data name="strPropertyNameAddress" xml:space="preserve">
-    <value>Hostnaam/IP</value>
-  </data>
 	<data name="strPropertyNameAll" xml:space="preserve">
     <value>Alle</value>
   </data>
@@ -1373,9 +1271,6 @@ Als dergelijke problemen voorkomen maak dan een nieuwe verbindings bestand aan!<
 	<data name="strPropertyNameDisplayWallpaper" xml:space="preserve">
     <value>Bureaubladachtergrond</value>
   </data>
-	<data name="strPropertyNameDomain" xml:space="preserve">
-    <value>Domein</value>
-  </data>
 	<data name="strPropertyNameEnableDesktopComposition" xml:space="preserve">
     <value>Samenstelling bureaublad</value>
   </data>
@@ -1397,9 +1292,6 @@ Als dergelijke problemen voorkomen maak dan een nieuwe verbindings bestand aan!<
 	<data name="strPropertyNameExternalToolBefore" xml:space="preserve">
     <value>Externe Applicatie voordat</value>
   </data>
-	<data name="strPropertyNameIcon" xml:space="preserve">
-    <value>Icoon</value>
-  </data>
 	<data name="strPropertyNameMACAddress" xml:space="preserve">
     <value>MAC Adres</value>
   </data>
@@ -1409,14 +1301,8 @@ Als dergelijke problemen voorkomen maak dan een nieuwe verbindings bestand aan!<
 	<data name="strPropertyNamePanel" xml:space="preserve">
     <value>Paneel</value>
   </data>
-	<data name="strPropertyNamePassword" xml:space="preserve">
-    <value>Wachtwoord</value>
-  </data>
 	<data name="strPropertyNamePort" xml:space="preserve">
     <value>Poort</value>
-  </data>
-	<data name="strPropertyNameProtocol" xml:space="preserve">
-    <value>Protocol</value>
   </data>
 	<data name="strPropertyNamePuttySession" xml:space="preserve">
     <value>PuTTY Sessie</value>
@@ -1475,9 +1361,6 @@ Als dergelijke problemen voorkomen maak dan een nieuwe verbindings bestand aan!<
 	<data name="strPropertyNameUser1" xml:space="preserve">
     <value>Gebruiker veld</value>
   </data>
-	<data name="strPropertyNameUsername" xml:space="preserve">
-    <value>Gebruikersnaam</value>
-  </data>
 	<data name="strPropertyNameViewOnly" xml:space="preserve">
     <value>Alleen bekijken</value>
   </data>
@@ -1514,9 +1397,6 @@ Bericht:
 	<data name="strProxyTestSucceeded" xml:space="preserve">
     <value>Proxy test geslaagd!</value>
   </data>
-	<data name="strPuttyConnectionFailed" xml:space="preserve">
-    <value>Verbinding mislukt!</value>
-  </data>
 	<data name="strPuttyDisposeFailed" xml:space="preserve">
     <value>Sluiten PuTTy proces mislukt!</value>
   </data>
@@ -1531,9 +1411,6 @@ Bericht:
   </data>
 	<data name="strPuttyKillFailed" xml:space="preserve">
     <value>Beëindigen Putty Proces mislukt!</value>
-  </data>
-	<data name="strPuttyParentHandle" xml:space="preserve">
-    <value>Paneel Handeling: {0}</value>
   </data>
 	<data name="strPuttyResizeFailed" xml:space="preserve">
     <value>PuTTy Formaat Wijzigen Mislukt!</value>
@@ -1829,15 +1706,6 @@ Bericht:
 	<data name="strSingleClickOnOpenConnectionSwitchesToIt" xml:space="preserve">
     <value>Enkele klik om naar geopende verbinding om te schakelen</value>
   </data>
-	<data name="strSmartSizeModeAspect" xml:space="preserve">
-    <value>Verhouding</value>
-  </data>
-	<data name="strSmartSizeModeFree" xml:space="preserve">
-    <value>Vrij</value>
-  </data>
-	<data name="strSmartSizeModeNone" xml:space="preserve">
-    <value>Geen SmartSize</value>
-  </data>
 	<data name="strSocks5" xml:space="preserve">
     <value>Socks 5</value>
   </data>
@@ -1898,9 +1766,6 @@ Bericht:
 	<data name="strTabAdvanced" xml:space="preserve">
     <value>Geavanceerd</value>
   </data>
-	<data name="strTabAppearance" xml:space="preserve">
-    <value>Uiterlijk</value>
-  </data>
 	<data name="strTabsAndPanels" xml:space="preserve">
     <value>Tabbladen &amp;&amp; Panelen</value>
   </data>
@@ -1918,9 +1783,6 @@ Bericht:
   </data>
 	<data name="strThemeCategoryConnectionsPanel" xml:space="preserve">
     <value>Connectie paneel</value>
-  </data>
-	<data name="strThemeCategoryGeneral" xml:space="preserve">
-    <value>Algemeen</value>
   </data>
 	<data name="strThemeDescriptionConfigPanelBackgroundColor" xml:space="preserve">
     <value>De achtergrondkleur van het configuratie paneel.</value>
@@ -2072,14 +1934,8 @@ Bericht:
 	<data name="strUpdateCheckCompleteFailed" xml:space="preserve">
     <value>Check voor de update voltooiing is mislukt!</value>
   </data>
-	<data name="strUpdateCheckFailed" xml:space="preserve">
-    <value>Controleren op update mislukt!</value>
-  </data>
 	<data name="strUpdateCheckPortableEdition" xml:space="preserve">
     <value>mRemoteNG Portable Edition ondersteunt momenteel geen automatische updates.</value>
-  </data>
-	<data name="strUpdateDeleteFailed" xml:space="preserve">
-    <value>Fout bij verwijderen van update-bestand!</value>
   </data>
 	<data name="strUpdateDownloadComplete" xml:space="preserve">
     <value>Download voltooid!
@@ -2103,14 +1959,8 @@ mRemoteNG zal nu worden gesloten en beginnen met de installatie.</value>
 	<data name="strUpdateFrequencyWeekly" xml:space="preserve">
     <value>Wekelijks</value>
   </data>
-	<data name="strUpdateStartFailed" xml:space="preserve">
-    <value>Fout bij het starten van update!</value>
-  </data>
 	<data name="strUseDifferentUsernameAndPassword" xml:space="preserve">
     <value>Gebruik een andere gebruikersnaam en wachtwoord</value>
-  </data>
-	<data name="strUseOnlyErrorsAndInfosPanel" xml:space="preserve">
-    <value>Gebruik alleen meldingenvenster (geen meldingsbox popups)</value>
   </data>
 	<data name="strUser" xml:space="preserve">
     <value>Gebruiker</value>
@@ -2162,9 +2012,6 @@ mRemoteNG zal nu worden gesloten en beginnen met de installatie.</value>
   </data>
 	<data name="strWeifenLuoAttribution" xml:space="preserve">
     <value>Maakt gebruik van de DockPanel Suite van [Weifen Luo]</value>
-  </data>
-	<data name="strWriteLogFile" xml:space="preserve">
-    <value>Schrijf log bestand (mRemoteNG.log)</value>
   </data>
 	<data name="strXULrunnerPath" xml:space="preserve">
     <value>XULrunner pad:</value>

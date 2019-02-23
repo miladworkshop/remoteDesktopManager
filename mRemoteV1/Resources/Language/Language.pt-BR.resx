@@ -246,35 +246,20 @@
 	<data name="strCategoryConnection" xml:space="preserve">
     <value>Conexão</value>
   </data>
-	<data name="strCategoryCredentials" xml:space="preserve">
-    <value>Credenciais</value>
-  </data>
 	<data name="strCategoryDisplay" xml:space="preserve">
     <value>Mostrar</value>
   </data>
 	<data name="strCategoryGateway" xml:space="preserve">
     <value>Gateway</value>
   </data>
-	<data name="strCategoryGeneral" xml:space="preserve">
-    <value>Geral</value>
-  </data>
 	<data name="strCategoryMiscellaneous" xml:space="preserve">
     <value>Diversos</value>
-  </data>
-	<data name="strCategoryProtocol" xml:space="preserve">
-    <value>Protocolo</value>
   </data>
 	<data name="strCategoryRedirect" xml:space="preserve">
     <value>Redirecionar</value>
   </data>
 	<data name="strCcAlwaysShowScreen" xml:space="preserve">
     <value>Sempre mostrar esta tela na inicialização</value>
-  </data>
-	<data name="strCcCheckAgain" xml:space="preserve">
-    <value>Atualizar</value>
-  </data>
-	<data name="strCcCheckFailed" xml:space="preserve">
-    <value>Falha na verificação!</value>
   </data>
 	<data name="strCcCheckSucceeded" xml:space="preserve">
     <value>Verificação com sucesso!</value>
@@ -323,12 +308,6 @@ Por favor, certifique-se de que você tem o Putty.exe em seu diretório mRemoteN
 	<data name="strCheckboxDoNotShowThisMessageAgain" xml:space="preserve">
     <value>Não mostre esta mensagem novamente.</value>
   </data>
-	<data name="strCheckboxInheritance" xml:space="preserve">
-    <value>Herança</value>
-  </data>
-	<data name="strCheckboxPassword" xml:space="preserve">
-    <value>Senha</value>
-  </data>
 	<data name="strCheckboxProxyAuthentication" xml:space="preserve">
     <value>Este servidor proxy requer autenticação</value>
   </data>
@@ -376,12 +355,6 @@ Por favor, certifique-se de que você tem o Putty.exe em seu diretório mRemoteN
   </data>
 	<data name="strColumnMessage" xml:space="preserve">
     <value>Mensagem</value>
-  </data>
-	<data name="strColumnUsername" xml:space="preserve">
-    <value>Nome de usuário</value>
-  </data>
-	<data name="strColumnWaitForExit" xml:space="preserve">
-    <value>Esperar para sair</value>
   </data>
 	<data name="strComponentsCheck" xml:space="preserve">
     <value>Validação de componentes</value>

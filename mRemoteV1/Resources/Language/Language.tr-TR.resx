@@ -240,29 +240,14 @@
 	<data name="strCategoryConnection" xml:space="preserve">
 		<value>Bağlantı</value>
 	</data>
-	<data name="strCategoryCredentials" xml:space="preserve">
-		<value>Kimlik</value>
-	</data>
 	<data name="strCategoryGateway" xml:space="preserve">
 		<value>Ağ geçidi</value>
-	</data>
-	<data name="strCategoryGeneral" xml:space="preserve">
-		<value>Genel</value>
-	</data>
-	<data name="strCategoryProtocol" xml:space="preserve">
-		<value>Protokol</value>
 	</data>
 	<data name="strCategoryRedirect" xml:space="preserve">
 		<value>Yönlendir</value>
 	</data>
 	<data name="strCcAlwaysShowScreen" xml:space="preserve">
 		<value>Bu ekranı her açılışta göster</value>
-	</data>
-	<data name="strCcCheckAgain" xml:space="preserve">
-		<value>Yenile</value>
-	</data>
-	<data name="strCcCheckFailed" xml:space="preserve">
-		<value>Kontrol başarısız!</value>
 	</data>
 	<data name="strCcCheckSucceeded" xml:space="preserve">
 		<value>Kontrol başarılı!</value>
@@ -272,9 +257,6 @@
 	</data>
 	<data name="strCheckboxDoNotShowThisMessageAgain" xml:space="preserve">
 		<value>Bu mesajı tekrar gösterme</value>
-	</data>
-	<data name="strCheckboxPassword" xml:space="preserve">
-		<value>Parola</value>
 	</data>
 	<data name="strCheckboxProxyAuthentication" xml:space="preserve">
 		<value>Bu proxy sunucusu kimlik doğrulama gerektirir</value>
@@ -381,9 +363,6 @@ VncSharp Kontrol Sürümü {0}</value>
 	<data name="strCheckboxAutomaticReconnect" xml:space="preserve">
 		<value>Sunucu bağlantısı kesildiğinde otomatik olarak yeniden bağlanmayı deneyin (yalnızca RDP  &amp;&amp; ICA)</value>
 	</data>
-	<data name="strCheckboxInheritance" xml:space="preserve">
-		<value>Devral</value>
-	</data>
 	<data name="strCheckboxUpdateUseProxy" xml:space="preserve">
 		<value>Bağlanmak için proxy sunucusu kullan</value>
 	</data>
@@ -407,12 +386,6 @@ VncSharp Kontrol Sürümü {0}</value>
 	</data>
 	<data name="strColumnMessage" xml:space="preserve">
 		<value>Mesaj</value>
-	</data>
-	<data name="strColumnUsername" xml:space="preserve">
-		<value>Kullanıcı adı</value>
-	</data>
-	<data name="strColumnWaitForExit" xml:space="preserve">
-		<value>Çıkış için bekleyin</value>
 	</data>
 	<data name="strCommandExitProgram" xml:space="preserve">
 		<value>Ç&amp;ıkış {0}</value>
@@ -780,9 +753,6 @@ Normal bağlantı dosyaları için lütfen Dosya - Bağlantıları Yükle'yi kul
 	<data name="strGroupboxAutomaticReconnect" xml:space="preserve">
 		<value>Otomatik Yeniden Bağlan</value>
 	</data>
-	<data name="strGroupboxConnection" xml:space="preserve">
-		<value>Bağlantı</value>
-	</data>
 	<data name="strGroupboxExternalToolProperties" xml:space="preserve">
 		<value>Harici Araç Özellikleri</value>
 	</data>
@@ -809,12 +779,6 @@ Normal bağlantı dosyaları için lütfen Dosya - Bağlantıları Yükle'yi kul
 	</data>
 	<data name="strLabelSQLDatabaseName" xml:space="preserve">
 		<value>Veritabanı:</value>
-	</data>
-	<data name="strLabelSQLServerDatabaseName" xml:space="preserve">
-		<value>Veritabanı:</value>
-	</data>
-	<data name="strLabelUsername" xml:space="preserve">
-		<value>Kullanıcı adı:</value>
 	</data>
 	<data name="strLabelVerify" xml:space="preserve">
 		<value>Doğrula:</value>
@@ -855,9 +819,6 @@ Normal bağlantı dosyaları için lütfen Dosya - Bağlantıları Yükle'yi kul
 	<data name="strMagicLibraryAttribution" xml:space="preserve">
 		<value>[Crownwood Software] tarafından sağlanan Sihirbaz kütüphanesi kullanır</value>
 	</data>
-	<data name="strMenuAbout" xml:space="preserve">
-		<value>Hakkında</value>
-	</data>
 	<data name="strMenuAddConnectionPanel" xml:space="preserve">
 		<value>Bağlantı Paneli Ekle</value>
 	</data>
@@ -867,23 +828,14 @@ Normal bağlantı dosyaları için lütfen Dosya - Bağlantıları Yükle'yi kul
 	<data name="strMenuConfig" xml:space="preserve">
 		<value>Ayar</value>
 	</data>
-	<data name="strMenuConnect" xml:space="preserve">
-		<value>Bağlan</value>
-	</data>
 	<data name="strMenuConnectionPanels" xml:space="preserve">
 		<value>Bağlantı Paneli</value>
-	</data>
-	<data name="strMenuConnections" xml:space="preserve">
-		<value>Bağlantılar</value>
 	</data>
 	<data name="strMenuConnectionsAndConfig" xml:space="preserve">
 		<value>Bağlantılar ve Ayar</value>
 	</data>
 	<data name="strMenuCopy" xml:space="preserve">
 		<value>Kopyala</value>
-	</data>
-	<data name="strMenuDelete" xml:space="preserve">
-		<value>Sil...</value>
 	</data>
 	<data name="strMenuDeleteConnection" xml:space="preserve">
 		<value>Bağlantıyı Sil...</value>
@@ -894,14 +846,8 @@ Normal bağlantı dosyaları için lütfen Dosya - Bağlantıları Yükle'yi kul
 	<data name="strMenuDeleteFolder" xml:space="preserve">
 		<value>Klasörü Sil...</value>
 	</data>
-	<data name="strMenuDisconnect" xml:space="preserve">
-		<value>Bağlantıyı Kes</value>
-	</data>
 	<data name="strMenuDonate" xml:space="preserve">
 		<value>Bağış Yap</value>
-	</data>
-	<data name="strMenuDuplicate" xml:space="preserve">
-		<value>Çoğalt</value>
 	</data>
 	<data name="strMenuDuplicateConnection" xml:space="preserve">
 		<value>Bağlantıyı Çoğalt</value>
@@ -945,9 +891,6 @@ Normal bağlantı dosyaları için lütfen Dosya - Bağlantıları Yükle'yi kul
 	<data name="strMenuNewConnectionFile" xml:space="preserve">
 		<value>Yeni Bağlantı Dosyası</value>
 	</data>
-	<data name="strMenuNewExternalTool" xml:space="preserve">
-		<value>Yeni Harici Araç</value>
-	</data>
 	<data name="strMenuNotifications" xml:space="preserve">
 		<value>Bildirim</value>
 	</data>
@@ -981,9 +924,6 @@ Normal bağlantı dosyaları için lütfen Dosya - Bağlantıları Yükle'yi kul
 	<data name="strMenuRefreshScreen" xml:space="preserve">
 		<value>Ekranı Yenile (VNC)</value>
 	</data>
-	<data name="strMenuRename" xml:space="preserve">
-		<value>Yeniden Adlandır</value>
-	</data>
 	<data name="strMenuRenameConnection" xml:space="preserve">
 		<value>Bağlantıyı Yeniden Adlandır</value>
 	</data>
@@ -1004,9 +944,6 @@ Normal bağlantı dosyaları için lütfen Dosya - Bağlantıları Yükle'yi kul
 	</data>
 	<data name="strMenuSaveConnectionFileAs" xml:space="preserve">
 		<value>Bağlantı Dosyasını Farklı Kaydet</value>
-	</data>
-	<data name="strMenuScreenshot" xml:space="preserve">
-		<value>Ekran Görüntüsü</value>
 	</data>
 	<data name="strMenuScreenshotManager" xml:space="preserve">
 		<value>Ekran Görüntüsü Yöneticisi</value>
@@ -1071,12 +1008,6 @@ Normal bağlantı dosyaları için lütfen Dosya - Bağlantıları Yükle'yi kul
 	<data name="strNever" xml:space="preserve">
 		<value>Asla</value>
 	</data>
-	<data name="strNewConnection" xml:space="preserve">
-		<value>Yeni Bağlantı</value>
-	</data>
-	<data name="strNewFolder" xml:space="preserve">
-		<value>Yeni Klasör</value>
-	</data>
 	<data name="strNewPanel" xml:space="preserve">
 		<value>Yeni Panel</value>
 	</data>
@@ -1120,9 +1051,6 @@ Böyle bir hatayla karşılaşırsanız, lütfen yeni bir bağlantı dosyası ol
 	<data name="strOptionsKeyboardButtonDelete" xml:space="preserve">
 		<value>&amp;Sil</value>
 	</data>
-	<data name="strOptionsKeyboardButtonNew" xml:space="preserve">
-		<value>&amp;Yeni</value>
-	</data>
 	<data name="strOptionsKeyboardButtonReset" xml:space="preserve">
 		<value>&amp;Varsayılana sıfırla</value>
 	</data>
@@ -1153,12 +1081,6 @@ Böyle bir hatayla karşılaşırsanız, lütfen yeni bir bağlantı dosyası ol
 	<data name="strOptionsTabTheme" xml:space="preserve">
 		<value>Tema</value>
 	</data>
-	<data name="strOptionsThemeButtonDelete" xml:space="preserve">
-		<value>&amp;Sil</value>
-	</data>
-	<data name="strOptionsThemeButtonNew" xml:space="preserve">
-		<value>&amp;Yeni</value>
-	</data>
 	<data name="strVncToggleViewOnlyFailed" xml:space="preserve">
 		<value>VNC Yalnızca Bak geçişi başarısız!</value>
 	</data>
@@ -1170,9 +1092,6 @@ Böyle bir hatayla karşılaşırsanız, lütfen yeni bir bağlantı dosyası ol
 	</data>
 	<data name="strWeifenLuoAttribution" xml:space="preserve">
 		<value>[Weifen Luo] tarafından sağlanan DockPanel Suite kullanılıyor</value>
-	</data>
-	<data name="strWriteLogFile" xml:space="preserve">
-		<value>Günlük dosyası yaz (mRemoteNG.log)</value>
 	</data>
 	<data name="strXULrunnerPath" xml:space="preserve">
 		<value>XULrunner yolu:</value>
@@ -1215,9 +1134,6 @@ Böyle bir hatayla karşılaşırsanız, lütfen yeni bir bağlantı dosyası ol
 	</data>
 	<data name="strUseDifferentUsernameAndPassword" xml:space="preserve">
 		<value>Faklı bir kullanıcı adı ve parola kullan</value>
-	</data>
-	<data name="strUseOnlyErrorsAndInfosPanel" xml:space="preserve">
-		<value>Yalnızca bilgilendirme panelini kullan (Açılır pencere gösterme)</value>
 	</data>
 	<data name="strUser" xml:space="preserve">
 		<value>Kullanıcı</value>
@@ -1337,9 +1253,6 @@ MRemoteNG şimdi kapanacak ve kurulum başlayacak.</value>
 	<data name="strImportLocationMainInstruction" xml:space="preserve">
 		<value>İçe alma yeri</value>
 	</data>
-	<data name="strImportMenuItem" xml:space="preserve">
-		<value>İçe &amp;Al</value>
-	</data>
 	<data name="strImportmRemoteXML" xml:space="preserve">
 		<value>mRemote/mRemoteNG XML dosyasını içe aktar</value>
 	</data>
@@ -1357,9 +1270,6 @@ MRemoteNG şimdi kapanacak ve kurulum başlayacak.</value>
 	</data>
 	<data name="strInheritNewConnection" xml:space="preserve">
 		<value>mRemoteNG güncel</value>
-	</data>
-	<data name="strIntAppConnectionFailed" xml:space="preserve">
-		<value>Bağlantı başarısız!</value>
 	</data>
 	<data name="strIntAppDisposeFailed" xml:space="preserve">
 		<value>Int App kaldırma işlemi başarısız!</value>
@@ -1388,9 +1298,6 @@ MRemoteNG şimdi kapanacak ve kurulum başlayacak.</value>
 	<data name="strLabelAddress" xml:space="preserve">
 		<value>Adres:</value>
 	</data>
-	<data name="strLabelArguments" xml:space="preserve">
-		<value>Argümanlar:</value>
-	</data>
 	<data name="strLabelChangeLog" xml:space="preserve">
 		<value>Değişiklik günlüğü:</value>
 	</data>
@@ -1399,18 +1306,6 @@ MRemoteNG şimdi kapanacak ve kurulum başlayacak.</value>
 	</data>
 	<data name="strLabelConnect" xml:space="preserve">
 		<value>&amp;Bağlan:</value>
-	</data>
-	<data name="strLabelDisplayName" xml:space="preserve">
-		<value>Görünen Ad</value>
-	</data>
-	<data name="strLabelFilename" xml:space="preserve">
-		<value>Dosya Adı:</value>
-	</data>
-	<data name="strLabelOptions" xml:space="preserve">
-		<value>Ayarlar:</value>
-	</data>
-	<data name="strLabelPassword" xml:space="preserve">
-		<value>Parola:</value>
 	</data>
 	<data name="strLabelPortableEdition" xml:space="preserve">
 		<value>Taşınabilir Sürüm</value>
@@ -1743,9 +1638,6 @@ PuTTY ve harici araçlar için en fazla bekleme süresi:</value>
 	<data name="strPropertyNameExternalToolBefore" xml:space="preserve">
 		<value>Harici Araç Öncesi</value>
 	</data>
-	<data name="strPropertyNameIcon" xml:space="preserve">
-		<value>Simge</value>
-	</data>
 	<data name="strPropertyNameLoadBalanceInfo" xml:space="preserve">
 		<value>Yük Dengeleme Bilgisi</value>
 	</data>
@@ -1754,12 +1646,6 @@ PuTTY ve harici araçlar için en fazla bekleme süresi:</value>
 	</data>
 	<data name="strPropertyNameName" xml:space="preserve">
 		<value>Ad</value>
-	</data>
-	<data name="strPropertyNamePassword" xml:space="preserve">
-		<value>Parola</value>
-	</data>
-	<data name="strPropertyNameProtocol" xml:space="preserve">
-		<value>Protokol</value>
 	</data>
 	<data name="strPropertyNamePuttySession" xml:space="preserve">
 		<value>PuTTY Oturumu</value>
@@ -1812,9 +1698,6 @@ PuTTY ve harici araçlar için en fazla bekleme süresi:</value>
 	<data name="strPropertyNameUser1" xml:space="preserve">
 		<value>Kulanıcı Alanı</value>
 	</data>
-	<data name="strPropertyNameUsername" xml:space="preserve">
-		<value>Kullanıcı Adı</value>
-	</data>
 	<data name="strPropertyNameViewOnly" xml:space="preserve">
 		<value>Ylnızca İzle</value>
 	</data>
@@ -1850,9 +1733,6 @@ Mesaj:
 	</data>
 	<data name="strProxyTestSucceeded" xml:space="preserve">
 		<value>Proxy testi başarılı!</value>
-	</data>
-	<data name="strPuttyConnectionFailed" xml:space="preserve">
-		<value>Bağlantı başarısız!</value>
 	</data>
 	<data name="strPuttyDisposeFailed" xml:space="preserve">
 		<value>Putty işleminin kapatma başarısız oldu!</value>
@@ -2136,12 +2016,6 @@ Mesaj:
 	<data name="strSingleClickOnOpenConnectionSwitchesToIt" xml:space="preserve">
 		<value>Bağlantı Ağacı'nda açılan bağlantıyı tek tıklattığınızda Bağlantı Sekmesi açılır</value>
 	</data>
-	<data name="strSmartSizeModeAspect" xml:space="preserve">
-		<value>Görünüş</value>
-	</data>
-	<data name="strSmartSizeModeNone" xml:space="preserve">
-		<value>Akıllı boyutlandırma yok</value>
-	</data>
 	<data name="strSort" xml:space="preserve">
 		<value>Sırala</value>
 	</data>
@@ -2190,9 +2064,6 @@ Mesaj:
 	<data name="strTabAdvanced" xml:space="preserve">
 		<value>Gelişmiş</value>
 	</data>
-	<data name="strTabAppearance" xml:space="preserve">
-		<value>Görünüm</value>
-	</data>
 	<data name="strTabsAndPanels" xml:space="preserve">
 		<value>Sekmeler &amp;&amp; Paneller</value>
 	</data>
@@ -2207,9 +2078,6 @@ Mesaj:
 	</data>
 	<data name="strThemeCategoryConnectionsPanel" xml:space="preserve">
 		<value>Bağlantılar Paneli</value>
-	</data>
-	<data name="strThemeCategoryGeneral" xml:space="preserve">
-		<value>Genel</value>
 	</data>
 	<data name="strThemeDescriptionConfigPanelBackgroundColor" xml:space="preserve">
 		<value>Ayar panelinin arkaplan rengi.</value>

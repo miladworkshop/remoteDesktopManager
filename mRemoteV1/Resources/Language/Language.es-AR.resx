@@ -150,9 +150,6 @@
 	<data name="strButtonTestProxy" xml:space="preserve">
     <value>Probar Proxy</value>
   </data>
-	<data name="strCategoryCredentials" xml:space="preserve">
-    <value>Credenciales</value>
-  </data>
 	<data name="strCategoryMiscellaneous" xml:space="preserve">
     <value>Varios</value>
   </data>
@@ -180,12 +177,6 @@ VncSharp Control {0}</value>
   </data>
 	<data name="strCheckboxDoNotShowThisMessageAgain" xml:space="preserve">
     <value>No mostrar este mensaje de nuevo.</value>
-  </data>
-	<data name="strCheckboxInheritance" xml:space="preserve">
-    <value>Herencia</value>
-  </data>
-	<data name="strCheckboxPassword" xml:space="preserve">
-    <value>Contraseña</value>
   </data>
 	<data name="strCheckboxProxyAuthentication" xml:space="preserve">
     <value>Este servidor proxy requiere autenticación</value>

@@ -247,35 +247,20 @@
 	<data name="strCategoryConnection" xml:space="preserve">
     <value>З'єднання</value>
   </data>
-	<data name="strCategoryCredentials" xml:space="preserve">
-    <value>Облікові дані</value>
-  </data>
 	<data name="strCategoryDisplay" xml:space="preserve">
     <value>Вигляд</value>
   </data>
 	<data name="strCategoryGateway" xml:space="preserve">
     <value>Шлюз</value>
   </data>
-	<data name="strCategoryGeneral" xml:space="preserve">
-    <value>Основна</value>
-  </data>
 	<data name="strCategoryMiscellaneous" xml:space="preserve">
     <value>Різне</value>
-  </data>
-	<data name="strCategoryProtocol" xml:space="preserve">
-    <value>Протокол</value>
   </data>
 	<data name="strCategoryRedirect" xml:space="preserve">
     <value>Локальні ресурси</value>
   </data>
 	<data name="strCcAlwaysShowScreen" xml:space="preserve">
     <value>Завжди показувати це вікно при запуску</value>
-  </data>
-	<data name="strCcCheckAgain" xml:space="preserve">
-    <value>Оновлення</value>
-  </data>
-	<data name="strCcCheckFailed" xml:space="preserve">
-    <value>Помилка перевірки!</value>
   </data>
 	<data name="strCcCheckSucceeded" xml:space="preserve">
     <value>Успішно перевірено!</value>
@@ -345,12 +330,6 @@ VncSharp Control Version {0}</value>
 	<data name="strCheckboxDoNotShowThisMessageAgain" xml:space="preserve">
     <value>Більше не показувати це повідомлення.</value>
   </data>
-	<data name="strCheckboxInheritance" xml:space="preserve">
-    <value>Успадковування</value>
-  </data>
-	<data name="strCheckboxPassword" xml:space="preserve">
-    <value>Пароль</value>
-  </data>
 	<data name="strCheckboxProxyAuthentication" xml:space="preserve">
     <value>Потрібна авторизація</value>
   </data>
@@ -404,12 +383,6 @@ VncSharp Control Version {0}</value>
   </data>
 	<data name="strColumnMessage" xml:space="preserve">
     <value>Повідомлення</value>
-  </data>
-	<data name="strColumnUsername" xml:space="preserve">
-    <value>Користувач</value>
-  </data>
-	<data name="strColumnWaitForExit" xml:space="preserve">
-    <value>Чекати виходу</value>
   </data>
 	<data name="strCommandLineArgsCouldNotBeParsed" xml:space="preserve">
     <value>Неможливо розібрати аргументи командного рядка!</value>
@@ -685,9 +658,6 @@ VncSharp Control Version {0}</value>
 	<data name="strGroupboxAutomaticReconnect" xml:space="preserve">
     <value>Автоперепідключення</value>
   </data>
-	<data name="strGroupboxConnection" xml:space="preserve">
-    <value>З'єднання</value>
-  </data>
 	<data name="strGroupboxExternalToolProperties" xml:space="preserve">
     <value>Властивості зовнішніх інструментів</value>
   </data>
@@ -748,9 +718,6 @@ VncSharp Control Version {0}</value>
 	<data name="strInheritNewConnection" xml:space="preserve">
     <value>mRemoteNG в актуальному стані</value>
   </data>
-	<data name="strIntAppConnectionFailed" xml:space="preserve">
-    <value>З'єднання не вдалося!</value>
-  </data>
 	<data name="strIntAppFocusFailed" xml:space="preserve">
     <value>Зовнішній інструмент: Помилка отримання фокусу!</value>
   </data>
@@ -778,35 +745,14 @@ VncSharp Control Version {0}</value>
 	<data name="strLabelAddress" xml:space="preserve">
     <value>Адреса:</value>
   </data>
-	<data name="strLabelArguments" xml:space="preserve">
-    <value>Аргументи:</value>
-  </data>
 	<data name="strLabelChangeLog" xml:space="preserve">
     <value>Історія версій:</value>
   </data>
 	<data name="strLabelConnect" xml:space="preserve">
     <value>&amp;З'єднання:</value>
   </data>
-	<data name="strLabelDisplayName" xml:space="preserve">
-    <value>Коротке ім'я</value>
-  </data>
-	<data name="strLabelDomain" xml:space="preserve">
-    <value>Домен:</value>
-  </data>
-	<data name="strLabelFilename" xml:space="preserve">
-    <value>Файл:</value>
-  </data>
 	<data name="strLabelHostname" xml:space="preserve">
     <value>Ім'я хосту:</value>
-  </data>
-	<data name="strLabelOptions" xml:space="preserve">
-    <value>Опції:</value>
-  </data>
-	<data name="strLabelPassword" xml:space="preserve">
-    <value>Пароль:</value>
-  </data>
-	<data name="strLabelPort" xml:space="preserve">
-    <value>Порт:</value>
   </data>
 	<data name="strLabelPortableEdition" xml:space="preserve">
     <value>Портативна версія</value>
@@ -834,12 +780,6 @@ VncSharp Control Version {0}</value>
   </data>
 	<data name="strLabelSQLDatabaseName" xml:space="preserve">
     <value>База даних:</value>
-  </data>
-	<data name="strLabelSQLServerDatabaseName" xml:space="preserve">
-    <value>База даних:</value>
-  </data>
-	<data name="strLabelUsername" xml:space="preserve">
-    <value>Користувач:</value>
   </data>
 	<data name="strLabelVerify" xml:space="preserve">
     <value>Перевірка:</value>
@@ -877,9 +817,6 @@ VncSharp Control Version {0}</value>
 	<data name="strMagicLibraryAttribution" xml:space="preserve">
     <value>Використано Magic library від [Crownwood Software]</value>
   </data>
-	<data name="strMenuAbout" xml:space="preserve">
-    <value>Про програму</value>
-  </data>
 	<data name="strMenuAddConnectionPanel" xml:space="preserve">
     <value>Додати Панель з'єднання</value>
   </data>
@@ -889,14 +826,8 @@ VncSharp Control Version {0}</value>
 	<data name="strMenuConfig" xml:space="preserve">
     <value>Конфігурація</value>
   </data>
-	<data name="strMenuConnect" xml:space="preserve">
-    <value>З'єдуватися</value>
-  </data>
 	<data name="strMenuConnectionPanels" xml:space="preserve">
     <value>Панель з'єднань</value>
-  </data>
-	<data name="strMenuConnections" xml:space="preserve">
-    <value>З'єднання</value>
   </data>
 	<data name="strMenuConnectionsAndConfig" xml:space="preserve">
     <value>З'єднання та конфігурація</value>
@@ -910,9 +841,6 @@ VncSharp Control Version {0}</value>
 	<data name="strMenuCtrlEsc" xml:space="preserve">
     <value>Ctrl-Esc</value>
   </data>
-	<data name="strMenuDelete" xml:space="preserve">
-    <value>Видалити...</value>
-  </data>
 	<data name="strMenuDeleteConnection" xml:space="preserve">
     <value>Удалить подключение ...</value>
   </data>
@@ -922,14 +850,8 @@ VncSharp Control Version {0}</value>
 	<data name="strMenuDeleteFolder" xml:space="preserve">
     <value>Видалити папку...</value>
   </data>
-	<data name="strMenuDisconnect" xml:space="preserve">
-    <value>Вимкнути</value>
-  </data>
 	<data name="strMenuDonate" xml:space="preserve">
     <value>Допомогти проекту</value>
-  </data>
-	<data name="strMenuDuplicate" xml:space="preserve">
-    <value>Дублювати</value>
   </data>
 	<data name="strMenuDuplicateConnection" xml:space="preserve">
     <value>Дублікат з'єднання</value>
@@ -973,9 +895,6 @@ VncSharp Control Version {0}</value>
 	<data name="strMenuNewConnectionFile" xml:space="preserve">
     <value>Новий файл з'єднання</value>
   </data>
-	<data name="strMenuNewExternalTool" xml:space="preserve">
-    <value>Новий зовнішній інструмент</value>
-  </data>
 	<data name="strMenuNotifications" xml:space="preserve">
     <value>Повідомлення</value>
   </data>
@@ -1000,9 +919,6 @@ VncSharp Control Version {0}</value>
 	<data name="strMenuRefreshScreen" xml:space="preserve">
     <value>Оновити екран (VNC)</value>
   </data>
-	<data name="strMenuRename" xml:space="preserve">
-    <value>Перейменувати</value>
-  </data>
 	<data name="strMenuRenameConnection" xml:space="preserve">
     <value>Перейменувати з'єднання</value>
   </data>
@@ -1023,9 +939,6 @@ VncSharp Control Version {0}</value>
   </data>
 	<data name="strMenuSaveConnectionFileAs" xml:space="preserve">
     <value>Сохранить подключение как...</value>
-  </data>
-	<data name="strMenuScreenshot" xml:space="preserve">
-    <value>Скріншот</value>
   </data>
 	<data name="strMenuScreenshotManager" xml:space="preserve">
     <value>Менеджер скріншотів</value>
@@ -1083,12 +996,6 @@ VncSharp Control Version {0}</value>
   </data>
 	<data name="strNever" xml:space="preserve">
     <value>Ніколи</value>
-  </data>
-	<data name="strNewConnection" xml:space="preserve">
-    <value>Нове з'єднання</value>
-  </data>
-	<data name="strNewFolder" xml:space="preserve">
-    <value>Нова папка</value>
   </data>
 	<data name="strNewPanel" xml:space="preserve">
     <value>Нова панель</value>
@@ -1295,9 +1202,6 @@ VncSharp Control Version {0}</value>
 	<data name="strPropertyDescriptionVNCProxyUsername" xml:space="preserve">
     <value>Введіть ім'я користувача для авторизації на проксі-сервері.</value>
   </data>
-	<data name="strPropertyNameAddress" xml:space="preserve">
-    <value>Ім'я хосту / IP</value>
-  </data>
 	<data name="strPropertyNameAll" xml:space="preserve">
     <value>Все</value>
   </data>
@@ -1325,9 +1229,6 @@ VncSharp Control Version {0}</value>
 	<data name="strPropertyNameDisplayWallpaper" xml:space="preserve">
     <value>Показати шпалери</value>
   </data>
-	<data name="strPropertyNameDomain" xml:space="preserve">
-    <value>Домен</value>
-  </data>
 	<data name="strPropertyNameEnableDesktopComposition" xml:space="preserve">
     <value>Композиція робочого столу</value>
   </data>
@@ -1349,9 +1250,6 @@ VncSharp Control Version {0}</value>
 	<data name="strPropertyNameExternalToolBefore" xml:space="preserve">
     <value>Зовн. Інстр. До</value>
   </data>
-	<data name="strPropertyNameIcon" xml:space="preserve">
-    <value>Значок</value>
-  </data>
 	<data name="strPropertyNameMACAddress" xml:space="preserve">
     <value>MAC-адреса</value>
   </data>
@@ -1361,14 +1259,8 @@ VncSharp Control Version {0}</value>
 	<data name="strPropertyNamePanel" xml:space="preserve">
     <value>Ім'я вкладки</value>
   </data>
-	<data name="strPropertyNamePassword" xml:space="preserve">
-    <value>Пароль</value>
-  </data>
 	<data name="strPropertyNamePort" xml:space="preserve">
     <value>Порт</value>
-  </data>
-	<data name="strPropertyNameProtocol" xml:space="preserve">
-    <value>Протокол</value>
   </data>
 	<data name="strPropertyNamePuttySession" xml:space="preserve">
     <value>Сесії PuTTY</value>
@@ -1424,9 +1316,6 @@ VncSharp Control Version {0}</value>
 	<data name="strPropertyNameUser1" xml:space="preserve">
     <value>Додатково</value>
   </data>
-	<data name="strPropertyNameUsername" xml:space="preserve">
-    <value>Користувач</value>
-  </data>
 	<data name="strPropertyNameViewOnly" xml:space="preserve">
     <value>Тільки Перегляд</value>
   </data>
@@ -1463,9 +1352,6 @@ VncSharp Control Version {0}</value>
 	<data name="strProxyTestSucceeded" xml:space="preserve">
     <value>Перевірка Проксі - вдала!</value>
   </data>
-	<data name="strPuttyConnectionFailed" xml:space="preserve">
-    <value>З'єднання не вдалося!</value>
-  </data>
 	<data name="strPuttyDisposeFailed" xml:space="preserve">
     <value>Завершити роботу Putty - не вдалося!</value>
   </data>
@@ -1480,9 +1366,6 @@ VncSharp Control Version {0}</value>
   </data>
 	<data name="strPuttyKillFailed" xml:space="preserve">
     <value>Вбити процес Putty не вдалося!</value>
-  </data>
-	<data name="strPuttyParentHandle" xml:space="preserve">
-    <value>Панель оброблювача подій: {0}</value>
   </data>
 	<data name="strPuttyResizeFailed" xml:space="preserve">
     <value>Помилка зміни розміру вікна Putty!</value>
@@ -1754,12 +1637,6 @@ VncSharp Control Version {0}</value>
 	<data name="strSingleClickOnOpenConnectionSwitchesToIt" xml:space="preserve">
     <value>Один клік по відкритому з'єднанню переключається на нього</value>
   </data>
-	<data name="strSmartSizeModeAspect" xml:space="preserve">
-    <value>Вигляд</value>
-  </data>
-	<data name="strSmartSizeModeFree" xml:space="preserve">
-    <value>Free</value>
-  </data>
 	<data name="strSocks5" xml:space="preserve">
     <value>Socks 5</value>
   </data>
@@ -1820,9 +1697,6 @@ VncSharp Control Version {0}</value>
 	<data name="strTabAdvanced" xml:space="preserve">
     <value>Додатково</value>
   </data>
-	<data name="strTabAppearance" xml:space="preserve">
-    <value>Зовнішній вигляд</value>
-  </data>
 	<data name="strTabsAndPanels" xml:space="preserve">
     <value>Вкладки і панелі</value>
   </data>
@@ -1880,14 +1754,8 @@ VncSharp Control Version {0}</value>
 	<data name="strUpdateCheckCompleteFailed" xml:space="preserve">
     <value>Не вдалося завершити перевірку оновлень!</value>
   </data>
-	<data name="strUpdateCheckFailed" xml:space="preserve">
-    <value>Не вдалося перевірити наявність оновлень!</value>
-  </data>
 	<data name="strUpdateCheckPortableEdition" xml:space="preserve">
     <value>Портативна версія mRemoteNG не підтримує автоматичне оновлення.</value>
-  </data>
-	<data name="strUpdateDeleteFailed" xml:space="preserve">
-    <value>Помилка при видаленні файлу оновлення!</value>
   </data>
 	<data name="strUpdateDownloadComplete" xml:space="preserve">
     <value>Завантаження завершено!
@@ -1911,14 +1779,8 @@ mRemoteNG зараз припинить роботу і почне процес 
 	<data name="strUpdateFrequencyWeekly" xml:space="preserve">
     <value>Щотижня</value>
   </data>
-	<data name="strUpdateStartFailed" xml:space="preserve">
-    <value>Помилка при запуску оновлення!</value>
-  </data>
 	<data name="strUseDifferentUsernameAndPassword" xml:space="preserve">
     <value>Використовувати інше ім'я користувача і пароль</value>
-  </data>
-	<data name="strUseOnlyErrorsAndInfosPanel" xml:space="preserve">
-    <value>Використовувати тільки панель повідомлень (без спливаючих підказок)</value>
   </data>
 	<data name="strUser" xml:space="preserve">
     <value>Користувач</value>
@@ -1973,9 +1835,6 @@ mRemoteNG зараз припинить роботу і почне процес 
   </data>
 	<data name="strWeifenLuoAttributionURL" xml:space="preserve">
     <value>http://sourceforge.net/projects/dockpanelsuite/</value>
-  </data>
-	<data name="strWriteLogFile" xml:space="preserve">
-    <value>Запис в лог-файл (mRemoteNG.log)</value>
   </data>
 	<data name="strXULrunnerPath" xml:space="preserve">
     <value>Шлях XULRunner:</value>

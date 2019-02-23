@@ -249,35 +249,20 @@
 	<data name="strCategoryConnection" xml:space="preserve">
     <value>Ligação</value>
   </data>
-	<data name="strCategoryCredentials" xml:space="preserve">
-    <value>Credenciais</value>
-  </data>
 	<data name="strCategoryDisplay" xml:space="preserve">
     <value>Ecrã</value>
   </data>
 	<data name="strCategoryGateway" xml:space="preserve">
     <value>Gateway</value>
   </data>
-	<data name="strCategoryGeneral" xml:space="preserve">
-    <value>Geral</value>
-  </data>
 	<data name="strCategoryMiscellaneous" xml:space="preserve">
     <value>Diversos</value>
-  </data>
-	<data name="strCategoryProtocol" xml:space="preserve">
-    <value>Protocolo</value>
   </data>
 	<data name="strCategoryRedirect" xml:space="preserve">
     <value>Redirecionar</value>
   </data>
 	<data name="strCcAlwaysShowScreen" xml:space="preserve">
     <value>Mostrar sempre esta informação no arranque</value>
-  </data>
-	<data name="strCcCheckAgain" xml:space="preserve">
-    <value>Refrescar</value>
-  </data>
-	<data name="strCcCheckFailed" xml:space="preserve">
-    <value>Falha na verificação!</value>
   </data>
 	<data name="strCcCheckSucceeded" xml:space="preserve">
     <value>Verificação com sucesso!</value>
@@ -329,12 +314,6 @@
   </data>
 	<data name="strCheckboxDoNotShowThisMessageAgain" xml:space="preserve">
     <value>Não mostrar esta mensagem novamente.</value>
-  </data>
-	<data name="strCheckboxInheritance" xml:space="preserve">
-    <value>Herança</value>
-  </data>
-	<data name="strCheckboxPassword" xml:space="preserve">
-    <value>Senha</value>
   </data>
 	<data name="strCheckboxProxyAuthentication" xml:space="preserve">
     <value>Este servidor proxy requer autenticação</value>
@@ -389,12 +368,6 @@
   </data>
 	<data name="strColumnMessage" xml:space="preserve">
     <value>Mensagem</value>
-  </data>
-	<data name="strColumnUsername" xml:space="preserve">
-    <value>Nome de utilizador</value>
-  </data>
-	<data name="strColumnWaitForExit" xml:space="preserve">
-    <value>Esperar para sair</value>
   </data>
 	<data name="strCommandLineArgsCouldNotBeParsed" xml:space="preserve">
     <value>Impossível processar argumentos da linha de comando!</value>
@@ -669,9 +642,6 @@ Descrição do erro: {1}</value>
 	<data name="strGroupboxAutomaticReconnect" xml:space="preserve">
     <value>Ligação automática</value>
   </data>
-	<data name="strGroupboxConnection" xml:space="preserve">
-    <value>Ligação</value>
-  </data>
 	<data name="strGroupboxExternalToolProperties" xml:space="preserve">
     <value>Propriedades de ferramentas externas</value>
   </data>
@@ -738,9 +708,6 @@ Descrição do erro: {1}</value>
 	<data name="strInheritNewConnection" xml:space="preserve">
     <value>O mRemoteNG está atualizado</value>
   </data>
-	<data name="strIntAppConnectionFailed" xml:space="preserve">
-    <value>Falha na ligação!</value>
-  </data>
 	<data name="strIntAppDisposeFailed" xml:space="preserve">
     <value>Libertação do Int App falhou!</value>
   </data>
@@ -774,9 +741,6 @@ Descrição do erro: {1}</value>
 	<data name="strLabelAddress" xml:space="preserve">
     <value>Endereço:</value>
   </data>
-	<data name="strLabelArguments" xml:space="preserve">
-    <value>Argumentos:</value>
-  </data>
 	<data name="strLabelChangeLog" xml:space="preserve">
     <value>Log de alterações:</value>
   </data>
@@ -786,26 +750,8 @@ Descrição do erro: {1}</value>
 	<data name="strLabelConnect" xml:space="preserve">
     <value>&amp;Ligar:</value>
   </data>
-	<data name="strLabelDisplayName" xml:space="preserve">
-    <value>Nome a exibir</value>
-  </data>
-	<data name="strLabelDomain" xml:space="preserve">
-    <value>Domínio:</value>
-  </data>
-	<data name="strLabelFilename" xml:space="preserve">
-    <value>Nome do arquivo:</value>
-  </data>
 	<data name="strLabelHostname" xml:space="preserve">
     <value>Hostname:</value>
-  </data>
-	<data name="strLabelOptions" xml:space="preserve">
-    <value>Opções:</value>
-  </data>
-	<data name="strLabelPassword" xml:space="preserve">
-    <value>Senha:</value>
-  </data>
-	<data name="strLabelPort" xml:space="preserve">
-    <value>Porta:</value>
   </data>
 	<data name="strLabelPortableEdition" xml:space="preserve">
     <value>Edição portátil</value>
@@ -833,12 +779,6 @@ Descrição do erro: {1}</value>
   </data>
 	<data name="strLabelSQLDatabaseName" xml:space="preserve">
     <value>Banco de dados:</value>
-  </data>
-	<data name="strLabelSQLServerDatabaseName" xml:space="preserve">
-    <value>Banco de dados:</value>
-  </data>
-	<data name="strLabelUsername" xml:space="preserve">
-    <value>Nome de utilizador:</value>
   </data>
 	<data name="strLabelVerify" xml:space="preserve">
     <value>Verificar:</value>
@@ -876,9 +816,6 @@ Descrição do erro: {1}</value>
 	<data name="strMagicLibraryAttribution" xml:space="preserve">
     <value>Usa a biblioteca mágica [Crownwood Software]</value>
   </data>
-	<data name="strMenuAbout" xml:space="preserve">
-    <value>Sobre</value>
-  </data>
 	<data name="strMenuAddConnectionPanel" xml:space="preserve">
     <value>Adicionar o Painel de Ligação</value>
   </data>
@@ -888,14 +825,8 @@ Descrição do erro: {1}</value>
 	<data name="strMenuConfig" xml:space="preserve">
     <value>Config</value>
   </data>
-	<data name="strMenuConnect" xml:space="preserve">
-    <value>Ligar</value>
-  </data>
 	<data name="strMenuConnectionPanels" xml:space="preserve">
     <value>Painéis de ligações</value>
-  </data>
-	<data name="strMenuConnections" xml:space="preserve">
-    <value>Ligações</value>
   </data>
 	<data name="strMenuConnectionsAndConfig" xml:space="preserve">
     <value>Configurações e ligações</value>
@@ -909,9 +840,6 @@ Descrição do erro: {1}</value>
 	<data name="strMenuCtrlEsc" xml:space="preserve">
     <value>Ctrl-Esc</value>
   </data>
-	<data name="strMenuDelete" xml:space="preserve">
-    <value>Excluir...</value>
-  </data>
 	<data name="strMenuDeleteConnection" xml:space="preserve">
     <value>Excluir a conexão...</value>
   </data>
@@ -921,14 +849,8 @@ Descrição do erro: {1}</value>
 	<data name="strMenuDeleteFolder" xml:space="preserve">
     <value>Excluir a pasta...</value>
   </data>
-	<data name="strMenuDisconnect" xml:space="preserve">
-    <value>Desligar</value>
-  </data>
 	<data name="strMenuDonate" xml:space="preserve">
     <value>Doar</value>
-  </data>
-	<data name="strMenuDuplicate" xml:space="preserve">
-    <value>Duplicar</value>
   </data>
 	<data name="strMenuDuplicateConnection" xml:space="preserve">
     <value>Duplicar ligação</value>
@@ -972,9 +894,6 @@ Descrição do erro: {1}</value>
 	<data name="strMenuNewConnectionFile" xml:space="preserve">
     <value>Novo arquivo de ligações</value>
   </data>
-	<data name="strMenuNewExternalTool" xml:space="preserve">
-    <value>Nova ferramenta externa</value>
-  </data>
 	<data name="strMenuNotifications" xml:space="preserve">
     <value>Notificações</value>
   </data>
@@ -1008,9 +927,6 @@ Descrição do erro: {1}</value>
 	<data name="strMenuRefreshScreen" xml:space="preserve">
     <value>Atualizar ecrã (VNC)</value>
   </data>
-	<data name="strMenuRename" xml:space="preserve">
-    <value>Renomear</value>
-  </data>
 	<data name="strMenuRenameConnection" xml:space="preserve">
     <value>Renomear ligação</value>
   </data>
@@ -1031,9 +947,6 @@ Descrição do erro: {1}</value>
   </data>
 	<data name="strMenuSaveConnectionFileAs" xml:space="preserve">
     <value>Salvar arquivo de ligações, como...</value>
-  </data>
-	<data name="strMenuScreenshot" xml:space="preserve">
-    <value>Fotografia do ecrã</value>
   </data>
 	<data name="strMenuScreenshotManager" xml:space="preserve">
     <value>Gestor de fotografias de ecrã</value>
@@ -1092,12 +1005,6 @@ Descrição do erro: {1}</value>
 	<data name="strNever" xml:space="preserve">
     <value>Nunca</value>
   </data>
-	<data name="strNewConnection" xml:space="preserve">
-    <value>Nova ligação</value>
-  </data>
-	<data name="strNewFolder" xml:space="preserve">
-    <value>Nova pasta</value>
-  </data>
 	<data name="strNewPanel" xml:space="preserve">
     <value>Novo painel</value>
   </data>
@@ -1142,12 +1049,6 @@ Descrição do erro: {1}</value>
   </data>
 	<data name="strOptionsTabTheme" xml:space="preserve">
     <value>Tema</value>
-  </data>
-	<data name="strOptionsThemeButtonDelete" xml:space="preserve">
-    <value>&amp;Excluir</value>
-  </data>
-	<data name="strOptionsThemeButtonNew" xml:space="preserve">
-    <value>&amp;Novo</value>
   </data>
 	<data name="strPanelName" xml:space="preserve">
     <value>Nome do painel</value>
@@ -1314,9 +1215,6 @@ Descrição do erro: {1}</value>
 	<data name="strPropertyDescriptionVNCProxyUsername" xml:space="preserve">
     <value>Digite seu nome de utilizador para se autenticar no proxy.</value>
   </data>
-	<data name="strPropertyNameAddress" xml:space="preserve">
-    <value>HostName/IP</value>
-  </data>
 	<data name="strPropertyNameAll" xml:space="preserve">
     <value>Todos</value>
   </data>
@@ -1344,9 +1242,6 @@ Descrição do erro: {1}</value>
 	<data name="strPropertyNameDisplayWallpaper" xml:space="preserve">
     <value>Papel de parede do ecrã</value>
   </data>
-	<data name="strPropertyNameDomain" xml:space="preserve">
-    <value>Domínio</value>
-  </data>
 	<data name="strPropertyNameEnableDesktopComposition" xml:space="preserve">
     <value>Composição do desktop</value>
   </data>
@@ -1368,9 +1263,6 @@ Descrição do erro: {1}</value>
 	<data name="strPropertyNameExternalToolBefore" xml:space="preserve">
     <value>Ferramenta externa antes</value>
   </data>
-	<data name="strPropertyNameIcon" xml:space="preserve">
-    <value>Ícone</value>
-  </data>
 	<data name="strPropertyNameMACAddress" xml:space="preserve">
     <value>Endereço MAC</value>
   </data>
@@ -1380,14 +1272,8 @@ Descrição do erro: {1}</value>
 	<data name="strPropertyNamePanel" xml:space="preserve">
     <value>Painel</value>
   </data>
-	<data name="strPropertyNamePassword" xml:space="preserve">
-    <value>Senha</value>
-  </data>
 	<data name="strPropertyNamePort" xml:space="preserve">
     <value>Porta</value>
-  </data>
-	<data name="strPropertyNameProtocol" xml:space="preserve">
-    <value>Protocolo</value>
   </data>
 	<data name="strPropertyNamePuttySession" xml:space="preserve">
     <value>Sessão de puTTY</value>
@@ -1446,9 +1332,6 @@ Descrição do erro: {1}</value>
 	<data name="strPropertyNameUser1" xml:space="preserve">
     <value>Campo de utilizador</value>
   </data>
-	<data name="strPropertyNameUsername" xml:space="preserve">
-    <value>Nome de utilizador</value>
-  </data>
 	<data name="strPropertyNameViewOnly" xml:space="preserve">
     <value>Somente ver</value>
   </data>
@@ -1482,9 +1365,6 @@ Descrição do erro: {1}</value>
 	<data name="strProxyTestSucceeded" xml:space="preserve">
     <value>Teste de proxy bem sucedido!</value>
   </data>
-	<data name="strPuttyConnectionFailed" xml:space="preserve">
-    <value>Falha na ligação!</value>
-  </data>
 	<data name="strPuttyDisposeFailed" xml:space="preserve">
     <value>Libertação do processo PuTTY falhado!</value>
   </data>
@@ -1499,9 +1379,6 @@ Descrição do erro: {1}</value>
   </data>
 	<data name="strPuttyKillFailed" xml:space="preserve">
     <value>Falha em fechar o processo Putty!</value>
-  </data>
-	<data name="strPuttyParentHandle" xml:space="preserve">
-    <value>Painel Handle: {0}</value>
   </data>
 	<data name="strPuttyResizeFailed" xml:space="preserve">
     <value>Falha no redimensionamento Putty!</value>
@@ -1794,15 +1671,6 @@ Descrição do erro: {1}</value>
 	<data name="strSingleClickOnOpenConnectionSwitchesToIt" xml:space="preserve">
     <value>Clique simples em ligação aberta alterna</value>
   </data>
-	<data name="strSmartSizeModeAspect" xml:space="preserve">
-    <value>Aspeto</value>
-  </data>
-	<data name="strSmartSizeModeFree" xml:space="preserve">
-    <value>Libertar</value>
-  </data>
-	<data name="strSmartSizeModeNone" xml:space="preserve">
-    <value>Sem SmartSize</value>
-  </data>
 	<data name="strSocks5" xml:space="preserve">
     <value>Stocks 5</value>
   </data>
@@ -1860,9 +1728,6 @@ Descrição do erro: {1}</value>
 	<data name="strTabAdvanced" xml:space="preserve">
     <value>Avançado</value>
   </data>
-	<data name="strTabAppearance" xml:space="preserve">
-    <value>Aparência</value>
-  </data>
 	<data name="strTabsAndPanels" xml:space="preserve">
     <value>Abas &amp;&amp; painéis</value>
   </data>
@@ -1880,9 +1745,6 @@ Descrição do erro: {1}</value>
   </data>
 	<data name="strThemeCategoryConnectionsPanel" xml:space="preserve">
     <value>Painel de ligações</value>
-  </data>
-	<data name="strThemeCategoryGeneral" xml:space="preserve">
-    <value>Geral</value>
   </data>
 	<data name="strThemeDescriptionConfigPanelBackgroundColor" xml:space="preserve">
     <value>A cor de fundo do painel de configuração.</value>
@@ -2010,14 +1872,8 @@ Descrição do erro: {1}</value>
 	<data name="strUpdateCheckCompleteFailed" xml:space="preserve">
     <value>Seleção de atualização falhou!</value>
   </data>
-	<data name="strUpdateCheckFailed" xml:space="preserve">
-    <value>Verificação de atualização falhou!</value>
-  </data>
 	<data name="strUpdateCheckPortableEdition" xml:space="preserve">
     <value>mRemoteNG Portable Edition não suporta atualizações automaticas.</value>
-  </data>
-	<data name="strUpdateDeleteFailed" xml:space="preserve">
-    <value>Erro a apagar ficheiro de atualização!</value>
   </data>
 	<data name="strUpdateDownloadComplete" xml:space="preserve">
     <value>Download completo! mRemoteNG agora irá parar e começar com a instalação.</value>
@@ -2040,14 +1896,8 @@ Descrição do erro: {1}</value>
 	<data name="strUpdateFrequencyWeekly" xml:space="preserve">
     <value>Semanal</value>
   </data>
-	<data name="strUpdateStartFailed" xml:space="preserve">
-    <value>Impossível iniciar atualização!</value>
-  </data>
 	<data name="strUseDifferentUsernameAndPassword" xml:space="preserve">
     <value>Usar um nome diferente de utilizador e senha</value>
-  </data>
-	<data name="strUseOnlyErrorsAndInfosPanel" xml:space="preserve">
-    <value>Usar somente o painel de notificações (sem janelas messagebox)</value>
   </data>
 	<data name="strUser" xml:space="preserve">
     <value>Utilizador</value>
@@ -2099,9 +1949,6 @@ Descrição do erro: {1}</value>
   </data>
 	<data name="strWeifenLuoAttribution" xml:space="preserve">
     <value>Usa o DockPanel Suite por [Weifen Luo]</value>
-  </data>
-	<data name="strWriteLogFile" xml:space="preserve">
-    <value>Gravar o arquivo de log (mRemoteNG.log)</value>
   </data>
 	<data name="strXULrunnerPath" xml:space="preserve">
     <value>Caminho XULrunner:</value>

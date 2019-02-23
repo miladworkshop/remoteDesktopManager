@@ -255,35 +255,20 @@
 	<data name="strCategoryConnection" xml:space="preserve">
     <value>连接</value>
   </data>
-	<data name="strCategoryCredentials" xml:space="preserve">
-    <value>凭据</value>
-  </data>
 	<data name="strCategoryDisplay" xml:space="preserve">
     <value>显示</value>
   </data>
 	<data name="strCategoryGateway" xml:space="preserve">
     <value>网关</value>
   </data>
-	<data name="strCategoryGeneral" xml:space="preserve">
-    <value>常规</value>
-  </data>
 	<data name="strCategoryMiscellaneous" xml:space="preserve">
     <value>杂项</value>
-  </data>
-	<data name="strCategoryProtocol" xml:space="preserve">
-    <value>协议</value>
   </data>
 	<data name="strCategoryRedirect" xml:space="preserve">
     <value>重定向</value>
   </data>
 	<data name="strCcAlwaysShowScreen" xml:space="preserve">
     <value>总是在启动时显示该屏幕</value>
-  </data>
-	<data name="strCcCheckAgain" xml:space="preserve">
-    <value>刷新</value>
-  </data>
-	<data name="strCcCheckFailed" xml:space="preserve">
-    <value>检查失败！</value>
   </data>
 	<data name="strCcCheckSucceeded" xml:space="preserve">
     <value>检查成功！</value>
@@ -349,12 +334,6 @@ VncSharp 版本 {0}</value>
 	<data name="strCheckboxDoNotShowThisMessageAgain" xml:space="preserve">
     <value>不再显示此消息。</value>
   </data>
-	<data name="strCheckboxInheritance" xml:space="preserve">
-    <value>继承</value>
-  </data>
-	<data name="strCheckboxPassword" xml:space="preserve">
-    <value>密码</value>
-  </data>
 	<data name="strCheckboxProxyAuthentication" xml:space="preserve">
     <value>此代理服务器要求进行身份验证</value>
   </data>
@@ -408,12 +387,6 @@ VncSharp 版本 {0}</value>
   </data>
 	<data name="strColumnMessage" xml:space="preserve">
     <value>消息</value>
-  </data>
-	<data name="strColumnUsername" xml:space="preserve">
-    <value>用户名</value>
-  </data>
-	<data name="strColumnWaitForExit" xml:space="preserve">
-    <value>等待退出</value>
   </data>
 	<data name="strCommandExitProgram" xml:space="preserve">
     <value>退出{0}(&amp;X)</value>
@@ -751,9 +724,6 @@ VncSharp 版本 {0}</value>
 	<data name="strGroupboxAutomaticReconnect" xml:space="preserve">
     <value>自动重试连接</value>
   </data>
-	<data name="strGroupboxConnection" xml:space="preserve">
-    <value>连接</value>
-  </data>
 	<data name="strGroupboxExternalToolProperties" xml:space="preserve">
     <value>外部工具属性</value>
   </data>
@@ -820,9 +790,6 @@ VncSharp 版本 {0}</value>
 	<data name="strImportLocationMainInstruction" xml:space="preserve">
     <value>导入位置</value>
   </data>
-	<data name="strImportMenuItem" xml:space="preserve">
-    <value>导入(&amp;I)</value>
-  </data>
 	<data name="strImportmRemoteXML" xml:space="preserve">
     <value>导入mRemote/mRemoteNG XML</value>
   </data>
@@ -840,9 +807,6 @@ VncSharp 版本 {0}</value>
   </data>
 	<data name="strInheritNewConnection" xml:space="preserve">
     <value>mRemoteNG 已经是最新版本。</value>
-  </data>
-	<data name="strIntAppConnectionFailed" xml:space="preserve">
-    <value>连接失败！</value>
   </data>
 	<data name="strIntAppDisposeFailed" xml:space="preserve">
     <value>清除内部程序进程失败！</value>
@@ -877,9 +841,6 @@ VncSharp 版本 {0}</value>
 	<data name="strLabelAddress" xml:space="preserve">
     <value>地址：</value>
   </data>
-	<data name="strLabelArguments" xml:space="preserve">
-    <value>参数：</value>
-  </data>
 	<data name="strLabelChangeLog" xml:space="preserve">
     <value>更新记录：</value>
   </data>
@@ -889,26 +850,8 @@ VncSharp 版本 {0}</value>
 	<data name="strLabelConnect" xml:space="preserve">
     <value>连接(&amp;C)</value>
   </data>
-	<data name="strLabelDisplayName" xml:space="preserve">
-    <value>显示名称</value>
-  </data>
-	<data name="strLabelDomain" xml:space="preserve">
-    <value>域名:</value>
-  </data>
-	<data name="strLabelFilename" xml:space="preserve">
-    <value>文件名:</value>
-  </data>
 	<data name="strLabelHostname" xml:space="preserve">
     <value>主机名:</value>
-  </data>
-	<data name="strLabelOptions" xml:space="preserve">
-    <value>选项：</value>
-  </data>
-	<data name="strLabelPassword" xml:space="preserve">
-    <value>密码：</value>
-  </data>
-	<data name="strLabelPort" xml:space="preserve">
-    <value>端口：</value>
   </data>
 	<data name="strLabelPortableEdition" xml:space="preserve">
     <value>便携版本</value>
@@ -936,12 +879,6 @@ VncSharp 版本 {0}</value>
   </data>
 	<data name="strLabelSQLDatabaseName" xml:space="preserve">
     <value>数据库:</value>
-  </data>
-	<data name="strLabelSQLServerDatabaseName" xml:space="preserve">
-    <value>数据库:</value>
-  </data>
-	<data name="strLabelUsername" xml:space="preserve">
-    <value>用户名:</value>
   </data>
 	<data name="strLabelVerify" xml:space="preserve">
     <value>验证：</value>
@@ -982,9 +919,6 @@ VncSharp 版本 {0}</value>
 	<data name="strMagicLibraryAttribution" xml:space="preserve">
     <value>使用[Crownwood Software]开发的 Magic 库</value>
   </data>
-	<data name="strMenuAbout" xml:space="preserve">
-    <value>关于</value>
-  </data>
 	<data name="strMenuAddConnectionPanel" xml:space="preserve">
     <value>添加连接面板</value>
   </data>
@@ -994,14 +928,8 @@ VncSharp 版本 {0}</value>
 	<data name="strMenuConfig" xml:space="preserve">
     <value>配置</value>
   </data>
-	<data name="strMenuConnect" xml:space="preserve">
-    <value>连接</value>
-  </data>
 	<data name="strMenuConnectionPanels" xml:space="preserve">
     <value>连接面板</value>
-  </data>
-	<data name="strMenuConnections" xml:space="preserve">
-    <value>连接</value>
   </data>
 	<data name="strMenuConnectionsAndConfig" xml:space="preserve">
     <value>连接和配置</value>
@@ -1015,9 +943,6 @@ VncSharp 版本 {0}</value>
 	<data name="strMenuCtrlEsc" xml:space="preserve">
     <value>Ctrl+Esc</value>
   </data>
-	<data name="strMenuDelete" xml:space="preserve">
-    <value>删除...</value>
-  </data>
 	<data name="strMenuDeleteConnection" xml:space="preserve">
     <value>删除连接...</value>
   </data>
@@ -1027,14 +952,8 @@ VncSharp 版本 {0}</value>
 	<data name="strMenuDeleteFolder" xml:space="preserve">
     <value>删除目录…</value>
   </data>
-	<data name="strMenuDisconnect" xml:space="preserve">
-    <value>断开连接</value>
-  </data>
 	<data name="strMenuDonate" xml:space="preserve">
     <value>捐赠</value>
-  </data>
-	<data name="strMenuDuplicate" xml:space="preserve">
-    <value>创建副本</value>
   </data>
 	<data name="strMenuDuplicateConnection" xml:space="preserve">
     <value>重复连接</value>
@@ -1078,9 +997,6 @@ VncSharp 版本 {0}</value>
 	<data name="strMenuNewConnectionFile" xml:space="preserve">
     <value>新建连接配置文件</value>
   </data>
-	<data name="strMenuNewExternalTool" xml:space="preserve">
-    <value>新建外部工具</value>
-  </data>
 	<data name="strMenuNotifications" xml:space="preserve">
     <value>通知</value>
   </data>
@@ -1114,9 +1030,6 @@ VncSharp 版本 {0}</value>
 	<data name="strMenuRefreshScreen" xml:space="preserve">
     <value>刷新(VNC)</value>
   </data>
-	<data name="strMenuRename" xml:space="preserve">
-    <value>重命名</value>
-  </data>
 	<data name="strMenuRenameConnection" xml:space="preserve">
     <value>重命名连接</value>
   </data>
@@ -1137,9 +1050,6 @@ VncSharp 版本 {0}</value>
   </data>
 	<data name="strMenuSaveConnectionFileAs" xml:space="preserve">
     <value>另存连接配置文件为…</value>
-  </data>
-	<data name="strMenuScreenshot" xml:space="preserve">
-    <value>屏幕截图</value>
   </data>
 	<data name="strMenuScreenshotManager" xml:space="preserve">
     <value>屏幕截图管理器</value>
@@ -1204,12 +1114,6 @@ VncSharp 版本 {0}</value>
 	<data name="strNever" xml:space="preserve">
     <value>从不</value>
   </data>
-	<data name="strNewConnection" xml:space="preserve">
-    <value>新建连接</value>
-  </data>
-	<data name="strNewFolder" xml:space="preserve">
-    <value>新建目录</value>
-  </data>
 	<data name="strNewPanel" xml:space="preserve">
     <value>新建面板</value>
   </data>
@@ -1255,9 +1159,6 @@ VncSharp 版本 {0}</value>
 	<data name="strOptionsKeyboardButtonDelete" xml:space="preserve">
     <value>删除(&amp;D)</value>
   </data>
-	<data name="strOptionsKeyboardButtonNew" xml:space="preserve">
-    <value>新建(&amp;N)</value>
-  </data>
 	<data name="strOptionsKeyboardButtonReset" xml:space="preserve">
     <value>重置为默认值(&amp;R)</value>
   </data>
@@ -1287,12 +1188,6 @@ VncSharp 版本 {0}</value>
   </data>
 	<data name="strOptionsTabTheme" xml:space="preserve">
     <value>主题</value>
-  </data>
-	<data name="strOptionsThemeButtonDelete" xml:space="preserve">
-    <value>删除(&amp;D)</value>
-  </data>
-	<data name="strOptionsThemeButtonNew" xml:space="preserve">
-    <value>新建（&amp;N）</value>
   </data>
 	<data name="strPanelName" xml:space="preserve">
     <value>面板名称</value>
@@ -1474,9 +1369,6 @@ VncSharp 版本 {0}</value>
 	<data name="strPropertyDescriptionVNCProxyUsername" xml:space="preserve">
     <value>请输入代理服务器的用户名。</value>
   </data>
-	<data name="strPropertyNameAddress" xml:space="preserve">
-    <value>主机名/IP</value>
-  </data>
 	<data name="strPropertyNameAll" xml:space="preserve">
     <value>全部</value>
   </data>
@@ -1507,9 +1399,6 @@ VncSharp 版本 {0}</value>
 	<data name="strPropertyNameDisplayWallpaper" xml:space="preserve">
     <value>显示壁纸</value>
   </data>
-	<data name="strPropertyNameDomain" xml:space="preserve">
-    <value>域名</value>
-  </data>
 	<data name="strPropertyNameEnableDesktopComposition" xml:space="preserve">
     <value>桌面组合</value>
   </data>
@@ -1531,9 +1420,6 @@ VncSharp 版本 {0}</value>
 	<data name="strPropertyNameExternalToolBefore" xml:space="preserve">
     <value>连接后启动外部工具</value>
   </data>
-	<data name="strPropertyNameIcon" xml:space="preserve">
-    <value>图标</value>
-  </data>
 	<data name="strPropertyNameLoadBalanceInfo" xml:space="preserve">
     <value>负载均衡信息</value>
   </data>
@@ -1546,14 +1432,8 @@ VncSharp 版本 {0}</value>
 	<data name="strPropertyNamePanel" xml:space="preserve">
     <value>面板</value>
   </data>
-	<data name="strPropertyNamePassword" xml:space="preserve">
-    <value>密码</value>
-  </data>
 	<data name="strPropertyNamePort" xml:space="preserve">
     <value>端口</value>
-  </data>
-	<data name="strPropertyNameProtocol" xml:space="preserve">
-    <value>协议</value>
   </data>
 	<data name="strPropertyNamePuttySession" xml:space="preserve">
     <value>PuTTY会话</value>
@@ -1612,9 +1492,6 @@ VncSharp 版本 {0}</value>
 	<data name="strPropertyNameUser1" xml:space="preserve">
     <value>自定义信息</value>
   </data>
-	<data name="strPropertyNameUsername" xml:space="preserve">
-    <value>用户名</value>
-  </data>
 	<data name="strPropertyNameViewOnly" xml:space="preserve">
     <value>只读模式（仅供查看）</value>
   </data>
@@ -1651,9 +1528,6 @@ VncSharp 版本 {0}</value>
 	<data name="strProxyTestSucceeded" xml:space="preserve">
     <value>代理服务器测试成功！</value>
   </data>
-	<data name="strPuttyConnectionFailed" xml:space="preserve">
-    <value>连接失败！</value>
-  </data>
 	<data name="strPuttyDisposeFailed" xml:space="preserve">
     <value>清除Putty进程失败！</value>
   </data>
@@ -1668,9 +1542,6 @@ VncSharp 版本 {0}</value>
   </data>
 	<data name="strPuttyKillFailed" xml:space="preserve">
     <value>Putty 进程终止失败！</value>
-  </data>
-	<data name="strPuttyParentHandle" xml:space="preserve">
-    <value>面板句柄：{0}</value>
   </data>
 	<data name="strPuttyResizeFailed" xml:space="preserve">
     <value>Putty 窗口大小调整失败！</value>
@@ -1960,15 +1831,6 @@ VncSharp 版本 {0}</value>
 	<data name="strSingleClickOnOpenConnectionSwitchesToIt" xml:space="preserve">
     <value>单击切换连接</value>
   </data>
-	<data name="strSmartSizeModeAspect" xml:space="preserve">
-    <value>方面</value>
-  </data>
-	<data name="strSmartSizeModeFree" xml:space="preserve">
-    <value>免费</value>
-  </data>
-	<data name="strSmartSizeModeNone" xml:space="preserve">
-    <value>禁用窗口自适应</value>
-  </data>
 	<data name="strSort" xml:space="preserve">
     <value>排序</value>
   </data>
@@ -2026,9 +1888,6 @@ VncSharp 版本 {0}</value>
 	<data name="strTabAdvanced" xml:space="preserve">
     <value>高级</value>
   </data>
-	<data name="strTabAppearance" xml:space="preserve">
-    <value>外观</value>
-  </data>
 	<data name="strTabsAndPanels" xml:space="preserve">
     <value>标签&amp;面板</value>
   </data>
@@ -2043,9 +1902,6 @@ VncSharp 版本 {0}</value>
   </data>
 	<data name="strThemeCategoryConnectionsPanel" xml:space="preserve">
     <value>连接面板</value>
-  </data>
-	<data name="strThemeCategoryGeneral" xml:space="preserve">
-    <value>常规</value>
   </data>
 	<data name="strThemeDescriptionConfigPanelBackgroundColor" xml:space="preserve">
     <value>配置面板的背景颜色。</value>
@@ -2560,9 +2416,6 @@ mRemoteNG 将退出并安装更新。</value>
 	<data name="strTimeoutInSeconds" xml:space="preserve">
     <value>超时（秒）</value>
   </data>
-	<data name="srtWorkingDirectory" xml:space="preserve">
-    <value>工作目录:</value>
-  </data>
 	<data name="strRunElevated" xml:space="preserve">
     <value>运行已提升</value>
   </data>
@@ -2572,17 +2425,11 @@ mRemoteNG 将退出并安装更新。</value>
 	<data name="strShowOnToolbarColumnHeader" xml:space="preserve">
     <value>显示在工具栏上</value>
   </data>
-	<data name="strTryToIntegrateColumnHeader" xml:space="preserve">
-    <value>尝试整合</value>
-  </data>
 	<data name="strWorkingDirColumnHeader" xml:space="preserve">
     <value>工作目录</value>
   </data>
 	<data name="strLockToolbars" xml:space="preserve">
     <value>锁定工具栏位置</value>
-  </data>
-	<data name="strMultiSshToolbar" xml:space="preserve">
-    <value>多SSH工具栏</value>
   </data>
 	<data name="strImportSubOUs" xml:space="preserve">
     <value>导入子OU</value>

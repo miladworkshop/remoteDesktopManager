@@ -250,35 +250,20 @@ Proszę użyć opcji Plik - Wgraj Połączenia aby wgrać zwykłe pliki połącz
 	<data name="strCategoryConnection" xml:space="preserve">
     <value>Połączenie</value>
   </data>
-	<data name="strCategoryCredentials" xml:space="preserve">
-    <value>Dane uwierzytelniające</value>
-  </data>
 	<data name="strCategoryDisplay" xml:space="preserve">
     <value>Wyświetl</value>
   </data>
 	<data name="strCategoryGateway" xml:space="preserve">
     <value>Brama</value>
   </data>
-	<data name="strCategoryGeneral" xml:space="preserve">
-    <value>Ogólny</value>
-  </data>
 	<data name="strCategoryMiscellaneous" xml:space="preserve">
     <value>Pozostałe</value>
-  </data>
-	<data name="strCategoryProtocol" xml:space="preserve">
-    <value>Protokół</value>
   </data>
 	<data name="strCategoryRedirect" xml:space="preserve">
     <value>Przekierowanie</value>
   </data>
 	<data name="strCcAlwaysShowScreen" xml:space="preserve">
     <value>Zawsze pokazuj ten ekran przy starcie</value>
-  </data>
-	<data name="strCcCheckAgain" xml:space="preserve">
-    <value>Odświerz</value>
-  </data>
-	<data name="strCcCheckFailed" xml:space="preserve">
-    <value>Sprawdzenie nie powiodło się!</value>
   </data>
 	<data name="strCcCheckSucceeded" xml:space="preserve">
     <value>Sprawdzenie powiodło się!</value>
@@ -335,12 +320,6 @@ Proszę upewnić się, że albo masz Putty.exe w katalogu mRemoteNG (domyślnie:
 	<data name="strCheckboxDoNotShowThisMessageAgain" xml:space="preserve">
     <value>Nie pokazuj więcej tej informacji.</value>
   </data>
-	<data name="strCheckboxInheritance" xml:space="preserve">
-    <value>Dziedziczenie</value>
-  </data>
-	<data name="strCheckboxPassword" xml:space="preserve">
-    <value>Hasło</value>
-  </data>
 	<data name="strCheckboxProxyAuthentication" xml:space="preserve">
     <value>Ten serwer proxy wymaga uwierzytelnienia</value>
   </data>
@@ -394,12 +373,6 @@ Proszę upewnić się, że albo masz Putty.exe w katalogu mRemoteNG (domyślnie:
   </data>
 	<data name="strColumnMessage" xml:space="preserve">
     <value>Wiadomość</value>
-  </data>
-	<data name="strColumnUsername" xml:space="preserve">
-    <value>Użytkownik</value>
-  </data>
-	<data name="strColumnWaitForExit" xml:space="preserve">
-    <value>Czekaj na wyjście</value>
   </data>
 	<data name="strCommandLineArgsCouldNotBeParsed" xml:space="preserve">
     <value>Nie można przeanalizować argumentów wejściowych!</value>
@@ -660,9 +633,6 @@ Załadowano nowy plik połączeń.</value>
 	<data name="strGroupboxAutomaticReconnect" xml:space="preserve">
     <value>Połącz automatycznie</value>
   </data>
-	<data name="strGroupboxConnection" xml:space="preserve">
-    <value>Połączenie</value>
-  </data>
 	<data name="strGroupboxExternalToolProperties" xml:space="preserve">
     <value>Właściwości zewnętrznego narzędzia</value>
   </data>
@@ -717,9 +687,6 @@ Załadowano nowy plik połączeń.</value>
 	<data name="strInheritNewConnection" xml:space="preserve">
     <value>mRemoteNG jest w najnowszej wersji</value>
   </data>
-	<data name="strIntAppConnectionFailed" xml:space="preserve">
-    <value>Połączenie nieudane</value>
-  </data>
 	<data name="strKeysCtrlAltDel" xml:space="preserve">
     <value>CTRL-ALT-DEL</value>
   </data>
@@ -728,9 +695,6 @@ Załadowano nowy plik połączeń.</value>
   </data>
 	<data name="strLabelAddress" xml:space="preserve">
     <value>Adres:</value>
-  </data>
-	<data name="strLabelArguments" xml:space="preserve">
-    <value>Argumenty:</value>
   </data>
 	<data name="strLabelChangeLog" xml:space="preserve">
     <value>Historia wersji:</value>
@@ -741,26 +705,8 @@ Załadowano nowy plik połączeń.</value>
 	<data name="strLabelConnect" xml:space="preserve">
     <value>&amp;Połącz</value>
   </data>
-	<data name="strLabelDisplayName" xml:space="preserve">
-    <value>Widoczna nazwa</value>
-  </data>
-	<data name="strLabelDomain" xml:space="preserve">
-    <value>Domena:</value>
-  </data>
-	<data name="strLabelFilename" xml:space="preserve">
-    <value>Nazwa pliku:</value>
-  </data>
 	<data name="strLabelHostname" xml:space="preserve">
     <value>Nazwa hosta:</value>
-  </data>
-	<data name="strLabelOptions" xml:space="preserve">
-    <value>Opcje:</value>
-  </data>
-	<data name="strLabelPassword" xml:space="preserve">
-    <value>Hasło:</value>
-  </data>
-	<data name="strLabelPort" xml:space="preserve">
-    <value>Nr portu:</value>
   </data>
 	<data name="strLabelPortableEdition" xml:space="preserve">
     <value>Wersja przenośna.</value>
@@ -785,12 +731,6 @@ Załadowano nowy plik połączeń.</value>
   </data>
 	<data name="strLabelSQLDatabaseName" xml:space="preserve">
     <value>Baza danych:</value>
-  </data>
-	<data name="strLabelSQLServerDatabaseName" xml:space="preserve">
-    <value>Baza danych:</value>
-  </data>
-	<data name="strLabelUsername" xml:space="preserve">
-    <value>Użytkownik:</value>
   </data>
 	<data name="strLabelVerify" xml:space="preserve">
     <value>Sprawdź:</value>
@@ -828,9 +768,6 @@ Załadowano nowy plik połączeń.</value>
 	<data name="strMagicLibraryAttribution" xml:space="preserve">
     <value>Program korzysta z bibliotek "Magic library" [Crownwood Software]</value>
   </data>
-	<data name="strMenuAbout" xml:space="preserve">
-    <value>O programie</value>
-  </data>
 	<data name="strMenuAddConnectionPanel" xml:space="preserve">
     <value>Dodaj panel połączenia</value>
   </data>
@@ -840,14 +777,8 @@ Załadowano nowy plik połączeń.</value>
 	<data name="strMenuConfig" xml:space="preserve">
     <value>Konfiguracja</value>
   </data>
-	<data name="strMenuConnect" xml:space="preserve">
-    <value>Połącz</value>
-  </data>
 	<data name="strMenuConnectionPanels" xml:space="preserve">
     <value>Panele połączeń</value>
-  </data>
-	<data name="strMenuConnections" xml:space="preserve">
-    <value>Połączenia</value>
   </data>
 	<data name="strMenuConnectionsAndConfig" xml:space="preserve">
     <value>Połączenia i konfiguracja</value>
@@ -861,9 +792,6 @@ Załadowano nowy plik połączeń.</value>
 	<data name="strMenuCtrlEsc" xml:space="preserve">
     <value>Ctrl-Esc</value>
   </data>
-	<data name="strMenuDelete" xml:space="preserve">
-    <value>Usuń...</value>
-  </data>
 	<data name="strMenuDeleteConnection" xml:space="preserve">
     <value>Usuń połączenie...</value>
   </data>
@@ -873,14 +801,8 @@ Załadowano nowy plik połączeń.</value>
 	<data name="strMenuDeleteFolder" xml:space="preserve">
     <value>Usuń folder...</value>
   </data>
-	<data name="strMenuDisconnect" xml:space="preserve">
-    <value>Rozłącz</value>
-  </data>
 	<data name="strMenuDonate" xml:space="preserve">
     <value>Darowizna</value>
-  </data>
-	<data name="strMenuDuplicate" xml:space="preserve">
-    <value>Duplikuj</value>
   </data>
 	<data name="strMenuDuplicateConnection" xml:space="preserve">
     <value>Duplikuj połączenie</value>
@@ -924,9 +846,6 @@ Załadowano nowy plik połączeń.</value>
 	<data name="strMenuNewConnectionFile" xml:space="preserve">
     <value>Nowy plik połączeń</value>
   </data>
-	<data name="strMenuNewExternalTool" xml:space="preserve">
-    <value>Nowe narzędzie zewnętrzne</value>
-  </data>
 	<data name="strMenuNotifications" xml:space="preserve">
     <value>Powiadomienia</value>
   </data>
@@ -960,9 +879,6 @@ Załadowano nowy plik połączeń.</value>
 	<data name="strMenuRefreshScreen" xml:space="preserve">
     <value>Odśwież ekran (VNC)</value>
   </data>
-	<data name="strMenuRename" xml:space="preserve">
-    <value>Zmień nazwę</value>
-  </data>
 	<data name="strMenuRenameConnection" xml:space="preserve">
     <value>Zmień nazwę połączenia</value>
   </data>
@@ -980,9 +896,6 @@ Załadowano nowy plik połączeń.</value>
   </data>
 	<data name="strMenuSaveConnectionFileAs" xml:space="preserve">
     <value>Zapisz plik połączeń jako ...</value>
-  </data>
-	<data name="strMenuScreenshot" xml:space="preserve">
-    <value>Zrzut ekranu</value>
   </data>
 	<data name="strMenuScreenshotManager" xml:space="preserve">
     <value>Menager zrzutów ekranów</value>
@@ -1041,12 +954,6 @@ Załadowano nowy plik połączeń.</value>
 	<data name="strNever" xml:space="preserve">
     <value>Nigdy</value>
   </data>
-	<data name="strNewConnection" xml:space="preserve">
-    <value>Nowe połączenie</value>
-  </data>
-	<data name="strNewFolder" xml:space="preserve">
-    <value>Nowy folder</value>
-  </data>
 	<data name="strNewPanel" xml:space="preserve">
     <value>Nowy panel</value>
   </data>
@@ -1091,12 +998,6 @@ Załadowano nowy plik połączeń.</value>
   </data>
 	<data name="strOptionsTabTheme" xml:space="preserve">
     <value>Motyw</value>
-  </data>
-	<data name="strOptionsThemeButtonDelete" xml:space="preserve">
-    <value>&amp;Usuń</value>
-  </data>
-	<data name="strOptionsThemeButtonNew" xml:space="preserve">
-    <value>&amp;Nowy</value>
   </data>
 	<data name="strPanelName" xml:space="preserve">
     <value>Nazwa panelu</value>
@@ -1182,9 +1083,6 @@ Załadowano nowy plik połączeń.</value>
 	<data name="strPropertyDescriptionVNCProxyUsername" xml:space="preserve">
     <value>Wprowadź nazwę użytkownika dla uwierzytelniania poprzez proxy.</value>
   </data>
-	<data name="strPropertyNameAddress" xml:space="preserve">
-    <value>Nazwa hosta/IP</value>
-  </data>
 	<data name="strPropertyNameAll" xml:space="preserve">
     <value>Wszystkie</value>
   </data>
@@ -1212,9 +1110,6 @@ Załadowano nowy plik połączeń.</value>
 	<data name="strPropertyNameDisplayWallpaper" xml:space="preserve">
     <value>Wyświetl tapetę</value>
   </data>
-	<data name="strPropertyNameDomain" xml:space="preserve">
-    <value>Domena</value>
-  </data>
 	<data name="strPropertyNameEnableDesktopComposition" xml:space="preserve">
     <value>Kompozycja pulpitu</value>
   </data>
@@ -1236,9 +1131,6 @@ Załadowano nowy plik połączeń.</value>
 	<data name="strPropertyNameExternalToolBefore" xml:space="preserve">
     <value>Zewnętrzne narzędzie przed</value>
   </data>
-	<data name="strPropertyNameIcon" xml:space="preserve">
-    <value>Ikona</value>
-  </data>
 	<data name="strPropertyNameMACAddress" xml:space="preserve">
     <value>Adres MAC</value>
   </data>
@@ -1248,14 +1140,8 @@ Załadowano nowy plik połączeń.</value>
 	<data name="strPropertyNamePanel" xml:space="preserve">
     <value>Panel</value>
   </data>
-	<data name="strPropertyNamePassword" xml:space="preserve">
-    <value>Hasło</value>
-  </data>
 	<data name="strPropertyNamePort" xml:space="preserve">
     <value>Port</value>
-  </data>
-	<data name="strPropertyNameProtocol" xml:space="preserve">
-    <value>Protokół</value>
   </data>
 	<data name="strPropertyNamePuttySession" xml:space="preserve">
     <value>Sesja PuTTY</value>
@@ -1314,9 +1200,6 @@ Załadowano nowy plik połączeń.</value>
 	<data name="strPropertyNameUser1" xml:space="preserve">
     <value>Pole użytkownika</value>
   </data>
-	<data name="strPropertyNameUsername" xml:space="preserve">
-    <value>Użytkownik</value>
-  </data>
 	<data name="strPropertyNameViewOnly" xml:space="preserve">
     <value>Tylko podgląd</value>
   </data>
@@ -1343,9 +1226,6 @@ Załadowano nowy plik połączeń.</value>
   </data>
 	<data name="strProxyTestSucceeded" xml:space="preserve">
     <value>Test proxy powiódł się!</value>
-  </data>
-	<data name="strPuttyConnectionFailed" xml:space="preserve">
-    <value>Nieudane połączenie!</value>
   </data>
 	<data name="strPuttyFocusFailed" xml:space="preserve">
     <value>Nie można ustawić ostrości!</value>
@@ -1581,15 +1461,6 @@ Załadowano nowy plik połączeń.</value>
 	<data name="strSingleClickOnOpenConnectionSwitchesToIt" xml:space="preserve">
     <value>Pojedyncze klikniknięcie na otwarym połączeniu przełącza na nie</value>
   </data>
-	<data name="strSmartSizeModeAspect" xml:space="preserve">
-    <value>Propocjonalnie</value>
-  </data>
-	<data name="strSmartSizeModeFree" xml:space="preserve">
-    <value>Dowolnie</value>
-  </data>
-	<data name="strSmartSizeModeNone" xml:space="preserve">
-    <value>Wyłącz dopasowanie ekranu</value>
-  </data>
 	<data name="strSocks5" xml:space="preserve">
     <value>Socks 5</value>
   </data>
@@ -1644,9 +1515,6 @@ Załadowano nowy plik połączeń.</value>
 	<data name="strTabAdvanced" xml:space="preserve">
     <value>Zaawansowane</value>
   </data>
-	<data name="strTabAppearance" xml:space="preserve">
-    <value>Wygląd</value>
-  </data>
 	<data name="strTabUpdates" xml:space="preserve">
     <value>Aktualizacje</value>
   </data>
@@ -1658,9 +1526,6 @@ Załadowano nowy plik połączeń.</value>
   </data>
 	<data name="strThemeCategoryConnectionsPanel" xml:space="preserve">
     <value>Panel połączeń</value>
-  </data>
-	<data name="strThemeCategoryGeneral" xml:space="preserve">
-    <value>Ogólne</value>
   </data>
 	<data name="strThemeDescriptionConfigPanelBackgroundColor" xml:space="preserve">
     <value>Kolor tła panelu konfiguracji.</value>
@@ -1806,14 +1671,8 @@ Załadowano nowy plik połączeń.</value>
 	<data name="strUpdateCheckCompleteFailed" xml:space="preserve">
     <value>Sprawdzenie aktualizacji nie powiodło się!</value>
   </data>
-	<data name="strUpdateCheckFailed" xml:space="preserve">
-    <value>Sprawdzanie aktualizacji nie powiodło się!</value>
-  </data>
 	<data name="strUpdateCheckPortableEdition" xml:space="preserve">
     <value>mRemoteNG Portable Edition nie obsługuje obecnie automatycznych aktualizacji.</value>
-  </data>
-	<data name="strUpdateDeleteFailed" xml:space="preserve">
-    <value>Błąd usuwania pliku aktualizacji!</value>
   </data>
 	<data name="strUpdateDownloadComplete" xml:space="preserve">
     <value>Pobranie zakończone! 
@@ -1837,14 +1696,8 @@ mRemoteNG zostanie teraz zamknięty i rozpocznie instalację.</value>
 	<data name="strUpdateFrequencyWeekly" xml:space="preserve">
     <value>Tygodniowo</value>
   </data>
-	<data name="strUpdateStartFailed" xml:space="preserve">
-    <value>Nie udało się uruchomić aktualizacji!</value>
-  </data>
 	<data name="strUseDifferentUsernameAndPassword" xml:space="preserve">
     <value>Użyj innego loginu użytkownika i hasła</value>
-  </data>
-	<data name="strUseOnlyErrorsAndInfosPanel" xml:space="preserve">
-    <value>Używaj tylko panelu powiadomień (okienka z komunikatami nie pojawią się więcej)</value>
   </data>
 	<data name="strUser" xml:space="preserve">
     <value>Użytkownik</value>
@@ -1881,9 +1734,6 @@ mRemoteNG zostanie teraz zamknięty i rozpocznie instalację.</value>
   </data>
 	<data name="strWarnings" xml:space="preserve">
     <value>Ostrzeżenia</value>
-  </data>
-	<data name="strWriteLogFile" xml:space="preserve">
-    <value>Zapisz plik logu (mRemoteNG.log)</value>
   </data>
 	<data name="strXULrunnerPath" xml:space="preserve">
     <value>Ścieżka XULrunner:</value>

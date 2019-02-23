@@ -258,35 +258,20 @@ Please use File - Open Connection File for normal connection files!</value>
 	<data name="strCategoryConnection" xml:space="preserve">
     <value>接続</value>
   </data>
-	<data name="strCategoryCredentials" xml:space="preserve">
-    <value>資格情報</value>
-  </data>
 	<data name="strCategoryDisplay" xml:space="preserve">
     <value>ディスプレイ</value>
   </data>
 	<data name="strCategoryGateway" xml:space="preserve">
     <value>ゲートウェイ</value>
   </data>
-	<data name="strCategoryGeneral" xml:space="preserve">
-    <value>一般</value>
-  </data>
 	<data name="strCategoryMiscellaneous" xml:space="preserve">
     <value>その他</value>
-  </data>
-	<data name="strCategoryProtocol" xml:space="preserve">
-    <value>プロトコル</value>
   </data>
 	<data name="strCategoryRedirect" xml:space="preserve">
     <value>Redirect</value>
   </data>
 	<data name="strCcAlwaysShowScreen" xml:space="preserve">
     <value>開始時に常に表示</value>
-  </data>
-	<data name="strCcCheckAgain" xml:space="preserve">
-    <value>更新</value>
-  </data>
-	<data name="strCcCheckFailed" xml:space="preserve">
-    <value>確認に失敗しました</value>
   </data>
 	<data name="strCcCheckSucceeded" xml:space="preserve">
     <value>Check succeeded!</value>
@@ -357,12 +342,6 @@ VncSharp Control Version {0}</value>
 	<data name="strCheckboxDoNotShowThisMessageAgain" xml:space="preserve">
     <value>このメッセージを再び表示しない</value>
   </data>
-	<data name="strCheckboxInheritance" xml:space="preserve">
-    <value>Inheritance</value>
-  </data>
-	<data name="strCheckboxPassword" xml:space="preserve">
-    <value>パスワード</value>
-  </data>
 	<data name="strCheckboxProxyAuthentication" xml:space="preserve">
     <value>このプロキシーに接続するには資格情報が必要です</value>
   </data>
@@ -418,12 +397,6 @@ VncSharp Control Version {0}</value>
   </data>
 	<data name="strColumnMessage" xml:space="preserve">
     <value>メッセージ</value>
-  </data>
-	<data name="strColumnUsername" xml:space="preserve">
-    <value>ユーザー名</value>
-  </data>
-	<data name="strColumnWaitForExit" xml:space="preserve">
-    <value>終了まで待機する</value>
   </data>
 	<data name="strCommandExitProgram" xml:space="preserve">
     <value>{0}を終了(&amp;X)</value>
@@ -772,9 +745,6 @@ Starting with new connections file.</value>
 	<data name="strGroupboxAutomaticReconnect" xml:space="preserve">
     <value>自動的に再接続する</value>
   </data>
-	<data name="strGroupboxConnection" xml:space="preserve">
-    <value>接続</value>
-  </data>
 	<data name="strGroupboxExternalToolProperties" xml:space="preserve">
     <value>外部ツールプロパティ</value>
   </data>
@@ -856,9 +826,6 @@ Starting with new connections file.</value>
 	<data name="strImportLocationMainInstruction" xml:space="preserve">
     <value>Import location</value>
   </data>
-	<data name="strImportMenuItem" xml:space="preserve">
-    <value>インポート(&amp;I)</value>
-  </data>
 	<data name="strImportmRemoteXML" xml:space="preserve">
     <value>Import mRemote/mRemoteNG XML</value>
   </data>
@@ -876,9 +843,6 @@ Starting with new connections file.</value>
   </data>
 	<data name="strInheritNewConnection" xml:space="preserve">
     <value>mRemoteNGは最新バージョンです</value>
-  </data>
-	<data name="strIntAppConnectionFailed" xml:space="preserve">
-    <value>接続に失敗しました</value>
   </data>
 	<data name="strIntAppDisposeFailed" xml:space="preserve">
     <value>Dispose of Int App process failed!</value>
@@ -913,9 +877,6 @@ Starting with new connections file.</value>
 	<data name="strLabelAddress" xml:space="preserve">
     <value>アドレス：</value>
   </data>
-	<data name="strLabelArguments" xml:space="preserve">
-    <value>パラメータ：</value>
-  </data>
 	<data name="strLabelChangeLog" xml:space="preserve">
     <value>履歴：</value>
   </data>
@@ -925,26 +886,8 @@ Starting with new connections file.</value>
 	<data name="strLabelConnect" xml:space="preserve">
     <value>接続(&amp;C)：</value>
   </data>
-	<data name="strLabelDisplayName" xml:space="preserve">
-    <value>ディスプレイ名</value>
-  </data>
-	<data name="strLabelDomain" xml:space="preserve">
-    <value>ドメイン：</value>
-  </data>
-	<data name="strLabelFilename" xml:space="preserve">
-    <value>ファイル名：</value>
-  </data>
 	<data name="strLabelHostname" xml:space="preserve">
     <value>ホスト名：</value>
-  </data>
-	<data name="strLabelOptions" xml:space="preserve">
-    <value>オプション：</value>
-  </data>
-	<data name="strLabelPassword" xml:space="preserve">
-    <value>パスワード：</value>
-  </data>
-	<data name="strLabelPort" xml:space="preserve">
-    <value>ポート：</value>
   </data>
 	<data name="strLabelPortableEdition" xml:space="preserve">
     <value>ポータブル</value>
@@ -973,12 +916,6 @@ Starting with new connections file.</value>
   </data>
 	<data name="strLabelSQLDatabaseName" xml:space="preserve">
     <value>データベース：</value>
-  </data>
-	<data name="strLabelSQLServerDatabaseName" xml:space="preserve">
-    <value>データベース：</value>
-  </data>
-	<data name="strLabelUsername" xml:space="preserve">
-    <value>ユーザー名：</value>
   </data>
 	<data name="strLabelVerify" xml:space="preserve">
     <value>確認：</value>
@@ -1024,9 +961,6 @@ Starting with new connections file.</value>
 	<data name="strMagicLibraryAttributionURL" xml:space="preserve">
     <value>http://www.dotnetmagic.com/</value>
   </data>
-	<data name="strMenuAbout" xml:space="preserve">
-    <value>mRemoteNGについて</value>
-  </data>
 	<data name="strMenuAddConnectionPanel" xml:space="preserve">
     <value>接続表示パネルの追加</value>
   </data>
@@ -1036,14 +970,8 @@ Starting with new connections file.</value>
 	<data name="strMenuConfig" xml:space="preserve">
     <value>設定</value>
   </data>
-	<data name="strMenuConnect" xml:space="preserve">
-    <value>接続する</value>
-  </data>
 	<data name="strMenuConnectionPanels" xml:space="preserve">
     <value>接続表示パネル</value>
-  </data>
-	<data name="strMenuConnections" xml:space="preserve">
-    <value>接続</value>
   </data>
 	<data name="strMenuConnectionsAndConfig" xml:space="preserve">
     <value>接続と設定</value>
@@ -1057,9 +985,6 @@ Starting with new connections file.</value>
 	<data name="strMenuCtrlEsc" xml:space="preserve">
     <value>Ctrl-Esc</value>
   </data>
-	<data name="strMenuDelete" xml:space="preserve">
-    <value>削除...</value>
-  </data>
 	<data name="strMenuDeleteConnection" xml:space="preserve">
     <value>接続を削除...</value>
   </data>
@@ -1069,14 +994,8 @@ Starting with new connections file.</value>
 	<data name="strMenuDeleteFolder" xml:space="preserve">
     <value>フォルダを削除...</value>
   </data>
-	<data name="strMenuDisconnect" xml:space="preserve">
-    <value>切断</value>
-  </data>
 	<data name="strMenuDonate" xml:space="preserve">
     <value>寄付のお願い</value>
-  </data>
-	<data name="strMenuDuplicate" xml:space="preserve">
-    <value>複製</value>
   </data>
 	<data name="strMenuDuplicateConnection" xml:space="preserve">
     <value>接続を複製する</value>
@@ -1120,9 +1039,6 @@ Starting with new connections file.</value>
 	<data name="strMenuNewConnectionFile" xml:space="preserve">
     <value>新規接続ファイル</value>
   </data>
-	<data name="strMenuNewExternalTool" xml:space="preserve">
-    <value>新規外部ツール</value>
-  </data>
 	<data name="strMenuNotifications" xml:space="preserve">
     <value>通知</value>
   </data>
@@ -1156,9 +1072,6 @@ Starting with new connections file.</value>
 	<data name="strMenuRefreshScreen" xml:space="preserve">
     <value>スクリーンを更新する (VNC)</value>
   </data>
-	<data name="strMenuRename" xml:space="preserve">
-    <value>名前を変更</value>
-  </data>
 	<data name="strMenuRenameConnection" xml:space="preserve">
     <value>接続名を変更</value>
   </data>
@@ -1179,9 +1092,6 @@ Starting with new connections file.</value>
   </data>
 	<data name="strMenuSaveConnectionFileAs" xml:space="preserve">
     <value>接続ファイルを別名で保存...</value>
-  </data>
-	<data name="strMenuScreenshot" xml:space="preserve">
-    <value>スクリーンキャプチャ</value>
   </data>
 	<data name="strMenuScreenshotManager" xml:space="preserve">
     <value>スクリーンキャプチャの管理</value>
@@ -1253,12 +1163,6 @@ Starting with new connections file.</value>
 	<data name="strNever" xml:space="preserve">
     <value>なし</value>
   </data>
-	<data name="strNewConnection" xml:space="preserve">
-    <value>新規接続</value>
-  </data>
-	<data name="strNewFolder" xml:space="preserve">
-    <value>新規フォルダ</value>
-  </data>
 	<data name="strNewPanel" xml:space="preserve">
     <value>新規パネル</value>
   </data>
@@ -1308,9 +1212,6 @@ If you run into such an error, please create a new connection file!</comment>
 	<data name="strOptionsKeyboardButtonDelete" xml:space="preserve">
     <value>削除(&amp;D)</value>
   </data>
-	<data name="strOptionsKeyboardButtonNew" xml:space="preserve">
-    <value>新規(&amp;N)</value>
-  </data>
 	<data name="strOptionsKeyboardButtonReset" xml:space="preserve">
     <value>デフォルトに戻す(&amp;R)</value>
   </data>
@@ -1341,12 +1242,6 @@ If you run into such an error, please create a new connection file!</comment>
   </data>
 	<data name="strOptionsTabTheme" xml:space="preserve">
     <value>テーマ</value>
-  </data>
-	<data name="strOptionsThemeButtonDelete" xml:space="preserve">
-    <value>削除(&amp;D)</value>
-  </data>
-	<data name="strOptionsThemeButtonNew" xml:space="preserve">
-    <value>新規(&amp;N)</value>
   </data>
 	<data name="strPanelName" xml:space="preserve">
     <value>パネル名</value>
@@ -1530,9 +1425,6 @@ If you run into such an error, please create a new connection file!</comment>
 	<data name="strPropertyDescriptionVNCProxyUsername" xml:space="preserve">
     <value>Enter your username for authenticating against the proxy.</value>
   </data>
-	<data name="strPropertyNameAddress" xml:space="preserve">
-    <value>ホスト名またはIPアドレス</value>
-  </data>
 	<data name="strPropertyNameAll" xml:space="preserve">
     <value>全て</value>
   </data>
@@ -1563,9 +1455,6 @@ If you run into such an error, please create a new connection file!</comment>
 	<data name="strPropertyNameDisplayWallpaper" xml:space="preserve">
     <value>ウォールペーパーを表示</value>
   </data>
-	<data name="strPropertyNameDomain" xml:space="preserve">
-    <value>ドメイン</value>
-  </data>
 	<data name="strPropertyNameEnableDesktopComposition" xml:space="preserve">
     <value>Desktop Composition</value>
   </data>
@@ -1587,9 +1476,6 @@ If you run into such an error, please create a new connection file!</comment>
 	<data name="strPropertyNameExternalToolBefore" xml:space="preserve">
     <value>External Tool Before</value>
   </data>
-	<data name="strPropertyNameIcon" xml:space="preserve">
-    <value>アイコン</value>
-  </data>
 	<data name="strPropertyNameLoadBalanceInfo" xml:space="preserve">
     <value>Load Balance Info</value>
   </data>
@@ -1602,14 +1488,8 @@ If you run into such an error, please create a new connection file!</comment>
 	<data name="strPropertyNamePanel" xml:space="preserve">
     <value>パネル</value>
   </data>
-	<data name="strPropertyNamePassword" xml:space="preserve">
-    <value>パスワード</value>
-  </data>
 	<data name="strPropertyNamePort" xml:space="preserve">
     <value>ポート</value>
-  </data>
-	<data name="strPropertyNameProtocol" xml:space="preserve">
-    <value>プロトコル</value>
   </data>
 	<data name="strPropertyNamePuttySession" xml:space="preserve">
     <value>PuTTYのセッション</value>
@@ -1668,9 +1548,6 @@ If you run into such an error, please create a new connection file!</comment>
 	<data name="strPropertyNameUser1" xml:space="preserve">
     <value>User Field</value>
   </data>
-	<data name="strPropertyNameUsername" xml:space="preserve">
-    <value>ユーザー名</value>
-  </data>
 	<data name="strPropertyNameViewOnly" xml:space="preserve">
     <value>表示のみ</value>
   </data>
@@ -1709,9 +1586,6 @@ Message:
 	<data name="strProxyTestSucceeded" xml:space="preserve">
     <value>Proxy test succeeded!</value>
   </data>
-	<data name="strPuttyConnectionFailed" xml:space="preserve">
-    <value>接続に失敗しました</value>
-  </data>
 	<data name="strPuttyDisposeFailed" xml:space="preserve">
     <value>Dispose of Putty process failed!</value>
   </data>
@@ -1726,9 +1600,6 @@ Message:
   </data>
 	<data name="strPuttyKillFailed" xml:space="preserve">
     <value>Killing Putty Process failed!</value>
-  </data>
-	<data name="strPuttyParentHandle" xml:space="preserve">
-    <value>Panel Handle: {0}</value>
   </data>
 	<data name="strPuttyResizeFailed" xml:space="preserve">
     <value>Putty Resize Failed!</value>
@@ -2034,15 +1905,6 @@ Message:
     <value />
     <comment>Single click on opened connection switches to it</comment>
   </data>
-	<data name="strSmartSizeModeAspect" xml:space="preserve">
-    <value>Aspect</value>
-  </data>
-	<data name="strSmartSizeModeFree" xml:space="preserve">
-    <value>Free</value>
-  </data>
-	<data name="strSmartSizeModeNone" xml:space="preserve">
-    <value>No SmartSize</value>
-  </data>
 	<data name="strSocks5" xml:space="preserve">
     <value>Socks 5</value>
   </data>
@@ -2103,9 +1965,6 @@ Message:
 	<data name="strTabAdvanced" xml:space="preserve">
     <value>詳細設定</value>
   </data>
-	<data name="strTabAppearance" xml:space="preserve">
-    <value>外観</value>
-  </data>
 	<data name="strTabsAndPanels" xml:space="preserve">
     <value>タブとパネル</value>
   </data>
@@ -2123,9 +1982,6 @@ Message:
   </data>
 	<data name="strThemeCategoryConnectionsPanel" xml:space="preserve">
     <value>接続パネル</value>
-  </data>
-	<data name="strThemeCategoryGeneral" xml:space="preserve">
-    <value>General</value>
   </data>
 	<data name="strThemeDescriptionConfigPanelBackgroundColor" xml:space="preserve">
     <value>設定パネルの背景色</value>
@@ -2317,9 +2173,6 @@ mRemoteNGを終了してインストールを開始します</value>
 	<data name="strUseDifferentUsernameAndPassword" xml:space="preserve">
     <value>Use a different username and password</value>
   </data>
-	<data name="strUseOnlyErrorsAndInfosPanel" xml:space="preserve">
-    <value>Use only Notifications panel (no messagebox popups)</value>
-  </data>
 	<data name="strUser" xml:space="preserve">
     <value>ユーザー</value>
   </data>
@@ -2335,9 +2188,6 @@ mRemoteNGを終了してインストールを開始します</value>
   </data>
 	<data name="strVersion" xml:space="preserve">
     <value>バージョン</value>
-  </data>
-	<data name="strVisionAppRemoteDesktopCsv" xml:space="preserve">
-    <value>visionapp Remote Desktop 2008 CSV</value>
   </data>
 	<data name="strVnc" xml:space="preserve">
     <value>VNC</value>
@@ -2377,9 +2227,6 @@ mRemoteNGを終了してインストールを開始します</value>
   </data>
 	<data name="strWeifenLuoAttributionURL" xml:space="preserve">
     <value>http://sourceforge.net/projects/dockpanelsuite/</value>
-  </data>
-	<data name="strWriteLogFile" xml:space="preserve">
-    <value>ログファイルを書き出す(mRemoteNG.log)</value>
   </data>
 	<data name="strXULrunnerPath" xml:space="preserve">
     <value>XULRunnerのパス：</value>

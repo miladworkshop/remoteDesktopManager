@@ -201,29 +201,17 @@
 	<data name="strCategoryConnection" xml:space="preserve">
     <value>Kapcsolat</value>
   </data>
-	<data name="strCategoryCredentials" xml:space="preserve">
-    <value>Hitelesítés</value>
-  </data>
 	<data name="strCategoryDisplay" xml:space="preserve">
     <value>Képernyő</value>
   </data>
 	<data name="strCategoryGateway" xml:space="preserve">
     <value>Átjáró</value>
   </data>
-	<data name="strCategoryGeneral" xml:space="preserve">
-    <value>Általános</value>
-  </data>
 	<data name="strCategoryMiscellaneous" xml:space="preserve">
     <value>Egyéb</value>
   </data>
-	<data name="strCategoryProtocol" xml:space="preserve">
-    <value>Protokoll</value>
-  </data>
 	<data name="strCategoryRedirect" xml:space="preserve">
     <value>Átirányítás</value>
-  </data>
-	<data name="strCcCheckFailed" xml:space="preserve">
-    <value>Az ellenőrzés sikertelen!</value>
   </data>
 	<data name="strCcCheckSucceeded" xml:space="preserve">
     <value>Az ellenőrzés sikeres!</value>
@@ -242,9 +230,6 @@
   </data>
 	<data name="strColumnMessage" xml:space="preserve">
     <value>Üzenet</value>
-  </data>
-	<data name="strColumnUsername" xml:space="preserve">
-    <value>Felhasználónév</value>
   </data>
 	<data name="strCommandLineArgsCouldNotBeParsed" xml:space="preserve">
     <value>Nem értelmezhető parancssori argumentum!</value>
@@ -294,26 +279,8 @@
 	<data name="strLabelAddress" xml:space="preserve">
     <value>Cím:</value>
   </data>
-	<data name="strLabelDisplayName" xml:space="preserve">
-    <value>Megjelenítendő név</value>
-  </data>
-	<data name="strLabelDomain" xml:space="preserve">
-    <value>Tartomány:</value>
-  </data>
-	<data name="strLabelFilename" xml:space="preserve">
-    <value>Fájlnév:</value>
-  </data>
 	<data name="strLabelHostname" xml:space="preserve">
     <value>Hosztnév:</value>
-  </data>
-	<data name="strLabelOptions" xml:space="preserve">
-    <value>Opciók:</value>
-  </data>
-	<data name="strLabelPassword" xml:space="preserve">
-    <value>Jelszó:</value>
-  </data>
-	<data name="strLabelPort" xml:space="preserve">
-    <value>Port:</value>
   </data>
 	<data name="strLabelPortableEdition" xml:space="preserve">
     <value>Hordozható kiadás</value>
@@ -327,12 +294,6 @@
 	<data name="strLabelSQLDatabaseName" xml:space="preserve">
     <value>Adatbázis:</value>
   </data>
-	<data name="strLabelSQLServerDatabaseName" xml:space="preserve">
-    <value>Adatbázis:</value>
-  </data>
-	<data name="strLabelUsername" xml:space="preserve">
-    <value>Felhasználónév:</value>
-  </data>
 	<data name="strLabelVerify" xml:space="preserve">
     <value>Ellenőrzés:</value>
   </data>
@@ -341,9 +302,6 @@
   </data>
 	<data name="strLanguageDefault" xml:space="preserve">
     <value>(Automatikus észlelés)</value>
-  </data>
-	<data name="strMenuAbout" xml:space="preserve">
-    <value>Névjegy</value>
   </data>
 	<data name="strMenuCheckForUpdates" xml:space="preserve">
     <value>Frissítés keresése</value>
@@ -357,9 +315,6 @@
 	<data name="strMenuNewConnectionFile" xml:space="preserve">
     <value>Új kapcsolatfájl</value>
   </data>
-	<data name="strMenuNewExternalTool" xml:space="preserve">
-    <value>Új külső eszköz</value>
-  </data>
 	<data name="strMenuNotifications" xml:space="preserve">
     <value>Értesítések</value>
   </data>
@@ -371,9 +326,6 @@
   </data>
 	<data name="strMenuReconnect" xml:space="preserve">
     <value>Újrakapcsolódás</value>
-  </data>
-	<data name="strMenuRename" xml:space="preserve">
-    <value>Átnevezés</value>
   </data>
 	<data name="strMenuRenameConnection" xml:space="preserve">
     <value>Kapcsolat átnevezése</value>
@@ -396,9 +348,6 @@
 	<data name="strMenuSaveConnectionFileAs" xml:space="preserve">
     <value>Kapcsolatfájl mentése, mint...</value>
   </data>
-	<data name="strMenuScreenshot" xml:space="preserve">
-    <value>Képernyőmentés</value>
-  </data>
 	<data name="strMenuScreenshotManager" xml:space="preserve">
     <value>Képernyőmentés kezelő</value>
   </data>
@@ -413,12 +362,6 @@
   </data>
 	<data name="strNever" xml:space="preserve">
     <value>Soha</value>
-  </data>
-	<data name="strNewConnection" xml:space="preserve">
-    <value>Új kapcsolat</value>
-  </data>
-	<data name="strNewFolder" xml:space="preserve">
-    <value>Új mappa</value>
   </data>
 	<data name="strNewPanel" xml:space="preserve">
     <value>Új panel</value>
