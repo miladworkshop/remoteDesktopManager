@@ -129,7 +129,7 @@
   <data name="AddConnection" xml:space="preserve">
 		<value>Yeni Bağlantı</value>
 	</data>
-  <data name="AddFolder" xml:space="preserve">
+  <data name="FolderNew" xml:space="preserve">
 		<value>Yeni klasör</value>
 	</data>
   <data name="AddNodeFromXmlFailed" xml:space="preserve">
@@ -192,19 +192,19 @@
   <data name="ButtonCancel" xml:space="preserve">
 		<value>&amp;İptal</value>
 	</data>
-  <data name="ButtonChange" xml:space="preserve">
+  <data name="Change" xml:space="preserve">
 		<value>Değiştir</value>
 	</data>
   <data name="ButtonClose" xml:space="preserve">
 		<value>&amp;Kapat</value>
 	</data>
-  <data name="ButtonDefaultInheritance" xml:space="preserve">
+  <data name="DefaultInheritance" xml:space="preserve">
 		<value>Varsayılan Devralma</value>
 	</data>
-  <data name="ButtonDefaultProperties" xml:space="preserve">
+  <data name="DefaultProperties" xml:space="preserve">
 		<value>Varsayılan Özellikler</value>
 	</data>
-  <data name="ButtonDisconnect" xml:space="preserve">
+  <data name="Disconnect" xml:space="preserve">
 		<value>Bağlantıyı kes</value>
 	</data>
   <data name="PropertyNameIcon" xml:space="preserve">
@@ -213,13 +213,13 @@
   <data name="ButtonImport" xml:space="preserve">
 		<value>&amp;İçe aktar</value>
 	</data>
-  <data name="ButtonInheritance" xml:space="preserve">
+  <data name="Inheritance" xml:space="preserve">
 		<value>Devral</value>
 	</data>
   <data name="ButtonLaunch" xml:space="preserve">
 		<value>&amp;Çalıştır</value>
 	</data>
-  <data name="ButtonLaunchPutty" xml:space="preserve">
+  <data name="LaunchPutty" xml:space="preserve">
 		<value>Putty'yi çalıştır</value>
 	</data>
   <data name="ButtonNew" xml:space="preserve">
@@ -228,7 +228,7 @@
   <data name="ButtonOK" xml:space="preserve">
 		<value>&amp;Tamam</value>
 	</data>
-  <data name="ButtonProperties" xml:space="preserve">
+  <data name="Properties" xml:space="preserve">
 		<value>Özellikler</value>
 	</data>
   <data name="ButtonScan" xml:space="preserve">
@@ -282,7 +282,7 @@
   <data name="Yes" xml:space="preserve">
 		<value>Evet</value>
 	</data>
-  <data name="TabSecurity" xml:space="preserve">
+  <data name="Security" xml:space="preserve">
 		<value>Güvenlik</value>
 	</data>
   <data name="RdpSoundQualityDynamic" xml:space="preserve">
@@ -366,7 +366,7 @@ VncSharp Kontrol Sürümü {0}</value>
   <data name="CheckboxUpdateUseProxy" xml:space="preserve">
 		<value>Bağlanmak için proxy sunucusu kullan</value>
 	</data>
-  <data name="CheckboxWaitForExit" xml:space="preserve">
+  <data name="WaitForExit" xml:space="preserve">
 		<value>Çıkış için bekleyin</value>
 	</data>
   <data name="CheckForUpdatesOnStartup" xml:space="preserve">
@@ -375,16 +375,16 @@ VncSharp Kontrol Sürümü {0}</value>
   <data name="CheckProperInstallationOfComponentsAtStartup" xml:space="preserve">
 		<value>Başlangıçta bileşenlerin doğruluğunu kontrol edin</value>
 	</data>
-  <data name="ColumnArguments" xml:space="preserve">
+  <data name="Arguments" xml:space="preserve">
 		<value>Argümanlar</value>
 	</data>
-  <data name="ColumnDisplayName" xml:space="preserve">
+  <data name="DisplayName" xml:space="preserve">
 		<value>Görünen ad</value>
 	</data>
-  <data name="ColumnFilename" xml:space="preserve">
+  <data name="Filename" xml:space="preserve">
 		<value>Dosya adı</value>
 	</data>
-  <data name="ColumnMessage" xml:space="preserve">
+  <data name="Message" xml:space="preserve">
 		<value>Mesaj</value>
 	</data>
   <data name="CommandExitProgram" xml:space="preserve">
@@ -512,7 +512,7 @@ Yeni bağlantılar dosyası ile başlanıyor.</value>
   <data name="ConnectionsFileCouldNotBeSaved" xml:space="preserve">
 		<value>Bağlantılar dosyası kaydedilemedi!</value>
 	</data>
-  <data name="ButtonTestProxy" xml:space="preserve">
+  <data name="ProxyTest" xml:space="preserve">
 		<value>Test Vekil Sunucu</value>
 	</data>
   <data name="CannotImportNormalSessionFile" xml:space="preserve">
@@ -756,7 +756,7 @@ Normal bağlantı dosyaları için lütfen Dosya - Bağlantıları Yükle'yi kul
   <data name="GroupboxExternalToolProperties" xml:space="preserve">
 		<value>Harici Araç Özellikleri</value>
 	</data>
-  <data name="GroupboxFiles" xml:space="preserve">
+  <data name="Files" xml:space="preserve">
 		<value>Dosyalar</value>
 	</data>
   <data name="HttpConnectFailed" xml:space="preserve">
@@ -777,7 +777,7 @@ Normal bağlantı dosyaları için lütfen Dosya - Bağlantıları Yükle'yi kul
   <data name="IcaControlFailed" xml:space="preserve">
 		<value>ICA eklentisini yükleme başarısız!</value>
 	</data>
-  <data name="LabelSQLDatabaseName" xml:space="preserve">
+  <data name="Database" xml:space="preserve">
 		<value>Veritabanı:</value>
 	</data>
   <data name="LabelVerify" xml:space="preserve">
@@ -825,7 +825,7 @@ Normal bağlantı dosyaları için lütfen Dosya - Bağlantıları Yükle'yi kul
   <data name="MenuCheckForUpdates" xml:space="preserve">
 		<value>Güncelleştirmeleri Konrol Et</value>
 	</data>
-  <data name="MenuConfig" xml:space="preserve">
+  <data name="Config" xml:space="preserve">
 		<value>Ayar</value>
 	</data>
   <data name="MenuConnectionPanels" xml:space="preserve">
@@ -834,7 +834,7 @@ Normal bağlantı dosyaları için lütfen Dosya - Bağlantıları Yükle'yi kul
   <data name="MenuConnectionsAndConfig" xml:space="preserve">
 		<value>Bağlantılar ve Ayar</value>
 	</data>
-  <data name="MenuCopy" xml:space="preserve">
+  <data name="Copy" xml:space="preserve">
 		<value>Kopyala</value>
 	</data>
   <data name="MenuDeleteConnection" xml:space="preserve">
@@ -858,7 +858,7 @@ Normal bağlantı dosyaları için lütfen Dosya - Bağlantıları Yükle'yi kul
   <data name="MenuDuplicateTab" xml:space="preserve">
 		<value>Sekmeyi Çoğalt</value>
 	</data>
-  <data name="MenuExit" xml:space="preserve">
+  <data name="Exit" xml:space="preserve">
 		<value>Çıkış</value>
 	</data>
   <data name="MenuExternalTools" xml:space="preserve">
@@ -930,7 +930,7 @@ Normal bağlantı dosyaları için lütfen Dosya - Bağlantıları Yükle'yi kul
   <data name="MenuRenameFolder" xml:space="preserve">
 		<value>Klasörü Yeniden Adlandır</value>
 	</data>
-  <data name="MenuRenameTab" xml:space="preserve">
+  <data name="TabRename" xml:space="preserve">
 		<value>Sekmeyi Yeniden Adlandır</value>
 	</data>
   <data name="MenuReportBug" xml:space="preserve">
@@ -990,7 +990,7 @@ Normal bağlantı dosyaları için lütfen Dosya - Bağlantıları Yükle'yi kul
   <data name="MenuViewOnly" xml:space="preserve">
 		<value>Yalnızca Gör (VNC)</value>
 	</data>
-  <data name="MenuWebsite" xml:space="preserve">
+  <data name="Website" xml:space="preserve">
 		<value>Web Sitesi</value>
 	</data>
   <data name="MinimizeToSysTray" xml:space="preserve">
@@ -1057,7 +1057,7 @@ Böyle bir hatayla karşılaşırsanız, lütfen yeni bir bağlantı dosyası ol
   <data name="OptionsKeyboardButtonResetAll" xml:space="preserve">
 		<value>Herşeyi &amp;Varsayılana Sıfırla</value>
 	</data>
-  <data name="OptionsKeyboardCommandsGroupTabs" xml:space="preserve">
+  <data name="Tabs" xml:space="preserve">
 		<value>Sekmeler</value>
 	</data>
   <data name="OptionsKeyboardCommandsNextTab" xml:space="preserve">
@@ -1075,10 +1075,10 @@ Böyle bir hatayla karşılaşırsanız, lütfen yeni bir bağlantı dosyası ol
   <data name="OptionsProxyTesting" xml:space="preserve">
 		<value>Test ediliyor...</value>
 	</data>
-  <data name="OptionsTabKeyboard" xml:space="preserve">
+  <data name="Keyboard" xml:space="preserve">
 		<value>Klavye</value>
 	</data>
-  <data name="OptionsTabTheme" xml:space="preserve">
+  <data name="Theme" xml:space="preserve">
 		<value>Tema</value>
 	</data>
   <data name="VncToggleViewOnlyFailed" xml:space="preserve">
@@ -1307,7 +1307,7 @@ MRemoteNG şimdi kapanacak ve kurulum başlayacak.</value>
   <data name="LabelConnect" xml:space="preserve">
 		<value>&amp;Bağlan:</value>
 	</data>
-  <data name="LabelPortableEdition" xml:space="preserve">
+  <data name="PortableEdition" xml:space="preserve">
 		<value>Taşınabilir Sürüm</value>
 	</data>
   <data name="PropertyNameProtocol" xml:space="preserve">
@@ -2046,10 +2046,10 @@ Mesaj:
   <data name="SSHTransferFailed" xml:space="preserve">
 		<value>SSH transferi başarısız.</value>
 	</data>
-  <data name="StartIP" xml:space="preserve">
+  <data name="FirstIP" xml:space="preserve">
 		<value>Başlangıç IP</value>
 	</data>
-  <data name="StartPort" xml:space="preserve">
+  <data name="FirstPort" xml:space="preserve">
 		<value>Başlangıç Port</value>
 	</data>
   <data name="StartupExit" xml:space="preserve">
@@ -2061,13 +2061,13 @@ Mesaj:
   <data name="SwitchToErrorsAndInfos" xml:space="preserve">
 		<value>Şunlardan bildirimler paneline geçin:</value>
 	</data>
-  <data name="TabAdvanced" xml:space="preserve">
+  <data name="Advanced" xml:space="preserve">
 		<value>Gelişmiş</value>
 	</data>
   <data name="TabsAndPanels" xml:space="preserve">
 		<value>Sekmeler &amp;&amp; Paneller</value>
 	</data>
-  <data name="TabUpdates" xml:space="preserve">
+  <data name="Updates" xml:space="preserve">
 		<value>Güncellemeler</value>
 	</data>
   <data name="TheFollowing" xml:space="preserve">

@@ -129,7 +129,7 @@
   <data name="AddConnection" xml:space="preserve">
     <value>Νέα σύνδεση</value>
   </data>
-  <data name="AddFolder" xml:space="preserve">
+  <data name="FolderNew" xml:space="preserve">
     <value>Νέος φάκελος</value>
   </data>
   <data name="AddNodeFromXmlFailed" xml:space="preserve">
@@ -189,19 +189,19 @@
   <data name="ButtonCancel" xml:space="preserve">
     <value>&amp;Ακύρωση</value>
   </data>
-  <data name="ButtonChange" xml:space="preserve">
+  <data name="Change" xml:space="preserve">
     <value>Αλλαγή</value>
   </data>
   <data name="ButtonClose" xml:space="preserve">
     <value>&amp;Κλείσιμο</value>
   </data>
-  <data name="ButtonDefaultInheritance" xml:space="preserve">
+  <data name="DefaultInheritance" xml:space="preserve">
     <value>Προεπιλογή κληρονομικότητας</value>
   </data>
-  <data name="ButtonDefaultProperties" xml:space="preserve">
+  <data name="DefaultProperties" xml:space="preserve">
     <value>Προεπιλεγμένες ιδιότητες</value>
   </data>
-  <data name="ButtonDisconnect" xml:space="preserve">
+  <data name="Disconnect" xml:space="preserve">
     <value>Αποσύνδεση</value>
   </data>
   <data name="PropertyNameIcon" xml:space="preserve">
@@ -210,10 +210,10 @@
   <data name="ButtonImport" xml:space="preserve">
     <value>&amp;Εισαγωγή</value>
   </data>
-  <data name="ButtonInheritance" xml:space="preserve">
+  <data name="Inheritance" xml:space="preserve">
     <value>Κληρονομιά</value>
   </data>
-  <data name="ButtonLaunchPutty" xml:space="preserve">
+  <data name="LaunchPutty" xml:space="preserve">
     <value>Εκκίνηση του PuTTY</value>
   </data>
   <data name="ButtonNew" xml:space="preserve">
@@ -222,7 +222,7 @@
   <data name="ButtonOK" xml:space="preserve">
     <value>&amp;ΟΚ</value>
   </data>
-  <data name="ButtonProperties" xml:space="preserve">
+  <data name="Properties" xml:space="preserve">
     <value>Ιδιότητες</value>
   </data>
   <data name="ButtonScan" xml:space="preserve">
@@ -231,7 +231,7 @@
   <data name="ButtonStop" xml:space="preserve">
     <value>&amp;Διακοπή</value>
   </data>
-  <data name="ButtonTestProxy" xml:space="preserve">
+  <data name="ProxyTest" xml:space="preserve">
     <value>Δοκιμή διακομιστή μεσολάβησης</value>
   </data>
   <data name="CannotImportNormalSessionFile" xml:space="preserve">

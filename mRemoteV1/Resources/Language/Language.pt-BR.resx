@@ -129,7 +129,7 @@
   <data name="AddConnection" xml:space="preserve">
     <value>Nova conexão</value>
   </data>
-  <data name="AddFolder" xml:space="preserve">
+  <data name="FolderNew" xml:space="preserve">
     <value>Nova pasta</value>
   </data>
   <data name="AddNodeFromXmlFailed" xml:space="preserve">
@@ -189,19 +189,19 @@
   <data name="ButtonCancel" xml:space="preserve">
     <value>&amp; Cancelar</value>
   </data>
-  <data name="ButtonChange" xml:space="preserve">
+  <data name="Change" xml:space="preserve">
     <value>Alterar</value>
   </data>
   <data name="ButtonClose" xml:space="preserve">
     <value>&amp; Fechar</value>
   </data>
-  <data name="ButtonDefaultInheritance" xml:space="preserve">
+  <data name="DefaultInheritance" xml:space="preserve">
     <value>Herança padrão</value>
   </data>
-  <data name="ButtonDefaultProperties" xml:space="preserve">
+  <data name="DefaultProperties" xml:space="preserve">
     <value>Propriedades padrões</value>
   </data>
-  <data name="ButtonDisconnect" xml:space="preserve">
+  <data name="Disconnect" xml:space="preserve">
     <value>Desconectar</value>
   </data>
   <data name="PropertyNameIcon" xml:space="preserve">
@@ -210,10 +210,10 @@
   <data name="ButtonImport" xml:space="preserve">
     <value>&amp; Importar</value>
   </data>
-  <data name="ButtonInheritance" xml:space="preserve">
+  <data name="Inheritance" xml:space="preserve">
     <value>Herança</value>
   </data>
-  <data name="ButtonLaunchPutty" xml:space="preserve">
+  <data name="LaunchPutty" xml:space="preserve">
     <value>Executar o PuTTY</value>
   </data>
   <data name="ButtonNew" xml:space="preserve">
@@ -222,7 +222,7 @@
   <data name="ButtonOK" xml:space="preserve">
     <value>&amp; OK</value>
   </data>
-  <data name="ButtonProperties" xml:space="preserve">
+  <data name="Properties" xml:space="preserve">
     <value>Propriedades</value>
   </data>
   <data name="ButtonScan" xml:space="preserve">
@@ -231,7 +231,7 @@
   <data name="ButtonStop" xml:space="preserve">
     <value>&amp; Parar</value>
   </data>
-  <data name="ButtonTestProxy" xml:space="preserve">
+  <data name="ProxyTest" xml:space="preserve">
     <value>Testar Proxy</value>
   </data>
   <data name="CannotImportNormalSessionFile" xml:space="preserve">
@@ -323,7 +323,7 @@ Por favor, certifique-se de que você tem o Putty.exe em seu diretório mRemoteN
   <data name="PropertyNameUsername" xml:space="preserve">
     <value>Nome de usuário</value>
   </data>
-  <data name="CheckboxWaitForExit" xml:space="preserve">
+  <data name="WaitForExit" xml:space="preserve">
     <value>Esperar para sair</value>
   </data>
   <data name="CheckForUpdate" xml:space="preserve">
@@ -341,19 +341,19 @@ Por favor, certifique-se de que você tem o Putty.exe em seu diretório mRemoteN
   <data name="CollapseAllFolders" xml:space="preserve">
     <value>Recolher todas as pastas</value>
   </data>
-  <data name="ColumnArguments" xml:space="preserve">
+  <data name="Arguments" xml:space="preserve">
     <value>Argumentos</value>
   </data>
-  <data name="ColumnDisplayName" xml:space="preserve">
+  <data name="DisplayName" xml:space="preserve">
     <value>Nome de exibição</value>
   </data>
-  <data name="ColumnFilename" xml:space="preserve">
+  <data name="Filename" xml:space="preserve">
     <value>Nome do arquivo</value>
   </data>
   <data name="PropertyNameAddress" xml:space="preserve">
     <value>HostName/IP</value>
   </data>
-  <data name="ColumnMessage" xml:space="preserve">
+  <data name="Message" xml:space="preserve">
     <value>Mensagem</value>
   </data>
   <data name="ComponentsCheck" xml:space="preserve">

@@ -92,7 +92,7 @@ namespace mRemoteNG.UI.Window
             btnImport.Text = Language.ButtonImport;
             lblDomain.Text = $@"{Language.PropertyNameDomain}:";
             chkSubOU.Text = Language.ImportSubOUs;
-            btnChangeDomain.Text = Language.ButtonChange;
+            btnChangeDomain.Text = Language.Change;
             btnClose.Text = Language.ButtonClose;
         }
 

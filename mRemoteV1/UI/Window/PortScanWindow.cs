@@ -160,7 +160,7 @@ namespace mRemoteNG.UI.Window
 
         private void ApplyLanguage()
         {
-            lblStartIP.Text = Language.StartIP;
+            lblStartIP.Text = Language.FirstIP;
             lblEndIP.Text = Language.EndIP;
             btnScan.Text = Language.ButtonScan;
             btnImport.Text = Language.ButtonImport;
@@ -168,7 +168,7 @@ namespace mRemoteNG.UI.Window
             clmHost.Text = Language.PropertyNameAddress;
             clmOpenPorts.Text = Language.OpenPorts;
             clmClosedPorts.Text = Language.ClosedPorts;
-            ngCheckFirstPort.Text = Language.StartPort;
+            ngCheckFirstPort.Text = Language.FirstPort;
             ngCheckLastPort.Text = Language.EndPort;
             lblTimeout.Text = Language.TimeoutInSeconds;
             TabText = Language.MenuPortScan;

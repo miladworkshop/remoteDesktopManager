@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.IO;
 using System.Windows.Forms;
 using mRemoteNG.App;
@@ -25,7 +25,7 @@ namespace mRemoteNG.UI.Forms.OptionsPages
 
         public override string PageName
         {
-            get => Language.TabAdvanced;
+            get => Language.Advanced;
             set { }
         }
 
@@ -38,7 +38,7 @@ namespace mRemoteNG.UI.Forms.OptionsPages
             chkAutomaticReconnect.Text = Language.CheckboxAutomaticReconnect;
             chkLoadBalanceInfoUseUtf8.Text = Language.LoadBalanceInfoUseUtf8;
             lblConfigurePuttySessions.Text = Language.LabelPuttySessionsConfig;
-            btnLaunchPutty.Text = Language.ButtonLaunchPutty;
+            btnLaunchPutty.Text = Language.LaunchPutty;
             btnBrowseCustomPuttyPath.Text = Language.ButtonBrowse;
             chkUseCustomPuttyPath.Text = Language.CheckboxPuttyPath;
             chkAutomaticallyGetSessionInfo.Text = Language.AutomaticallyGetSessionInfo;

@@ -129,7 +129,7 @@
   <data name="AddConnection" xml:space="preserve">
     <value>Ny tilkobling</value>
   </data>
-  <data name="AddFolder" xml:space="preserve">
+  <data name="FolderNew" xml:space="preserve">
     <value>Ny mappe</value>
   </data>
   <data name="AddNodeFromXmlFailed" xml:space="preserve">
@@ -192,19 +192,19 @@
   <data name="ButtonCancel" xml:space="preserve">
     <value>&amp;Avbryt</value>
   </data>
-  <data name="ButtonChange" xml:space="preserve">
+  <data name="Change" xml:space="preserve">
     <value>Endre</value>
   </data>
   <data name="ButtonClose" xml:space="preserve">
     <value>&amp;Lukk</value>
   </data>
-  <data name="ButtonDefaultInheritance" xml:space="preserve">
+  <data name="DefaultInheritance" xml:space="preserve">
     <value>Standard arv</value>
   </data>
-  <data name="ButtonDefaultProperties" xml:space="preserve">
+  <data name="DefaultProperties" xml:space="preserve">
     <value>Standardegenskaper</value>
   </data>
-  <data name="ButtonDisconnect" xml:space="preserve">
+  <data name="Disconnect" xml:space="preserve">
     <value>Koble fra</value>
   </data>
   <data name="PropertyNameIcon" xml:space="preserve">
@@ -213,10 +213,10 @@
   <data name="ButtonImport" xml:space="preserve">
     <value>&amp;Importer</value>
   </data>
-  <data name="ButtonInheritance" xml:space="preserve">
+  <data name="Inheritance" xml:space="preserve">
     <value>Arv</value>
   </data>
-  <data name="ButtonLaunchPutty" xml:space="preserve">
+  <data name="LaunchPutty" xml:space="preserve">
     <value>Start PuTTY</value>
   </data>
   <data name="ButtonNew" xml:space="preserve">
@@ -225,7 +225,7 @@
   <data name="ButtonOK" xml:space="preserve">
     <value>&amp;OK</value>
   </data>
-  <data name="ButtonProperties" xml:space="preserve">
+  <data name="Properties" xml:space="preserve">
     <value>Egenskaper</value>
   </data>
   <data name="ButtonScan" xml:space="preserve">
@@ -234,7 +234,7 @@
   <data name="ButtonStop" xml:space="preserve">
     <value>&amp;Stopp</value>
   </data>
-  <data name="ButtonTestProxy" xml:space="preserve">
+  <data name="ProxyTest" xml:space="preserve">
     <value>Test proxy</value>
   </data>
   <data name="CannotImportNormalSessionFile" xml:space="preserve">
@@ -348,7 +348,7 @@ VncSharp Control Version {0}</value>
   <data name="PropertyNameUsername" xml:space="preserve">
     <value>Brukernavn</value>
   </data>
-  <data name="CheckboxWaitForExit" xml:space="preserve">
+  <data name="WaitForExit" xml:space="preserve">
     <value>Vent på avslutning</value>
   </data>
   <data name="CheckForUpdate" xml:space="preserve">
@@ -372,19 +372,19 @@ VncSharp Control Version {0}</value>
   <data name="CollapseAllFolders" xml:space="preserve">
     <value>Slå sammen alle mapper</value>
   </data>
-  <data name="ColumnArguments" xml:space="preserve">
+  <data name="Arguments" xml:space="preserve">
     <value>Argumenter</value>
   </data>
-  <data name="ColumnDisplayName" xml:space="preserve">
+  <data name="DisplayName" xml:space="preserve">
     <value>Visningsnavn</value>
   </data>
-  <data name="ColumnFilename" xml:space="preserve">
+  <data name="Filename" xml:space="preserve">
     <value>Filnavn</value>
   </data>
   <data name="PropertyNameAddress" xml:space="preserve">
     <value>Vertsnavn/IP-adresse</value>
   </data>
-  <data name="ColumnMessage" xml:space="preserve">
+  <data name="Message" xml:space="preserve">
     <value>Melding</value>
   </data>
   <data name="CommandLineArgsCouldNotBeParsed" xml:space="preserve">
@@ -670,7 +670,7 @@ Starter med ny tilkoblingsfil.</value>
   <data name="GroupboxExternalToolProperties" xml:space="preserve">
     <value>Egenskaper for eksterne verktøy</value>
   </data>
-  <data name="GroupboxFiles" xml:space="preserve">
+  <data name="Files" xml:space="preserve">
     <value>Filer</value>
   </data>
   <data name="Host" xml:space="preserve">
@@ -778,7 +778,7 @@ Starter med ny tilkoblingsfil.</value>
   <data name="LabelHostname" xml:space="preserve">
     <value>Vertsnavn:</value>
   </data>
-  <data name="LabelPortableEdition" xml:space="preserve">
+  <data name="PortableEdition" xml:space="preserve">
     <value>Portable Edition</value>
   </data>
   <data name="PropertyNameProtocol" xml:space="preserve">
@@ -802,7 +802,7 @@ Starter med ny tilkoblingsfil.</value>
   <data name="LabelServerStatus" xml:space="preserve">
     <value>Serverstatus:</value>
   </data>
-  <data name="LabelSQLDatabaseName" xml:space="preserve">
+  <data name="Database" xml:space="preserve">
     <value>Database:</value>
   </data>
   <data name="LabelVerify" xml:space="preserve">
@@ -847,7 +847,7 @@ Starter med ny tilkoblingsfil.</value>
   <data name="MenuCheckForUpdates" xml:space="preserve">
     <value>Se etter oppdateringer</value>
   </data>
-  <data name="MenuConfig" xml:space="preserve">
+  <data name="Config" xml:space="preserve">
     <value>Oppsett</value>
   </data>
   <data name="MenuConnectionPanels" xml:space="preserve">
@@ -856,7 +856,7 @@ Starter med ny tilkoblingsfil.</value>
   <data name="MenuConnectionsAndConfig" xml:space="preserve">
     <value>Tilkoblinger og oppsett</value>
   </data>
-  <data name="MenuCopy" xml:space="preserve">
+  <data name="Copy" xml:space="preserve">
     <value>Kopier</value>
   </data>
   <data name="MenuCtrlAltDel" xml:space="preserve">
@@ -886,7 +886,7 @@ Starter med ny tilkoblingsfil.</value>
   <data name="MenuDuplicateTab" xml:space="preserve">
     <value>Kopier fane</value>
   </data>
-  <data name="MenuExit" xml:space="preserve">
+  <data name="Exit" xml:space="preserve">
     <value>Avslutt</value>
   </data>
   <data name="MenuExternalTools" xml:space="preserve">
@@ -958,7 +958,7 @@ Starter med ny tilkoblingsfil.</value>
   <data name="MenuRenameFolder" xml:space="preserve">
     <value>Gi nytt navn til mappe</value>
   </data>
-  <data name="MenuRenameTab" xml:space="preserve">
+  <data name="TabRename" xml:space="preserve">
     <value>Gi nytt navn til fane</value>
   </data>
   <data name="MenuReportBug" xml:space="preserve">
@@ -1015,7 +1015,7 @@ Starter med ny tilkoblingsfil.</value>
   <data name="MenuViewOnly" xml:space="preserve">
     <value>Kun visning (VNC)</value>
   </data>
-  <data name="MenuWebsite" xml:space="preserve">
+  <data name="Website" xml:space="preserve">
     <value>Nettsted</value>
   </data>
   <data name="MinimizeToSysTray" xml:space="preserve">
@@ -1075,7 +1075,7 @@ Starter med ny tilkoblingsfil.</value>
   <data name="OpenPorts" xml:space="preserve">
     <value>Åpne porter</value>
   </data>
-  <data name="OptionsTabTheme" xml:space="preserve">
+  <data name="Theme" xml:space="preserve">
     <value>Tema</value>
   </data>
   <data name="PanelName" xml:space="preserve">
@@ -1747,10 +1747,10 @@ Melding:
   <data name="SSHTransferFailed" xml:space="preserve">
     <value>SSH-overføringen mislyktes.</value>
   </data>
-  <data name="StartIP" xml:space="preserve">
+  <data name="FirstIP" xml:space="preserve">
     <value>Start IP-adresse</value>
   </data>
-  <data name="StartPort" xml:space="preserve">
+  <data name="FirstPort" xml:space="preserve">
     <value>Start-port</value>
   </data>
   <data name="StartupExit" xml:space="preserve">
@@ -1762,13 +1762,13 @@ Melding:
   <data name="SwitchToErrorsAndInfos" xml:space="preserve">
     <value>Bytte til varslingspanelet på:</value>
   </data>
-  <data name="TabAdvanced" xml:space="preserve">
+  <data name="Advanced" xml:space="preserve">
     <value>Avansert</value>
   </data>
   <data name="TabsAndPanels" xml:space="preserve">
     <value>Faner &amp;&amp; paneler</value>
   </data>
-  <data name="TabUpdates" xml:space="preserve">
+  <data name="Updates" xml:space="preserve">
     <value>Oppdateringer</value>
   </data>
   <data name="Telnet" xml:space="preserve">

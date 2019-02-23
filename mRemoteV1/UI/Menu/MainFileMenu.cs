@@ -113,7 +113,7 @@ namespace mRemoteNG.UI.Menu
             _mMenFileNewFolder.ShortcutKeys = (Keys.Control | Keys.Shift)
                                             | Keys.N;
             _mMenFileNewFolder.Size = new System.Drawing.Size(281, 22);
-            _mMenFileNewFolder.Text = Language.AddFolder;
+            _mMenFileNewFolder.Text = Language.FolderNew;
             _mMenFileNewFolder.Click += mMenFileNewFolder_Click;
             // 
             // mMenFileSep1
@@ -255,7 +255,7 @@ namespace mRemoteNG.UI.Menu
             _mMenFileExit.Name = "mMenFileExit";
             _mMenFileExit.ShortcutKeys = Keys.Alt | Keys.F4;
             _mMenFileExit.Size = new System.Drawing.Size(281, 22);
-            _mMenFileExit.Text = Language.MenuExit;
+            _mMenFileExit.Text = Language.Exit;
             _mMenFileExit.Click += mMenFileExit_Click;
         }
 
@@ -263,7 +263,7 @@ namespace mRemoteNG.UI.Menu
         {
             Text = Language.MenuFile;
             _mMenFileNewConnection.Text = Language.AddConnection;
-            _mMenFileNewFolder.Text = Language.AddFolder;
+            _mMenFileNewFolder.Text = Language.FolderNew;
             _mMenFileNew.Text = Language.MenuNewConnectionFile;
             _mMenFileLoad.Text = Language.MenuOpenConnectionFile;
             _mMenFileSave.Text = Language.MenuSaveConnectionFile;
@@ -273,7 +273,7 @@ namespace mRemoteNG.UI.Menu
             _mMenFileImportFromActiveDirectory.Text = Language.ImportAD;
             _mMenFileImportFromPortScan.Text = Language.ImportPortScan;
             _mMenFileExport.Text = Language.ExportToFileMenuItem;
-            _mMenFileExit.Text = Language.MenuExit;
+            _mMenFileExit.Text = Language.Exit;
         }
 
         #region File

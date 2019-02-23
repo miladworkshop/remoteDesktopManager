@@ -132,7 +132,7 @@
   <data name="AddConnection" xml:space="preserve">
     <value>Nové připojení</value>
   </data>
-  <data name="AddFolder" xml:space="preserve">
+  <data name="FolderNew" xml:space="preserve">
     <value>Nová složka</value>
   </data>
   <data name="AddNodeFromXmlFailed" xml:space="preserve">
@@ -195,19 +195,19 @@
   <data name="ButtonCancel" xml:space="preserve">
     <value>&amp;Storno</value>
   </data>
-  <data name="ButtonChange" xml:space="preserve">
+  <data name="Change" xml:space="preserve">
     <value>Změnit</value>
   </data>
   <data name="ButtonClose" xml:space="preserve">
     <value>&amp;Zavřít</value>
   </data>
-  <data name="ButtonDefaultInheritance" xml:space="preserve">
+  <data name="DefaultInheritance" xml:space="preserve">
     <value>Výchozí převezetí z nadřízené</value>
   </data>
-  <data name="ButtonDefaultProperties" xml:space="preserve">
+  <data name="DefaultProperties" xml:space="preserve">
     <value>Výchozí vlastnosti</value>
   </data>
-  <data name="ButtonDisconnect" xml:space="preserve">
+  <data name="Disconnect" xml:space="preserve">
     <value>Odpojit</value>
   </data>
   <data name="PropertyNameIcon" xml:space="preserve">
@@ -216,13 +216,13 @@
   <data name="ButtonImport" xml:space="preserve">
     <value>&amp;Importovat</value>
   </data>
-  <data name="ButtonInheritance" xml:space="preserve">
+  <data name="Inheritance" xml:space="preserve">
     <value>Z nadřazené</value>
   </data>
   <data name="ButtonLaunch" xml:space="preserve">
     <value>&amp;Spustit</value>
   </data>
-  <data name="ButtonLaunchPutty" xml:space="preserve">
+  <data name="LaunchPutty" xml:space="preserve">
     <value>Spustit PuTTY</value>
   </data>
   <data name="ButtonNew" xml:space="preserve">
@@ -231,7 +231,7 @@
   <data name="ButtonOK" xml:space="preserve">
     <value>&amp;OK</value>
   </data>
-  <data name="ButtonProperties" xml:space="preserve">
+  <data name="Properties" xml:space="preserve">
     <value>Vlastnosti</value>
   </data>
   <data name="ButtonScan" xml:space="preserve">
@@ -240,7 +240,7 @@
   <data name="ButtonStop" xml:space="preserve">
     <value>&amp;Stop</value>
   </data>
-  <data name="ButtonTestProxy" xml:space="preserve">
+  <data name="ProxyTest" xml:space="preserve">
     <value>Test Proxy</value>
   </data>
   <data name="CannotImportNormalSessionFile" xml:space="preserve">
@@ -353,7 +353,7 @@ VncSharp Control verze {0}</value>
   <data name="PropertyNameUsername" xml:space="preserve">
     <value>Login</value>
   </data>
-  <data name="CheckboxWaitForExit" xml:space="preserve">
+  <data name="WaitForExit" xml:space="preserve">
     <value>Čekat na logout</value>
   </data>
   <data name="CheckForUpdate" xml:space="preserve">
@@ -377,19 +377,19 @@ VncSharp Control verze {0}</value>
   <data name="CollapseAllFolders" xml:space="preserve">
     <value>Sbalit vše</value>
   </data>
-  <data name="ColumnArguments" xml:space="preserve">
+  <data name="Arguments" xml:space="preserve">
     <value>Přepínače (parametry)</value>
   </data>
-  <data name="ColumnDisplayName" xml:space="preserve">
+  <data name="DisplayName" xml:space="preserve">
     <value>Zobrazené jméno</value>
   </data>
-  <data name="ColumnFilename" xml:space="preserve">
+  <data name="Filename" xml:space="preserve">
     <value>Jméno souboru</value>
   </data>
   <data name="PropertyNameAddress" xml:space="preserve">
     <value>Host/IP</value>
   </data>
-  <data name="ColumnMessage" xml:space="preserve">
+  <data name="Message" xml:space="preserve">
     <value>Zpráva</value>
   </data>
   <data name="CommandExitProgram" xml:space="preserve">
@@ -738,7 +738,7 @@ Otevírám nový prázdný soubor seznamu spojení.</value>
   <data name="GroupboxExternalToolProperties" xml:space="preserve">
     <value>Vlastnosti externích nástrojů</value>
   </data>
-  <data name="GroupboxFiles" xml:space="preserve">
+  <data name="Files" xml:space="preserve">
     <value>Soubory</value>
   </data>
   <data name="Host" xml:space="preserve">
@@ -879,7 +879,7 @@ Otevírám nový prázdný soubor seznamu spojení.</value>
   <data name="LabelHostname" xml:space="preserve">
     <value>Hostitel:</value>
   </data>
-  <data name="LabelPortableEdition" xml:space="preserve">
+  <data name="PortableEdition" xml:space="preserve">
     <value>Přenosná verze</value>
   </data>
   <data name="PropertyNameProtocol" xml:space="preserve">
@@ -903,7 +903,7 @@ Otevírám nový prázdný soubor seznamu spojení.</value>
   <data name="LabelServerStatus" xml:space="preserve">
     <value>Stav Serveru:</value>
   </data>
-  <data name="LabelSQLDatabaseName" xml:space="preserve">
+  <data name="Database" xml:space="preserve">
     <value>Databáze:</value>
   </data>
   <data name="LabelVerify" xml:space="preserve">
@@ -954,7 +954,7 @@ Otevírám nový prázdný soubor seznamu spojení.</value>
   <data name="MenuCheckForUpdates" xml:space="preserve">
     <value>Vyhledat aktualizace</value>
   </data>
-  <data name="MenuConfig" xml:space="preserve">
+  <data name="Config" xml:space="preserve">
     <value>Nastavení</value>
   </data>
   <data name="MenuConnectionPanels" xml:space="preserve">
@@ -963,7 +963,7 @@ Otevírám nový prázdný soubor seznamu spojení.</value>
   <data name="MenuConnectionsAndConfig" xml:space="preserve">
     <value>Nastavení spojení</value>
   </data>
-  <data name="MenuCopy" xml:space="preserve">
+  <data name="Copy" xml:space="preserve">
     <value>Kopírovat</value>
   </data>
   <data name="MenuCtrlAltDel" xml:space="preserve">
@@ -993,7 +993,7 @@ Otevírám nový prázdný soubor seznamu spojení.</value>
   <data name="MenuDuplicateTab" xml:space="preserve">
     <value>Klonovat záložku tabu</value>
   </data>
-  <data name="MenuExit" xml:space="preserve">
+  <data name="Exit" xml:space="preserve">
     <value>Exit</value>
   </data>
   <data name="MenuExternalTools" xml:space="preserve">
@@ -1065,7 +1065,7 @@ Otevírám nový prázdný soubor seznamu spojení.</value>
   <data name="MenuRenameFolder" xml:space="preserve">
     <value>Přejmenovat složku</value>
   </data>
-  <data name="MenuRenameTab" xml:space="preserve">
+  <data name="TabRename" xml:space="preserve">
     <value>Přejmonovat záložku tabu</value>
   </data>
   <data name="MenuReportBug" xml:space="preserve">
@@ -1125,7 +1125,7 @@ Otevírám nový prázdný soubor seznamu spojení.</value>
   <data name="MenuViewOnly" xml:space="preserve">
     <value>Pouze prohlížet (VNC)</value>
   </data>
-  <data name="MenuWebsite" xml:space="preserve">
+  <data name="Website" xml:space="preserve">
     <value>Webová stránka</value>
   </data>
   <data name="MinimizeToSysTray" xml:space="preserve">
@@ -1201,7 +1201,7 @@ Pokud k takové chybě dojde, prosím vytvořte nový soubor se seznamem spojen�
   <data name="OptionsKeyboardButtonResetAll" xml:space="preserve">
     <value>Resetovat &amp;všechny na výchozí</value>
   </data>
-  <data name="OptionsKeyboardCommandsGroupTabs" xml:space="preserve">
+  <data name="Tabs" xml:space="preserve">
     <value>Taby</value>
   </data>
   <data name="OptionsKeyboardCommandsNextTab" xml:space="preserve">
@@ -1219,10 +1219,10 @@ Pokud k takové chybě dojde, prosím vytvořte nový soubor se seznamem spojen�
   <data name="OptionsProxyTesting" xml:space="preserve">
     <value>Ověřuji...</value>
   </data>
-  <data name="OptionsTabKeyboard" xml:space="preserve">
+  <data name="Keyboard" xml:space="preserve">
     <value>Klávesnice</value>
   </data>
-  <data name="OptionsTabTheme" xml:space="preserve">
+  <data name="Theme" xml:space="preserve">
     <value>Vzhled</value>
   </data>
   <data name="PanelName" xml:space="preserve">
@@ -1918,10 +1918,10 @@ Zpráva:
   <data name="SSHTransferFailed" xml:space="preserve">
     <value>Selhal přenos přes SSH.</value>
   </data>
-  <data name="StartIP" xml:space="preserve">
+  <data name="FirstIP" xml:space="preserve">
     <value>Počáteční IP</value>
   </data>
-  <data name="StartPort" xml:space="preserve">
+  <data name="FirstPort" xml:space="preserve">
     <value>Počáteční Port</value>
   </data>
   <data name="StartupExit" xml:space="preserve">
@@ -1933,13 +1933,13 @@ Zpráva:
   <data name="SwitchToErrorsAndInfos" xml:space="preserve">
     <value>Přepnout do notifikačního panelu při:</value>
   </data>
-  <data name="TabAdvanced" xml:space="preserve">
+  <data name="Advanced" xml:space="preserve">
     <value>Pokročilé</value>
   </data>
   <data name="TabsAndPanels" xml:space="preserve">
     <value>Taby &amp;&amp; Panely</value>
   </data>
-  <data name="TabUpdates" xml:space="preserve">
+  <data name="Updates" xml:space="preserve">
     <value>Aktualizace</value>
   </data>
   <data name="Telnet" xml:space="preserve">
@@ -2228,7 +2228,7 @@ mRemoteNG se nyní ukončí a zahájí instalaci.</value>
   <data name="EncryptionEngine" xml:space="preserve">
     <value>Šifrovací metody</value>
   </data>
-  <data name="TabSecurity" xml:space="preserve">
+  <data name="Security" xml:space="preserve">
     <value>Bezpečnost</value>
   </data>
   <data name="EncryptionKeyDerivationIterations" xml:space="preserve">

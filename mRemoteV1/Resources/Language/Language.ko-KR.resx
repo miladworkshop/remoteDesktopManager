@@ -132,7 +132,7 @@
   <data name="AddConnection" xml:space="preserve">
 		<value>새 연결</value>
 	</data>
-  <data name="AddFolder" xml:space="preserve">
+  <data name="FolderNew" xml:space="preserve">
 		<value>새 폴더</value>
 	</data>
   <data name="AddNodeFromXmlFailed" xml:space="preserve">
@@ -195,19 +195,19 @@
   <data name="ButtonCancel" xml:space="preserve">
 		<value>취소(&amp;C)</value>
 	</data>
-  <data name="ButtonChange" xml:space="preserve">
+  <data name="Change" xml:space="preserve">
 		<value>변경</value>
 	</data>
   <data name="ButtonClose" xml:space="preserve">
 		<value>닫기(&amp;C)</value>
 	</data>
-  <data name="ButtonDefaultInheritance" xml:space="preserve">
+  <data name="DefaultInheritance" xml:space="preserve">
 		<value>기본 상속</value>
 	</data>
-  <data name="ButtonDefaultProperties" xml:space="preserve">
+  <data name="DefaultProperties" xml:space="preserve">
 		<value>기본 속성</value>
 	</data>
-  <data name="ButtonDisconnect" xml:space="preserve">
+  <data name="Disconnect" xml:space="preserve">
 		<value>연결 끊기</value>
 	</data>
   <data name="PropertyNameIcon" xml:space="preserve">
@@ -216,13 +216,13 @@
   <data name="ButtonImport" xml:space="preserve">
 		<value>임포트(&amp;I)</value>
 	</data>
-  <data name="ButtonInheritance" xml:space="preserve">
+  <data name="Inheritance" xml:space="preserve">
 		<value>상속</value>
 	</data>
   <data name="ButtonLaunch" xml:space="preserve">
 		<value>시작(&amp;L)</value>
 	</data>
-  <data name="ButtonLaunchPutty" xml:space="preserve">
+  <data name="LaunchPutty" xml:space="preserve">
 		<value>PuTTY 시작</value>
 	</data>
   <data name="ButtonNew" xml:space="preserve">
@@ -231,7 +231,7 @@
   <data name="ButtonOK" xml:space="preserve">
 		<value>확인(&amp;O)</value>
 	</data>
-  <data name="ButtonProperties" xml:space="preserve">
+  <data name="Properties" xml:space="preserve">
 		<value>등록정보</value>
 	</data>
   <data name="ButtonScan" xml:space="preserve">
@@ -240,7 +240,7 @@
   <data name="ButtonStop" xml:space="preserve">
 		<value>중단(&amp;S)</value>
 	</data>
-  <data name="ButtonTestProxy" xml:space="preserve">
+  <data name="ProxyTest" xml:space="preserve">
 		<value>포록시 테스트</value>
 	</data>
   <data name="CannotImportNormalSessionFile" xml:space="preserve">
@@ -353,7 +353,7 @@ VncSharp 제어 버전 {0}</value>
   <data name="PropertyNameUsername" xml:space="preserve">
 		<value>사용자 이름</value>
 	</data>
-  <data name="CheckboxWaitForExit" xml:space="preserve">
+  <data name="WaitForExit" xml:space="preserve">
 		<value>종료까지 대기</value>
 	</data>
   <data name="CheckForUpdate" xml:space="preserve">
@@ -497,7 +497,7 @@ VncSharp 제어 버전 {0}</value>
   <data name="EncryptionEngine" xml:space="preserve">
 		<value>암호화 엔진</value>
 	</data>
-  <data name="TabSecurity" xml:space="preserve">
+  <data name="Security" xml:space="preserve">
 		<value>보안</value>
 	</data>
   <data name="EncryptionKeyDerivationIterations" xml:space="preserve">
@@ -515,19 +515,19 @@ VncSharp 제어 버전 {0}</value>
   <data name="PropertyDescriptionSoundQuality" xml:space="preserve">
 		<value>프로토콜에서 제공하는 음질을 선택하십시오 : 동적, 중간, 높음</value>
 	</data>
-  <data name="ColumnArguments" xml:space="preserve">
+  <data name="Arguments" xml:space="preserve">
 		<value>인수</value>
 	</data>
-  <data name="ColumnDisplayName" xml:space="preserve">
+  <data name="DisplayName" xml:space="preserve">
 		<value>표시 이름</value>
 	</data>
-  <data name="ColumnFilename" xml:space="preserve">
+  <data name="Filename" xml:space="preserve">
 		<value>파일 이름</value>
 	</data>
   <data name="PropertyNameAddress" xml:space="preserve">
 		<value>호스트 이름 / IP</value>
 	</data>
-  <data name="ColumnMessage" xml:space="preserve">
+  <data name="Message" xml:space="preserve">
 		<value>메시지</value>
 	</data>
   <data name="CommandExitProgram" xml:space="preserve">
@@ -875,7 +875,7 @@ VncSharp 제어 버전 {0}</value>
   <data name="GroupboxExternalToolProperties" xml:space="preserve">
 		<value>외부 도구 속성</value>
 	</data>
-  <data name="GroupboxFiles" xml:space="preserve">
+  <data name="Files" xml:space="preserve">
 		<value>파일</value>
 	</data>
   <data name="Host" xml:space="preserve">
@@ -1016,7 +1016,7 @@ VncSharp 제어 버전 {0}</value>
   <data name="LabelHostname" xml:space="preserve">
 		<value>호스트 이름 :</value>
 	</data>
-  <data name="LabelPortableEdition" xml:space="preserve">
+  <data name="PortableEdition" xml:space="preserve">
 		<value>휴대용 버전</value>
 	</data>
   <data name="PropertyNameProtocol" xml:space="preserve">
@@ -1040,7 +1040,7 @@ VncSharp 제어 버전 {0}</value>
   <data name="LabelServerStatus" xml:space="preserve">
 		<value>서버 상태 :</value>
 	</data>
-  <data name="LabelSQLDatabaseName" xml:space="preserve">
+  <data name="Database" xml:space="preserve">
 		<value>데이터 베이스:</value>
 	</data>
   <data name="LabelVerify" xml:space="preserve">
@@ -1091,7 +1091,7 @@ VncSharp 제어 버전 {0}</value>
   <data name="MenuCheckForUpdates" xml:space="preserve">
 		<value>업데이트 확인</value>
 	</data>
-  <data name="MenuConfig" xml:space="preserve">
+  <data name="Config" xml:space="preserve">
 		<value>구성</value>
 	</data>
   <data name="MenuConnectionPanels" xml:space="preserve">
@@ -1100,7 +1100,7 @@ VncSharp 제어 버전 {0}</value>
   <data name="MenuConnectionsAndConfig" xml:space="preserve">
 		<value>연결 및 구성</value>
 	</data>
-  <data name="MenuCopy" xml:space="preserve">
+  <data name="Copy" xml:space="preserve">
 		<value>복사</value>
 	</data>
   <data name="MenuCtrlAltDel" xml:space="preserve">
@@ -1130,7 +1130,7 @@ VncSharp 제어 버전 {0}</value>
   <data name="MenuDuplicateTab" xml:space="preserve">
 		<value>중복 탭</value>
 	</data>
-  <data name="MenuExit" xml:space="preserve">
+  <data name="Exit" xml:space="preserve">
 		<value>종료</value>
 	</data>
   <data name="MenuExternalTools" xml:space="preserve">
@@ -1202,7 +1202,7 @@ VncSharp 제어 버전 {0}</value>
   <data name="MenuRenameFolder" xml:space="preserve">
 		<value>폴더 이름 바꾸기</value>
 	</data>
-  <data name="MenuRenameTab" xml:space="preserve">
+  <data name="TabRename" xml:space="preserve">
 		<value>탭 이름 바꾸기</value>
 	</data>
   <data name="MenuReportBug" xml:space="preserve">
@@ -1262,7 +1262,7 @@ VncSharp 제어 버전 {0}</value>
   <data name="MenuViewOnly" xml:space="preserve">
 		<value>보기 전용 (VNC)</value>
 	</data>
-  <data name="MenuWebsite" xml:space="preserve">
+  <data name="Website" xml:space="preserve">
 		<value>웹 사이트</value>
 	</data>
   <data name="MinimizeToSysTray" xml:space="preserve">
@@ -1338,7 +1338,7 @@ VncSharp 제어 버전 {0}</value>
   <data name="OptionsKeyboardButtonResetAll" xml:space="preserve">
 		<value>모두 기본값으로 재설정(&amp;A)</value>
 	</data>
-  <data name="OptionsKeyboardCommandsGroupTabs" xml:space="preserve">
+  <data name="Tabs" xml:space="preserve">
 		<value>탭</value>
 	</data>
   <data name="OptionsKeyboardCommandsNextTab" xml:space="preserve">
@@ -1356,10 +1356,10 @@ VncSharp 제어 버전 {0}</value>
   <data name="OptionsProxyTesting" xml:space="preserve">
 		<value>테스트 ...</value>
 	</data>
-  <data name="OptionsTabKeyboard" xml:space="preserve">
+  <data name="Keyboard" xml:space="preserve">
 		<value>키보드</value>
 	</data>
-  <data name="OptionsTabTheme" xml:space="preserve">
+  <data name="Theme" xml:space="preserve">
 		<value>테마</value>
 	</data>
   <data name="PanelName" xml:space="preserve">
@@ -2055,10 +2055,10 @@ VncSharp 제어 버전 {0}</value>
   <data name="SSHTransferFailed" xml:space="preserve">
 		<value>SSH 전송에 실패했습니다.</value>
 	</data>
-  <data name="StartIP" xml:space="preserve">
+  <data name="FirstIP" xml:space="preserve">
 		<value>시작 IP</value>
 	</data>
-  <data name="StartPort" xml:space="preserve">
+  <data name="FirstPort" xml:space="preserve">
 		<value>시작 포트</value>
 	</data>
   <data name="StartupExit" xml:space="preserve">
@@ -2070,13 +2070,13 @@ VncSharp 제어 버전 {0}</value>
   <data name="SwitchToErrorsAndInfos" xml:space="preserve">
 		<value>알림 패널에서 다음으로 전환 :</value>
 	</data>
-  <data name="TabAdvanced" xml:space="preserve">
+  <data name="Advanced" xml:space="preserve">
 		<value>고급</value>
 	</data>
   <data name="TabsAndPanels" xml:space="preserve">
 		<value>탭 &amp; 패널</value>
 	</data>
-  <data name="TabUpdates" xml:space="preserve">
+  <data name="Updates" xml:space="preserve">
 		<value>업데이트</value>
 	</data>
   <data name="Telnet" xml:space="preserve">

@@ -147,7 +147,7 @@ namespace mRemoteNG.App
                         Language.ConfigurationCreateNew,
                         Language.ConfigurationCustomPath,
                         Language.ConfigurationImportFile,
-                        Language.MenuExit
+                        Language.Exit
                     };
 
                     var answered = false;

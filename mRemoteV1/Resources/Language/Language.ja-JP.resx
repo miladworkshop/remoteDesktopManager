@@ -132,7 +132,7 @@
   <data name="AddConnection" xml:space="preserve">
     <value>新規接続</value>
   </data>
-  <data name="AddFolder" xml:space="preserve">
+  <data name="FolderNew" xml:space="preserve">
     <value>新しいフォルダー</value>
   </data>
   <data name="AddNodeFromXmlFailed" xml:space="preserve">
@@ -196,19 +196,19 @@
   <data name="ButtonCancel" xml:space="preserve">
     <value>キャンセル(&amp;C)</value>
   </data>
-  <data name="ButtonChange" xml:space="preserve">
+  <data name="Change" xml:space="preserve">
     <value>変更</value>
   </data>
   <data name="ButtonClose" xml:space="preserve">
     <value>閉じる(&amp;C)</value>
   </data>
-  <data name="ButtonDefaultInheritance" xml:space="preserve">
+  <data name="DefaultInheritance" xml:space="preserve">
     <value>Default Inheritance</value>
   </data>
-  <data name="ButtonDefaultProperties" xml:space="preserve">
+  <data name="DefaultProperties" xml:space="preserve">
     <value>デフォルトのプロパティ</value>
   </data>
-  <data name="ButtonDisconnect" xml:space="preserve">
+  <data name="Disconnect" xml:space="preserve">
     <value>切断</value>
   </data>
   <data name="PropertyNameIcon" xml:space="preserve">
@@ -217,13 +217,13 @@
   <data name="ButtonImport" xml:space="preserve">
     <value>インポート(&amp;I)</value>
   </data>
-  <data name="ButtonInheritance" xml:space="preserve">
+  <data name="Inheritance" xml:space="preserve">
     <value>Inheritance</value>
   </data>
   <data name="ButtonLaunch" xml:space="preserve">
     <value>立ち上げる(&amp;L)</value>
   </data>
-  <data name="ButtonLaunchPutty" xml:space="preserve">
+  <data name="LaunchPutty" xml:space="preserve">
     <value>PuTTYを開始</value>
   </data>
   <data name="ButtonNew" xml:space="preserve">
@@ -232,7 +232,7 @@
   <data name="ButtonOK" xml:space="preserve">
     <value>&amp;OK</value>
   </data>
-  <data name="ButtonProperties" xml:space="preserve">
+  <data name="Properties" xml:space="preserve">
     <value>プロパティ</value>
   </data>
   <data name="ButtonScan" xml:space="preserve">
@@ -241,7 +241,7 @@
   <data name="ButtonStop" xml:space="preserve">
     <value>停止(&amp;S)</value>
   </data>
-  <data name="ButtonTestProxy" xml:space="preserve">
+  <data name="ProxyTest" xml:space="preserve">
     <value>プロキシーをテストする</value>
   </data>
   <data name="CannotImportNormalSessionFile" xml:space="preserve">
@@ -357,7 +357,7 @@ VncSharp Control Version {0}</value>
   <data name="PropertyNameUsername" xml:space="preserve">
     <value>ユーザー名</value>
   </data>
-  <data name="CheckboxWaitForExit" xml:space="preserve">
+  <data name="WaitForExit" xml:space="preserve">
     <value>終了まで待機する</value>
   </data>
   <data name="CheckForUpdate" xml:space="preserve">
@@ -383,19 +383,19 @@ VncSharp Control Version {0}</value>
   <data name="CollapseAllFolders" xml:space="preserve">
     <value>すべてのフォルダを折りたたむ</value>
   </data>
-  <data name="ColumnArguments" xml:space="preserve">
+  <data name="Arguments" xml:space="preserve">
     <value>パラメータ</value>
   </data>
-  <data name="ColumnDisplayName" xml:space="preserve">
+  <data name="DisplayName" xml:space="preserve">
     <value>ディスプレイ名</value>
   </data>
-  <data name="ColumnFilename" xml:space="preserve">
+  <data name="Filename" xml:space="preserve">
     <value>ファイル名</value>
   </data>
   <data name="PropertyNameAddress" xml:space="preserve">
     <value>ホスト名/IP</value>
   </data>
-  <data name="ColumnMessage" xml:space="preserve">
+  <data name="Message" xml:space="preserve">
     <value>メッセージ</value>
   </data>
   <data name="CommandExitProgram" xml:space="preserve">
@@ -748,7 +748,7 @@ Starting with new connections file.</value>
   <data name="GroupboxExternalToolProperties" xml:space="preserve">
     <value>外部ツールプロパティ</value>
   </data>
-  <data name="GroupboxFiles" xml:space="preserve">
+  <data name="Files" xml:space="preserve">
     <value>ファイル</value>
   </data>
   <data name="Host" xml:space="preserve">
@@ -889,7 +889,7 @@ Starting with new connections file.</value>
   <data name="LabelHostname" xml:space="preserve">
     <value>ホスト名：</value>
   </data>
-  <data name="LabelPortableEdition" xml:space="preserve">
+  <data name="PortableEdition" xml:space="preserve">
     <value>ポータブル</value>
   </data>
   <data name="PropertyNameProtocol" xml:space="preserve">
@@ -914,7 +914,7 @@ Starting with new connections file.</value>
   <data name="LabelServerStatus" xml:space="preserve">
     <value>サーバーの状態：</value>
   </data>
-  <data name="LabelSQLDatabaseName" xml:space="preserve">
+  <data name="Database" xml:space="preserve">
     <value>データベース：</value>
   </data>
   <data name="LabelVerify" xml:space="preserve">
@@ -967,7 +967,7 @@ Starting with new connections file.</value>
   <data name="MenuCheckForUpdates" xml:space="preserve">
     <value>最新バージョンをチェック</value>
   </data>
-  <data name="MenuConfig" xml:space="preserve">
+  <data name="Config" xml:space="preserve">
     <value>設定</value>
   </data>
   <data name="MenuConnectionPanels" xml:space="preserve">
@@ -976,7 +976,7 @@ Starting with new connections file.</value>
   <data name="MenuConnectionsAndConfig" xml:space="preserve">
     <value>接続と設定</value>
   </data>
-  <data name="MenuCopy" xml:space="preserve">
+  <data name="Copy" xml:space="preserve">
     <value>コピー</value>
   </data>
   <data name="MenuCtrlAltDel" xml:space="preserve">
@@ -1006,7 +1006,7 @@ Starting with new connections file.</value>
   <data name="MenuDuplicateTab" xml:space="preserve">
     <value>タブを複製する</value>
   </data>
-  <data name="MenuExit" xml:space="preserve">
+  <data name="Exit" xml:space="preserve">
     <value>終了</value>
   </data>
   <data name="MenuExternalTools" xml:space="preserve">
@@ -1078,7 +1078,7 @@ Starting with new connections file.</value>
   <data name="MenuRenameFolder" xml:space="preserve">
     <value>フォルダ名を変更</value>
   </data>
-  <data name="MenuRenameTab" xml:space="preserve">
+  <data name="TabRename" xml:space="preserve">
     <value>タブ名を変更</value>
   </data>
   <data name="MenuReportBug" xml:space="preserve">
@@ -1139,7 +1139,7 @@ Starting with new connections file.</value>
   <data name="MenuViewOnly" xml:space="preserve">
     <value>View Only (VNC)</value>
   </data>
-  <data name="MenuWebsite" xml:space="preserve">
+  <data name="Website" xml:space="preserve">
     <value>ウェブサイト（英語）</value>
   </data>
   <data name="MinimizeToSysTray" xml:space="preserve">
@@ -1219,7 +1219,7 @@ If you run into such an error, please create a new connection file!</comment>
     <value>すべてデフォルトに戻す(&amp;A)</value>
     <comment>Reset &amp;All to Default</comment>
   </data>
-  <data name="OptionsKeyboardCommandsGroupTabs" xml:space="preserve">
+  <data name="Tabs" xml:space="preserve">
     <value>タブ</value>
   </data>
   <data name="OptionsKeyboardCommandsNextTab" xml:space="preserve">
@@ -1237,10 +1237,10 @@ If you run into such an error, please create a new connection file!</comment>
   <data name="OptionsProxyTesting" xml:space="preserve">
     <value>テストの実行中</value>
   </data>
-  <data name="OptionsTabKeyboard" xml:space="preserve">
+  <data name="Keyboard" xml:space="preserve">
     <value>キーボード</value>
   </data>
-  <data name="OptionsTabTheme" xml:space="preserve">
+  <data name="Theme" xml:space="preserve">
     <value>テーマ</value>
   </data>
   <data name="PanelName" xml:space="preserve">
@@ -1947,10 +1947,10 @@ Message:
   <data name="SSHTransferFailed" xml:space="preserve">
     <value>SSH経由の転送に失敗しました</value>
   </data>
-  <data name="StartIP" xml:space="preserve">
+  <data name="FirstIP" xml:space="preserve">
     <value>開始IP</value>
   </data>
-  <data name="StartPort" xml:space="preserve">
+  <data name="FirstPort" xml:space="preserve">
     <value>開始のポート</value>
   </data>
   <data name="StartupExit" xml:space="preserve">
@@ -1962,13 +1962,13 @@ Message:
   <data name="SwitchToErrorsAndInfos" xml:space="preserve">
     <value>Switch to Notifications panel on:</value>
   </data>
-  <data name="TabAdvanced" xml:space="preserve">
+  <data name="Advanced" xml:space="preserve">
     <value>詳細設定</value>
   </data>
   <data name="TabsAndPanels" xml:space="preserve">
     <value>タブとパネル</value>
   </data>
-  <data name="TabUpdates" xml:space="preserve">
+  <data name="Updates" xml:space="preserve">
     <value>タブの更新</value>
   </data>
   <data name="Telnet" xml:space="preserve">

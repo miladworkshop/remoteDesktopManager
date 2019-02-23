@@ -36,7 +36,7 @@ namespace mRemoteNG.UI
             {
                 Language.ConfigurationCreateNew,
                 Language.OpenADifferentFile,
-                Language.MenuExit
+                Language.Exit
             };
 
             if (showCancelButton)

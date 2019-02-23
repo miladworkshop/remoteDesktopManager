@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Drawing;
 using System.Collections;
 using System.Globalization;
@@ -48,7 +48,7 @@ namespace mRemoteNG.UI.Window
 
         private void ApplyLanguage()
         {
-            clmMessage.Text = Language.ColumnMessage;
+            clmMessage.Text = Language.Message;
             cMenMCCopy.Text = Language.MenuNotificationsCopyAll;
             cMenMCDelete.Text = Language.MenuNotificationsDeleteAll;
             TabText = Language.MenuNotifications;
@@ -305,7 +305,7 @@ namespace mRemoteNG.UI.Window
 
             if (lvErrorCollector.SelectedItems.Count > 0)
             {
-                cMenMCCopy.Text = Language.MenuCopy;
+                cMenMCCopy.Text = Language.Copy;
                 cMenMCDelete.Text = Language.MenuNotificationsDelete;
             }
             else

@@ -77,7 +77,7 @@ namespace mRemoteNG.UI.Menu
             _mMenInfoWebsite.Image = Resources.Website;
             _mMenInfoWebsite.Name = "mMenInfoWebsite";
             _mMenInfoWebsite.Size = new System.Drawing.Size(190, 22);
-            _mMenInfoWebsite.Text = Language.MenuWebsite;
+            _mMenInfoWebsite.Text = Language.Website;
             _mMenInfoWebsite.Click += mMenInfoWebsite_Click;
             // 
             // mMenInfoDonate
@@ -135,7 +135,7 @@ namespace mRemoteNG.UI.Menu
         {
             Text = Language.MenuHelp;
             _mMenInfoHelp.Text = Language.MenuHelpContents;
-            _mMenInfoWebsite.Text = Language.MenuWebsite;
+            _mMenInfoWebsite.Text = Language.Website;
             _mMenInfoDonate.Text = Language.MenuDonate;
             _mMenInfoForum.Text = Language.MenuSupportForum;
             _mMenInfoBugReport.Text = Language.MenuReportBug;

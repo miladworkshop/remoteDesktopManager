@@ -129,7 +129,7 @@
   <data name="AddConnection" xml:space="preserve">
     <value>Neue Verbindung</value>
   </data>
-  <data name="AddFolder" xml:space="preserve">
+  <data name="FolderNew" xml:space="preserve">
     <value>Neuer Ordner</value>
   </data>
   <data name="AddNodeFromXmlFailed" xml:space="preserve">
@@ -192,19 +192,19 @@
   <data name="ButtonCancel" xml:space="preserve">
     <value>&amp;Abbrechen</value>
   </data>
-  <data name="ButtonChange" xml:space="preserve">
+  <data name="Change" xml:space="preserve">
     <value>Ändern</value>
   </data>
   <data name="ButtonClose" xml:space="preserve">
     <value>&amp;Schließen</value>
   </data>
-  <data name="ButtonDefaultInheritance" xml:space="preserve">
+  <data name="DefaultInheritance" xml:space="preserve">
     <value>Standardvererbung</value>
   </data>
-  <data name="ButtonDefaultProperties" xml:space="preserve">
+  <data name="DefaultProperties" xml:space="preserve">
     <value>Standardeigenschaften</value>
   </data>
-  <data name="ButtonDisconnect" xml:space="preserve">
+  <data name="Disconnect" xml:space="preserve">
     <value>Trennen</value>
   </data>
   <data name="PropertyNameIcon" xml:space="preserve">
@@ -213,10 +213,10 @@
   <data name="ButtonImport" xml:space="preserve">
     <value>&amp;Importieren</value>
   </data>
-  <data name="ButtonInheritance" xml:space="preserve">
+  <data name="Inheritance" xml:space="preserve">
     <value>Vererbung</value>
   </data>
-  <data name="ButtonLaunchPutty" xml:space="preserve">
+  <data name="LaunchPutty" xml:space="preserve">
     <value>Starte PuTTY</value>
   </data>
   <data name="ButtonNew" xml:space="preserve">
@@ -225,7 +225,7 @@
   <data name="ButtonOK" xml:space="preserve">
     <value>&amp;Okay</value>
   </data>
-  <data name="ButtonProperties" xml:space="preserve">
+  <data name="Properties" xml:space="preserve">
     <value>Eigenschaften</value>
   </data>
   <data name="ButtonScan" xml:space="preserve">
@@ -234,7 +234,7 @@
   <data name="ButtonStop" xml:space="preserve">
     <value>&amp;Halt</value>
   </data>
-  <data name="ButtonTestProxy" xml:space="preserve">
+  <data name="ProxyTest" xml:space="preserve">
     <value>Proxy prüfen</value>
   </data>
   <data name="CannotImportNormalSessionFile" xml:space="preserve">
@@ -348,7 +348,7 @@ VncSharp Control Version {0}</value>
   <data name="PropertyNameUsername" xml:space="preserve">
     <value>Benutzername</value>
   </data>
-  <data name="CheckboxWaitForExit" xml:space="preserve">
+  <data name="WaitForExit" xml:space="preserve">
     <value>Auf Beendigung warten</value>
   </data>
   <data name="CheckForUpdate" xml:space="preserve">
@@ -372,19 +372,19 @@ VncSharp Control Version {0}</value>
   <data name="CollapseAllFolders" xml:space="preserve">
     <value>Alle Ordner schließen</value>
   </data>
-  <data name="ColumnArguments" xml:space="preserve">
+  <data name="Arguments" xml:space="preserve">
     <value>Parameter</value>
   </data>
-  <data name="ColumnDisplayName" xml:space="preserve">
+  <data name="DisplayName" xml:space="preserve">
     <value>Anzeigename</value>
   </data>
-  <data name="ColumnFilename" xml:space="preserve">
+  <data name="Filename" xml:space="preserve">
     <value>Dateiname</value>
   </data>
   <data name="PropertyNameAddress" xml:space="preserve">
     <value>Hostname/IP</value>
   </data>
-  <data name="ColumnMessage" xml:space="preserve">
+  <data name="Message" xml:space="preserve">
     <value>Nachricht</value>
   </data>
   <data name="CommandLineArgsCouldNotBeParsed" xml:space="preserve">
@@ -676,7 +676,7 @@ Starte mit neuer Datei.</value>
   <data name="GroupboxExternalToolProperties" xml:space="preserve">
     <value>Eigenschaften des externen Programmes</value>
   </data>
-  <data name="GroupboxFiles" xml:space="preserve">
+  <data name="Files" xml:space="preserve">
     <value>Dateien</value>
   </data>
   <data name="Host" xml:space="preserve">
@@ -784,7 +784,7 @@ Starte mit neuer Datei.</value>
   <data name="LabelHostname" xml:space="preserve">
     <value>Hostname:</value>
   </data>
-  <data name="LabelPortableEdition" xml:space="preserve">
+  <data name="PortableEdition" xml:space="preserve">
     <value>Portable Edition</value>
   </data>
   <data name="PropertyNameProtocol" xml:space="preserve">
@@ -808,7 +808,7 @@ Starte mit neuer Datei.</value>
   <data name="LabelServerStatus" xml:space="preserve">
     <value>Serverstatus:</value>
   </data>
-  <data name="LabelSQLDatabaseName" xml:space="preserve">
+  <data name="Database" xml:space="preserve">
     <value>Datenbank:</value>
   </data>
   <data name="LabelVerify" xml:space="preserve">
@@ -853,7 +853,7 @@ Starte mit neuer Datei.</value>
   <data name="MenuCheckForUpdates" xml:space="preserve">
     <value>Suche nach Updates</value>
   </data>
-  <data name="MenuConfig" xml:space="preserve">
+  <data name="Config" xml:space="preserve">
     <value>Konfiguration</value>
   </data>
   <data name="MenuConnectionPanels" xml:space="preserve">
@@ -862,7 +862,7 @@ Starte mit neuer Datei.</value>
   <data name="MenuConnectionsAndConfig" xml:space="preserve">
     <value>Verbindungen und Konfiguration</value>
   </data>
-  <data name="MenuCopy" xml:space="preserve">
+  <data name="Copy" xml:space="preserve">
     <value>Kopieren</value>
   </data>
   <data name="MenuCtrlAltDel" xml:space="preserve">
@@ -892,7 +892,7 @@ Starte mit neuer Datei.</value>
   <data name="MenuDuplicateTab" xml:space="preserve">
     <value>Tab klonen</value>
   </data>
-  <data name="MenuExit" xml:space="preserve">
+  <data name="Exit" xml:space="preserve">
     <value>Beenden</value>
   </data>
   <data name="MenuExternalTools" xml:space="preserve">
@@ -964,7 +964,7 @@ Starte mit neuer Datei.</value>
   <data name="MenuRenameFolder" xml:space="preserve">
     <value>Ordner umbenennen</value>
   </data>
-  <data name="MenuRenameTab" xml:space="preserve">
+  <data name="TabRename" xml:space="preserve">
     <value>Tab umbenennen</value>
   </data>
   <data name="MenuReportBug" xml:space="preserve">
@@ -1021,7 +1021,7 @@ Starte mit neuer Datei.</value>
   <data name="MenuViewOnly" xml:space="preserve">
     <value>Nur Ansicht (VNC)</value>
   </data>
-  <data name="MenuWebsite" xml:space="preserve">
+  <data name="Website" xml:space="preserve">
     <value>Webseite</value>
   </data>
   <data name="MinimizeToSysTray" xml:space="preserve">
@@ -1082,7 +1082,7 @@ Wenn Sie Fehler feststellen, dann sollten Sie eine neue Verbindungsdatei erstell
   <data name="OpenPorts" xml:space="preserve">
     <value>Offene Ports</value>
   </data>
-  <data name="OptionsTabTheme" xml:space="preserve">
+  <data name="Theme" xml:space="preserve">
     <value>Theme</value>
   </data>
   <data name="PanelName" xml:space="preserve">
@@ -1750,10 +1750,10 @@ Wenn Sie Fehler feststellen, dann sollten Sie eine neue Verbindungsdatei erstell
   <data name="SSHTransferFailed" xml:space="preserve">
     <value>SSH-Übertragung fehlgeschlagen.</value>
   </data>
-  <data name="StartIP" xml:space="preserve">
+  <data name="FirstIP" xml:space="preserve">
     <value>Erste IP</value>
   </data>
-  <data name="StartPort" xml:space="preserve">
+  <data name="FirstPort" xml:space="preserve">
     <value>Erster Port</value>
   </data>
   <data name="StartupExit" xml:space="preserve">
@@ -1765,13 +1765,13 @@ Wenn Sie Fehler feststellen, dann sollten Sie eine neue Verbindungsdatei erstell
   <data name="SwitchToErrorsAndInfos" xml:space="preserve">
     <value>Öffne das Fehler &amp;&amp; Infos Panel bei:</value>
   </data>
-  <data name="TabAdvanced" xml:space="preserve">
+  <data name="Advanced" xml:space="preserve">
     <value>Erweitert</value>
   </data>
   <data name="TabsAndPanels" xml:space="preserve">
     <value>Tabs &amp;&amp; Panele</value>
   </data>
-  <data name="TabUpdates" xml:space="preserve">
+  <data name="Updates" xml:space="preserve">
     <value>Aktualisierungen</value>
   </data>
   <data name="Telnet" xml:space="preserve">
@@ -2078,7 +2078,7 @@ mRemoteNG wird nun geschlossen und die Installation gestartet.</value>
   <data name="OptionsProxyTesting" xml:space="preserve">
     <value>Testen...</value>
   </data>
-  <data name="OptionsTabKeyboard" xml:space="preserve">
+  <data name="Keyboard" xml:space="preserve">
     <value>Tastatur</value>
   </data>
   <data name="UpdateCheckFailedLabel" xml:space="preserve">
@@ -2090,7 +2090,7 @@ mRemoteNG wird nun geschlossen und die Installation gestartet.</value>
   <data name="EncryptionEngine" xml:space="preserve">
     <value>Verschlüsselungs-Engine</value>
   </data>
-  <data name="TabSecurity" xml:space="preserve">
+  <data name="Security" xml:space="preserve">
     <value>Sicherheit</value>
   </data>
   <data name="RdpSoundQualityDynamic" xml:space="preserve">
@@ -2142,7 +2142,7 @@ mRemoteNG wird nun geschlossen und die Installation gestartet.</value>
     <value>Andere Datei öffnen</value>
   </data>
   <data name="CredentialManagerUpgradeDescription" xml:space="preserve">
-    <value>In v1.76 haben wir ein Berechtigungsverwaltungssystem eingeführt. Diese Funktion erfordert eine erhebliche Änderung bei der Speicherung und Interaktion mit Anmeldeinformationen in mRemoteNG. Sie müssen eine Aktualisierung Ihrer mRemoteNG-Verbindungsdatei durchführen.
+    <value>In v1.77 haben wir ein Berechtigungsverwaltungssystem eingeführt. Diese Funktion erfordert eine erhebliche Änderung bei der Speicherung und Interaktion mit Anmeldeinformationen in mRemoteNG. Sie müssen eine Aktualisierung Ihrer mRemoteNG-Verbindungsdatei durchführen.
 
 Diese Seite führt Sie durch den Prozess der Aktualisierung Ihrer Verbindungsdatei oder gibt Ihnen die Möglichkeit, eine andere Verbindungsdatei zu öffnen, wenn Sie das Upgrade nicht durchführen möchten.</value>
   </data>
@@ -2346,8 +2346,7 @@ Es konnte kein Anmeldedatensatz mit der ID "{0}" für den Verbindungsdatensatz m
     <value>Passwort muss mindestens {0} Großbuchstaben enthalten</value>
   </data>
   <data name="PasswordLengthConstraintHint" xml:space="preserve">
-    <value>
-Die Passwortlänge muss zwischen {0} und {1} liegen</value>
+    <value>Die Passwortlänge muss zwischen {0} und {1} liegen</value>
   </data>
   <data name="ChooseLogPath" xml:space="preserve">
     <value>Wählen Sie einen Pfad für das mRemoteNG-Logfile</value>
@@ -2442,7 +2441,7 @@ Die Passwortlänge muss zwischen {0} und {1} liegen</value>
   <data name="ICA" xml:space="preserve">
     <value>ICA</value>
   </data>
-  <data name="OptionsKeyboardCommandsGroupTabs" xml:space="preserve">
+  <data name="Tabs" xml:space="preserve">
     <value>Tabs</value>
   </data>
   <data name="WeifenLuoAttributionURL" xml:space="preserve">
@@ -2474,13 +2473,10 @@ Development umfasst Alphas, Betas und Release Candidates.</value>
   <data name="EncryptionKeyDerivationIterations" xml:space="preserve">
     <value>Iterationen der Ableitungsfunktion</value>
   </data>
-  <data name="LoadBalanceInfoUseUtf8_Duplicate[1]" xml:space="preserve">
-    <value>UTF8-Kodierung für RDP Eigenschaft "Load Balance Info" verwenden</value>
-  </data>
   <data name="Credentials" xml:space="preserve">
     <value>Anmeldedaten</value>
   </data>
-  <data name="ButtonApply" xml:space="preserve">
+  <data name="Apply" xml:space="preserve">
     <value>Anwenden</value>
   </data>
   <data name="OptionsThemeChangeWarning" xml:space="preserve">

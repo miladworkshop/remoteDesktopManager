@@ -18,7 +18,7 @@ namespace mRemoteNG.UI.Forms.OptionsPages
         [Browsable(false)]
         public override string PageName
         {
-            get => Language.TabSecurity;
+            get => Language.Security;
             set { }
         }
 

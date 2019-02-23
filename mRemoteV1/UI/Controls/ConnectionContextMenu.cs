@@ -395,7 +395,7 @@ namespace mRemoteNG.UI.Controls
             _cMenTreeConnectWithOptionsConnectInFullscreen.Text = Language.ConnectInFullscreen;
             _cMenTreeConnectWithOptionsNoCredentials.Text = Language.ConnectNoCredentials;
             _cMenTreeConnectWithOptionsChoosePanelBeforeConnecting.Text = Language.ChoosePanelBeforeConnecting;
-            _cMenTreeDisconnect.Text = Language.ButtonDisconnect;
+            _cMenTreeDisconnect.Text = Language.Disconnect;
 
             _cMenTreeToolsExternalApps.Text = Language.MenuExternalTools;
             _cMenTreeToolsTransferFile.Text = Language.MenuTransferFile;
@@ -412,7 +412,7 @@ namespace mRemoteNG.UI.Controls
             _cMenTreeExportFile.Text = Language.ExportToFileMenuItem;
 
             _cMenTreeAddConnection.Text = Language.AddConnection;
-            _cMenTreeAddFolder.Text = Language.AddFolder;
+            _cMenTreeAddFolder.Text = Language.FolderNew;
 
             _cMenTreeToolsSort.Text = Language.Sort;
             _cMenTreeToolsSortAscending.Text = Language.SortAsc;

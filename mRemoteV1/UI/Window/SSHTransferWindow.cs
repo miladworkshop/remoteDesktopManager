@@ -354,7 +354,7 @@ namespace mRemoteNG.UI.Window
 
         private void ApplyLanguage()
         {
-            grpFiles.Text = Language.GroupboxFiles;
+            grpFiles.Text = Language.Files;
             lblLocalFile.Text = $@"{Language.LocalFile}:";
             lblRemoteFile.Text = $@"{Language.RemoteFile}:";
             btnBrowse.Text = Language.ButtonBrowse;

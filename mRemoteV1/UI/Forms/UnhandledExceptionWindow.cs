@@ -40,7 +40,7 @@ namespace mRemoteNG.UI.Forms
             labelStackTraceHeader.Text = Language.StackTrace;
             buttonCopyAll.Text = Language.MenuNotificationsCopyAll;
             buttonClose.Text = _isFatal
-                ? Language.MenuExit
+                ? Language.Exit
                 : Language.ButtonClose;
         }
 

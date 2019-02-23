@@ -132,7 +132,7 @@
   <data name="AddConnection" xml:space="preserve">
     <value>New Connection</value>
   </data>
-  <data name="AddFolder" xml:space="preserve">
+  <data name="FolderNew" xml:space="preserve">
     <value>New folder</value>
   </data>
   <data name="AddNodeFromXmlFailed" xml:space="preserve">
@@ -195,19 +195,19 @@
   <data name="ButtonCancel" xml:space="preserve">
     <value>&amp;Cancel</value>
   </data>
-  <data name="ButtonChange" xml:space="preserve">
+  <data name="Change" xml:space="preserve">
     <value>Change</value>
   </data>
   <data name="ButtonClose" xml:space="preserve">
     <value>&amp;Close</value>
   </data>
-  <data name="ButtonDefaultInheritance" xml:space="preserve">
+  <data name="DefaultInheritance" xml:space="preserve">
     <value>Default Inheritance</value>
   </data>
-  <data name="ButtonDefaultProperties" xml:space="preserve">
+  <data name="DefaultProperties" xml:space="preserve">
     <value>Default Properties</value>
   </data>
-  <data name="ButtonDisconnect" xml:space="preserve">
+  <data name="Disconnect" xml:space="preserve">
     <value>Disconnect</value>
   </data>
   <data name="PropertyNameIcon" xml:space="preserve">
@@ -216,13 +216,13 @@
   <data name="ButtonImport" xml:space="preserve">
     <value>&amp;Import</value>
   </data>
-  <data name="ButtonInheritance" xml:space="preserve">
+  <data name="Inheritance" xml:space="preserve">
     <value>Inheritance</value>
   </data>
   <data name="ButtonLaunch" xml:space="preserve">
     <value>&amp;Launch</value>
   </data>
-  <data name="ButtonLaunchPutty" xml:space="preserve">
+  <data name="LaunchPutty" xml:space="preserve">
     <value>Launch PuTTY</value>
   </data>
   <data name="ButtonNew" xml:space="preserve">
@@ -231,7 +231,7 @@
   <data name="ButtonOK" xml:space="preserve">
     <value>&amp;OK</value>
   </data>
-  <data name="ButtonProperties" xml:space="preserve">
+  <data name="Properties" xml:space="preserve">
     <value>Properties</value>
   </data>
   <data name="ButtonScan" xml:space="preserve">
@@ -240,7 +240,7 @@
   <data name="ButtonStop" xml:space="preserve">
     <value>&amp;Stop</value>
   </data>
-  <data name="ButtonTestProxy" xml:space="preserve">
+  <data name="ProxyTest" xml:space="preserve">
     <value>Test Proxy</value>
   </data>
   <data name="CannotImportNormalSessionFile" xml:space="preserve">
@@ -353,7 +353,7 @@ VncSharp Control Version {0}</value>
   <data name="PropertyNameUsername" xml:space="preserve">
     <value>Username</value>
   </data>
-  <data name="CheckboxWaitForExit" xml:space="preserve">
+  <data name="WaitForExit" xml:space="preserve">
     <value>Wait for Exit</value>
   </data>
   <data name="CheckForUpdate" xml:space="preserve">
@@ -377,19 +377,19 @@ VncSharp Control Version {0}</value>
   <data name="CollapseAllFolders" xml:space="preserve">
     <value>Collapse all folders</value>
   </data>
-  <data name="ColumnArguments" xml:space="preserve">
+  <data name="Arguments" xml:space="preserve">
     <value>Arguments</value>
   </data>
-  <data name="ColumnDisplayName" xml:space="preserve">
+  <data name="DisplayName" xml:space="preserve">
     <value>Display Name</value>
   </data>
-  <data name="ColumnFilename" xml:space="preserve">
+  <data name="Filename" xml:space="preserve">
     <value>Filename</value>
   </data>
   <data name="PropertyNameAddress" xml:space="preserve">
     <value>Hostname/IP</value>
   </data>
-  <data name="ColumnMessage" xml:space="preserve">
+  <data name="Message" xml:space="preserve">
     <value>Message</value>
   </data>
   <data name="CommandExitProgram" xml:space="preserve">
@@ -745,7 +745,7 @@ See the Microsoft Support article at http://support.microsoft.com/kb/811833 for 
   <data name="GroupboxExternalToolProperties" xml:space="preserve">
     <value>External Tool Properties</value>
   </data>
-  <data name="GroupboxFiles" xml:space="preserve">
+  <data name="Files" xml:space="preserve">
     <value>Files</value>
   </data>
   <data name="Host" xml:space="preserve">
@@ -886,7 +886,7 @@ See the Microsoft Support article at http://support.microsoft.com/kb/811833 for 
   <data name="LabelHostname" xml:space="preserve">
     <value>Hostname:</value>
   </data>
-  <data name="LabelPortableEdition" xml:space="preserve">
+  <data name="PortableEdition" xml:space="preserve">
     <value>Portable Edition</value>
   </data>
   <data name="PropertyNameProtocol" xml:space="preserve">
@@ -910,8 +910,8 @@ See the Microsoft Support article at http://support.microsoft.com/kb/811833 for 
   <data name="LabelServerStatus" xml:space="preserve">
     <value>Server status:</value>
   </data>
-  <data name="LabelSQLDatabaseName" xml:space="preserve">
-    <value>Database:</value>
+  <data name="Database" xml:space="preserve">
+    <value>Database</value>
   </data>
   <data name="LabelVerify" xml:space="preserve">
     <value>Verify:</value>
@@ -961,7 +961,7 @@ See the Microsoft Support article at http://support.microsoft.com/kb/811833 for 
   <data name="MenuCheckForUpdates" xml:space="preserve">
     <value>Check for Updates</value>
   </data>
-  <data name="MenuConfig" xml:space="preserve">
+  <data name="Config" xml:space="preserve">
     <value>Config</value>
   </data>
   <data name="MenuConnectionPanels" xml:space="preserve">
@@ -970,7 +970,7 @@ See the Microsoft Support article at http://support.microsoft.com/kb/811833 for 
   <data name="MenuConnectionsAndConfig" xml:space="preserve">
     <value>Connections and Config</value>
   </data>
-  <data name="MenuCopy" xml:space="preserve">
+  <data name="Copy" xml:space="preserve">
     <value>Copy</value>
   </data>
   <data name="MenuCtrlAltDel" xml:space="preserve">
@@ -1000,7 +1000,7 @@ See the Microsoft Support article at http://support.microsoft.com/kb/811833 for 
   <data name="MenuDuplicateTab" xml:space="preserve">
     <value>Duplicate Tab</value>
   </data>
-  <data name="MenuExit" xml:space="preserve">
+  <data name="Exit" xml:space="preserve">
     <value>Exit</value>
   </data>
   <data name="MenuExternalTools" xml:space="preserve">
@@ -1072,7 +1072,7 @@ See the Microsoft Support article at http://support.microsoft.com/kb/811833 for 
   <data name="MenuRenameFolder" xml:space="preserve">
     <value>Rename Folder</value>
   </data>
-  <data name="MenuRenameTab" xml:space="preserve">
+  <data name="TabRename" xml:space="preserve">
     <value>Rename Tab</value>
   </data>
   <data name="MenuReportBug" xml:space="preserve">
@@ -1132,7 +1132,7 @@ See the Microsoft Support article at http://support.microsoft.com/kb/811833 for 
   <data name="MenuViewOnly" xml:space="preserve">
     <value>View Only (VNC)</value>
   </data>
-  <data name="MenuWebsite" xml:space="preserve">
+  <data name="Website" xml:space="preserve">
     <value>Website</value>
   </data>
   <data name="MinimizeToSysTray" xml:space="preserve">
@@ -1205,7 +1205,7 @@ If you run into such an error, please create a new connection file!</value>
   <data name="OptionsKeyboardButtonResetAll" xml:space="preserve">
     <value>Reset &amp;All to Default</value>
   </data>
-  <data name="OptionsKeyboardCommandsGroupTabs" xml:space="preserve">
+  <data name="Tabs" xml:space="preserve">
     <value>Tabs</value>
   </data>
   <data name="OptionsKeyboardCommandsNextTab" xml:space="preserve">
@@ -1223,10 +1223,10 @@ If you run into such an error, please create a new connection file!</value>
   <data name="OptionsProxyTesting" xml:space="preserve">
     <value>Testing...</value>
   </data>
-  <data name="OptionsTabKeyboard" xml:space="preserve">
+  <data name="Keyboard" xml:space="preserve">
     <value>Keyboard</value>
   </data>
-  <data name="OptionsTabTheme" xml:space="preserve">
+  <data name="Theme" xml:space="preserve">
     <value>Theme</value>
   </data>
   <data name="PanelName" xml:space="preserve">
@@ -1849,7 +1849,7 @@ If you run into such an error, please create a new connection file!</value>
     <value>Search</value>
   </data>
   <data name="SendTo" xml:space="preserve">
-    <value>Send To...</value>
+    <value>Send To</value>
   </data>
   <data name="SessionGetFailed" xml:space="preserve">
     <value>Get Sessions Background failed</value>
@@ -1926,10 +1926,10 @@ If you run into such an error, please create a new connection file!</value>
   <data name="SSHTransferFailed" xml:space="preserve">
     <value>SSH transfer failed.</value>
   </data>
-  <data name="StartIP" xml:space="preserve">
+  <data name="FirstIP" xml:space="preserve">
     <value>First IP</value>
   </data>
-  <data name="StartPort" xml:space="preserve">
+  <data name="FirstPort" xml:space="preserve">
     <value>First Port</value>
   </data>
   <data name="StartupExit" xml:space="preserve">
@@ -1941,13 +1941,13 @@ If you run into such an error, please create a new connection file!</value>
   <data name="SwitchToErrorsAndInfos" xml:space="preserve">
     <value>Switch to Notifications panel on:</value>
   </data>
-  <data name="TabAdvanced" xml:space="preserve">
+  <data name="Advanced" xml:space="preserve">
     <value>Advanced</value>
   </data>
   <data name="TabsAndPanels" xml:space="preserve">
     <value>Tabs &amp;&amp; Panels</value>
   </data>
-  <data name="TabUpdates" xml:space="preserve">
+  <data name="Updates" xml:space="preserve">
     <value>Updates</value>
   </data>
   <data name="Telnet" xml:space="preserve">
@@ -2239,7 +2239,7 @@ mRemoteNG will now quit and begin with the installation.</value>
   <data name="EncryptionEngine" xml:space="preserve">
     <value>Encryption Engine</value>
   </data>
-  <data name="TabSecurity" xml:space="preserve">
+  <data name="Security" xml:space="preserve">
     <value>Security</value>
   </data>
   <data name="EncryptionKeyDerivationIterations" xml:space="preserve">
@@ -2414,13 +2414,13 @@ mRemoteNG will now quit and begin with the installation.</value>
     <value>Open a different file</value>
   </data>
   <data name="CredentialManagerUpgradeDescription" xml:space="preserve">
-    <value>In v1.76 we have introduced a credential management system. This feature requires a significant change in how we store and interact with credentials within mRemoteNG. You will be required to perform a one-way upgrade of your mRemoteNG connections file.
+    <value>In v1.77 we have introduced a credential management system. This feature requires a significant change in how we store and interact with credentials within mRemoteNG. You will be required to perform a one-way upgrade of your mRemoteNG connections file.
 
 This page will walk you through the process of upgrading your connections file or give you a chance to open a different connections file if you do not want to perform the upgrade.</value>
   </data>
   <data name="CredentialUnavailable" xml:space="preserve">
     <value>Credential not available</value>
-    <comment>Shown when a credential is not loaded/available for use.</comment>
+    
   </data>
   <data name="OptionsThemeDeleteConfirmation" xml:space="preserve">
     <value>Do you really want to delete the theme?</value>
@@ -2592,7 +2592,7 @@ This page will walk you through the process of upgrading your connections file o
 Beta channel includes Betas &amp; Release Candidates.
 Development Channel includes Alphas, Betas &amp; Release Candidates.</value>
   </data>
-  <data name="ButtonApply" xml:space="preserve">
+  <data name="Apply" xml:space="preserve">
     <value>Apply</value>
   </data>
   <data name="CategoryProxy" xml:space="preserve">
@@ -2603,5 +2603,11 @@ Development Channel includes Alphas, Betas &amp; Release Candidates.</value>
   </data>
   <data name="MultiSSHToolTip" xml:space="preserve">
     <value>Press ENTER to send. Ctrl+C is sent immediately.</value>
+  </data>
+  <data name="NoInformation" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
   </data>
 </root>

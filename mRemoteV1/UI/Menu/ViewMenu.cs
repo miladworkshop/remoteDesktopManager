@@ -128,7 +128,7 @@ namespace mRemoteNG.UI.Menu
             _mMenViewConfig.Image = Resources.cog;
             _mMenViewConfig.Name = "mMenViewConfig";
             _mMenViewConfig.Size = new System.Drawing.Size(228, 22);
-            _mMenViewConfig.Text = Language.MenuConfig;
+            _mMenViewConfig.Text = Language.Config;
             _mMenViewConfig.Click += mMenViewConfig_Click;
             // 
             // mMenViewErrorsAndInfos
@@ -244,7 +244,7 @@ namespace mRemoteNG.UI.Menu
             _mMenViewAddConnectionPanel.Text = Language.MenuAddConnectionPanel;
             _mMenViewConnectionPanels.Text = Language.MenuConnectionPanels;
             _mMenViewConnections.Text = Language.Connections;
-            _mMenViewConfig.Text = Language.MenuConfig;
+            _mMenViewConfig.Text = Language.Config;
             _mMenViewErrorsAndInfos.Text = Language.MenuNotifications;
             _mMenViewJumpTo.Text = Language.MenuJumpTo;
             _mMenViewJumpToConnectionsConfig.Text = Language.MenuConnectionsAndConfig;

@@ -183,7 +183,7 @@ namespace mRemoteNG.UI.Window
             mMenFile.Text = Language.MenuFile;
             mMenFileSaveAll.Text = Language.SaveAll;
             mMenFileRemoveAll.Text = Language.RemoveAll;
-            cMenScreenshotCopy.Text = Language.MenuCopy;
+            cMenScreenshotCopy.Text = Language.Copy;
             cMenScreenshotSave.Text = Language.Save;
             dlgSaveSingleImage.Filter = Language.SaveImageFilter;
             TabText = Language.Screenshots;

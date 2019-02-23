@@ -29,7 +29,7 @@ namespace mRemoteNG.UI.Forms.OptionsPages
 
         public override string PageName
         {
-            get => Language.TabUpdates;
+            get => Language.Updates;
             set { }
         }
 
@@ -53,7 +53,7 @@ namespace mRemoteNG.UI.Forms.OptionsPages
             lblProxyUsername.Text = $@"{Language.PropertyNameUsername}:";
             lblProxyPassword.Text = $@"{Language.PropertyNamePassword}:";
 
-            btnTestProxy.Text = Language.ButtonTestProxy;
+            btnTestProxy.Text = Language.ProxyTest;
         }
 
         public override void LoadSettings()
@@ -241,7 +241,7 @@ namespace mRemoteNG.UI.Forms.OptionsPages
                 _appUpdate.GetUpdateInfoCompletedEvent -= GetUpdateInfoCompleted;
 
                 btnTestProxy.Enabled = true;
-                btnTestProxy.Text = Language.ButtonTestProxy;
+                btnTestProxy.Text = Language.ProxyTest;
 
                 if (e.Cancelled)
                 {

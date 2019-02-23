@@ -123,22 +123,22 @@
   <data name="Activity" xml:space="preserve">
     <value>Actividad</value>
   </data>
-  <data name="ButtonDefaultProperties" xml:space="preserve">
+  <data name="DefaultProperties" xml:space="preserve">
     <value>Propiedades por defecto</value>
   </data>
-  <data name="ButtonDisconnect" xml:space="preserve">
+  <data name="Disconnect" xml:space="preserve">
     <value>Desconectar</value>
   </data>
   <data name="PropertyNameIcon" xml:space="preserve">
     <value>Icono</value>
   </data>
-  <data name="ButtonLaunchPutty" xml:space="preserve">
+  <data name="LaunchPutty" xml:space="preserve">
     <value>Ejecutar PuTTY</value>
   </data>
   <data name="ButtonOK" xml:space="preserve">
     <value>&amp; OK</value>
   </data>
-  <data name="ButtonProperties" xml:space="preserve">
+  <data name="Properties" xml:space="preserve">
     <value>Propiedades</value>
   </data>
   <data name="ButtonScan" xml:space="preserve">
@@ -147,7 +147,7 @@
   <data name="ButtonStop" xml:space="preserve">
     <value>&amp; Parar</value>
   </data>
-  <data name="ButtonTestProxy" xml:space="preserve">
+  <data name="ProxyTest" xml:space="preserve">
     <value>Probar Proxy</value>
   </data>
   <data name="CategoryMiscellaneous" xml:space="preserve">
@@ -193,7 +193,7 @@ VncSharp Control {0}</value>
   <data name="PropertyNameUsername" xml:space="preserve">
     <value>Usuario</value>
   </data>
-  <data name="CheckboxWaitForExit" xml:space="preserve">
+  <data name="WaitForExit" xml:space="preserve">
     <value>Esperar a Salir</value>
   </data>
   <data name="CheckForUpdate" xml:space="preserve">

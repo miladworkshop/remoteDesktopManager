@@ -132,7 +132,7 @@
   <data name="AddConnection" xml:space="preserve">
     <value>新建连接</value>
   </data>
-  <data name="AddFolder" xml:space="preserve">
+  <data name="FolderNew" xml:space="preserve">
     <value>新建目录</value>
   </data>
   <data name="AddNodeFromXmlFailed" xml:space="preserve">
@@ -195,19 +195,19 @@
   <data name="ButtonCancel" xml:space="preserve">
     <value>取消(&amp;C)</value>
   </data>
-  <data name="ButtonChange" xml:space="preserve">
+  <data name="Change" xml:space="preserve">
     <value>更改</value>
   </data>
   <data name="ButtonClose" xml:space="preserve">
     <value>关闭(&amp;C)</value>
   </data>
-  <data name="ButtonDefaultInheritance" xml:space="preserve">
+  <data name="DefaultInheritance" xml:space="preserve">
     <value>默认继承</value>
   </data>
-  <data name="ButtonDefaultProperties" xml:space="preserve">
+  <data name="DefaultProperties" xml:space="preserve">
     <value>默认属性</value>
   </data>
-  <data name="ButtonDisconnect" xml:space="preserve">
+  <data name="Disconnect" xml:space="preserve">
     <value>断开连接</value>
   </data>
   <data name="PropertyNameIcon" xml:space="preserve">
@@ -216,13 +216,13 @@
   <data name="ButtonImport" xml:space="preserve">
     <value>导入(&amp;I)</value>
   </data>
-  <data name="ButtonInheritance" xml:space="preserve">
+  <data name="Inheritance" xml:space="preserve">
     <value>继承</value>
   </data>
   <data name="ButtonLaunch" xml:space="preserve">
     <value>启动(&amp;L)</value>
   </data>
-  <data name="ButtonLaunchPutty" xml:space="preserve">
+  <data name="LaunchPutty" xml:space="preserve">
     <value>启动PuTTY</value>
   </data>
   <data name="ButtonNew" xml:space="preserve">
@@ -231,7 +231,7 @@
   <data name="ButtonOK" xml:space="preserve">
     <value>确定(&amp;O)</value>
   </data>
-  <data name="ButtonProperties" xml:space="preserve">
+  <data name="Properties" xml:space="preserve">
     <value>属性</value>
   </data>
   <data name="ButtonScan" xml:space="preserve">
@@ -240,7 +240,7 @@
   <data name="ButtonStop" xml:space="preserve">
     <value>停止(&amp;S)</value>
   </data>
-  <data name="ButtonTestProxy" xml:space="preserve">
+  <data name="ProxyTest" xml:space="preserve">
     <value>测试代理</value>
   </data>
   <data name="CannotImportNormalSessionFile" xml:space="preserve">
@@ -349,7 +349,7 @@ VncSharp 版本 {0}</value>
   <data name="PropertyNameUsername" xml:space="preserve">
     <value>用户名</value>
   </data>
-  <data name="CheckboxWaitForExit" xml:space="preserve">
+  <data name="WaitForExit" xml:space="preserve">
     <value>等待退出</value>
   </data>
   <data name="CheckForUpdate" xml:space="preserve">
@@ -373,19 +373,19 @@ VncSharp 版本 {0}</value>
   <data name="CollapseAllFolders" xml:space="preserve">
     <value>折叠所有目录</value>
   </data>
-  <data name="ColumnArguments" xml:space="preserve">
+  <data name="Arguments" xml:space="preserve">
     <value>参数</value>
   </data>
-  <data name="ColumnDisplayName" xml:space="preserve">
+  <data name="DisplayName" xml:space="preserve">
     <value>显示名称</value>
   </data>
-  <data name="ColumnFilename" xml:space="preserve">
+  <data name="Filename" xml:space="preserve">
     <value>文件名</value>
   </data>
   <data name="PropertyNameAddress" xml:space="preserve">
     <value>主机名/IP</value>
   </data>
-  <data name="ColumnMessage" xml:space="preserve">
+  <data name="Message" xml:space="preserve">
     <value>消息</value>
   </data>
   <data name="CommandExitProgram" xml:space="preserve">
@@ -727,7 +727,7 @@ VncSharp 版本 {0}</value>
   <data name="GroupboxExternalToolProperties" xml:space="preserve">
     <value>外部工具属性</value>
   </data>
-  <data name="GroupboxFiles" xml:space="preserve">
+  <data name="Files" xml:space="preserve">
     <value>文件</value>
   </data>
   <data name="Host" xml:space="preserve">
@@ -853,7 +853,7 @@ VncSharp 版本 {0}</value>
   <data name="LabelHostname" xml:space="preserve">
     <value>主机名:</value>
   </data>
-  <data name="LabelPortableEdition" xml:space="preserve">
+  <data name="PortableEdition" xml:space="preserve">
     <value>便携版本</value>
   </data>
   <data name="PropertyNameProtocol" xml:space="preserve">
@@ -877,7 +877,7 @@ VncSharp 版本 {0}</value>
   <data name="LabelServerStatus" xml:space="preserve">
     <value>服务器状态：</value>
   </data>
-  <data name="LabelSQLDatabaseName" xml:space="preserve">
+  <data name="Database" xml:space="preserve">
     <value>数据库:</value>
   </data>
   <data name="LabelVerify" xml:space="preserve">
@@ -925,7 +925,7 @@ VncSharp 版本 {0}</value>
   <data name="MenuCheckForUpdates" xml:space="preserve">
     <value>检查更新</value>
   </data>
-  <data name="MenuConfig" xml:space="preserve">
+  <data name="Config" xml:space="preserve">
     <value>配置</value>
   </data>
   <data name="MenuConnectionPanels" xml:space="preserve">
@@ -934,7 +934,7 @@ VncSharp 版本 {0}</value>
   <data name="MenuConnectionsAndConfig" xml:space="preserve">
     <value>连接和配置</value>
   </data>
-  <data name="MenuCopy" xml:space="preserve">
+  <data name="Copy" xml:space="preserve">
     <value>复制</value>
   </data>
   <data name="MenuCtrlAltDel" xml:space="preserve">
@@ -964,7 +964,7 @@ VncSharp 版本 {0}</value>
   <data name="MenuDuplicateTab" xml:space="preserve">
     <value>重复标签</value>
   </data>
-  <data name="MenuExit" xml:space="preserve">
+  <data name="Exit" xml:space="preserve">
     <value>退出</value>
   </data>
   <data name="MenuExternalTools" xml:space="preserve">
@@ -1036,7 +1036,7 @@ VncSharp 版本 {0}</value>
   <data name="MenuRenameFolder" xml:space="preserve">
     <value>重命名目录</value>
   </data>
-  <data name="MenuRenameTab" xml:space="preserve">
+  <data name="TabRename" xml:space="preserve">
     <value>重命名标签</value>
   </data>
   <data name="MenuReportBug" xml:space="preserve">
@@ -1096,7 +1096,7 @@ VncSharp 版本 {0}</value>
   <data name="MenuViewOnly" xml:space="preserve">
     <value>查看模式(VNC)</value>
   </data>
-  <data name="MenuWebsite" xml:space="preserve">
+  <data name="Website" xml:space="preserve">
     <value>网站</value>
   </data>
   <data name="MinimizeToSysTray" xml:space="preserve">
@@ -1165,7 +1165,7 @@ VncSharp 版本 {0}</value>
   <data name="OptionsKeyboardButtonResetAll" xml:space="preserve">
     <value>全部重置为默认值(&amp;A)</value>
   </data>
-  <data name="OptionsKeyboardCommandsGroupTabs" xml:space="preserve">
+  <data name="Tabs" xml:space="preserve">
     <value>标签</value>
   </data>
   <data name="OptionsKeyboardCommandsNextTab" xml:space="preserve">
@@ -1183,10 +1183,10 @@ VncSharp 版本 {0}</value>
   <data name="OptionsProxyTesting" xml:space="preserve">
     <value>测试...</value>
   </data>
-  <data name="OptionsTabKeyboard" xml:space="preserve">
+  <data name="Keyboard" xml:space="preserve">
     <value>键盘</value>
   </data>
-  <data name="OptionsTabTheme" xml:space="preserve">
+  <data name="Theme" xml:space="preserve">
     <value>主题</value>
   </data>
   <data name="PanelName" xml:space="preserve">
@@ -1870,10 +1870,10 @@ VncSharp 版本 {0}</value>
   <data name="SSHTransferFailed" xml:space="preserve">
     <value>SSH 传输失败。</value>
   </data>
-  <data name="StartIP" xml:space="preserve">
+  <data name="FirstIP" xml:space="preserve">
     <value>起始IP</value>
   </data>
-  <data name="StartPort" xml:space="preserve">
+  <data name="FirstPort" xml:space="preserve">
     <value>起始端口</value>
   </data>
   <data name="StartupExit" xml:space="preserve">
@@ -1885,13 +1885,13 @@ VncSharp 版本 {0}</value>
   <data name="SwitchToErrorsAndInfos" xml:space="preserve">
     <value>切换到通知面板:</value>
   </data>
-  <data name="TabAdvanced" xml:space="preserve">
+  <data name="Advanced" xml:space="preserve">
     <value>高级</value>
   </data>
   <data name="TabsAndPanels" xml:space="preserve">
     <value>标签&amp;面板</value>
   </data>
-  <data name="TabUpdates" xml:space="preserve">
+  <data name="Updates" xml:space="preserve">
     <value>升级</value>
   </data>
   <data name="TheFollowing" xml:space="preserve">
@@ -2171,7 +2171,7 @@ mRemoteNG 将退出并安装更新。</value>
   <data name="EncryptionEngine" xml:space="preserve">
     <value>加密引擎</value>
   </data>
-  <data name="TabSecurity" xml:space="preserve">
+  <data name="Security" xml:space="preserve">
     <value>安全</value>
   </data>
   <data name="EncryptionKeyDerivationIterations" xml:space="preserve">
@@ -2343,7 +2343,7 @@ mRemoteNG 将退出并安装更新。</value>
     <value>打开一个不同的文件</value>
   </data>
   <data name="CredentialManagerUpgradeDescription" xml:space="preserve">
-    <value>在v1.76中，我们引入了凭证管理系统。此功能要求我们在mRemoteNG中存储和交互凭据的方式发生重大变化。您将需要执行mRemoteNG连接文件的单向升级。
+    <value>在v1.77中，我们引入了凭证管理系统。此功能要求我们在mRemoteNG中存储和交互凭据的方式发生重大变化。您将需要执行mRemoteNG连接文件的单向升级。
 
 如果您不想执行升级，此页面将引导您完成升级连接文件的过程，或者让您有机会打开不同的连接文件。</value>
   </data>
@@ -2445,8 +2445,5 @@ mRemoteNG 将退出并安装更新。</value>
   </data>
   <data name="OptionsPageTitle" xml:space="preserve">
     <value>mRemoteNG选项</value>
-  </data>
-  <data name="LoadBalanceInfoUseUtf8_Duplicate[1]" xml:space="preserve">
-    <value>对RDP“负载均衡信息”属性使用UTF8编码</value>
   </data>
 </root>

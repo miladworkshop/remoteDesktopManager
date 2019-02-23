@@ -129,7 +129,7 @@
   <data name="AddConnection" xml:space="preserve">
     <value>Nueva Conexión</value>
   </data>
-  <data name="AddFolder" xml:space="preserve">
+  <data name="FolderNew" xml:space="preserve">
     <value>Nueva Carpeta</value>
   </data>
   <data name="AddNodeFromXmlFailed" xml:space="preserve">
@@ -192,19 +192,19 @@
   <data name="ButtonCancel" xml:space="preserve">
     <value>&amp;Cancelar</value>
   </data>
-  <data name="ButtonChange" xml:space="preserve">
+  <data name="Change" xml:space="preserve">
     <value>Cambiar</value>
   </data>
   <data name="ButtonClose" xml:space="preserve">
     <value>&amp;Cerra</value>
   </data>
-  <data name="ButtonDefaultInheritance" xml:space="preserve">
+  <data name="DefaultInheritance" xml:space="preserve">
     <value>Herencia por Defecto</value>
   </data>
-  <data name="ButtonDefaultProperties" xml:space="preserve">
+  <data name="DefaultProperties" xml:space="preserve">
     <value>Propiedades por Defecto</value>
   </data>
-  <data name="ButtonDisconnect" xml:space="preserve">
+  <data name="Disconnect" xml:space="preserve">
     <value>Desconectar</value>
   </data>
   <data name="PropertyNameIcon" xml:space="preserve">
@@ -213,10 +213,10 @@
   <data name="ButtonImport" xml:space="preserve">
     <value>&amp;Importar</value>
   </data>
-  <data name="ButtonInheritance" xml:space="preserve">
+  <data name="Inheritance" xml:space="preserve">
     <value>Herencia</value>
   </data>
-  <data name="ButtonLaunchPutty" xml:space="preserve">
+  <data name="LaunchPutty" xml:space="preserve">
     <value>Lanzar PuTTY</value>
   </data>
   <data name="ButtonNew" xml:space="preserve">
@@ -225,7 +225,7 @@
   <data name="ButtonOK" xml:space="preserve">
     <value>&amp;OK</value>
   </data>
-  <data name="ButtonProperties" xml:space="preserve">
+  <data name="Properties" xml:space="preserve">
     <value>Propiedades</value>
   </data>
   <data name="ButtonScan" xml:space="preserve">
@@ -234,7 +234,7 @@
   <data name="ButtonStop" xml:space="preserve">
     <value>&amp;Parar</value>
   </data>
-  <data name="ButtonTestProxy" xml:space="preserve">
+  <data name="ProxyTest" xml:space="preserve">
     <value>Probar Proxy</value>
   </data>
   <data name="CannotImportNormalSessionFile" xml:space="preserve">
@@ -347,7 +347,7 @@ Versión de Control {0} de VncSharp</value>
   <data name="PropertyNameUsername" xml:space="preserve">
     <value>Nombre de Usuario</value>
   </data>
-  <data name="CheckboxWaitForExit" xml:space="preserve">
+  <data name="WaitForExit" xml:space="preserve">
     <value>Esperar a Salir</value>
   </data>
   <data name="CheckForUpdate" xml:space="preserve">
@@ -371,19 +371,19 @@ Versión de Control {0} de VncSharp</value>
   <data name="CollapseAllFolders" xml:space="preserve">
     <value>Contraer todas las carpetas</value>
   </data>
-  <data name="ColumnArguments" xml:space="preserve">
+  <data name="Arguments" xml:space="preserve">
     <value>Argumentos</value>
   </data>
-  <data name="ColumnDisplayName" xml:space="preserve">
+  <data name="DisplayName" xml:space="preserve">
     <value>Nombre Mostrado</value>
   </data>
-  <data name="ColumnFilename" xml:space="preserve">
+  <data name="Filename" xml:space="preserve">
     <value>Nombre de Archivo</value>
   </data>
   <data name="PropertyNameAddress" xml:space="preserve">
     <value>Nombre del Host/IP</value>
   </data>
-  <data name="ColumnMessage" xml:space="preserve">
+  <data name="Message" xml:space="preserve">
     <value>Mensaje</value>
   </data>
   <data name="CommandLineArgsCouldNotBeParsed" xml:space="preserve">
@@ -663,7 +663,7 @@ Arrancando con un nuevo archivo de conexiones.</value>
   <data name="GroupboxExternalToolProperties" xml:space="preserve">
     <value>Propiedades de la Herramienta Externa</value>
   </data>
-  <data name="GroupboxFiles" xml:space="preserve">
+  <data name="Files" xml:space="preserve">
     <value>Archivos</value>
   </data>
   <data name="Host" xml:space="preserve">
@@ -768,7 +768,7 @@ Arrancando con un nuevo archivo de conexiones.</value>
   <data name="LabelHostname" xml:space="preserve">
     <value>Nombre del Host:</value>
   </data>
-  <data name="LabelPortableEdition" xml:space="preserve">
+  <data name="PortableEdition" xml:space="preserve">
     <value>Edición Portable</value>
   </data>
   <data name="PropertyNameProtocol" xml:space="preserve">
@@ -792,7 +792,7 @@ Arrancando con un nuevo archivo de conexiones.</value>
   <data name="LabelServerStatus" xml:space="preserve">
     <value>Estado de Servidor:</value>
   </data>
-  <data name="LabelSQLDatabaseName" xml:space="preserve">
+  <data name="Database" xml:space="preserve">
     <value>Base de Datos:</value>
   </data>
   <data name="LabelVerify" xml:space="preserve">
@@ -837,7 +837,7 @@ Arrancando con un nuevo archivo de conexiones.</value>
   <data name="MenuCheckForUpdates" xml:space="preserve">
     <value>Comprobar Actualizaciones</value>
   </data>
-  <data name="MenuConfig" xml:space="preserve">
+  <data name="Config" xml:space="preserve">
     <value>Configuración</value>
   </data>
   <data name="MenuConnectionPanels" xml:space="preserve">
@@ -846,7 +846,7 @@ Arrancando con un nuevo archivo de conexiones.</value>
   <data name="MenuConnectionsAndConfig" xml:space="preserve">
     <value>Conexiones y Configuración</value>
   </data>
-  <data name="MenuCopy" xml:space="preserve">
+  <data name="Copy" xml:space="preserve">
     <value>Copiar</value>
   </data>
   <data name="MenuCtrlAltDel" xml:space="preserve">
@@ -876,7 +876,7 @@ Arrancando con un nuevo archivo de conexiones.</value>
   <data name="MenuDuplicateTab" xml:space="preserve">
     <value>Duplicar Pestaña</value>
   </data>
-  <data name="MenuExit" xml:space="preserve">
+  <data name="Exit" xml:space="preserve">
     <value>Salir</value>
   </data>
   <data name="MenuExternalTools" xml:space="preserve">
@@ -948,7 +948,7 @@ Arrancando con un nuevo archivo de conexiones.</value>
   <data name="MenuRenameFolder" xml:space="preserve">
     <value>Renombrar Carpeta</value>
   </data>
-  <data name="MenuRenameTab" xml:space="preserve">
+  <data name="TabRename" xml:space="preserve">
     <value>Renombrar Pestaña</value>
   </data>
   <data name="MenuReportBug" xml:space="preserve">
@@ -1005,7 +1005,7 @@ Arrancando con un nuevo archivo de conexiones.</value>
   <data name="MenuViewOnly" xml:space="preserve">
     <value>Solo Ver (VNC)</value>
   </data>
-  <data name="MenuWebsite" xml:space="preserve">
+  <data name="Website" xml:space="preserve">
     <value>Sitio Web</value>
   </data>
   <data name="MinimizeToSysTray" xml:space="preserve">
@@ -1066,7 +1066,7 @@ Arrancando con un nuevo archivo de conexiones.</value>
   <data name="OpenPorts" xml:space="preserve">
     <value>Puertos Abiertos</value>
   </data>
-  <data name="OptionsTabTheme" xml:space="preserve">
+  <data name="Theme" xml:space="preserve">
     <value>Tema</value>
   </data>
   <data name="PanelName" xml:space="preserve">
@@ -1713,10 +1713,10 @@ Mensaje:
   <data name="SSHTransferEndFailed" xml:space="preserve">
     <value>¡Final  de Transferencia SSH (UI.Window.SSHTransfer) fallida!</value>
   </data>
-  <data name="StartIP" xml:space="preserve">
+  <data name="FirstIP" xml:space="preserve">
     <value>IP Inicial</value>
   </data>
-  <data name="StartPort" xml:space="preserve">
+  <data name="FirstPort" xml:space="preserve">
     <value>Puerto Inicial</value>
   </data>
   <data name="StartupExit" xml:space="preserve">
@@ -1728,13 +1728,13 @@ Mensaje:
   <data name="SwitchToErrorsAndInfos" xml:space="preserve">
     <value>Cambiar al Panel de Notificaciones:</value>
   </data>
-  <data name="TabAdvanced" xml:space="preserve">
+  <data name="Advanced" xml:space="preserve">
     <value>Avanzado</value>
   </data>
   <data name="TabsAndPanels" xml:space="preserve">
     <value>Pestañas &amp;&amp; Paneles</value>
   </data>
-  <data name="TabUpdates" xml:space="preserve">
+  <data name="Updates" xml:space="preserve">
     <value>Actualizaciones</value>
   </data>
   <data name="Telnet" xml:space="preserve">

@@ -78,7 +78,7 @@ namespace mRemoteNG.UI.Window
             // 
             // clmMessage
             // 
-            this.clmMessage.Text = global::mRemoteNG.Language.ColumnMessage;
+            this.clmMessage.Text = global::mRemoteNG.Language.Message;
             this.clmMessage.Width = 184;
             // 
             // cMenMC
@@ -98,7 +98,7 @@ namespace mRemoteNG.UI.Window
             this.cMenMCCopy.Name = "cMenMCCopy";
             this.cMenMCCopy.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
             this.cMenMCCopy.Size = new System.Drawing.Size(140, 22);
-            this.cMenMCCopy.Text = global::mRemoteNG.Language.MenuCopy;
+            this.cMenMCCopy.Text = global::mRemoteNG.Language.Copy;
             this.cMenMCCopy.Click += new System.EventHandler(this.cMenMCCopy_Click);
             // 
             // cMenMCDelete

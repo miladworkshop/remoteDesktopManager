@@ -1,4 +1,4 @@
-using mRemoteNG.App;
+﻿using mRemoteNG.App;
 using mRemoteNG.Config.Connections;
 using mRemoteNG.Connection;
 using mRemoteNG.Themes;
@@ -85,7 +85,7 @@ namespace mRemoteNG.UI.Window
             TabText = Language.Connections;
 
             mMenAddConnection.ToolTipText = Language.AddConnection;
-            mMenAddFolder.ToolTipText = Language.AddFolder;
+            mMenAddFolder.ToolTipText = Language.FolderNew;
             mMenViewExpandAllFolders.Text = Language.ExpandAllFolders;
             mMenViewCollapseAllFolders.Text = Language.CollapseAllFolders;
             mMenSortAscending.ToolTipText = Language.SortAsc;

@@ -129,7 +129,7 @@
   <data name="AddConnection" xml:space="preserve">
     <value>Nuova connessione</value>
   </data>
-  <data name="AddFolder" xml:space="preserve">
+  <data name="FolderNew" xml:space="preserve">
     <value>Nuova cartella</value>
   </data>
   <data name="AddNodeFromXmlFailed" xml:space="preserve">
@@ -192,19 +192,19 @@
   <data name="ButtonCancel" xml:space="preserve">
     <value>&amp;Cancella</value>
   </data>
-  <data name="ButtonChange" xml:space="preserve">
+  <data name="Change" xml:space="preserve">
     <value>Cambia</value>
   </data>
   <data name="ButtonClose" xml:space="preserve">
     <value>&amp;Chiudi</value>
   </data>
-  <data name="ButtonDefaultInheritance" xml:space="preserve">
+  <data name="DefaultInheritance" xml:space="preserve">
     <value>Ereditarietà predefinita</value>
   </data>
-  <data name="ButtonDefaultProperties" xml:space="preserve">
+  <data name="DefaultProperties" xml:space="preserve">
     <value>Proprietà predefinite</value>
   </data>
-  <data name="ButtonDisconnect" xml:space="preserve">
+  <data name="Disconnect" xml:space="preserve">
     <value>Disconnetti</value>
   </data>
   <data name="PropertyNameIcon" xml:space="preserve">
@@ -213,10 +213,10 @@
   <data name="ButtonImport" xml:space="preserve">
     <value>&amp;Importa</value>
   </data>
-  <data name="ButtonInheritance" xml:space="preserve">
+  <data name="Inheritance" xml:space="preserve">
     <value>Ereditarietà</value>
   </data>
-  <data name="ButtonLaunchPutty" xml:space="preserve">
+  <data name="LaunchPutty" xml:space="preserve">
     <value>Esegui PuTTY</value>
   </data>
   <data name="ButtonNew" xml:space="preserve">
@@ -225,7 +225,7 @@
   <data name="ButtonOK" xml:space="preserve">
     <value>&amp;OK</value>
   </data>
-  <data name="ButtonProperties" xml:space="preserve">
+  <data name="Properties" xml:space="preserve">
     <value>Proprietà</value>
   </data>
   <data name="ButtonScan" xml:space="preserve">
@@ -234,7 +234,7 @@
   <data name="ButtonStop" xml:space="preserve">
     <value>&amp;Stop</value>
   </data>
-  <data name="ButtonTestProxy" xml:space="preserve">
+  <data name="ProxyTest" xml:space="preserve">
     <value>Verifica le impostazioni del proxy</value>
   </data>
   <data name="CannotImportNormalSessionFile" xml:space="preserve">
@@ -345,7 +345,7 @@ VncSharp Control versione {0}</value>
   <data name="PropertyNameUsername" xml:space="preserve">
     <value>Nome utente</value>
   </data>
-  <data name="CheckboxWaitForExit" xml:space="preserve">
+  <data name="WaitForExit" xml:space="preserve">
     <value>Attendi l'uscita</value>
   </data>
   <data name="CheckForUpdate" xml:space="preserve">
@@ -369,19 +369,19 @@ VncSharp Control versione {0}</value>
   <data name="CollapseAllFolders" xml:space="preserve">
     <value>Comprimi tutte le cartelle</value>
   </data>
-  <data name="ColumnArguments" xml:space="preserve">
+  <data name="Arguments" xml:space="preserve">
     <value>Argomenti</value>
   </data>
-  <data name="ColumnDisplayName" xml:space="preserve">
+  <data name="DisplayName" xml:space="preserve">
     <value>Nome visualizzato</value>
   </data>
-  <data name="ColumnFilename" xml:space="preserve">
+  <data name="Filename" xml:space="preserve">
     <value>Nome del file</value>
   </data>
   <data name="PropertyNameAddress" xml:space="preserve">
     <value>Nome host / IP</value>
   </data>
-  <data name="ColumnMessage" xml:space="preserve">
+  <data name="Message" xml:space="preserve">
     <value>Messaggio</value>
   </data>
   <data name="CommandLineArgsCouldNotBeParsed" xml:space="preserve">
@@ -658,7 +658,7 @@ Creazione di un nuovo file delle connessioni.</value>
   <data name="GroupboxExternalToolProperties" xml:space="preserve">
     <value>Proprietà dell'applicazione esterna</value>
   </data>
-  <data name="GroupboxFiles" xml:space="preserve">
+  <data name="Files" xml:space="preserve">
     <value>File</value>
   </data>
   <data name="Host" xml:space="preserve">
@@ -763,7 +763,7 @@ Creazione di un nuovo file delle connessioni.</value>
   <data name="LabelHostname" xml:space="preserve">
     <value>Nome host:</value>
   </data>
-  <data name="LabelPortableEdition" xml:space="preserve">
+  <data name="PortableEdition" xml:space="preserve">
     <value>Edizione Portable</value>
   </data>
   <data name="PropertyNameProtocol" xml:space="preserve">
@@ -787,7 +787,7 @@ Creazione di un nuovo file delle connessioni.</value>
   <data name="LabelServerStatus" xml:space="preserve">
     <value>Stato del server:</value>
   </data>
-  <data name="LabelSQLDatabaseName" xml:space="preserve">
+  <data name="Database" xml:space="preserve">
     <value>Database:</value>
   </data>
   <data name="LabelVerify" xml:space="preserve">
@@ -832,7 +832,7 @@ Creazione di un nuovo file delle connessioni.</value>
   <data name="MenuCheckForUpdates" xml:space="preserve">
     <value>Verifica la presenza di aggiornamenti</value>
   </data>
-  <data name="MenuConfig" xml:space="preserve">
+  <data name="Config" xml:space="preserve">
     <value>Configurazione</value>
   </data>
   <data name="MenuConnectionPanels" xml:space="preserve">
@@ -841,7 +841,7 @@ Creazione di un nuovo file delle connessioni.</value>
   <data name="MenuConnectionsAndConfig" xml:space="preserve">
     <value>Connessioni e configurazione</value>
   </data>
-  <data name="MenuCopy" xml:space="preserve">
+  <data name="Copy" xml:space="preserve">
     <value>Copia</value>
   </data>
   <data name="MenuCtrlAltDel" xml:space="preserve">
@@ -871,7 +871,7 @@ Creazione di un nuovo file delle connessioni.</value>
   <data name="MenuDuplicateTab" xml:space="preserve">
     <value>Duplica tab</value>
   </data>
-  <data name="MenuExit" xml:space="preserve">
+  <data name="Exit" xml:space="preserve">
     <value>Esci</value>
   </data>
   <data name="MenuExternalTools" xml:space="preserve">
@@ -943,7 +943,7 @@ Creazione di un nuovo file delle connessioni.</value>
   <data name="MenuRenameFolder" xml:space="preserve">
     <value>Rinomina cartella</value>
   </data>
-  <data name="MenuRenameTab" xml:space="preserve">
+  <data name="TabRename" xml:space="preserve">
     <value>Rinomina tab</value>
   </data>
   <data name="MenuReportBug" xml:space="preserve">
@@ -1000,7 +1000,7 @@ Creazione di un nuovo file delle connessioni.</value>
   <data name="MenuViewOnly" xml:space="preserve">
     <value>Visualizza soltanto (VNC)</value>
   </data>
-  <data name="MenuWebsite" xml:space="preserve">
+  <data name="Website" xml:space="preserve">
     <value>Sito web</value>
   </data>
   <data name="MinimizeToSysTray" xml:space="preserve">
@@ -1060,7 +1060,7 @@ Creazione di un nuovo file delle connessioni.</value>
   <data name="OpenPorts" xml:space="preserve">
     <value>Porte aperte</value>
   </data>
-  <data name="OptionsTabTheme" xml:space="preserve">
+  <data name="Theme" xml:space="preserve">
     <value>Tema</value>
   </data>
   <data name="PanelName" xml:space="preserve">
@@ -1726,10 +1726,10 @@ Messaggio:
   <data name="SSHTransferEndFailed" xml:space="preserve">
     <value>SSH Transfer End (UI.Window.SSHTransfer) fallito!</value>
   </data>
-  <data name="StartIP" xml:space="preserve">
+  <data name="FirstIP" xml:space="preserve">
     <value>IP iniziale</value>
   </data>
-  <data name="StartPort" xml:space="preserve">
+  <data name="FirstPort" xml:space="preserve">
     <value>Porta iniziale</value>
   </data>
   <data name="StartupExit" xml:space="preserve">
@@ -1741,13 +1741,13 @@ Messaggio:
   <data name="SwitchToErrorsAndInfos" xml:space="preserve">
     <value>Passa al pannello delle notifiche quando:</value>
   </data>
-  <data name="TabAdvanced" xml:space="preserve">
+  <data name="Advanced" xml:space="preserve">
     <value>Avanzate</value>
   </data>
   <data name="TabsAndPanels" xml:space="preserve">
     <value>Tab e pannelli</value>
   </data>
-  <data name="TabUpdates" xml:space="preserve">
+  <data name="Updates" xml:space="preserve">
     <value>Aggiornamenti</value>
   </data>
   <data name="Telnet" xml:space="preserve">

@@ -231,7 +231,7 @@ namespace mRemoteNG.UI.Forms
             Text = Language.Export;
 
             grpFile.Text = Language.ExportFile;
-            lblFileName.Text = $@"{Language.ColumnFilename}:";
+            lblFileName.Text = $@"{Language.Filename}:";
             btnBrowse.Text = Language.ButtonBrowse;
             lblFileFormat.Text = Language.FileFormatLabel;
 
@@ -245,7 +245,7 @@ namespace mRemoteNG.UI.Forms
             chkPassword.Text = Language.PropertyNamePassword;
             chkDomain.Text = Language.PropertyNameDomain;
             chkAssignedCredential.Text = Language.AssignedCredential;
-            chkInheritance.Text = Language.ButtonInheritance;
+            chkInheritance.Text = Language.Inheritance;
             lblUncheckProperties.Text = Language.UncheckProperties;
 
             btnOK.Text = Language.ButtonOK;

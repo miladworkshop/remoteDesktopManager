@@ -606,14 +606,14 @@ namespace mRemoteNG.UI.Window
 
         private void ApplyLanguage()
         {
-            _btnShowInheritance.Text = Language.ButtonInheritance;
-            _btnShowDefaultInheritance.Text = Language.ButtonDefaultInheritance;
-            _btnShowProperties.Text = Language.ButtonProperties;
-            _btnShowDefaultProperties.Text = Language.ButtonDefaultProperties;
+            _btnShowInheritance.Text = Language.Inheritance;
+            _btnShowDefaultInheritance.Text = Language.DefaultInheritance;
+            _btnShowProperties.Text = Language.Properties;
+            _btnShowDefaultProperties.Text = Language.DefaultProperties;
             _btnIcon.Text = Language.PropertyNameIcon;
             _btnHostStatus.Text = Language.Status;
-            Text = Language.MenuConfig;
-            TabText = Language.MenuConfig;
+            Text = Language.Config;
+            TabText = Language.Config;
             _propertyGridContextMenuShowHelpText.Text = Language.MenuShowHelpText;
         }
 

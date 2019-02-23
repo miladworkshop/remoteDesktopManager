@@ -51,11 +51,11 @@ namespace mRemoteNG.UI.Window
             DeleteToolToolstripButton.Text = Language.OptionsKeyboardButtonDelete;
             LaunchToolToolstripButton.Text = Language.ButtonLaunch;
 
-            DisplayNameColumnHeader.Text = Language.ColumnDisplayName;
-            FilenameColumnHeader.Text = Language.ColumnFilename;
-            ArgumentsColumnHeader.Text = Language.ColumnArguments;
+            DisplayNameColumnHeader.Text = Language.DisplayName;
+            FilenameColumnHeader.Text = Language.Filename;
+            ArgumentsColumnHeader.Text = Language.Arguments;
             WorkingDirColumnHeader.Text = Language.WorkingDirColumnHeader;
-            WaitForExitColumnHeader.Text = Language.CheckboxWaitForExit;
+            WaitForExitColumnHeader.Text = Language.WaitForExit;
             TryToIntegrateColumnHeader.Text = Language.TryIntegrate;
             RunElevateHeader.Text = Language.RunElevateHeader;
             ShowOnToolbarColumnHeader.Text = Language.ShowOnToolbarColumnHeader;
@@ -66,13 +66,13 @@ namespace mRemoteNG.UI.Window
 
             PropertiesGroupBox.Text = Language.GroupboxExternalToolProperties;
 
-            DisplayNameLabel.Text = Language.ColumnDisplayName;
-            FilenameLabel.Text = $@"{Language.ColumnFilename}:";
-            ArgumentsLabel.Text = $@"{Language.ColumnArguments}:";
+            DisplayNameLabel.Text = Language.DisplayName;
+            FilenameLabel.Text = $@"{Language.Filename}:";
+            ArgumentsLabel.Text = $@"{Language.Arguments}:";
             WorkingDirLabel.Text = $@"{Language.WorkingDirColumnHeader}:";
             OptionsLabel.Text = $@"{Language.MenuOptions}:";
 
-            WaitForExitCheckBox.Text = Language.CheckboxWaitForExit;
+            WaitForExitCheckBox.Text = Language.WaitForExit;
             BrowseButton.Text = Language.ButtonBrowse;
             BrowseWorkingDir.Text = Language.ButtonBrowse;
             NewToolMenuItem.Text = Language.ExternalToolDefaultName;
@@ -337,7 +337,7 @@ namespace mRemoteNG.UI.Window
                 return;
 
             e.Text =
-                $"'{Language.CheckboxWaitForExit}' cannot be enabled if '{Language.TryIntegrate}' is enabled";
+                $"'{Language.WaitForExit}' cannot be enabled if '{Language.TryIntegrate}' is enabled";
         }
 
         #endregion

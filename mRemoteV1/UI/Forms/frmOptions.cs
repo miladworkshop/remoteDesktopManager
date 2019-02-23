@@ -39,7 +39,7 @@ namespace mRemoteNG.UI.Forms
             Text = Language.OptionsPageTitle;
             btnOK.Text = Language.ButtonOK;
             btnCancel.Text = Language.ButtonCancel;
-            btnApply.Text = Language.ButtonApply;
+            btnApply.Text = Language.Apply;
             ApplyTheme();
             ThemeManager.getInstance().ThemeChanged += ApplyTheme;
             lstOptionPages.SelectedIndexChanged += LstOptionPages_SelectedIndexChanged;

@@ -129,7 +129,7 @@
   <data name="AddConnection" xml:space="preserve">
     <value>Új kapcsolat</value>
   </data>
-  <data name="AddFolder" xml:space="preserve">
+  <data name="FolderNew" xml:space="preserve">
     <value>Új mappa</value>
   </data>
   <data name="Always" xml:space="preserve">
@@ -165,13 +165,13 @@
   <data name="ButtonCancel" xml:space="preserve">
     <value>&amp;Mégsem</value>
   </data>
-  <data name="ButtonChange" xml:space="preserve">
+  <data name="Change" xml:space="preserve">
     <value>Módosít</value>
   </data>
   <data name="ButtonClose" xml:space="preserve">
     <value>Be&amp;zár</value>
   </data>
-  <data name="ButtonDisconnect" xml:space="preserve">
+  <data name="Disconnect" xml:space="preserve">
     <value>Kapcsolat bontása</value>
   </data>
   <data name="PropertyNameIcon" xml:space="preserve">
@@ -180,7 +180,7 @@
   <data name="ButtonImport" xml:space="preserve">
     <value>&amp;Improtálás</value>
   </data>
-  <data name="ButtonLaunchPutty" xml:space="preserve">
+  <data name="LaunchPutty" xml:space="preserve">
     <value>PuTTY indítása</value>
   </data>
   <data name="ButtonNew" xml:space="preserve">
@@ -189,7 +189,7 @@
   <data name="ButtonOK" xml:space="preserve">
     <value>&amp;OK</value>
   </data>
-  <data name="ButtonProperties" xml:space="preserve">
+  <data name="Properties" xml:space="preserve">
     <value>Tulajdonságok</value>
   </data>
   <data name="CannotStartPortScan" xml:space="preserve">
@@ -222,13 +222,13 @@
   <data name="CheckboxDoNotShowThisMessageAgain" xml:space="preserve">
     <value>Többé ne mutasd ezt az üzenetet.</value>
   </data>
-  <data name="ColumnFilename" xml:space="preserve">
+  <data name="Filename" xml:space="preserve">
     <value>Fájlnév</value>
   </data>
   <data name="PropertyNameAddress" xml:space="preserve">
     <value>Kiszolgálónév/IP cím</value>
   </data>
-  <data name="ColumnMessage" xml:space="preserve">
+  <data name="Message" xml:space="preserve">
     <value>Üzenet</value>
   </data>
   <data name="CommandLineArgsCouldNotBeParsed" xml:space="preserve">
@@ -261,7 +261,7 @@
   <data name="General" xml:space="preserve">
     <value>Általános</value>
   </data>
-  <data name="GroupboxFiles" xml:space="preserve">
+  <data name="Files" xml:space="preserve">
     <value>Fájlok</value>
   </data>
   <data name="HttpConnectFailed" xml:space="preserve">
@@ -282,7 +282,7 @@
   <data name="LabelHostname" xml:space="preserve">
     <value>Hosztnév:</value>
   </data>
-  <data name="LabelPortableEdition" xml:space="preserve">
+  <data name="PortableEdition" xml:space="preserve">
     <value>Hordozható kiadás</value>
   </data>
   <data name="PropertyNameProtocol" xml:space="preserve">
@@ -291,7 +291,7 @@
   <data name="LabelServerStatus" xml:space="preserve">
     <value>Szerver állapot:</value>
   </data>
-  <data name="LabelSQLDatabaseName" xml:space="preserve">
+  <data name="Database" xml:space="preserve">
     <value>Adatbázis:</value>
   </data>
   <data name="LabelVerify" xml:space="preserve">
@@ -333,7 +333,7 @@
   <data name="MenuRenameFolder" xml:space="preserve">
     <value>Könyvtár átnevezése</value>
   </data>
-  <data name="MenuRenameTab" xml:space="preserve">
+  <data name="TabRename" xml:space="preserve">
     <value>Fül átnevezése</value>
   </data>
   <data name="MenuReportBug" xml:space="preserve">
@@ -357,7 +357,7 @@
   <data name="MenuSessionsAndScreenshots" xml:space="preserve">
     <value>Munkamanetek és képernyőmentések</value>
   </data>
-  <data name="MenuWebsite" xml:space="preserve">
+  <data name="Website" xml:space="preserve">
     <value>Honlap</value>
   </data>
   <data name="Never" xml:space="preserve">

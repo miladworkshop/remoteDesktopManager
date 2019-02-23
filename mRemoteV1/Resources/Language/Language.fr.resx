@@ -129,7 +129,7 @@
   <data name="AddConnection" xml:space="preserve">
     <value>Nouvelle connexion</value>
   </data>
-  <data name="AddFolder" xml:space="preserve">
+  <data name="FolderNew" xml:space="preserve">
     <value>Nouveau dossier</value>
   </data>
   <data name="AddNodeFromXmlFailed" xml:space="preserve">
@@ -192,19 +192,19 @@
   <data name="ButtonCancel" xml:space="preserve">
     <value>&amp;Annuler</value>
   </data>
-  <data name="ButtonChange" xml:space="preserve">
+  <data name="Change" xml:space="preserve">
     <value>Changer</value>
   </data>
   <data name="ButtonClose" xml:space="preserve">
     <value>&amp;Fermer</value>
   </data>
-  <data name="ButtonDefaultInheritance" xml:space="preserve">
+  <data name="DefaultInheritance" xml:space="preserve">
     <value>Héritage par défaut</value>
   </data>
-  <data name="ButtonDefaultProperties" xml:space="preserve">
+  <data name="DefaultProperties" xml:space="preserve">
     <value>Propriétés par défaut</value>
   </data>
-  <data name="ButtonDisconnect" xml:space="preserve">
+  <data name="Disconnect" xml:space="preserve">
     <value>Déconnexion</value>
   </data>
   <data name="PropertyNameIcon" xml:space="preserve">
@@ -213,10 +213,10 @@
   <data name="ButtonImport" xml:space="preserve">
     <value>&amp;Importer</value>
   </data>
-  <data name="ButtonInheritance" xml:space="preserve">
+  <data name="Inheritance" xml:space="preserve">
     <value>Héritage</value>
   </data>
-  <data name="ButtonLaunchPutty" xml:space="preserve">
+  <data name="LaunchPutty" xml:space="preserve">
     <value>Lancement de PuTTY</value>
   </data>
   <data name="ButtonNew" xml:space="preserve">
@@ -225,7 +225,7 @@
   <data name="ButtonOK" xml:space="preserve">
     <value>&amp;OK</value>
   </data>
-  <data name="ButtonProperties" xml:space="preserve">
+  <data name="Properties" xml:space="preserve">
     <value>Propriétés</value>
   </data>
   <data name="ButtonScan" xml:space="preserve">
@@ -234,7 +234,7 @@
   <data name="ButtonStop" xml:space="preserve">
     <value>&amp;Arrêter</value>
   </data>
-  <data name="ButtonTestProxy" xml:space="preserve">
+  <data name="ProxyTest" xml:space="preserve">
     <value>Tester le Proxy</value>
   </data>
   <data name="CannotImportNormalSessionFile" xml:space="preserve">
@@ -334,7 +334,7 @@ Si la vérification des composants ou l'utilisation d'ICA échoue malgré tout, 
   <data name="PropertyNameUsername" xml:space="preserve">
     <value>Nom d'utilisateur</value>
   </data>
-  <data name="CheckboxWaitForExit" xml:space="preserve">
+  <data name="WaitForExit" xml:space="preserve">
     <value>En attente de fermeture</value>
   </data>
   <data name="CheckForUpdate" xml:space="preserve">
@@ -358,19 +358,19 @@ Si la vérification des composants ou l'utilisation d'ICA échoue malgré tout, 
   <data name="CollapseAllFolders" xml:space="preserve">
     <value>Réduire tous les dossiers</value>
   </data>
-  <data name="ColumnArguments" xml:space="preserve">
+  <data name="Arguments" xml:space="preserve">
     <value>Arguments</value>
   </data>
-  <data name="ColumnDisplayName" xml:space="preserve">
+  <data name="DisplayName" xml:space="preserve">
     <value>Nom Affiché</value>
   </data>
-  <data name="ColumnFilename" xml:space="preserve">
+  <data name="Filename" xml:space="preserve">
     <value>Nom du fichier</value>
   </data>
   <data name="PropertyNameAddress" xml:space="preserve">
     <value>Nom d'hôte/IP</value>
   </data>
-  <data name="ColumnMessage" xml:space="preserve">
+  <data name="Message" xml:space="preserve">
     <value>Message</value>
   </data>
   <data name="CommandLineArgsCouldNotBeParsed" xml:space="preserve">
@@ -653,7 +653,7 @@ Si la vérification des composants ou l'utilisation d'ICA échoue malgré tout, 
   <data name="GroupboxExternalToolProperties" xml:space="preserve">
     <value>Propriétés de l'outil externe</value>
   </data>
-  <data name="GroupboxFiles" xml:space="preserve">
+  <data name="Files" xml:space="preserve">
     <value>Fichiers</value>
   </data>
   <data name="Host" xml:space="preserve">
@@ -761,7 +761,7 @@ Si la vérification des composants ou l'utilisation d'ICA échoue malgré tout, 
   <data name="LabelHostname" xml:space="preserve">
     <value>Nom d'hôte :</value>
   </data>
-  <data name="LabelPortableEdition" xml:space="preserve">
+  <data name="PortableEdition" xml:space="preserve">
     <value>Édition Portable</value>
   </data>
   <data name="PropertyNameProtocol" xml:space="preserve">
@@ -785,7 +785,7 @@ Si la vérification des composants ou l'utilisation d'ICA échoue malgré tout, 
   <data name="LabelServerStatus" xml:space="preserve">
     <value>L'état du serveur :</value>
   </data>
-  <data name="LabelSQLDatabaseName" xml:space="preserve">
+  <data name="Database" xml:space="preserve">
     <value>Base de données :</value>
   </data>
   <data name="LabelVerify" xml:space="preserve">
@@ -830,7 +830,7 @@ Si la vérification des composants ou l'utilisation d'ICA échoue malgré tout, 
   <data name="MenuCheckForUpdates" xml:space="preserve">
     <value>Rechercher des mises à jour</value>
   </data>
-  <data name="MenuConfig" xml:space="preserve">
+  <data name="Config" xml:space="preserve">
     <value>Configuration</value>
   </data>
   <data name="MenuConnectionPanels" xml:space="preserve">
@@ -839,7 +839,7 @@ Si la vérification des composants ou l'utilisation d'ICA échoue malgré tout, 
   <data name="MenuConnectionsAndConfig" xml:space="preserve">
     <value>Connexions et configuration</value>
   </data>
-  <data name="MenuCopy" xml:space="preserve">
+  <data name="Copy" xml:space="preserve">
     <value>Copier</value>
   </data>
   <data name="MenuCtrlAltDel" xml:space="preserve">
@@ -869,7 +869,7 @@ Si la vérification des composants ou l'utilisation d'ICA échoue malgré tout, 
   <data name="MenuDuplicateTab" xml:space="preserve">
     <value>Dupliquer l'onglet</value>
   </data>
-  <data name="MenuExit" xml:space="preserve">
+  <data name="Exit" xml:space="preserve">
     <value>Quitter</value>
   </data>
   <data name="MenuExternalTools" xml:space="preserve">
@@ -941,7 +941,7 @@ Si la vérification des composants ou l'utilisation d'ICA échoue malgré tout, 
   <data name="MenuRenameFolder" xml:space="preserve">
     <value>Renommer le dossier</value>
   </data>
-  <data name="MenuRenameTab" xml:space="preserve">
+  <data name="TabRename" xml:space="preserve">
     <value>Renommer l'onglet</value>
   </data>
   <data name="MenuReportBug" xml:space="preserve">
@@ -998,7 +998,7 @@ Si la vérification des composants ou l'utilisation d'ICA échoue malgré tout, 
   <data name="MenuViewOnly" xml:space="preserve">
     <value>Voir seulement (VNC)</value>
   </data>
-  <data name="MenuWebsite" xml:space="preserve">
+  <data name="Website" xml:space="preserve">
     <value>Site Web</value>
   </data>
   <data name="MinimizeToSysTray" xml:space="preserve">
@@ -1059,7 +1059,7 @@ Si vous rencontrez une erreur, créez un nouveau fichier de connexion s'il vous 
   <data name="OpenPorts" xml:space="preserve">
     <value>Ports ouverts</value>
   </data>
-  <data name="OptionsTabTheme" xml:space="preserve">
+  <data name="Theme" xml:space="preserve">
     <value>Thème</value>
   </data>
   <data name="PanelName" xml:space="preserve">
@@ -1730,10 +1730,10 @@ Message:
   <data name="SSHTransferFailed" xml:space="preserve">
     <value>Échec du transfert SSH.</value>
   </data>
-  <data name="StartIP" xml:space="preserve">
+  <data name="FirstIP" xml:space="preserve">
     <value>IP de début</value>
   </data>
-  <data name="StartPort" xml:space="preserve">
+  <data name="FirstPort" xml:space="preserve">
     <value>Port de début</value>
   </data>
   <data name="StartupExit" xml:space="preserve">
@@ -1745,13 +1745,13 @@ Message:
   <data name="SwitchToErrorsAndInfos" xml:space="preserve">
     <value>Se déplacer sur le panneau des Notifications :</value>
   </data>
-  <data name="TabAdvanced" xml:space="preserve">
+  <data name="Advanced" xml:space="preserve">
     <value>Avancée</value>
   </data>
   <data name="TabsAndPanels" xml:space="preserve">
     <value>Onglets &amp;&amp; Panneaux</value>
   </data>
-  <data name="TabUpdates" xml:space="preserve">
+  <data name="Updates" xml:space="preserve">
     <value>Mises à jour</value>
   </data>
   <data name="Telnet" xml:space="preserve">
