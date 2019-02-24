@@ -2482,4 +2482,7 @@ Development umfasst Alphas, Betas und Release Candidates.</value>
   <data name="PropertyDescriptionRedirectClipboard" xml:space="preserve">
     <value>Umleitung der Zwischenablage erlauben.</value>
   </data>
+  <data name="PropertyDescriptionRDGatewayPassword" xml:space="preserve">
+    <value>Gibt das Passwort des Remote-Desktop-Gateway-Servers an.</value>
+  </data>
 </root>

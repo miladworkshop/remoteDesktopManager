@@ -4417,7 +4417,7 @@ namespace mRemoteNG {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to Specifies the password of the Remote Desktop Gateway server..
         /// </summary>
         internal static string PropertyDescriptionRDGatewayPassword {
             get {

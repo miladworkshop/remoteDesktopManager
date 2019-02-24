@@ -2605,6 +2605,6 @@ Development Channel includes Alphas, Betas &amp; Release Candidates.</value>
     <value>Delete</value>
   </data>
   <data name="PropertyDescriptionRDGatewayPassword" xml:space="preserve">
-    <value></value>
+    <value>Specifies the password of the Remote Desktop Gateway server.</value>
   </data>
 </root>
