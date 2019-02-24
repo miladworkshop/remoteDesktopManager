@@ -34,9 +34,6 @@ namespace mRemoteNG.Connection
 
         [Browsable(false)] public ContainerInfo Parent { get; internal set; }
 
-        //[Browsable(false)]
-        //private int PositionID { get; set; }
-
         [Browsable(false)]
         // ReSharper disable once UnusedAutoPropertyAccessor.Global
         public bool IsQuickConnect { get; set; }
@@ -286,22 +283,17 @@ namespace mRemoteNG.Connection
             ExtApp = Settings.Default.ConDefaultExtApp;
             Port = 0;
             PuttySession = Settings.Default.ConDefaultPuttySession;
-            ICAEncryptionStrength = (IcaProtocol.EncryptionStrength)Enum.Parse(typeof(IcaProtocol.EncryptionStrength),
-                                                                               Settings
-                                                                                   .Default
-                                                                                   .ConDefaultICAEncryptionStrength);
+            ICAEncryptionStrength = (IcaProtocol.EncryptionStrength)Enum.Parse(
+                typeof(IcaProtocol.EncryptionStrength), Settings.Default.ConDefaultICAEncryptionStrength);
             UseConsoleSession = Settings.Default.ConDefaultUseConsoleSession;
             RDPAuthenticationLevel = (RdpProtocol.AuthenticationLevel)Enum.Parse(
-                                                                                 typeof(RdpProtocol.AuthenticationLevel
-                                                                                 ),
-                                                                                 Settings
-                                                                                     .Default
-                                                                                     .ConDefaultRDPAuthenticationLevel);
-            RDPMinutesToIdleTimeout = Settings.Default.ConDefaultRDPMinutesToIdleTimeout;
+                typeof(RdpProtocol.AuthenticationLevel), Settings.Default.ConDefaultRDPAuthenticationLevel);
+            RDPMinutesToIdleTimeout = Settings.Default.ConDefaultRDPMinutesToIdleTimeout < 0 ? 0 : Settings.Default.ConDefaultRDPMinutesToIdleTimeout;
+            RDPMinutesToIdleTimeout = Settings.Default.ConDefaultRDPMinutesToIdleTimeout > 240 ? 240 : Settings.Default.ConDefaultRDPMinutesToIdleTimeout;
             RDPAlertIdleTimeout = Settings.Default.ConDefaultRDPAlertIdleTimeout;
             LoadBalanceInfo = Settings.Default.ConDefaultLoadBalanceInfo;
-            RenderingEngine = (HTTPBase.RenderingEngine)Enum.Parse(typeof(HTTPBase.RenderingEngine),
-                                                                   Settings.Default.ConDefaultRenderingEngine);
+            RenderingEngine = (HTTPBase.RenderingEngine)Enum.Parse(
+                typeof(HTTPBase.RenderingEngine), Settings.Default.ConDefaultRenderingEngine);
             UseCredSsp = Settings.Default.ConDefaultUseCredSsp;
         }
 

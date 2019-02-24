@@ -4417,6 +4417,15 @@ namespace mRemoteNG {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string PropertyDescriptionRDGatewayPassword {
+            get {
+                return ResourceManager.GetString("PropertyDescriptionRDGatewayPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Specifies when to use a Remote Desktop Gateway (RD Gateway) server..
         /// </summary>
         internal static string PropertyDescriptionRDGatewayUsageMethod {

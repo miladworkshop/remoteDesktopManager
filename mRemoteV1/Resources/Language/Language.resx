@@ -2604,4 +2604,7 @@ Development Channel includes Alphas, Betas &amp; Release Candidates.</value>
   <data name="Delete" xml:space="preserve">
     <value>Delete</value>
   </data>
+  <data name="PropertyDescriptionRDGatewayPassword" xml:space="preserve">
+    <value></value>
+  </data>
 </root>
