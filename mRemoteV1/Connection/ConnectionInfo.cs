@@ -101,9 +101,7 @@ namespace mRemoteNG.Connection
         private void SetDefaults()
         {
             if (Port == 0)
-            {
                 SetDefaultPort();
-            }
         }
 
         public int GetDefaultPort()
@@ -127,8 +125,19 @@ namespace mRemoteNG.Connection
         {
             var excludedProperties = new[]
             {
-                "Parent", "Name", "Hostname", "Port", "Inheritance", "OpenConnections",
-                "IsContainer", "IsDefault", "PositionID", "ConstantID", "TreeNode", "IsQuickConnect", "PleaseConnect"
+                "Parent",
+                "Name",
+                "Hostname",
+                "Port",
+                "Inheritance",
+                "OpenConnections",
+                "IsContainer",
+                "IsDefault",
+                "PositionID",
+                "ConstantID",
+                "TreeNode",
+                "IsQuickConnect",
+                "PleaseConnect"
             };
 
             return GetProperties(excludedProperties);
@@ -197,8 +206,7 @@ namespace mRemoteNG.Connection
         {
             var inheritType = Inheritance.GetType();
             var inheritPropertyInfo = inheritType.GetProperty(propertyName);
-            var inheritPropertyValue = inheritPropertyInfo != null &&
-                                       Convert.ToBoolean(inheritPropertyInfo.GetValue(Inheritance, null));
+            var inheritPropertyValue = inheritPropertyInfo != null && Convert.ToBoolean(inheritPropertyInfo.GetValue(Inheritance, null));
             return inheritPropertyValue;
         }
 
@@ -209,16 +217,14 @@ namespace mRemoteNG.Connection
                 var connectionInfoType = Parent.GetType();
                 var parentPropertyInfo = connectionInfoType.GetProperty(propertyName);
                 if (parentPropertyInfo == null)
-                    throw new NullReferenceException(
-                                                     $"Could not retrieve property data for property '{propertyName}' on parent node '{Parent?.Name}'");
+                    throw new NullReferenceException($"Could not retrieve property data for property '{propertyName}' on parent node '{Parent?.Name}'");
 
                 inheritedValue = (TPropertyType)parentPropertyInfo.GetValue(Parent, null);
                 return true;
             }
             catch (Exception e)
             {
-                Runtime.MessageCollector.AddExceptionStackTrace($"Error retrieving inherited property '{propertyName}'",
-                                                                e);
+                Runtime.MessageCollector.AddExceptionStackTrace($"Error retrieving inherited property '{propertyName}'", e);
                 inheritedValue = default(TPropertyType);
                 return false;
             }
