@@ -112,7 +112,18 @@ namespace mRemoteNG.Connection
         [LocalizedAttributes.LocalizedCategory(nameof(Language.Protocol), 3),
          LocalizedAttributes.LocalizedDisplayName(nameof(Language.PropertyNameRDPMinutesToIdleTimeout)),
          LocalizedAttributes.LocalizedDescription(nameof(Language.PropertyDescriptionRDPMinutesToIdleTimeout))]
-        public virtual int RDPMinutesToIdleTimeout { get; set; }
+        public virtual int RDPMinutesToIdleTimeout
+        {
+            get => Settings.Default.ConDefaultRDPMinutesToIdleTimeout;
+            set 
+            {
+                if (value < 0)
+                    value = 0;
+                else if (value > 240)
+                    value = 240;
+                Settings.Default.ConDefaultRDPMinutesToIdleTimeout = value;
+            }
+        }
 
         [LocalizedAttributes.LocalizedCategory(nameof(Language.Protocol), 3),
          LocalizedAttributes.LocalizedDisplayName(nameof(Language.PropertyNameRDPAlertIdleTimeout)),
