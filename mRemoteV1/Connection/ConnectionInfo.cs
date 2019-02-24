@@ -300,20 +300,10 @@ namespace mRemoteNG.Connection
         private void SetRdGatewayDefaults()
         {
             RDGatewayUsageMethod = (RdpProtocol.RDGatewayUsageMethod)Enum.Parse(
-                                                                                typeof(RdpProtocol.RDGatewayUsageMethod
-                                                                                ),
-                                                                                Settings
-                                                                                    .Default
-                                                                                    .ConDefaultRDGatewayUsageMethod);
+                typeof(RdpProtocol.RDGatewayUsageMethod), Settings.Default.ConDefaultRDGatewayUsageMethod);
             RDGatewayHostname = Settings.Default.ConDefaultRDGatewayHostname;
             RDGatewayUseConnectionCredentials = (RdpProtocol.RDGatewayUseConnectionCredentials)Enum.Parse(
-                                                                                                          typeof(
-                                                                                                              RdpProtocol
-                                                                                                              .RDGatewayUseConnectionCredentials
-                                                                                                          ),
-                                                                                                          Settings
-                                                                                                              .Default
-                                                                                                              .ConDefaultRDGatewayUseConnectionCredentials);
+                typeof(RdpProtocol.RDGatewayUseConnectionCredentials), Settings.Default.ConDefaultRDGatewayUseConnectionCredentials);
             RDGatewayUsername = Settings.Default.ConDefaultRDGatewayUsername;
             RDGatewayPassword = Settings.Default.ConDefaultRDGatewayPassword;
             RDGatewayDomain = Settings.Default.ConDefaultRDGatewayDomain;
@@ -321,11 +311,9 @@ namespace mRemoteNG.Connection
 
         private void SetAppearanceDefaults()
         {
-            Resolution = (RdpProtocol.RDPResolutions)Enum.Parse(typeof(RdpProtocol.RDPResolutions),
-                                                                Settings.Default.ConDefaultResolution);
+            Resolution = (RdpProtocol.RDPResolutions)Enum.Parse(typeof(RdpProtocol.RDPResolutions), Settings.Default.ConDefaultResolution);
             AutomaticResize = Settings.Default.ConDefaultAutomaticResize;
-            Colors = (RdpProtocol.RDPColors)Enum.Parse(typeof(RdpProtocol.RDPColors),
-                                                       Settings.Default.ConDefaultColors);
+            Colors = (RdpProtocol.RDPColors)Enum.Parse(typeof(RdpProtocol.RDPColors), Settings.Default.ConDefaultColors);
             CacheBitmaps = Settings.Default.ConDefaultCacheBitmaps;
             DisplayWallpaper = Settings.Default.ConDefaultDisplayWallpaper;
             DisplayThemes = Settings.Default.ConDefaultDisplayThemes;
@@ -341,10 +329,8 @@ namespace mRemoteNG.Connection
             RedirectClipboard = Settings.Default.ConDefaultRedirectClipboard;
             RedirectPorts = Settings.Default.ConDefaultRedirectPorts;
             RedirectSmartCards = Settings.Default.ConDefaultRedirectSmartCards;
-            RedirectSound = (RdpProtocol.RDPSounds)Enum.Parse(typeof(RdpProtocol.RDPSounds),
-                                                              Settings.Default.ConDefaultRedirectSound);
-            SoundQuality = (RdpProtocol.RDPSoundQuality)Enum.Parse(typeof(RdpProtocol.RDPSoundQuality),
-                                                                   Settings.Default.ConDefaultSoundQuality);
+            RedirectSound = (RdpProtocol.RDPSounds)Enum.Parse(typeof(RdpProtocol.RDPSounds), Settings.Default.ConDefaultRedirectSound);
+            SoundQuality = (RdpProtocol.RDPSoundQuality)Enum.Parse(typeof(RdpProtocol.RDPSoundQuality), Settings.Default.ConDefaultSoundQuality);
         }
 
         private void SetMiscDefaults()
@@ -357,22 +343,16 @@ namespace mRemoteNG.Connection
 
         private void SetVncDefaults()
         {
-            VNCCompression = (ProtocolVNC.Compression)Enum.Parse(typeof(ProtocolVNC.Compression),
-                                                                 Settings.Default.ConDefaultVNCCompression);
-            VNCEncoding =
-                (ProtocolVNC.Encoding)Enum.Parse(typeof(ProtocolVNC.Encoding), Settings.Default.ConDefaultVNCEncoding);
-            VNCAuthMode =
-                (ProtocolVNC.AuthMode)Enum.Parse(typeof(ProtocolVNC.AuthMode), Settings.Default.ConDefaultVNCAuthMode);
-            VNCProxyType = (ProtocolVNC.ProxyType)Enum.Parse(typeof(ProtocolVNC.ProxyType),
-                                                             Settings.Default.ConDefaultVNCProxyType);
+            VNCCompression = (ProtocolVNC.Compression)Enum.Parse(typeof(ProtocolVNC.Compression), Settings.Default.ConDefaultVNCCompression);
+            VNCEncoding = (ProtocolVNC.Encoding)Enum.Parse(typeof(ProtocolVNC.Encoding), Settings.Default.ConDefaultVNCEncoding);
+            VNCAuthMode = (ProtocolVNC.AuthMode)Enum.Parse(typeof(ProtocolVNC.AuthMode), Settings.Default.ConDefaultVNCAuthMode);
+            VNCProxyType = (ProtocolVNC.ProxyType)Enum.Parse(typeof(ProtocolVNC.ProxyType), Settings.Default.ConDefaultVNCProxyType);
             VNCProxyIP = Settings.Default.ConDefaultVNCProxyIP;
             VNCProxyPort = Settings.Default.ConDefaultVNCProxyPort;
             VNCProxyUsername = Settings.Default.ConDefaultVNCProxyUsername;
             VNCProxyPassword = Settings.Default.ConDefaultVNCProxyPassword;
-            VNCColors = (ProtocolVNC.Colors)Enum.Parse(typeof(ProtocolVNC.Colors),
-                                                       Settings.Default.ConDefaultVNCColors);
-            VNCSmartSizeMode = (ProtocolVNC.SmartSizeMode)Enum.Parse(typeof(ProtocolVNC.SmartSizeMode),
-                                                                     Settings.Default.ConDefaultVNCSmartSizeMode);
+            VNCColors = (ProtocolVNC.Colors)Enum.Parse(typeof(ProtocolVNC.Colors), Settings.Default.ConDefaultVNCColors);
+            VNCSmartSizeMode = (ProtocolVNC.SmartSizeMode)Enum.Parse(typeof(ProtocolVNC.SmartSizeMode), Settings.Default.ConDefaultVNCSmartSizeMode);
             VNCViewOnly = Settings.Default.ConDefaultVNCViewOnly;
         }
 
@@ -380,7 +360,6 @@ namespace mRemoteNG.Connection
         {
             Inheritance = new ConnectionInfoInheritance(this);
             SetNewOpenConnectionList();
-            //PositionID = 0;
         }
 
         private void SetNewOpenConnectionList()
