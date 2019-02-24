@@ -322,7 +322,7 @@ namespace mRemoteNG {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Auto save time in minutes (0 means disabled):.
+        ///   Looks up a localized string similar to Auto save time in minutes (0 means disabled).
         /// </summary>
         internal static string AutoSaveEvery {
             get {
@@ -725,7 +725,7 @@ namespace mRemoteNG {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Use custom PuTTY path:.
+        ///   Looks up a localized string similar to Use custom PuTTY path.
         /// </summary>
         internal static string CheckboxPuttyPath {
             get {
@@ -1460,6 +1460,15 @@ namespace mRemoteNG {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Credits.
+        /// </summary>
+        internal static string Credits {
+            get {
+                return ResourceManager.GetString("Credits", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Ctrl-Alt-Del.
         /// </summary>
         internal static string CtrlAltDel {
@@ -1640,7 +1649,7 @@ namespace mRemoteNG {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to For empty Username, Password or Domain fields use:.
+        ///   Looks up a localized string similar to For empty Username, Password or Domain fields use.
         /// </summary>
         internal static string EmptyUsernamePasswordDomainFields {
             get {
@@ -2031,7 +2040,7 @@ namespace mRemoteNG {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to File &amp;Format:.
+        ///   Looks up a localized string similar to File &amp;Format.
         /// </summary>
         internal static string FileFormatLabel {
             get {
@@ -2724,7 +2733,7 @@ namespace mRemoteNG {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to When closing connections:.
+        ///   Looks up a localized string similar to When closing connections.
         /// </summary>
         internal static string LabelClosingConnections {
             get {
@@ -2733,7 +2742,7 @@ namespace mRemoteNG {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &amp;Connect:.
+        ///   Looks up a localized string similar to &amp;Connect.
         /// </summary>
         internal static string LabelConnect {
             get {
@@ -2742,7 +2751,7 @@ namespace mRemoteNG {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Hostname:.
+        ///   Looks up a localized string similar to Hostname.
         /// </summary>
         internal static string LabelHostname {
             get {
@@ -2751,7 +2760,7 @@ namespace mRemoteNG {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to To configure PuTTY sessions click this button:.
+        ///   Looks up a localized string similar to To configure PuTTY sessions click this button.
         /// </summary>
         internal static string LabelPuttySessionsConfig {
             get {
@@ -2760,7 +2769,7 @@ namespace mRemoteNG {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Maximum PuTTY and integrated external tools wait time:.
+        ///   Looks up a localized string similar to Maximum PuTTY and integrated external tools wait time.
         /// </summary>
         internal static string LabelPuttyTimeout {
             get {
@@ -2769,7 +2778,7 @@ namespace mRemoteNG {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Read only:.
+        ///   Looks up a localized string similar to Read only.
         /// </summary>
         internal static string LabelReadOnly {
             get {
@@ -2805,7 +2814,7 @@ namespace mRemoteNG {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Server status:.
+        ///   Looks up a localized string similar to Server status.
         /// </summary>
         internal static string LabelServerStatus {
             get {
@@ -2814,7 +2823,7 @@ namespace mRemoteNG {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Verify:.
+        ///   Looks up a localized string similar to Verify.
         /// </summary>
         internal static string LabelVerify {
             get {
@@ -5759,7 +5768,7 @@ namespace mRemoteNG {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to RDP reconnection count:.
+        ///   Looks up a localized string similar to RDP reconnection count.
         /// </summary>
         internal static string RdpReconnectCount {
             get {
@@ -6490,7 +6499,7 @@ namespace mRemoteNG {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Switch to Notifications panel on:.
+        ///   Looks up a localized string similar to Switch to Notifications panel on.
         /// </summary>
         internal static string SwitchToErrorsAndInfos {
             get {
@@ -6553,7 +6562,7 @@ namespace mRemoteNG {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The following:.
+        ///   Looks up a localized string similar to The following.
         /// </summary>
         internal static string TheFollowing {
             get {
@@ -7012,7 +7021,7 @@ namespace mRemoteNG {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to UltraVNC SingleClick port:.
+        ///   Looks up a localized string similar to UltraVNC SingleClick port.
         /// </summary>
         internal static string UltraVNCSCListeningPort {
             get {
@@ -7111,7 +7120,7 @@ namespace mRemoteNG {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Check failed.
+        ///   Looks up a localized string similar to Check failed!.
         /// </summary>
         internal static string UpdateCheckFailedLabel {
             get {
@@ -7445,7 +7454,7 @@ namespace mRemoteNG {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to XULrunner path:.
+        ///   Looks up a localized string similar to XULrunner path.
         /// </summary>
         internal static string XULrunnerPath {
             get {

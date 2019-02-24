@@ -178,7 +178,7 @@
     <value>Automatisch Sitzungsinformationen einholen</value>
   </data>
   <data name="AutoSaveEvery" xml:space="preserve">
-    <value>Automatisch speichern in Minuten (0 bedeutet deaktiviert):</value>
+    <value>Automatisch speichern in Minuten (0 bedeutet deaktiviert)</value>
   </data>
   <data name="AutoSaveMins" xml:space="preserve">
     <value>Minuten (0 bedeutet deaktiviert)</value>
@@ -337,7 +337,7 @@ VncSharp Control Version {0}</value>
     <value>Benutze Authentifizierung</value>
   </data>
   <data name="CheckboxPuttyPath" xml:space="preserve">
-    <value>Eigener PuTTY-Pfad:</value>
+    <value>Eigener PuTTY-Pfad</value>
   </data>
   <data name="CheckboxReconnectWhenReady" xml:space="preserve">
     <value>Verbinden wenn bereit</value>
@@ -554,7 +554,7 @@ Starte mit neuer Datei.</value>
     <value>Wollen Sie ohne Passwort fortfahren?</value>
   </data>
   <data name="EmptyUsernamePasswordDomainFields" xml:space="preserve">
-    <value>Bei leeren Feldern für Benutzername, Passwort oder Domäne verwende:</value>
+    <value>Bei leeren Feldern für Benutzername, Passwort oder Domäne verwende</value>
   </data>
   <data name="Enc128Bit" xml:space="preserve">
     <value>128 Bit</value>
@@ -770,19 +770,19 @@ Starte mit neuer Datei.</value>
     <value>Strg-Esc</value>
   </data>
   <data name="LabelAddress" xml:space="preserve">
-    <value>Addresse:</value>
+    <value>Addresse</value>
   </data>
   <data name="LabelChangeLog" xml:space="preserve">
-    <value>Veränderungsprotokoll:</value>
+    <value>Veränderungsprotokoll</value>
   </data>
   <data name="LabelClosingConnections" xml:space="preserve">
-    <value>Beim Schließen der Verbindungen:</value>
+    <value>Beim Schließen der Verbindungen</value>
   </data>
   <data name="LabelConnect" xml:space="preserve">
-    <value>&amp;Verbinden:</value>
+    <value>&amp;Verbinden</value>
   </data>
   <data name="LabelHostname" xml:space="preserve">
-    <value>Hostname:</value>
+    <value>Hostname</value>
   </data>
   <data name="PortableEdition" xml:space="preserve">
     <value>Portable Edition</value>
@@ -791,10 +791,10 @@ Starte mit neuer Datei.</value>
     <value>Protokoll</value>
   </data>
   <data name="LabelPuttySessionsConfig" xml:space="preserve">
-    <value>Klicken Sie hier, um die PuTTY-Sitzung zu konfigurieren:</value>
+    <value>Klicken Sie hier, um die PuTTY-Sitzung zu konfigurieren</value>
   </data>
   <data name="LabelPuttyTimeout" xml:space="preserve">
-    <value>Maximale Zeit, die auf PuTTY und integrierte externe Programme gewartet wird:</value>
+    <value>Maximale Zeit, die auf PuTTY und integrierte externe Programme gewartet wird</value>
   </data>
   <data name="LabelReleasedUnderGPL" xml:space="preserve">
     <value>Unter der GNU General Public License (GPL) veröffentlicht</value>
@@ -806,13 +806,13 @@ Starte mit neuer Datei.</value>
     <value>Wählen Sie ein Panel aus der Liste oder klicken Sie auf Neu, um ein neues zu erstellen. Klicken Sie OK um fortzufahren.</value>
   </data>
   <data name="LabelServerStatus" xml:space="preserve">
-    <value>Serverstatus:</value>
+    <value>Serverstatus</value>
   </data>
   <data name="Database" xml:space="preserve">
-    <value>Datenbank:</value>
+    <value>Datenbank</value>
   </data>
   <data name="LabelVerify" xml:space="preserve">
-    <value>Überprüfen:</value>
+    <value>Überprüfen</value>
   </data>
   <data name="strLanguage" xml:space="preserve">
     <value>Sprache</value>
@@ -1565,7 +1565,7 @@ Wenn Sie Fehler feststellen, dann sollten Sie eine neue Verbindungsdatei erstell
     <value>Auslesen der RDP-Sitzungen fehlgeschlagen!</value>
   </data>
   <data name="RdpReconnectCount" xml:space="preserve">
-    <value>RDP-Verbindungsversuche:</value>
+    <value>RDP-Verbindungsversuche</value>
   </data>
   <data name="RdpSetAuthenticationLevelFailed" xml:space="preserve">
     <value>Setzen des RDP-Authenifizierungs-Levels fehlgeschlagen!</value>
@@ -1721,7 +1721,7 @@ Wenn Sie Fehler feststellen, dann sollten Sie eine neue Verbindungsdatei erstell
     <value>Für mehr Informationen bitte Hilfeeintrag lesen (Info - Help - Getting started - SQL Configuration)</value>
   </data>
   <data name="SQLServer" xml:space="preserve">
-    <value>SQL-Server:</value>
+    <value>SQL-Server</value>
   </data>
   <data name="SqlUpdateCheckUpdateAvailable" xml:space="preserve">
     <value>SQL-Aktualisierungsprüfung beendet und es existiert eine Aktualisierung! Aktualisiere die Verbindungsdaten.</value>
@@ -1757,7 +1757,7 @@ Wenn Sie Fehler feststellen, dann sollten Sie eine neue Verbindungsdatei erstell
     <value>Status</value>
   </data>
   <data name="SwitchToErrorsAndInfos" xml:space="preserve">
-    <value>Öffne das Fehler &amp;&amp; Infos Panel bei:</value>
+    <value>Öffne das Fehler &amp;&amp; Infos Panel bei</value>
   </data>
   <data name="Advanced" xml:space="preserve">
     <value>Erweitert</value>
@@ -1772,7 +1772,7 @@ Wenn Sie Fehler feststellen, dann sollten Sie eine neue Verbindungsdatei erstell
     <value>Telnet</value>
   </data>
   <data name="TheFollowing" xml:space="preserve">
-    <value>die folgenden:</value>
+    <value>die folgenden</value>
   </data>
   <data name="ThemeCategoryConfigPanel" xml:space="preserve">
     <value>Config-Panel</value>
@@ -1913,7 +1913,7 @@ Wenn Sie Fehler feststellen, dann sollten Sie eine neue Verbindungsdatei erstell
     <value>Ultra Vnc Repeater</value>
   </data>
   <data name="UltraVNCSCListeningPort" xml:space="preserve">
-    <value>UltraVNC SingleClick Port:</value>
+    <value>UltraVNC SingleClick Port</value>
   </data>
   <data name="UncheckProperties" xml:space="preserve">
     <value>Deaktivieren Sie alle Eigenschaften, die nicht gespeichert werden sollen.</value>
@@ -2010,7 +2010,7 @@ mRemoteNG wird nun geschlossen und die Installation gestartet.</value>
     <value>Benutzt die DockPanel Suite von [Weifen Luo]</value>
   </data>
   <data name="XULrunnerPath" xml:space="preserve">
-    <value>XULrunner Pfad:</value>
+    <value>XULrunner Pfad</value>
   </data>
   <data name="Yes" xml:space="preserve">
     <value>Ja</value>
@@ -2076,7 +2076,7 @@ mRemoteNG wird nun geschlossen und die Installation gestartet.</value>
     <value>Tastatur</value>
   </data>
   <data name="UpdateCheckFailedLabel" xml:space="preserve">
-    <value>Prüfung fehlgeschlagen</value>
+    <value>Prüfung fehlgeschlagen!</value>
   </data>
   <data name="UpdateCheckingLabel" xml:space="preserve">
     <value>Nach Updates suchen...</value>

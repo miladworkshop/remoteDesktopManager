@@ -584,7 +584,7 @@ Starting with new connections file.</value>
     <value>パスワード無しでよろしいですか？</value>
   </data>
   <data name="EmptyUsernamePasswordDomainFields" xml:space="preserve">
-    <value>For empty Username, Password or Domain fields use:</value>
+    <value>For empty Username, Password or Domain fields use</value>
   </data>
   <data name="Enc128Bit" xml:space="preserve">
     <value>128ビット</value>
@@ -692,7 +692,7 @@ Starting with new connections file.</value>
     <value>http://www.famfamfam.com/</value>
   </data>
   <data name="FileFormatLabel" xml:space="preserve">
-    <value>File &amp;Format:</value>
+    <value>File &amp;Format</value>
   </data>
   <data name="FilterAll" xml:space="preserve">
     <value>すべてのファイル(*.*)</value>
@@ -896,10 +896,10 @@ Starting with new connections file.</value>
     <value>プロトコル：</value>
   </data>
   <data name="LabelPuttySessionsConfig" xml:space="preserve">
-    <value>To configure PuTTY sessions click this button:</value>
+    <value>To configure PuTTY sessions click this button</value>
   </data>
   <data name="LabelPuttyTimeout" xml:space="preserve">
-    <value>Maximum PuTTY and integrated external tools wait time:</value>
+    <value>Maximum PuTTY and integrated external tools wait time</value>
   </data>
   <data name="LabelReleasedUnderGPL" xml:space="preserve">
     <value>Released under the GNU General Public License (GPL)</value>
@@ -1755,7 +1755,7 @@ Message:
     <value>GetSessions failed!</value>
   </data>
   <data name="RdpReconnectCount" xml:space="preserve">
-    <value>RDP reconnection count:</value>
+    <value>RDP reconnection count</value>
   </data>
   <data name="RdpSetAuthenticationLevelFailed" xml:space="preserve">
     <value>RDP SetAuthenticationLevel failed!</value>
@@ -1954,7 +1954,7 @@ Message:
     <value>ステータス</value>
   </data>
   <data name="SwitchToErrorsAndInfos" xml:space="preserve">
-    <value>Switch to Notifications panel on:</value>
+    <value>Switch to Notifications panel on</value>
   </data>
   <data name="Advanced" xml:space="preserve">
     <value>詳細設定</value>
@@ -2113,7 +2113,7 @@ Message:
     <value>Ultra VNC Repeater</value>
   </data>
   <data name="UltraVNCSCListeningPort" xml:space="preserve">
-    <value>UltraVNC SingleClick port:</value>
+    <value>UltraVNC SingleClick port</value>
   </data>
   <data name="UncheckProperties" xml:space="preserve">
     <value>Uncheck the properties you want not to be saved!</value>

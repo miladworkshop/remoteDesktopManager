@@ -178,7 +178,7 @@
     <value>Obter automaticamente informações de sessão</value>
   </data>
   <data name="AutoSaveEvery" xml:space="preserve">
-    <value>Auto salvar a cada:</value>
+    <value>Auto salvar a cada</value>
   </data>
   <data name="AutoSaveMins" xml:space="preserve">
     <value>Minutos (0 significa desativado)</value>
@@ -319,7 +319,7 @@
     <value>Este servidor proxy requer autenticação</value>
   </data>
   <data name="CheckboxPuttyPath" xml:space="preserve">
-    <value>Usar caminho personalizado PuTTY:</value>
+    <value>Usar caminho personalizado PuTTY</value>
   </data>
   <data name="CheckboxReconnectWhenReady" xml:space="preserve">
     <value>Voltar a ligar quando estiver pronto</value>
@@ -529,7 +529,7 @@ Descrição do erro: {1}</value>
     <value>Continuar sem senha?</value>
   </data>
   <data name="EmptyUsernamePasswordDomainFields" xml:space="preserve">
-    <value>Para Nome de utilizador, senha ou domínio vazios, usar:</value>
+    <value>Para Nome de utilizador, senha ou domínio vazios, usar</value>
   </data>
   <data name="Enc128Bit" xml:space="preserve">
     <value>128-bit</value>
@@ -739,31 +739,31 @@ Descrição do erro: {1}</value>
     <value>CTRL-ESC</value>
   </data>
   <data name="LabelAddress" xml:space="preserve">
-    <value>Endereço:</value>
+    <value>Endereço</value>
   </data>
   <data name="LabelChangeLog" xml:space="preserve">
-    <value>Log de alterações:</value>
+    <value>Log de alterações</value>
   </data>
   <data name="LabelClosingConnections" xml:space="preserve">
-    <value>Ao fechar ligações:</value>
+    <value>Ao fechar ligações</value>
   </data>
   <data name="LabelConnect" xml:space="preserve">
-    <value>&amp;Ligar:</value>
+    <value>&amp;Ligar</value>
   </data>
   <data name="LabelHostname" xml:space="preserve">
-    <value>Hostname:</value>
+    <value>Hostname</value>
   </data>
   <data name="PortableEdition" xml:space="preserve">
     <value>Edição portátil</value>
   </data>
   <data name="Protocol" xml:space="preserve">
-    <value>Protocolo:</value>
+    <value>Protocolo</value>
   </data>
   <data name="LabelPuttySessionsConfig" xml:space="preserve">
-    <value>Para configurar as sessões PuTTY clique neste botão:</value>
+    <value>Para configurar as sessões PuTTY clique neste botão</value>
   </data>
   <data name="LabelPuttyTimeout" xml:space="preserve">
-    <value>Máxima tempo de espera para PuTTY e ferramentas externas integradas:</value>
+    <value>Máxima tempo de espera para PuTTY e ferramentas externas integradas</value>
   </data>
   <data name="LabelReleasedUnderGPL" xml:space="preserve">
     <value>Lançado sob a GNU General Public License (GPL)</value>
@@ -775,13 +775,13 @@ Descrição do erro: {1}</value>
     <value>Selecione um painel na lista abaixo ou clique em Novo para adicionar um novo. Clique em OK para continuar.</value>
   </data>
   <data name="LabelServerStatus" xml:space="preserve">
-    <value>Estado do servidor:</value>
+    <value>Estado do servidor</value>
   </data>
   <data name="Database" xml:space="preserve">
-    <value>Banco de dados:</value>
+    <value>Banco de dados</value>
   </data>
   <data name="LabelVerify" xml:space="preserve">
-    <value>Verificar:</value>
+    <value>Verificar</value>
   </data>
   <data name="strLanguage" xml:space="preserve">
     <value>Língua</value>
@@ -1528,7 +1528,7 @@ Descrição do erro: {1}</value>
     <value>GetSessions falhou!</value>
   </data>
   <data name="RdpReconnectCount" xml:space="preserve">
-    <value>Contador de re-ligação RDP:</value>
+    <value>Contador de re-ligação RDP</value>
   </data>
   <data name="RdpSetAuthenticationLevelFailed" xml:space="preserve">
     <value>Falha no RDP SetAuthenticationLevel!</value>
@@ -1717,7 +1717,7 @@ Descrição do erro: {1}</value>
     <value>Estado</value>
   </data>
   <data name="SwitchToErrorsAndInfos" xml:space="preserve">
-    <value>Trocar para o painel de notificações:</value>
+    <value>Trocar para o painel de notificações</value>
   </data>
   <data name="Advanced" xml:space="preserve">
     <value>Avançado</value>
@@ -1732,7 +1732,7 @@ Descrição do erro: {1}</value>
     <value>Telnet</value>
   </data>
   <data name="TheFollowing" xml:space="preserve">
-    <value>A seguir:</value>
+    <value>A seguir</value>
   </data>
   <data name="ThemeCategoryConfigPanel" xml:space="preserve">
     <value>Painel de configuração</value>
@@ -1849,7 +1849,7 @@ Descrição do erro: {1}</value>
     <value>Repetidor Ultra VNC</value>
   </data>
   <data name="UltraVNCSCListeningPort" xml:space="preserve">
-    <value>Porta UltraVNC SingleClick:</value>
+    <value>Porta UltraVNC SingleClick</value>
   </data>
   <data name="UncheckProperties" xml:space="preserve">
     <value>Desmarcar as propriedades que não deseja salvar!</value>
@@ -1945,7 +1945,7 @@ Descrição do erro: {1}</value>
     <value>Usa o DockPanel Suite por [Weifen Luo]</value>
   </data>
   <data name="XULrunnerPath" xml:space="preserve">
-    <value>Caminho XULrunner:</value>
+    <value>Caminho XULrunner</value>
   </data>
   <data name="Yes" xml:space="preserve">
     <value>Sim</value>

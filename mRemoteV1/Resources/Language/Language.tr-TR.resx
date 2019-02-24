@@ -178,7 +178,7 @@
 		<value>Oturum bilgilerini otomatik olarak getir</value>
 	</data>
   <data name="AutoSaveEvery" xml:space="preserve">
-		<value>Otomatik kaydet her:</value>
+		<value>Otomatik kaydet her</value>
 	</data>
   <data name="AutoSaveMins" xml:space="preserve">
 		<value>dakikada bir (0 kapalı)</value>
@@ -262,7 +262,7 @@
 		<value>Bu proxy sunucusu kimlik doğrulama gerektirir</value>
 	</data>
   <data name="CheckboxPuttyPath" xml:space="preserve">
-		<value>Özel PuTTY yolu kullan:</value>
+		<value>Özel PuTTY yolu kullan</value>
 	</data>
   <data name="CheckboxReconnectWhenReady" xml:space="preserve">
 		<value>Hazır olduğunda tekrar bağlan</value>
@@ -604,7 +604,7 @@ Normal bağlantı dosyaları için lütfen Dosya - Bağlantıları Yükle'yi kul
 		<value>Parola olmadan devam etmek istiyor musunuz?</value>
 	</data>
   <data name="EmptyUsernamePasswordDomainFields" xml:space="preserve">
-		<value>Boş bırakılan Kullanıcı adı, Parola ve Domain için:</value>
+		<value>Boş bırakılan Kullanıcı adı, Parola ve Domain için</value>
 	</data>
   <data name="Enc128BitLogonOnly" xml:space="preserve">
 		<value>128-bit (yalnızca oturum açma)</value>
@@ -700,7 +700,7 @@ Normal bağlantı dosyaları için lütfen Dosya - Bağlantıları Yükle'yi kul
 		<value>[FAMFAMFAM]'ın simgelerini içerir</value>
 	</data>
   <data name="FileFormatLabel" xml:space="preserve">
-		<value>Dosya &amp;Formatı:</value>
+		<value>Dosya &amp;Formatı</value>
 	</data>
   <data name="FilterAll" xml:space="preserve">
 		<value>Tüm Dosyalar (*.*)</value>
@@ -778,10 +778,10 @@ Normal bağlantı dosyaları için lütfen Dosya - Bağlantıları Yükle'yi kul
 		<value>ICA eklentisini yükleme başarısız!</value>
 	</data>
   <data name="Database" xml:space="preserve">
-		<value>Veritabanı:</value>
+		<value>Veritabanı</value>
 	</data>
   <data name="LabelVerify" xml:space="preserve">
-		<value>Doğrula:</value>
+		<value>Doğrula</value>
 	</data>
   <data name="strLanguage" xml:space="preserve">
 		<value>Dil</value>
@@ -1094,7 +1094,7 @@ Böyle bir hatayla karşılaşırsanız, lütfen yeni bir bağlantı dosyası ol
 		<value>[Weifen Luo] tarafından sağlanan DockPanel Suite kullanılıyor</value>
 	</data>
   <data name="XULrunnerPath" xml:space="preserve">
-		<value>XULrunner yolu:</value>
+		<value>XULrunner yolu</value>
 	</data>
   <data name="MenuReconnectAll" xml:space="preserve">
 		<value>Tüm Açık Bağlantılara Yeniden Bağlanın</value>
@@ -1296,29 +1296,29 @@ MRemoteNG şimdi kapanacak ve kurulum başlayacak.</value>
 		<value>Int App Başlığı: {0}</value>
 	</data>
   <data name="LabelAddress" xml:space="preserve">
-		<value>Adres:</value>
+		<value>Adres</value>
 	</data>
   <data name="LabelChangeLog" xml:space="preserve">
-		<value>Değişiklik günlüğü:</value>
+		<value>Değişiklik günlüğü</value>
 	</data>
   <data name="LabelClosingConnections" xml:space="preserve">
-		<value>Bağlantı kapatılırken:</value>
+		<value>Bağlantı kapatılırken</value>
 	</data>
   <data name="LabelConnect" xml:space="preserve">
-		<value>&amp;Bağlan:</value>
+		<value>&amp;Bağlan</value>
 	</data>
   <data name="PortableEdition" xml:space="preserve">
 		<value>Taşınabilir Sürüm</value>
 	</data>
   <data name="Protocol" xml:space="preserve">
-		<value>Protokol:</value>
+		<value>Protokol</value>
 	</data>
   <data name="LabelPuttySessionsConfig" xml:space="preserve">
-		<value>PuTTY oturumlarını yapılandırmak için bu butona tıklayın:</value>
+		<value>PuTTY oturumlarını yapılandırmak için bu butona tıklayın</value>
 	</data>
   <data name="LabelPuttyTimeout" xml:space="preserve">
 		<value>
-PuTTY ve harici araçlar için en fazla bekleme süresi:</value>
+PuTTY ve harici araçlar için en fazla bekleme süresi</value>
 	</data>
   <data name="LabelReleasedUnderGPL" xml:space="preserve">
 		<value>GNU Genel Kamu Lisansı (GPL) kapsamında çıkarıldı</value>
@@ -1330,7 +1330,7 @@ PuTTY ve harici araçlar için en fazla bekleme süresi:</value>
 		<value>Aşağıdaki listeden bir panel seçin veya yeni bir panel eklemek için Yeni'yi tıklayın. Devam etmek için Tamam'ı tıklayın.</value>
 	</data>
   <data name="LabelServerStatus" xml:space="preserve">
-		<value>Sunucu Durumu:</value>
+		<value>Sunucu Durumu</value>
 	</data>
   <data name="PanelName" xml:space="preserve">
 		<value>Panel Adı</value>
@@ -1885,7 +1885,7 @@ Mesaj:
 		<value>Oturumları çağırma başarısız!</value>
 	</data>
   <data name="RdpReconnectCount" xml:space="preserve">
-		<value>RDP yeniden bağlanma sayısı:</value>
+		<value>RDP yeniden bağlanma sayısı</value>
 	</data>
   <data name="RdpSetAuthenticationLevelFailed" xml:space="preserve">
 		<value>RDP Kimlik Doğrulama Düzeyi Ayarlanamadı!</value>
@@ -2059,7 +2059,7 @@ Mesaj:
 		<value>Durum</value>
 	</data>
   <data name="SwitchToErrorsAndInfos" xml:space="preserve">
-		<value>Şunlardan bildirimler paneline geçin:</value>
+		<value>Şunlardan bildirimler paneline geçin</value>
 	</data>
   <data name="Advanced" xml:space="preserve">
 		<value>Gelişmiş</value>
@@ -2071,7 +2071,7 @@ Mesaj:
 		<value>Güncellemeler</value>
 	</data>
   <data name="TheFollowing" xml:space="preserve">
-		<value>Aşağıdaki:</value>
+		<value>Aşağıdaki</value>
 	</data>
   <data name="ThemeCategoryConfigPanel" xml:space="preserve">
 		<value>Ayar Paneli</value>

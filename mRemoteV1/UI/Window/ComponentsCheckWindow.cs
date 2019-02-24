@@ -487,7 +487,7 @@ namespace mRemoteNG.UI.Window
             TabText = Language.ComponentsCheck;
             Text = Language.ComponentsCheck;
             chkAlwaysShow.Text = Language.CcAlwaysShowScreen;
-            btnCheckAgain.Text = $@"{Language.UpdateCheckFailedLabel}!";
+            btnCheckAgain.Text = Language.UpdateCheckFailedLabel;
         }
 
         private new void ApplyTheme()
@@ -580,7 +580,7 @@ namespace mRemoteNG.UI.Window
             {
                 pbCheck1.Image = _failureImage;
                 lblCheck1.ForeColor = Color.Firebrick;
-                lblCheck1.Text = "RDP (Remote Desktop) " + $@"{Language.UpdateCheckFailedLabel}!";
+                lblCheck1.Text = "RDP (Remote Desktop) " + Language.UpdateCheckFailedLabel;
                 txtCheck1.Text = string.Format(Language.CcRDPFailed, GeneralAppInfo.UrlForum);
 
                 Runtime.MessageCollector.AddMessage(MessageClass.WarningMsg, "RDP " + Language.CcNotInstalledProperly, true);
@@ -615,7 +615,7 @@ namespace mRemoteNG.UI.Window
             {
                 pbCheck2.Image = _failureImage;
                 lblCheck2.ForeColor = Color.Firebrick;
-                lblCheck2.Text = "VNC (Virtual Network Computing) " + $@"{Language.UpdateCheckFailedLabel}!";
+                lblCheck2.Text = "VNC (Virtual Network Computing) " + Language.UpdateCheckFailedLabel;
                 txtCheck2.Text = string.Format(Language.CcVNCFailed, GeneralAppInfo.UrlForum);
 
                 Runtime.MessageCollector.AddMessage(MessageClass.WarningMsg, "VNC " + Language.CcNotInstalledProperly, true);
@@ -650,7 +650,7 @@ namespace mRemoteNG.UI.Window
             {
                 pbCheck3.Image = _failureImage;
                 lblCheck3.ForeColor = Color.Firebrick;
-                lblCheck3.Text = "PuTTY (SSH/Telnet/Rlogin/RAW) " + $@"{Language.UpdateCheckFailedLabel}!";
+                lblCheck3.Text = "PuTTY (SSH/Telnet/Rlogin/RAW) " + Language.UpdateCheckFailedLabel;
                 txtCheck3.Text = Language.CcPuttyFailed;
 
                 Runtime.MessageCollector.AddMessage(MessageClass.WarningMsg, "PuTTY " + Language.CcNotInstalledProperly, true);
@@ -679,7 +679,7 @@ namespace mRemoteNG.UI.Window
             {
                 pbCheck4.Image = _failureImage;
                 lblCheck4.ForeColor = Color.Firebrick;
-                lblCheck4.Text = @"ICA (Citrix ICA) " + $@"{Language.UpdateCheckFailedLabel}!";
+                lblCheck4.Text = @"ICA (Citrix ICA) " + Language.UpdateCheckFailedLabel;
                 txtCheck4.Text = string.Format(Language.CcICAFailed, GeneralAppInfo.UrlForum);
 
                 Runtime.MessageCollector.AddMessage(MessageClass.WarningMsg,
@@ -723,7 +723,7 @@ namespace mRemoteNG.UI.Window
             {
                 pbCheck5.Image = _failureImage;
                 lblCheck5.ForeColor = Color.Firebrick;
-                lblCheck5.Text = @"Gecko (Firefox) Rendering Engine (HTTP/S) " + $@"{Language.UpdateCheckFailedLabel}!";
+                lblCheck5.Text = @"Gecko (Firefox) Rendering Engine (HTTP/S) " + Language.UpdateCheckFailedLabel;
                 txtCheck5.Text = string.Format(Language.CcGeckoFailed, GeneralAppInfo.UrlForum);
 
                 Runtime.MessageCollector.AddMessage(MessageClass.WarningMsg, "Gecko " + Language.CcNotInstalledProperly, true);

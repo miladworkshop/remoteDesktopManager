@@ -181,7 +181,7 @@
 		<value>세션 정보를 자동으로 얻음</value>
 	</data>
   <data name="AutoSaveEvery" xml:space="preserve">
-		<value>자동 저장 간격 :</value>
+		<value>자동 저장 간격 </value>
 	</data>
   <data name="AutoSaveMins" xml:space="preserve">
 		<value>분 ( 0은 비활성화)</value>
@@ -342,7 +342,7 @@ VncSharp 제어 버전 {0}</value>
 		<value>이 프록시 서버에는 인증이 필요합니다</value>
 	</data>
   <data name="CheckboxPuttyPath" xml:space="preserve">
-		<value>사용자 정의 PuTTY 경로 사용 :</value>
+		<value>사용자 정의 PuTTY 경로 사용 </value>
 	</data>
   <data name="CheckboxReconnectWhenReady" xml:space="preserve">
 		<value>준비되면 다시 연결</value>
@@ -711,7 +711,7 @@ VncSharp 제어 버전 {0}</value>
 		<value>암호를 사용하지 않고 계속 하시겠습니까?</value>
 	</data>
   <data name="EmptyUsernamePasswordDomainFields" xml:space="preserve">
-		<value>빈 사용자 이름, 비밀번호 또는 도메인 필드의 경우 다음을 사용 :</value>
+		<value>빈 사용자 이름, 비밀번호 또는 도메인 필드의 경우 다음을 사용 </value>
 	</data>
   <data name="Enc128Bit" xml:space="preserve">
 		<value>128 비트</value>
@@ -819,7 +819,7 @@ VncSharp 제어 버전 {0}</value>
 		<value>http://www.famfamfam.com/</value>
 	</data>
   <data name="FileFormatLabel" xml:space="preserve">
-		<value>파일 형식(&amp;F):</value>
+		<value>파일 형식(&amp;F)</value>
 	</data>
   <data name="FilterAll" xml:space="preserve">
 		<value>모든 파일 (*.*)</value>
@@ -1002,31 +1002,31 @@ VncSharp 제어 버전 {0}</value>
 		<value>CTRL-ESC</value>
 	</data>
   <data name="LabelAddress" xml:space="preserve">
-		<value>주소:</value>
+		<value>주소</value>
 	</data>
   <data name="LabelChangeLog" xml:space="preserve">
-		<value>변경 로그 :</value>
+		<value>변경 로그 </value>
 	</data>
   <data name="LabelClosingConnections" xml:space="preserve">
-		<value>연결을 닫을 때 :</value>
+		<value>연결을 닫을 때 </value>
 	</data>
   <data name="LabelConnect" xml:space="preserve">
 		<value>연결(&amp;C)</value>
 	</data>
   <data name="LabelHostname" xml:space="preserve">
-		<value>호스트 이름 :</value>
+		<value>호스트 이름 </value>
 	</data>
   <data name="PortableEdition" xml:space="preserve">
 		<value>휴대용 버전</value>
 	</data>
   <data name="Protocol" xml:space="preserve">
-		<value>프로토콜:</value>
+		<value>프로토콜</value>
 	</data>
   <data name="LabelPuttySessionsConfig" xml:space="preserve">
-		<value>PuTTY 세션을 구성하려면이 단추를 누르십시오:</value>
+		<value>PuTTY 세션을 구성하려면이 단추를 누르십시오</value>
 	</data>
   <data name="LabelPuttyTimeout" xml:space="preserve">
-		<value>Maximum PuTTY and integrated external tools wait time:</value>
+		<value>Maximum PuTTY and integrated external tools wait time</value>
 	</data>
   <data name="LabelReleasedUnderGPL" xml:space="preserve">
 		<value>GNU 일반 공중 사용 허가서 (GPL)</value>
@@ -1038,13 +1038,13 @@ VncSharp 제어 버전 {0}</value>
 		<value>아래 목록에서 패널을 선택하거나 새로 만들기를 클릭하여 새 패널을 추가하십시오. 확인을 클릭하여 계속하십시오.</value>
 	</data>
   <data name="LabelServerStatus" xml:space="preserve">
-		<value>서버 상태 :</value>
+		<value>서버 상태 </value>
 	</data>
   <data name="Database" xml:space="preserve">
-		<value>데이터 베이스:</value>
+		<value>데이터 베이스</value>
 	</data>
   <data name="LabelVerify" xml:space="preserve">
-		<value>검증:</value>
+		<value>검증</value>
 	</data>
   <data name="strLanguage" xml:space="preserve">
 		<value>언어</value>
@@ -1870,7 +1870,7 @@ VncSharp 제어 버전 {0}</value>
 		<value>GetSessions 실패!</value>
 	</data>
   <data name="RdpReconnectCount" xml:space="preserve">
-		<value>RDP 재 연결 수 :</value>
+		<value>RDP 재 연결 수 </value>
 	</data>
   <data name="RdpSetAuthenticationLevelFailed" xml:space="preserve">
 		<value>RDP SetAuthenticationLevel 실패!</value>
@@ -2062,7 +2062,7 @@ VncSharp 제어 버전 {0}</value>
 		<value>상태</value>
 	</data>
   <data name="SwitchToErrorsAndInfos" xml:space="preserve">
-		<value>알림 패널에서 다음으로 전환 :</value>
+		<value>알림 패널에서 다음으로 전환 </value>
 	</data>
   <data name="Advanced" xml:space="preserve">
 		<value>고급</value>
@@ -2077,7 +2077,7 @@ VncSharp 제어 버전 {0}</value>
 		<value>Telnet</value>
 	</data>
   <data name="TheFollowing" xml:space="preserve">
-		<value>다음 :</value>
+		<value>다음 </value>
 	</data>
   <data name="ThemeCategoryConfigPanel" xml:space="preserve">
 		<value>설정 패널</value>
@@ -2221,7 +2221,7 @@ VncSharp 제어 버전 {0}</value>
 		<value>Ultra VNC Repeater</value>
 	</data>
   <data name="UltraVNCSCListeningPort" xml:space="preserve">
-		<value>UltraVNC SingleClick port:</value>
+		<value>UltraVNC SingleClick port</value>
 	</data>
   <data name="UncheckProperties" xml:space="preserve">
 		<value>저장하지 않으려는 속성을 선택 취소하십시오!</value>
@@ -2330,7 +2330,7 @@ mRemoteNG는 이제 종료되고 설치로 시작됩니다.</value>
 		<value>http://sourceforge.net/projects/dockpanelsuite/</value>
 	</data>
   <data name="XULrunnerPath" xml:space="preserve">
-		<value>XULRunner 경로 :</value>
+		<value>XULRunner 경로 </value>
 	</data>
   <data name="Yes" xml:space="preserve">
 		<value>예</value>

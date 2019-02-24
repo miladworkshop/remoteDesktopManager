@@ -175,7 +175,7 @@
     <value>Αυτόματη λήψη πληροφοριών περιόδου</value>
   </data>
   <data name="AutoSaveEvery" xml:space="preserve">
-    <value>Αυτόματη αποθήκευση κάθε:</value>
+    <value>Αυτόματη αποθήκευση κάθε</value>
   </data>
   <data name="AutoSaveMins" xml:space="preserve">
     <value>Λεπτά (0 σημαίνει απενεργοποιημένο)</value>

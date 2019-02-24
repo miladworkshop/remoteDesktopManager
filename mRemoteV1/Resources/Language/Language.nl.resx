@@ -178,7 +178,7 @@
     <value>Automatisch ophalen sessie informatie</value>
   </data>
   <data name="AutoSaveEvery" xml:space="preserve">
-    <value>Automatisch opslaan elke:</value>
+    <value>Automatisch opslaan elke</value>
   </data>
   <data name="AutoSaveMins" xml:space="preserve">
     <value>Minuten (0 betekent uitgeschakeld)</value>
@@ -337,7 +337,7 @@ VncSharp Versie {0}</value>
     <value>Deze proxy server vereist authenticatie</value>
   </data>
   <data name="CheckboxPuttyPath" xml:space="preserve">
-    <value>Gebruik aangepaste PuTTY pad:</value>
+    <value>Gebruik aangepaste PuTTY pad</value>
   </data>
   <data name="CheckboxReconnectWhenReady" xml:space="preserve">
     <value>Opnieuw verbinden zodra gereed</value>
@@ -554,7 +554,7 @@ Beginnen met nieuwe Connectie bestand.</value>
     <value>Wilt u doorgaan met zonder wachtwoord op te geven?</value>
   </data>
   <data name="EmptyUsernamePasswordDomainFields" xml:space="preserve">
-    <value>Voor lege gebruikersnaam, wachtwoord of domein velden gebruiken:</value>
+    <value>Voor lege gebruikersnaam, wachtwoord of domein velden gebruiken</value>
   </data>
   <data name="Enc128Bit" xml:space="preserve">
     <value>128-bit</value>
@@ -764,31 +764,31 @@ Beginnen met nieuwe Connectie bestand.</value>
     <value>CTRL-ESC</value>
   </data>
   <data name="LabelAddress" xml:space="preserve">
-    <value>Adres:</value>
+    <value>Adres</value>
   </data>
   <data name="LabelChangeLog" xml:space="preserve">
-    <value>Veranderingen:</value>
+    <value>Veranderingen</value>
   </data>
   <data name="LabelClosingConnections" xml:space="preserve">
-    <value>Bij het sluiten van connecties:</value>
+    <value>Bij het sluiten van connecties</value>
   </data>
   <data name="LabelConnect" xml:space="preserve">
-    <value>&amp;Verbind:</value>
+    <value>&amp;Verbind</value>
   </data>
   <data name="LabelHostname" xml:space="preserve">
-    <value>Hostnaam:</value>
+    <value>Hostnaam</value>
   </data>
   <data name="PortableEdition" xml:space="preserve">
     <value>Mobiele Editie</value>
   </data>
   <data name="Protocol" xml:space="preserve">
-    <value>Protocol:</value>
+    <value>Protocol</value>
   </data>
   <data name="LabelPuttySessionsConfig" xml:space="preserve">
-    <value>Om PuTTY Sessies te configureren klik op deze knop:</value>
+    <value>Om PuTTY Sessies te configureren klik op deze knop</value>
   </data>
   <data name="LabelPuttyTimeout" xml:space="preserve">
-    <value>Max. PuTTY &amp;&amp; Geïntegreerde Ext. Applicatie wachttijd:</value>
+    <value>Max. PuTTY &amp;&amp; Geïntegreerde Ext. Applicatie wachttijd</value>
   </data>
   <data name="LabelReleasedUnderGPL" xml:space="preserve">
     <value>Vrijgegeven onder de GNU General Public License (GPL)</value>
@@ -800,13 +800,13 @@ Beginnen met nieuwe Connectie bestand.</value>
     <value>Selecteer een paneel uit de onderstaande lijst of klik op Nieuw om een nieuwe toe te voegen. Klik op OK om verder te gaan.</value>
   </data>
   <data name="LabelServerStatus" xml:space="preserve">
-    <value>Server Status:</value>
+    <value>Server Status</value>
   </data>
   <data name="Database" xml:space="preserve">
-    <value>Database:</value>
+    <value>Database</value>
   </data>
   <data name="LabelVerify" xml:space="preserve">
-    <value>Verifiëren:</value>
+    <value>Verifiëren</value>
   </data>
   <data name="strLanguage" xml:space="preserve">
     <value>Taal</value>
@@ -1563,7 +1563,7 @@ Bericht:
     <value>Instellen sessies mislukt!</value>
   </data>
   <data name="RdpReconnectCount" xml:space="preserve">
-    <value>RDP aantal malen opnieuw proberen te verbinden:</value>
+    <value>RDP aantal malen opnieuw proberen te verbinden</value>
   </data>
   <data name="RdpSetAuthenticationLevelFailed" xml:space="preserve">
     <value>RDP instelling verificatie niveau mislukt!</value>
@@ -1719,7 +1719,7 @@ Bericht:
     <value>Zie Help - Aan de slag - SQL Configuratie voor meer informatie!</value>
   </data>
   <data name="SQLServer" xml:space="preserve">
-    <value>SQL Server:</value>
+    <value>SQL Server</value>
   </data>
   <data name="SqlUpdateCheckUpdateAvailable" xml:space="preserve">
     <value>SQL update check voltooid er is een update beschikbaar! De verbindingen worden vernieuwd.</value>
@@ -1755,7 +1755,7 @@ Bericht:
     <value>Status</value>
   </data>
   <data name="SwitchToErrorsAndInfos" xml:space="preserve">
-    <value>Schakel Notificatiepaneel in:</value>
+    <value>Schakel Notificatiepaneel in</value>
   </data>
   <data name="Advanced" xml:space="preserve">
     <value>Geavanceerd</value>
@@ -1770,7 +1770,7 @@ Bericht:
     <value>Telnet</value>
   </data>
   <data name="TheFollowing" xml:space="preserve">
-    <value>De volgende:</value>
+    <value>De volgende</value>
   </data>
   <data name="ThemeCategoryConfigPanel" xml:space="preserve">
     <value>Configuratie paneel</value>
@@ -1911,7 +1911,7 @@ Bericht:
     <value>UltraVNC Repeater</value>
   </data>
   <data name="UltraVNCSCListeningPort" xml:space="preserve">
-    <value>Ultra VNC Enkele Klik Poort:</value>
+    <value>Ultra VNC Enkele Klik Poort</value>
   </data>
   <data name="UncheckProperties" xml:space="preserve">
     <value>Verwijder het vinkje bij eigenschappen die u niet wil opslaan!</value>
@@ -2008,7 +2008,7 @@ mRemoteNG zal nu worden gesloten en beginnen met de installatie.</value>
     <value>Maakt gebruik van de DockPanel Suite van [Weifen Luo]</value>
   </data>
   <data name="XULrunnerPath" xml:space="preserve">
-    <value>XULrunner pad:</value>
+    <value>XULrunner pad</value>
   </data>
   <data name="Yes" xml:space="preserve">
     <value>Ja</value>

@@ -178,7 +178,7 @@
     <value>Automatycznie pobierz informacje o sesji</value>
   </data>
   <data name="AutoSaveEvery" xml:space="preserve">
-    <value>Automatyczny zapis co:</value>
+    <value>Automatyczny zapis co</value>
   </data>
   <data name="AutoSaveMins" xml:space="preserve">
     <value>Minuty (0 oznacza wyłączony)</value>
@@ -324,7 +324,7 @@ Proszę upewnić się, że albo masz Putty.exe w katalogu mRemoteNG (domyślnie:
     <value>Ten serwer proxy wymaga uwierzytelnienia</value>
   </data>
   <data name="CheckboxPuttyPath" xml:space="preserve">
-    <value>Użyj niestandardowej ścieżki PuTTY:</value>
+    <value>Użyj niestandardowej ścieżki PuTTY</value>
   </data>
   <data name="CheckboxReconnectWhenReady" xml:space="preserve">
     <value>Połącz ponownie, gdy gotowy</value>
@@ -523,7 +523,7 @@ Załadowano nowy plik połączeń.</value>
     <value>Czy chcesz kontynuować bez hasła?</value>
   </data>
   <data name="EmptyUsernamePasswordDomainFields" xml:space="preserve">
-    <value>Dla pustej nazwy pola użytkownika, hasła lub domeny użyj:</value>
+    <value>Dla pustej nazwy pola użytkownika, hasła lub domeny użyj</value>
   </data>
   <data name="Enc128Bit" xml:space="preserve">
     <value>128-bit</value>
@@ -694,19 +694,19 @@ Załadowano nowy plik połączeń.</value>
     <value>CTRL-ESC</value>
   </data>
   <data name="LabelAddress" xml:space="preserve">
-    <value>Adres:</value>
+    <value>Adres</value>
   </data>
   <data name="LabelChangeLog" xml:space="preserve">
-    <value>Historia wersji:</value>
+    <value>Historia wersji</value>
   </data>
   <data name="LabelClosingConnections" xml:space="preserve">
-    <value>Przy zamykaniu połączeń:</value>
+    <value>Przy zamykaniu połączeń</value>
   </data>
   <data name="LabelConnect" xml:space="preserve">
     <value>&amp;Połącz</value>
   </data>
   <data name="LabelHostname" xml:space="preserve">
-    <value>Nazwa hosta:</value>
+    <value>Nazwa hosta</value>
   </data>
   <data name="PortableEdition" xml:space="preserve">
     <value>Wersja przenośna.</value>
@@ -715,7 +715,7 @@ Załadowano nowy plik połączeń.</value>
     <value>Protokół</value>
   </data>
   <data name="LabelPuttySessionsConfig" xml:space="preserve">
-    <value>Aby skonfigurować sesje PuTTY kliknij ten przycisk:</value>
+    <value>Aby skonfigurować sesje PuTTY kliknij ten przycisk</value>
   </data>
   <data name="LabelReleasedUnderGPL" xml:space="preserve">
     <value>Wydane na licencji GNU General Public License (GPL)</value>
@@ -727,13 +727,13 @@ Załadowano nowy plik połączeń.</value>
     <value>Wybierz panel z poniższej listy lub kliknij przycisk Nowy, aby dodać nowy. Aby kontynuować, kliknij przycisk OK.</value>
   </data>
   <data name="LabelServerStatus" xml:space="preserve">
-    <value>Status serwera:</value>
+    <value>Status serwera</value>
   </data>
   <data name="Database" xml:space="preserve">
-    <value>Baza danych:</value>
+    <value>Baza danych</value>
   </data>
   <data name="LabelVerify" xml:space="preserve">
-    <value>Sprawdź:</value>
+    <value>Sprawdź</value>
   </data>
   <data name="strLanguage" xml:space="preserve">
     <value>Język</value>
@@ -1333,7 +1333,7 @@ Załadowano nowy plik połączeń.</value>
     <value>Wykonanie GetSessions nie powiodło się!</value>
   </data>
   <data name="RdpReconnectCount" xml:space="preserve">
-    <value>Liczba ponownych połączeń RDP:</value>
+    <value>Liczba ponownych połączeń RDP</value>
   </data>
   <data name="RdpSetAuthenticationLevelFailed" xml:space="preserve">
     <value>Wykonanie RDP SetAuthenticationLevel nie powiodło się!</value>
@@ -1474,7 +1474,7 @@ Załadowano nowy plik połączeń.</value>
     <value>Aby więcej się dowiedzieć sprawdź w systemie pomocy: Rozpocznij Pracę - Konfiguracja SQL.</value>
   </data>
   <data name="SQLServer" xml:space="preserve">
-    <value>Serwer SQL:</value>
+    <value>Serwer SQL</value>
   </data>
   <data name="SqlUpdateCheckUpdateAvailable" xml:space="preserve">
     <value>Sprawdzenie aktualizacji SQL zakończone - jest dostępna nowa aktualizacja. Zamierzam odświeżyć połączenia.</value>
@@ -1730,7 +1730,7 @@ mRemoteNG zostanie teraz zamknięty i rozpocznie instalację.</value>
     <value>Ostrzeżenia</value>
   </data>
   <data name="XULrunnerPath" xml:space="preserve">
-    <value>Ścieżka XULrunner:</value>
+    <value>Ścieżka XULrunner</value>
   </data>
   <data name="Yes" xml:space="preserve">
     <value>Tak</value>

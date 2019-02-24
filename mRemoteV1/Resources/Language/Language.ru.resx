@@ -178,7 +178,7 @@
     <value>Автоматически получать информацию о сессии</value>
   </data>
   <data name="AutoSaveEvery" xml:space="preserve">
-    <value>Автосохранение каждые:</value>
+    <value>Автосохранение каждые</value>
   </data>
   <data name="AutoSaveMins" xml:space="preserve">
     <value>минут (0 означает отключено)</value>
@@ -337,7 +337,7 @@ VncSharp Control Version {0}</value>
     <value>Требуется авторизация</value>
   </data>
   <data name="CheckboxPuttyPath" xml:space="preserve">
-    <value>Использовать собственный путь к PuTTY:</value>
+    <value>Использовать собственный путь к PuTTY</value>
   </data>
   <data name="CheckboxReconnectWhenReady" xml:space="preserve">
     <value>Переподключиться, когда будет готово</value>
@@ -554,7 +554,7 @@ VncSharp Control Version {0}</value>
     <value>Хотите продолжить без пароля?</value>
   </data>
   <data name="EmptyUsernamePasswordDomainFields" xml:space="preserve">
-    <value>Использовать пустое имя пользователя пароль или домен:</value>
+    <value>Использовать пустое имя пользователя пароль или домен</value>
   </data>
   <data name="Enc128Bit" xml:space="preserve">
     <value>128-бит</value>
@@ -770,31 +770,31 @@ VncSharp Control Version {0}</value>
     <value>CTRL-ESC</value>
   </data>
   <data name="LabelAddress" xml:space="preserve">
-    <value>Адрес:</value>
+    <value>Адрес</value>
   </data>
   <data name="LabelChangeLog" xml:space="preserve">
-    <value>История версий:</value>
+    <value>История версий</value>
   </data>
   <data name="LabelClosingConnections" xml:space="preserve">
-    <value>При закрытии подключений:</value>
+    <value>При закрытии подключений</value>
   </data>
   <data name="LabelConnect" xml:space="preserve">
-    <value>&amp;Подключение:</value>
+    <value>&amp;Подключение</value>
   </data>
   <data name="LabelHostname" xml:space="preserve">
-    <value>Имя хоста:</value>
+    <value>Имя хоста</value>
   </data>
   <data name="PortableEdition" xml:space="preserve">
     <value>Портативная версия</value>
   </data>
   <data name="Protocol" xml:space="preserve">
-    <value>Протокол:</value>
+    <value>Протокол</value>
   </data>
   <data name="LabelPuttySessionsConfig" xml:space="preserve">
-    <value>Нажмите на эту кнопку для настройки сессий PuTTY:</value>
+    <value>Нажмите на эту кнопку для настройки сессий PuTTY</value>
   </data>
   <data name="LabelPuttyTimeout" xml:space="preserve">
-    <value>Максимальное время ожидание PuTTY и внешнего приложения:</value>
+    <value>Максимальное время ожидание PuTTY и внешнего приложения</value>
   </data>
   <data name="LabelReleasedUnderGPL" xml:space="preserve">
     <value>Выпущено под лицензией GNU General Public License (GPL)</value>
@@ -806,13 +806,13 @@ VncSharp Control Version {0}</value>
     <value>Выберите панель из списка или нажмите кнопку Новая, чтобы создать новую. Нажмите кнопку OK, чтобы продолжить.</value>
   </data>
   <data name="LabelServerStatus" xml:space="preserve">
-    <value>Состояние сервера:</value>
+    <value>Состояние сервера</value>
   </data>
   <data name="Database" xml:space="preserve">
-    <value>База данных:</value>
+    <value>База данных</value>
   </data>
   <data name="LabelVerify" xml:space="preserve">
-    <value>Проверка:</value>
+    <value>Проверка</value>
   </data>
   <data name="strLanguage" xml:space="preserve">
     <value>Язык</value>
@@ -1569,7 +1569,7 @@ VncSharp Control Version {0}</value>
     <value>Ошибка сессии!</value>
   </data>
   <data name="RdpReconnectCount" xml:space="preserve">
-    <value>Количество переподключений RDP:</value>
+    <value>Количество переподключений RDP</value>
   </data>
   <data name="RdpSetAuthenticationLevelFailed" xml:space="preserve">
     <value>RDP: Установить уровень проверки подлинности не удалась!</value>
@@ -1761,7 +1761,7 @@ VncSharp Control Version {0}</value>
     <value>Статус</value>
   </data>
   <data name="SwitchToErrorsAndInfos" xml:space="preserve">
-    <value>Переключится на панель уведомлений:</value>
+    <value>Переключится на панель уведомлений</value>
   </data>
   <data name="Advanced" xml:space="preserve">
     <value>Дополнительно</value>
@@ -1776,7 +1776,7 @@ VncSharp Control Version {0}</value>
     <value>Telnet</value>
   </data>
   <data name="TheFollowing" xml:space="preserve">
-    <value>Установить вручную:</value>
+    <value>Установить вручную</value>
   </data>
   <data name="ThemeCategoryConfigPanel" xml:space="preserve">
     <value>Конфигурация</value>
@@ -1917,7 +1917,7 @@ VncSharp Control Version {0}</value>
     <value>Ultra VNC Repeater</value>
   </data>
   <data name="UltraVNCSCListeningPort" xml:space="preserve">
-    <value>Порт UltraVNC SingleClick:</value>
+    <value>Порт UltraVNC SingleClick</value>
   </data>
   <data name="UncheckProperties" xml:space="preserve">
     <value>Снимите свойства, которые не хотите сохранять!</value>
@@ -2017,7 +2017,7 @@ mRemoteNG сейчас прекратит работу и начнет проц�
     <value>http://sourceforge.net/projects/dockpanelsuite/</value>
   </data>
   <data name="XULrunnerPath" xml:space="preserve">
-    <value>Путь XULRunner:</value>
+    <value>Путь XULRunner</value>
   </data>
   <data name="Yes" xml:space="preserve">
     <value>Да</value>
@@ -2035,7 +2035,7 @@ mRemoteNG сейчас прекратит работу и начнет проц�
     <value>Выполнить с повышенными правами</value>
   </data>
   <data name="ShowOnToolbar" xml:space="preserve">
-    <value>Отобразить на панели инструментов:</value>
+    <value>Отобразить на панели инструментов</value>
   </data>
   <data name="ShowOnToolbarColumnHeader" xml:space="preserve">
     <value>Отобразить на панели инструментов</value>
@@ -2074,7 +2074,7 @@ mRemoteNG сейчас прекратит работу и начнет проц�
     <value>Экспорт выбранной папки</value>
   </data>
   <data name="FileFormatLabel" xml:space="preserve">
-    <value>Формат файла:</value>
+    <value>Формат файла</value>
   </data>
   <data name="ImportSubOUs" xml:space="preserve">
     <value>Импорт подразделений</value>
@@ -2083,7 +2083,7 @@ mRemoteNG сейчас прекратит работу и начнет проц�
     <value>Используйте кодировку UTF8 для свойства RDP "Информация о балансе нагрузки"</value>
   </data>
   <data name="TimeoutInSeconds" xml:space="preserve">
-    <value>Время ожидания в секундах:</value>
+    <value>Время ожидания в секундах</value>
   </data>
   <data name="ActiveDirectory" xml:space="preserve">
 		<value>Активный каталог</value>
@@ -2490,7 +2490,7 @@ mRemoteNG сейчас прекратит работу и начнет проц�
 		<value>Тестовое соединение</value>
 	</data>
   <data name="LabelReadOnly" xml:space="preserve">
-		<value>Только чтение:</value>
+		<value>Только чтение</value>
 	</data>
   <data name="MenuLockToolbars" xml:space="preserve">
 		<value>Заблокировать позиции панели инструментов</value>

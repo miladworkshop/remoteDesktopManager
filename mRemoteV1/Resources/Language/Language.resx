@@ -181,7 +181,7 @@
     <value>Automatically get session information</value>
   </data>
   <data name="AutoSaveEvery" xml:space="preserve">
-    <value>Auto save time in minutes (0 means disabled):</value>
+    <value>Auto save time in minutes (0 means disabled)</value>
   </data>
   <data name="AutoSaveMins" xml:space="preserve">
     <value>Minutes (0 means disabled)</value>
@@ -342,7 +342,7 @@ VncSharp Control Version {0}</value>
     <value>This proxy server requires authentication</value>
   </data>
   <data name="CheckboxPuttyPath" xml:space="preserve">
-    <value>Use custom PuTTY path:</value>
+    <value>Use custom PuTTY path</value>
   </data>
   <data name="CheckboxReconnectWhenReady" xml:space="preserve">
     <value>Reconnect when ready</value>
@@ -574,7 +574,7 @@ Starting with new connections file.</value>
     <value>Do you want to continue with no password?</value>
   </data>
   <data name="EmptyUsernamePasswordDomainFields" xml:space="preserve">
-    <value>For empty Username, Password or Domain fields use:</value>
+    <value>For empty Username, Password or Domain fields use</value>
   </data>
   <data name="Enc128Bit" xml:space="preserve">
     <value>128-bit</value>
@@ -689,7 +689,7 @@ See the Microsoft Support article at http://support.microsoft.com/kb/811833 for 
     <value>http://www.famfamfam.com/</value>
   </data>
   <data name="FileFormatLabel" xml:space="preserve">
-    <value>File &amp;Format:</value>
+    <value>File &amp;Format</value>
   </data>
   <data name="FilterAll" xml:space="preserve">
     <value>All Files (*.*)</value>
@@ -878,13 +878,13 @@ See the Microsoft Support article at http://support.microsoft.com/kb/811833 for 
     <value>Change Log</value>
   </data>
   <data name="LabelClosingConnections" xml:space="preserve">
-    <value>When closing connections:</value>
+    <value>When closing connections</value>
   </data>
   <data name="LabelConnect" xml:space="preserve">
-    <value>&amp;Connect:</value>
+    <value>&amp;Connect</value>
   </data>
   <data name="LabelHostname" xml:space="preserve">
-    <value>Hostname:</value>
+    <value>Hostname</value>
   </data>
   <data name="PortableEdition" xml:space="preserve">
     <value>Portable Edition</value>
@@ -893,10 +893,10 @@ See the Microsoft Support article at http://support.microsoft.com/kb/811833 for 
     <value>Protocol</value>
   </data>
   <data name="LabelPuttySessionsConfig" xml:space="preserve">
-    <value>To configure PuTTY sessions click this button:</value>
+    <value>To configure PuTTY sessions click this button</value>
   </data>
   <data name="LabelPuttyTimeout" xml:space="preserve">
-    <value>Maximum PuTTY and integrated external tools wait time:</value>
+    <value>Maximum PuTTY and integrated external tools wait time</value>
   </data>
   <data name="LabelReleasedUnderGPL" xml:space="preserve">
     <value>Released under the GNU General Public License (GPL)</value>
@@ -908,13 +908,13 @@ See the Microsoft Support article at http://support.microsoft.com/kb/811833 for 
     <value>Select a panel from the list below or click New to add a new one. Click OK to continue.</value>
   </data>
   <data name="LabelServerStatus" xml:space="preserve">
-    <value>Server status:</value>
+    <value>Server status</value>
   </data>
   <data name="Database" xml:space="preserve">
     <value>Database</value>
   </data>
   <data name="LabelVerify" xml:space="preserve">
-    <value>Verify:</value>
+    <value>Verify</value>
   </data>
   <data name="strLanguage" xml:space="preserve">
     <value>Language</value>
@@ -1741,7 +1741,7 @@ If you run into such an error, please create a new connection file!</value>
     <value>GetSessions failed!</value>
   </data>
   <data name="RdpReconnectCount" xml:space="preserve">
-    <value>RDP reconnection count:</value>
+    <value>RDP reconnection count</value>
   </data>
   <data name="RdpSetAuthenticationLevelFailed" xml:space="preserve">
     <value>RDP SetAuthenticationLevel failed!</value>
@@ -1933,7 +1933,7 @@ If you run into such an error, please create a new connection file!</value>
     <value>Status</value>
   </data>
   <data name="SwitchToErrorsAndInfos" xml:space="preserve">
-    <value>Switch to Notifications panel on:</value>
+    <value>Switch to Notifications panel on</value>
   </data>
   <data name="Advanced" xml:space="preserve">
     <value>Advanced</value>
@@ -1948,7 +1948,7 @@ If you run into such an error, please create a new connection file!</value>
     <value>Telnet</value>
   </data>
   <data name="TheFollowing" xml:space="preserve">
-    <value>The following:</value>
+    <value>The following</value>
   </data>
   <data name="ThemeCategoryConfigPanel" xml:space="preserve">
     <value>Config Panel</value>
@@ -2095,7 +2095,7 @@ If you run into such an error, please create a new connection file!</value>
     <value>Ultra VNC Repeater</value>
   </data>
   <data name="UltraVNCSCListeningPort" xml:space="preserve">
-    <value>UltraVNC SingleClick port:</value>
+    <value>UltraVNC SingleClick port</value>
   </data>
   <data name="UncheckProperties" xml:space="preserve">
     <value>Uncheck the properties you want not to be saved!</value>
@@ -2113,7 +2113,7 @@ If you run into such an error, please create a new connection file!</value>
     <value>The update information could not be downloaded.</value>
   </data>
   <data name="UpdateCheckFailedLabel" xml:space="preserve">
-    <value>Check failed</value>
+    <value>Check failed!</value>
   </data>
   <data name="UpdateCheckingLabel" xml:space="preserve">
     <value>Checking for updates...</value>
@@ -2204,7 +2204,7 @@ mRemoteNG will now quit and begin with the installation.</value>
     <value>http://sourceforge.net/projects/dockpanelsuite/</value>
   </data>
   <data name="XULrunnerPath" xml:space="preserve">
-    <value>XULrunner path:</value>
+    <value>XULrunner path</value>
   </data>
   <data name="Yes" xml:space="preserve">
     <value>Yes</value>
@@ -2477,7 +2477,7 @@ This page will walk you through the process of upgrading your connections file o
     <value>Test connection</value>
   </data>
   <data name="LabelReadOnly" xml:space="preserve">
-    <value>Read only:</value>
+    <value>Read only</value>
   </data>
   <data name="LoadBalanceInfoUseUtf8" xml:space="preserve">
     <value>Use UTF8 encoding for RDP "Load Balance Info" property</value>
@@ -2606,5 +2606,8 @@ Development Channel includes Alphas, Betas &amp; Release Candidates.</value>
   </data>
   <data name="PropertyDescriptionRDGatewayPassword" xml:space="preserve">
     <value>Specifies the password of the Remote Desktop Gateway server.</value>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>Credits</value>
   </data>
 </root>

@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Windows.Forms;
 using WeifenLuo.WinFormsUI.Docking;
 using System.IO;
@@ -249,7 +249,8 @@ namespace mRemoteNG.UI.Window
         private void ApplyLanguage()
         {
             lblLicense.Text = Language.LabelReleasedUnderGPL;
-            lblChangeLog.Text = Language.LabelChangeLog;
+            lblChangeLog.Text = $@"{Language.LabelChangeLog}:";
+            lblCredits.Text = $@"{Language.Credits}:";
             TabText = Language.About;
             Text = Language.About;
         }

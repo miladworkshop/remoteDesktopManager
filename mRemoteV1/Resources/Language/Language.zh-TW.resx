@@ -178,7 +178,7 @@
     <value>自動取得工作階段資訊</value>
   </data>
   <data name="AutoSaveEvery" xml:space="preserve">
-    <value>自動儲存間隔:</value>
+    <value>自動儲存間隔</value>
   </data>
   <data name="AutoSaveMins" xml:space="preserve">
     <value>分鐘 (0 分鐘停用)</value>
@@ -305,7 +305,7 @@ VncSharp Control 版本 {0}</value>
     <value>此 Proxy 伺服器需要驗證</value>
   </data>
   <data name="CheckboxPuttyPath" xml:space="preserve">
-    <value>使用自訂 PuTTY 路徑:</value>
+    <value>使用自訂 PuTTY 路徑</value>
   </data>
   <data name="CheckboxReconnectWhenReady" xml:space="preserve">
     <value>就緒時重新連線</value>
@@ -521,7 +521,7 @@ VncSharp Control 版本 {0}</value>
     <value>您要以無密碼繼續嗎?</value>
   </data>
   <data name="EmptyUsernamePasswordDomainFields" xml:space="preserve">
-    <value>針對空的使用者名稱、密碼或網域欄位使用:</value>
+    <value>針對空的使用者名稱、密碼或網域欄位使用</value>
   </data>
   <data name="Enc128Bit" xml:space="preserve">
     <value>128 位元</value>
@@ -731,31 +731,31 @@ VncSharp Control 版本 {0}</value>
     <value>CTRL-ESC</value>
   </data>
   <data name="LabelAddress" xml:space="preserve">
-    <value>位址:</value>
+    <value>位址</value>
   </data>
   <data name="LabelChangeLog" xml:space="preserve">
-    <value>更新日誌:</value>
+    <value>更新日誌</value>
   </data>
   <data name="LabelClosingConnections" xml:space="preserve">
-    <value>關閉連線時:</value>
+    <value>關閉連線時</value>
   </data>
   <data name="LabelConnect" xml:space="preserve">
-    <value>連線(&amp;C):</value>
+    <value>連線(&amp;C)</value>
   </data>
   <data name="LabelHostname" xml:space="preserve">
-    <value>主機名稱:</value>
+    <value>主機名稱</value>
   </data>
   <data name="PortableEdition" xml:space="preserve">
     <value>可攜版</value>
   </data>
   <data name="Protocol" xml:space="preserve">
-    <value>協定:</value>
+    <value>協定</value>
   </data>
   <data name="LabelPuttySessionsConfig" xml:space="preserve">
-    <value>若要組態 PuTTY 工作階段，按一下此按鈕:</value>
+    <value>若要組態 PuTTY 工作階段，按一下此按鈕</value>
   </data>
   <data name="LabelPuttyTimeout" xml:space="preserve">
-    <value>PuTTY 和整合的外部工具的最大等待時間:</value>
+    <value>PuTTY 和整合的外部工具的最大等待時間</value>
   </data>
   <data name="LabelReleasedUnderGPL" xml:space="preserve">
     <value>根據 GNU General Public License (GPL) 發佈</value>
@@ -767,13 +767,13 @@ VncSharp Control 版本 {0}</value>
     <value>從以下清單選取面板或按一下 [新增] 以加入新的。 按一下 [確定] 繼續。</value>
   </data>
   <data name="LabelServerStatus" xml:space="preserve">
-    <value>伺服器狀態:</value>
+    <value>伺服器狀態</value>
   </data>
   <data name="Database" xml:space="preserve">
-    <value>資料庫:</value>
+    <value>資料庫</value>
   </data>
   <data name="LabelVerify" xml:space="preserve">
-    <value>驗證:</value>
+    <value>驗證</value>
   </data>
   <data name="strLanguage" xml:space="preserve">
     <value>語言</value>
@@ -1530,7 +1530,7 @@ VncSharp Control 版本 {0}</value>
     <value>GetSessions 失敗!</value>
   </data>
   <data name="RdpReconnectCount" xml:space="preserve">
-    <value>RDP 重新連線次數:</value>
+    <value>RDP 重新連線次數</value>
   </data>
   <data name="RdpSetAuthenticationLevelFailed" xml:space="preserve">
     <value>RDP SetAuthenticationLevel 失敗!</value>
@@ -1722,7 +1722,7 @@ VncSharp Control 版本 {0}</value>
     <value>狀態</value>
   </data>
   <data name="SwitchToErrorsAndInfos" xml:space="preserve">
-    <value>切換到通知面板:</value>
+    <value>切換到通知面板</value>
   </data>
   <data name="Advanced" xml:space="preserve">
     <value>進階</value>
@@ -1737,7 +1737,7 @@ VncSharp Control 版本 {0}</value>
     <value>Telnet</value>
   </data>
   <data name="TheFollowing" xml:space="preserve">
-    <value>以下:</value>
+    <value>以下</value>
   </data>
   <data name="ThemeCategoryConfigPanel" xml:space="preserve">
     <value>組態面板</value>
@@ -1878,7 +1878,7 @@ VncSharp Control 版本 {0}</value>
     <value>Ultra VNC Repeater</value>
   </data>
   <data name="UltraVNCSCListeningPort" xml:space="preserve">
-    <value>UltraVNC SingleClick 連接埠:</value>
+    <value>UltraVNC SingleClick 連接埠</value>
   </data>
   <data name="UncheckProperties" xml:space="preserve">
     <value>取消勾選您不要儲存的內容!</value>
@@ -1975,7 +1975,7 @@ mRemoteNG 將立即結束並開始安裝。</value>
     <value>使用 DockPanel Suite by [Weifen Luo]</value>
   </data>
   <data name="XULrunnerPath" xml:space="preserve">
-    <value>XULrunner 路徑:</value>
+    <value>XULrunner 路徑</value>
   </data>
   <data name="Yes" xml:space="preserve">
     <value>是</value>

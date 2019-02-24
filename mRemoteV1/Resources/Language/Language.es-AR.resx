@@ -182,7 +182,7 @@ VncSharp Control {0}</value>
     <value>Este servidor proxy requiere autenticación</value>
   </data>
   <data name="CheckboxPuttyPath" xml:space="preserve">
-    <value>Usar ruta de Putty personalizada:</value>
+    <value>Usar ruta de Putty personalizada</value>
   </data>
   <data name="CheckboxReconnectWhenReady" xml:space="preserve">
     <value>Vuelva a conectarse cuando esté listo</value>
@@ -326,7 +326,7 @@ Descripción del Error: {1}</value>
     <value>¿Desea continuar sin contraseña?</value>
   </data>
   <data name="EmptyUsernamePasswordDomainFields" xml:space="preserve">
-    <value>Si desea Nombre de usuario, password o dominio vacio use:</value>
+    <value>Si desea Nombre de usuario, password o dominio vacio use</value>
   </data>
   <data name="Enc128Bit" xml:space="preserve">
     <value>128-bit</value>

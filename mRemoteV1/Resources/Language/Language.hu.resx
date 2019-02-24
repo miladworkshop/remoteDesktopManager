@@ -151,7 +151,7 @@
     <value>Munkamenet információk automatikus megszerzése</value>
   </data>
   <data name="AutoSaveEvery" xml:space="preserve">
-    <value>Automatikus mentés minden:</value>
+    <value>Automatikus mentés minden</value>
   </data>
   <data name="AutoSaveMins" xml:space="preserve">
     <value>Perc (0 - kikapcsolva)</value>
@@ -277,25 +277,25 @@
     <value>CONTROL-ESC</value>
   </data>
   <data name="LabelAddress" xml:space="preserve">
-    <value>Cím:</value>
+    <value>Cím</value>
   </data>
   <data name="LabelHostname" xml:space="preserve">
-    <value>Hosztnév:</value>
+    <value>Hosztnév</value>
   </data>
   <data name="PortableEdition" xml:space="preserve">
     <value>Hordozható kiadás</value>
   </data>
   <data name="Protocol" xml:space="preserve">
-    <value>Protokoll:</value>
+    <value>Protokoll</value>
   </data>
   <data name="LabelServerStatus" xml:space="preserve">
-    <value>Szerver állapot:</value>
+    <value>Szerver állapot</value>
   </data>
   <data name="Database" xml:space="preserve">
-    <value>Adatbázis:</value>
+    <value>Adatbázis</value>
   </data>
   <data name="LabelVerify" xml:space="preserve">
-    <value>Ellenőrzés:</value>
+    <value>Ellenőrzés</value>
   </data>
   <data name="strLanguage" xml:space="preserve">
     <value>Nyelv</value>

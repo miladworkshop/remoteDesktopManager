@@ -175,7 +175,7 @@
     <value>Obter automaticamente informações de sessão</value>
   </data>
   <data name="AutoSaveEvery" xml:space="preserve">
-    <value>Salvar automaticamente a cada:</value>
+    <value>Salvar automaticamente a cada</value>
   </data>
   <data name="AutoSaveMins" xml:space="preserve">
     <value>Minutos (0 significa desativado)</value>
@@ -312,7 +312,7 @@ Por favor, certifique-se de que você tem o Putty.exe em seu diretório mRemoteN
     <value>Este servidor proxy requer autenticação</value>
   </data>
   <data name="CheckboxPuttyPath" xml:space="preserve">
-    <value>Use o caminho personalizado para o PuTTY:</value>
+    <value>Use o caminho personalizado para o PuTTY</value>
   </data>
   <data name="CheckboxReconnectWhenReady" xml:space="preserve">
     <value>Reconectar quando estiver pronto</value>

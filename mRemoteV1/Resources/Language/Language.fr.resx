@@ -537,7 +537,7 @@ Si la vérification des composants ou l'utilisation d'ICA échoue malgré tout, 
     <value>Voulez-vous continuer sans mot de passe ?</value>
   </data>
   <data name="EmptyUsernamePasswordDomainFields" xml:space="preserve">
-    <value>Pour un Login, Mot de passe ou Domaine vide, utiliser :</value>
+    <value>Pour un Login, Mot de passe ou Domaine vide, utiliser </value>
   </data>
   <data name="Enc128Bit" xml:space="preserve">
     <value>128 bits</value>
@@ -747,31 +747,31 @@ Si la vérification des composants ou l'utilisation d'ICA échoue malgré tout, 
     <value>CTRL-Échap</value>
   </data>
   <data name="LabelAddress" xml:space="preserve">
-    <value>Adresse :</value>
+    <value>Adresse </value>
   </data>
   <data name="LabelChangeLog" xml:space="preserve">
-    <value>Historique des changements :</value>
+    <value>Historique des changements </value>
   </data>
   <data name="LabelClosingConnections" xml:space="preserve">
-    <value>Lors de la fermeture des connexions :</value>
+    <value>Lors de la fermeture des connexions </value>
   </data>
   <data name="LabelConnect" xml:space="preserve">
-    <value>&amp;Connecter:</value>
+    <value>&amp;Connecter</value>
   </data>
   <data name="LabelHostname" xml:space="preserve">
-    <value>Nom d'hôte :</value>
+    <value>Nom d'hôte </value>
   </data>
   <data name="PortableEdition" xml:space="preserve">
     <value>Édition Portable</value>
   </data>
   <data name="Protocol" xml:space="preserve">
-    <value>Protocole :</value>
+    <value>Protocole </value>
   </data>
   <data name="LabelPuttySessionsConfig" xml:space="preserve">
-    <value>Pour configurer les sessions PuTTY cliquez sur ce bouton :</value>
+    <value>Pour configurer les sessions PuTTY cliquez sur ce bouton </value>
   </data>
   <data name="LabelPuttyTimeout" xml:space="preserve">
-    <value>Temps d'attente maximum pour Putty et les composants externes :</value>
+    <value>Temps d'attente maximum pour Putty et les composants externes </value>
   </data>
   <data name="LabelReleasedUnderGPL" xml:space="preserve">
     <value>Paru sous la GNU General Public License (GPL)</value>
@@ -783,13 +783,13 @@ Si la vérification des composants ou l'utilisation d'ICA échoue malgré tout, 
     <value>Sélectionnez un groupe dans la liste ci-dessous ou cliquez sur Nouveau pour en ajouter un nouveau. Cliquez sur OK pour continuer.</value>
   </data>
   <data name="LabelServerStatus" xml:space="preserve">
-    <value>L'état du serveur :</value>
+    <value>L'état du serveur </value>
   </data>
   <data name="Database" xml:space="preserve">
-    <value>Base de données :</value>
+    <value>Base de données </value>
   </data>
   <data name="LabelVerify" xml:space="preserve">
-    <value>Vérifier :</value>
+    <value>Vérifier </value>
   </data>
   <data name="strLanguage" xml:space="preserve">
     <value>Langue</value>
@@ -1545,7 +1545,7 @@ Message:
     <value>Erreur de session !</value>
   </data>
   <data name="RdpReconnectCount" xml:space="preserve">
-    <value>Nombre de reconnexions RDP :</value>
+    <value>Nombre de reconnexions RDP </value>
   </data>
   <data name="RdpSetAuthenticationLevelFailed" xml:space="preserve">
     <value>Échec de RDP SetAuthenticationLevel !</value>
@@ -1737,7 +1737,7 @@ Message:
     <value>Statut</value>
   </data>
   <data name="SwitchToErrorsAndInfos" xml:space="preserve">
-    <value>Se déplacer sur le panneau des Notifications :</value>
+    <value>Se déplacer sur le panneau des Notifications </value>
   </data>
   <data name="Advanced" xml:space="preserve">
     <value>Avancée</value>
@@ -1752,7 +1752,7 @@ Message:
     <value>Telnet</value>
   </data>
   <data name="TheFollowing" xml:space="preserve">
-    <value>Ce qui suit :</value>
+    <value>Ce qui suit </value>
   </data>
   <data name="ThemeCategoryConfigPanel" xml:space="preserve">
     <value>Panneau de configuration</value>
@@ -1893,7 +1893,7 @@ Message:
     <value>Ultra VNC Repeater</value>
   </data>
   <data name="UltraVNCSCListeningPort" xml:space="preserve">
-    <value>Port UltraVNC SingleClick :</value>
+    <value>Port UltraVNC SingleClick </value>
   </data>
   <data name="UncheckProperties" xml:space="preserve">
     <value>Décochez les propriétés que vous souhaitez ne pas être enregistrée !</value>
@@ -1989,7 +1989,7 @@ Message:
     <value>Utilise DockPanel Suite par [Weifen Luo]</value>
   </data>
   <data name="XULrunnerPath" xml:space="preserve">
-    <value>Chemin de XULRunner :</value>
+    <value>Chemin de XULRunner </value>
   </data>
   <data name="Yes" xml:space="preserve">
     <value>Oui</value>

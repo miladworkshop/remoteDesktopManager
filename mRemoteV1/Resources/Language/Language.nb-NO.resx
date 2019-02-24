@@ -178,7 +178,7 @@
     <value>Hent sesjonsinformasjon automatisk</value>
   </data>
   <data name="AutoSaveEvery" xml:space="preserve">
-    <value>Lagre automatisk hvert:</value>
+    <value>Lagre automatisk hvert</value>
   </data>
   <data name="AutoSaveMins" xml:space="preserve">
     <value>minutt (0 betyr deaktivert)</value>
@@ -337,7 +337,7 @@ VncSharp Control Version {0}</value>
     <value>Denne proxyserveren krever autentisering</value>
   </data>
   <data name="CheckboxPuttyPath" xml:space="preserve">
-    <value>Bruk egendefinert sti til PuTTY:</value>
+    <value>Bruk egendefinert sti til PuTTY</value>
   </data>
   <data name="CheckboxReconnectWhenReady" xml:space="preserve">
     <value>Koble til på nytt når klar</value>
@@ -554,7 +554,7 @@ Starter med ny tilkoblingsfil.</value>
     <value>Ønsker du å fortsette uten passord?</value>
   </data>
   <data name="EmptyUsernamePasswordDomainFields" xml:space="preserve">
-    <value>For tomt brukernavn, passord eller domenefelt, bruk:</value>
+    <value>For tomt brukernavn, passord eller domenefelt, bruk</value>
   </data>
   <data name="Enc128Bit" xml:space="preserve">
     <value>128-biters</value>
@@ -764,31 +764,31 @@ Starter med ny tilkoblingsfil.</value>
     <value>CTRL-ESC</value>
   </data>
   <data name="LabelAddress" xml:space="preserve">
-    <value>Adresse:</value>
+    <value>Adresse</value>
   </data>
   <data name="LabelChangeLog" xml:space="preserve">
-    <value>Endringslogg:</value>
+    <value>Endringslogg</value>
   </data>
   <data name="LabelClosingConnections" xml:space="preserve">
-    <value>Ved lukking av tilkoblinger:</value>
+    <value>Ved lukking av tilkoblinger</value>
   </data>
   <data name="LabelConnect" xml:space="preserve">
-    <value>&amp;Koble til:</value>
+    <value>&amp;Koble til</value>
   </data>
   <data name="LabelHostname" xml:space="preserve">
-    <value>Vertsnavn:</value>
+    <value>Vertsnavn</value>
   </data>
   <data name="PortableEdition" xml:space="preserve">
     <value>Portable Edition</value>
   </data>
   <data name="Protocol" xml:space="preserve">
-    <value>Protokoll:</value>
+    <value>Protokoll</value>
   </data>
   <data name="LabelPuttySessionsConfig" xml:space="preserve">
-    <value>Klikk denne knappen for å konfigurere PuTTY-sesjoner:</value>
+    <value>Klikk denne knappen for å konfigurere PuTTY-sesjoner</value>
   </data>
   <data name="LabelPuttyTimeout" xml:space="preserve">
-    <value>Maksimal ventetid for PuTTY og integrerte verktøy:</value>
+    <value>Maksimal ventetid for PuTTY og integrerte verktøy</value>
   </data>
   <data name="LabelReleasedUnderGPL" xml:space="preserve">
     <value>Utgitt under GNU General Public License (GPL)</value>
@@ -800,13 +800,13 @@ Starter med ny tilkoblingsfil.</value>
     <value>Velg et panel fra listen under eller klikk Ny for å legge til en ny. Klikk OK for å fortsette.</value>
   </data>
   <data name="LabelServerStatus" xml:space="preserve">
-    <value>Serverstatus:</value>
+    <value>Serverstatus</value>
   </data>
   <data name="Database" xml:space="preserve">
-    <value>Database:</value>
+    <value>Database</value>
   </data>
   <data name="LabelVerify" xml:space="preserve">
-    <value>Bekreft:</value>
+    <value>Bekreft</value>
   </data>
   <data name="strLanguage" xml:space="preserve">
     <value>Språk</value>
@@ -1562,7 +1562,7 @@ Melding:
     <value>GetSessions mislyktes!</value>
   </data>
   <data name="RdpReconnectCount" xml:space="preserve">
-    <value>Antall RDP gjentilkoblingsforsøk:</value>
+    <value>Antall RDP gjentilkoblingsforsøk</value>
   </data>
   <data name="RdpSetAuthenticationLevelFailed" xml:space="preserve">
     <value>RDP SetAuthenticationLevel mislyktes!</value>
@@ -1754,7 +1754,7 @@ Melding:
     <value>Status</value>
   </data>
   <data name="SwitchToErrorsAndInfos" xml:space="preserve">
-    <value>Bytte til varslingspanelet på:</value>
+    <value>Bytte til varslingspanelet på</value>
   </data>
   <data name="Advanced" xml:space="preserve">
     <value>Avansert</value>
@@ -1769,7 +1769,7 @@ Melding:
     <value>Telnet</value>
   </data>
   <data name="TheFollowing" xml:space="preserve">
-    <value>Følgende:</value>
+    <value>Følgende</value>
   </data>
   <data name="ThemeCategoryConfigPanel" xml:space="preserve">
     <value>Oppsettspanel</value>
@@ -1910,7 +1910,7 @@ Melding:
     <value>Ultra VNC Repeater</value>
   </data>
   <data name="UltraVNCSCListeningPort" xml:space="preserve">
-    <value>UltraVNC SingleClick port:</value>
+    <value>UltraVNC SingleClick port</value>
   </data>
   <data name="UncheckProperties" xml:space="preserve">
     <value>Fjern avkryssingen for egenskapene du ikke ønsker å lagre!</value>
@@ -2007,7 +2007,7 @@ mRemoteNG vil nå avslutte og starte installasjonen.</value>
     <value>Bruker DockPanel Suite av [Weifen Luo]</value>
   </data>
   <data name="XULrunnerPath" xml:space="preserve">
-    <value>XULrunner filsti:</value>
+    <value>XULrunner filsti</value>
   </data>
   <data name="Yes" xml:space="preserve">
     <value>Ja</value>

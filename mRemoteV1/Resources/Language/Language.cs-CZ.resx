@@ -181,7 +181,7 @@
     <value>Automaticky získat informace o sezení</value>
   </data>
   <data name="AutoSaveEvery" xml:space="preserve">
-    <value>Automaticky ukládat každých:</value>
+    <value>Automaticky ukládat každých</value>
   </data>
   <data name="AutoSaveMins" xml:space="preserve">
     <value>Minut(y) (0 = vypnuto)</value>
@@ -342,7 +342,7 @@ VncSharp Control verze {0}</value>
     <value>Tento proxy server vyžaduje autentizaci</value>
   </data>
   <data name="CheckboxPuttyPath" xml:space="preserve">
-    <value>Vlastní cesta k PuTTY:</value>
+    <value>Vlastní cesta k PuTTY</value>
   </data>
   <data name="CheckboxReconnectWhenReady" xml:space="preserve">
     <value>Obnovit spojení jakmile je připraveno</value>
@@ -574,7 +574,7 @@ Otevírám nový prázdný soubor seznamu spojení.</value>
     <value>Přejete si pokračovat bez hesla?</value>
   </data>
   <data name="EmptyUsernamePasswordDomainFields" xml:space="preserve">
-    <value>Pro prázdná políčka Login, Heslo nebo Doména použít:</value>
+    <value>Pro prázdná políčka Login, Heslo nebo Doména použít</value>
   </data>
   <data name="Enc128Bit" xml:space="preserve">
     <value>128-bit</value>
@@ -682,7 +682,7 @@ Otevírám nový prázdný soubor seznamu spojení.</value>
     <value>http://www.famfamfam.com/</value>
   </data>
   <data name="FileFormatLabel" xml:space="preserve">
-    <value>&amp;Formát souboru:</value>
+    <value>&amp;Formát souboru</value>
   </data>
   <data name="FilterAll" xml:space="preserve">
     <value>Všechny soubory (*.*)</value>
@@ -865,31 +865,31 @@ Otevírám nový prázdný soubor seznamu spojení.</value>
     <value>CTRL-ESC</value>
   </data>
   <data name="LabelAddress" xml:space="preserve">
-    <value>Adresa:</value>
+    <value>Adresa</value>
   </data>
   <data name="LabelChangeLog" xml:space="preserve">
-    <value>Change Log:</value>
+    <value>Change Log</value>
   </data>
   <data name="LabelClosingConnections" xml:space="preserve">
-    <value>Když se ukončují spojení:</value>
+    <value>Když se ukončují spojení</value>
   </data>
   <data name="LabelConnect" xml:space="preserve">
-    <value>&amp;Připojit:</value>
+    <value>&amp;Připojit</value>
   </data>
   <data name="LabelHostname" xml:space="preserve">
-    <value>Hostitel:</value>
+    <value>Hostitel</value>
   </data>
   <data name="PortableEdition" xml:space="preserve">
     <value>Přenosná verze</value>
   </data>
   <data name="Protocol" xml:space="preserve">
-    <value>Protokol:</value>
+    <value>Protokol</value>
   </data>
   <data name="LabelPuttySessionsConfig" xml:space="preserve">
-    <value>Pro konfiguraci sezení PuTTY stiskněte toto tlačítko:</value>
+    <value>Pro konfiguraci sezení PuTTY stiskněte toto tlačítko</value>
   </data>
   <data name="LabelPuttyTimeout" xml:space="preserve">
-    <value>Maximální doba čekání na PuTTY a integrované externí nástroje:</value>
+    <value>Maximální doba čekání na PuTTY a integrované externí nástroje</value>
   </data>
   <data name="LabelReleasedUnderGPL" xml:space="preserve">
     <value>Vydáno pod GNU General Public License (GPL)</value>
@@ -901,13 +901,13 @@ Otevírám nový prázdný soubor seznamu spojení.</value>
     <value>Z níže uvedeného seznamu vyberte panel nebo stiskněte "Nový" pro přidání nového. Pro pokračování stiskněte "OK".</value>
   </data>
   <data name="LabelServerStatus" xml:space="preserve">
-    <value>Stav Serveru:</value>
+    <value>Stav Serveru</value>
   </data>
   <data name="Database" xml:space="preserve">
-    <value>Databáze:</value>
+    <value>Databáze</value>
   </data>
   <data name="LabelVerify" xml:space="preserve">
-    <value>Verifikuj:</value>
+    <value>Verifikuj</value>
   </data>
   <data name="strLanguage" xml:space="preserve">
     <value>Jazyk</value>
@@ -1733,7 +1733,7 @@ Zpráva:
     <value>Metoda GetSessions selhala!</value>
   </data>
   <data name="RdpReconnectCount" xml:space="preserve">
-    <value>Počet pokusů o znovunavázání spojení RDP:</value>
+    <value>Počet pokusů o znovunavázání spojení RDP</value>
   </data>
   <data name="RdpSetAuthenticationLevelFailed" xml:space="preserve">
     <value>Metoda RDP SetAuthenticationLevel selhala!</value>
@@ -1925,7 +1925,7 @@ Zpráva:
     <value>Stav</value>
   </data>
   <data name="SwitchToErrorsAndInfos" xml:space="preserve">
-    <value>Přepnout do notifikačního panelu při:</value>
+    <value>Přepnout do notifikačního panelu při</value>
   </data>
   <data name="Advanced" xml:space="preserve">
     <value>Pokročilé</value>
@@ -1940,7 +1940,7 @@ Zpráva:
     <value>Telnet</value>
   </data>
   <data name="TheFollowing" xml:space="preserve">
-    <value>Následující:</value>
+    <value>Následující</value>
   </data>
   <data name="ThemeCategoryConfigPanel" xml:space="preserve">
     <value>Konfigurační panel</value>
@@ -2084,7 +2084,7 @@ Zpráva:
     <value>Ultra VNC Repeater</value>
   </data>
   <data name="UltraVNCSCListeningPort" xml:space="preserve">
-    <value>UltraVNC SingleClick port:</value>
+    <value>UltraVNC SingleClick port</value>
   </data>
   <data name="UncheckProperties" xml:space="preserve">
     <value>Nezaškrtávejte ty vlastnosti, které nechcete uložit!</value>
@@ -2193,7 +2193,7 @@ mRemoteNG se nyní ukončí a zahájí instalaci.</value>
     <value>http://sourceforge.net/projects/dockpanelsuite/</value>
   </data>
   <data name="XULrunnerPath" xml:space="preserve">
-    <value>Složka umístění XULrunner:</value>
+    <value>Složka umístění XULrunner</value>
   </data>
   <data name="Yes" xml:space="preserve">
     <value>Ano</value>

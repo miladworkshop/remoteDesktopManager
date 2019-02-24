@@ -178,7 +178,7 @@
     <value>Ottieni automaticamente informazioni sulla sessione</value>
   </data>
   <data name="AutoSaveEvery" xml:space="preserve">
-    <value>Salva automaticamente ogni:</value>
+    <value>Salva automaticamente ogni</value>
   </data>
   <data name="AutoSaveMins" xml:space="preserve">
     <value>Minuti (0 per disabilitare)</value>
@@ -334,7 +334,7 @@ VncSharp Control versione {0}</value>
     <value>Questo proxy richiede l'autenticazione</value>
   </data>
   <data name="CheckboxPuttyPath" xml:space="preserve">
-    <value>Utilizza un percorso personalizzato per PuTTY:</value>
+    <value>Utilizza un percorso personalizzato per PuTTY</value>
   </data>
   <data name="CheckboxReconnectWhenReady" xml:space="preserve">
     <value>Riconnetti quando pronto</value>
@@ -542,7 +542,7 @@ Creazione di un nuovo file delle connessioni.</value>
     <value>Vuoi continuare anche in assenza di password?</value>
   </data>
   <data name="EmptyUsernamePasswordDomainFields" xml:space="preserve">
-    <value>Quando i campi "Nome utente", "Password" o "Dominio" sono vuoti, utilizza i seguenti:</value>
+    <value>Quando i campi "Nome utente", "Password" o "Dominio" sono vuoti, utilizza i seguenti</value>
   </data>
   <data name="Enc128Bit" xml:space="preserve">
     <value>128-bit</value>
@@ -749,31 +749,31 @@ Creazione di un nuovo file delle connessioni.</value>
     <value>CTRL-ESC</value>
   </data>
   <data name="LabelAddress" xml:space="preserve">
-    <value>Indirizzo:</value>
+    <value>Indirizzo</value>
   </data>
   <data name="LabelChangeLog" xml:space="preserve">
-    <value>Modifiche recenti:</value>
+    <value>Modifiche recenti</value>
   </data>
   <data name="LabelClosingConnections" xml:space="preserve">
-    <value>Alla chiusura delle connessioni:</value>
+    <value>Alla chiusura delle connessioni</value>
   </data>
   <data name="LabelConnect" xml:space="preserve">
-    <value>&amp;Connetti:</value>
+    <value>&amp;Connetti</value>
   </data>
   <data name="LabelHostname" xml:space="preserve">
-    <value>Nome host:</value>
+    <value>Nome host</value>
   </data>
   <data name="PortableEdition" xml:space="preserve">
     <value>Edizione Portable</value>
   </data>
   <data name="Protocol" xml:space="preserve">
-    <value>Protocollo:</value>
+    <value>Protocollo</value>
   </data>
   <data name="LabelPuttySessionsConfig" xml:space="preserve">
-    <value>Per configurare le sessioni PuTTY premere questo bottone:</value>
+    <value>Per configurare le sessioni PuTTY premere questo bottone</value>
   </data>
   <data name="LabelPuttyTimeout" xml:space="preserve">
-    <value>Massimo tempo di attesa per PuTTY ed applicazioni esterne integrate:</value>
+    <value>Massimo tempo di attesa per PuTTY ed applicazioni esterne integrate</value>
   </data>
   <data name="LabelReleasedUnderGPL" xml:space="preserve">
     <value>Rilasciato sotto la licenza GNU GPL</value>
@@ -785,13 +785,13 @@ Creazione di un nuovo file delle connessioni.</value>
     <value>Seleziona un pannello dalla lista sottostante o clicca Nuovo per aggiungerne un altro. Clicca OK per continuare.</value>
   </data>
   <data name="LabelServerStatus" xml:space="preserve">
-    <value>Stato del server:</value>
+    <value>Stato del server</value>
   </data>
   <data name="Database" xml:space="preserve">
-    <value>Database:</value>
+    <value>Database</value>
   </data>
   <data name="LabelVerify" xml:space="preserve">
-    <value>Verifica:</value>
+    <value>Verifica</value>
   </data>
   <data name="strLanguage" xml:space="preserve">
     <value>Lingua</value>
@@ -1544,7 +1544,7 @@ Messaggio:
     <value>Operazione GetSessions fallita!</value>
   </data>
   <data name="RdpReconnectCount" xml:space="preserve">
-    <value>Contatore riconnessioni RDP:</value>
+    <value>Contatore riconnessioni RDP</value>
   </data>
   <data name="RdpSetAuthenticationLevelFailed" xml:space="preserve">
     <value>RDP SetAuthenticationLevel fallito!</value>
@@ -1733,7 +1733,7 @@ Messaggio:
     <value>Stato</value>
   </data>
   <data name="SwitchToErrorsAndInfos" xml:space="preserve">
-    <value>Passa al pannello delle notifiche quando:</value>
+    <value>Passa al pannello delle notifiche quando</value>
   </data>
   <data name="Advanced" xml:space="preserve">
     <value>Avanzate</value>
@@ -1748,7 +1748,7 @@ Messaggio:
     <value>Telnet</value>
   </data>
   <data name="TheFollowing" xml:space="preserve">
-    <value>Il seguente:</value>
+    <value>Il seguente</value>
   </data>
   <data name="ThemeCategoryConfigPanel" xml:space="preserve">
     <value>Pannello configurazione</value>
@@ -1889,7 +1889,7 @@ Messaggio:
     <value>UltraVNC Repeater</value>
   </data>
   <data name="UltraVNCSCListeningPort" xml:space="preserve">
-    <value>Porta UltraVNC SingleClick:</value>
+    <value>Porta UltraVNC SingleClick</value>
   </data>
   <data name="UncheckProperties" xml:space="preserve">
     <value>Deseleziona le proprietà che non vuoi salvare!</value>
@@ -1989,7 +1989,7 @@ mRemoteNG verrà chiuso e l'installazione avrà inizio.</value>
     <value>http://sourceforge.net/projects/dockpanelsuite/</value>
   </data>
   <data name="XULrunnerPath" xml:space="preserve">
-    <value>Percorso XULrunner:</value>
+    <value>Percorso XULrunner</value>
   </data>
   <data name="Yes" xml:space="preserve">
     <value>Sì</value>
